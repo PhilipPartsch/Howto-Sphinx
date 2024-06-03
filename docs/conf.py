@@ -10,8 +10,6 @@ sys.path.append(os.path.abspath('.'))
 import metamodel
 
 sys.path.append(os.path.abspath('scripts'))
-from filter import filter_id_linked_element_and_back
-from reports import stake_req_without_satisfied_by
 
 from gitlink import get_edit_url_from_folder, extent_url_with_file, get_githoster_edit_url_for_need
 
@@ -20,10 +18,6 @@ from gitlink import get_edit_url_from_folder, extent_url_with_file, get_githoste
 # For merge_dicts and other cripts on this level:
 sys.path.append(os.path.abspath('..'))
 
-# For test:
-sys.path.append(os.path.abspath('../tests'))
-import merge_dicts_test
-
 # -- Project information
 
 import datetime
@@ -31,12 +25,12 @@ import datetime
 currentDateTime = datetime.datetime.now()
 date = currentDateTime.date()
 
-project = 'ReConf 2023 X-As-Code'
+project = 'HowTo-Sphinx'
 copyright = f'2023 - {date.year}, PhilipPartsch'
 author = 'PhilipPartsch'
 
-release = '0.3'
-version = '0.3.2'
+release = '0.1'
+version = '0.0.1'
 
 # -- General configuration
 on_rtd = os.environ.get("READTHEDOCS") == "True"
@@ -121,41 +115,6 @@ import pathlib
 current_folder = pathlib.Path().resolve()
 git_hoster_edit_url = get_edit_url_from_folder(current_folder, with_docu_part = True, docu_part_default = 'docs')
 print('git hoster edit url: ' + git_hoster_edit_url)
-
-# -- Collections
-# For debugging it is possible to disable the clean up after sphinx-build
-# collections_final_clean = False
-
-collections = {}
-
-# Fetch coverage data from coverage.json.
-# Info: we collect the coverage over all test, so only one file has to be read in.
-import json
-# relative from here: _static/_external_data/coverage.json
-test_coverage_file = os.path.join(os.path.dirname(__file__), '_static', '_external_data', 'coverage.json')
-if os.path.exists(test_coverage_file):
-    f = open(test_coverage_file)
-    json_data = json.load(f)
-    f.close()
-    files = json_data['files']
-    test_coverage = []
-    for key, value in files.items():
-        test_coverage_per_file = {}
-        coverage = value['summary']['percent_covered']
-        test_coverage_per_file['name'] = key.replace('/', '_').replace('\\', '_').replace('.py', '')
-        test_coverage_per_file['file'] = key
-        test_coverage_per_file['coverage'] = coverage
-        test_coverage_per_file['github_edit_url'] = extent_url_with_file(git_hoster_edit_url, str(os.path.join('templates', 'test_coverage.rst.template')))
-        test_coverage.append(test_coverage_per_file)
-
-    collections['test_coverage'] = {
-                                    'driver': 'jinja',
-                                    'source': os.path.join('templates', 'test_coverage.rst.template'),
-                                    'target': os.path.join('test_coverage', 'test_coverage_for_{{name|lower}}.rst'),
-                                    'data': test_coverage,
-                                    'active': True,
-                                    'multiple_files': True,
-                                    }
 
 # sphinxcontrib.plantuml configuration
 local_plantuml_path = os.path.join(os.path.dirname(__file__), "_tools", "plantuml.jar")
