@@ -9,7 +9,7 @@ from sphinx_needs.api import add_dynamic_function
 sys.path.append(os.path.abspath('.'))
 import metamodel
 
-sys.path.append(os.path.abspath('scripts'))
+sys.path.append(os.path.abspath('_scripts'))
 
 from gitlink import get_edit_url_from_folder, extent_url_with_file, get_githoster_edit_url_for_need
 
