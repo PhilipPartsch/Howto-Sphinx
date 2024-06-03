@@ -171,3 +171,4 @@ def get_githoster_edit_url_for_file(file_with_path_inside_docu):
       docname_including_doctype = file_with_path_inside_docu,
       )
    return github_edit_url_for_file
+
