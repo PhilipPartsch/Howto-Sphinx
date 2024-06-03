@@ -30,7 +30,6 @@ before_script:
   - pip install setuptools
   # install script requirements
   # pip install -r ./requirements.txt
-  - pip install .
   - apt update
   - apt-get --yes install graphviz default-jdk
 
