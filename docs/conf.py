@@ -15,8 +15,6 @@ from gitlink import get_edit_url_from_folder, extent_url_with_file, get_githoste
 
 # For autodoc
 
-# For merge_dicts and other cripts on this level:
-sys.path.append(os.path.abspath('..'))
 
 # -- Project information
 
