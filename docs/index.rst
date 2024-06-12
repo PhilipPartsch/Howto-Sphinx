@@ -12,7 +12,7 @@ How-To Sphinx
 .. toctree::
    :caption: Contents
 
-.. example::
+.. example:: My first example
 
    .. needbar::
 
