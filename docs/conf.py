@@ -154,8 +154,50 @@ needs_string_links = metamodel.needs_string_links
 
 needs_default_layout = 'clean_with_edit_link'
 
+# -- custom extensions ---------------------------------------
+
+from docutils import nodes  # noqa: E402
+from sphinx.application import Sphinx  # noqa: E402
+from sphinx.directives import SphinxDirective  # noqa: E402
+
+
+class NeedExampleDirective(SphinxDirective):
+    """Directive to add example content to the documentation.
+
+    It adds a container with a title, a code block, and a parsed content block.
+    """
+
+    optional_arguments = 1
+    final_argument_whitespace = True
+    has_content = True
+
+    def run(self):
+        count = self.env.temp_data.setdefault("needs-example-count", 0)
+        count += 1
+        self.env.temp_data["needs-example-count"] = count
+        root = nodes.container(classes=["needs-example"])
+        self.set_source_info(root)
+        title = f"Example {count}"
+        title_nodes, _ = (
+            self.state.inline_text(f"{title}: {self.arguments[0]}", self.lineno)
+            if self.arguments
+            else ([nodes.Text(title)], [])
+        )
+        root += nodes.rubric("", "", *title_nodes)
+        code = nodes.literal_block(
+            "", "\n".join(self.content), language="rst", classes=["needs-example-raw"]
+        )
+        root += code
+        parsed = nodes.container(classes=["needs-example-raw"])
+        root += parsed
+        self.state.nested_parse(self.content, self.content_offset, parsed)
+        return [root]
+
+
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
+
+    app.add_directive("example", NeedExampleDirective)
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)
 
