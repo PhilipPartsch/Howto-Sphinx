@@ -12,3 +12,12 @@ How-To Sphinx
 .. toctree::
    :caption: Contents
 
+.. example::
+
+   .. needbar::
+
+      5,20,15
+      10,15,10
+      15,10,20
+      20,15,10
+
