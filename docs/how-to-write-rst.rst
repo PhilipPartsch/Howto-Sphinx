@@ -1,0 +1,382 @@
+.. _reSTxt_style_guide:
+
+############################
+reStructuredText Style Guide
+############################
+
+
+*******************
+General information
+*******************
+
+Purpose
+=======
+
+This document intends to define the reStructuredText style-guide.
+
+
+.. _reSTxt_style_guide_Filenames:
+
+Quick Reference
+===============
+
+For a `Quick Reference`_ have a look at https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
+
+*********
+Filenames
+*********
+
+We define our filenames only with lowercase alphanumeric characters (a-z, 0-9) and ``-`` (minus) symbol.
+
+We use the ``.rst`` extension to indicate we defining a reStructuredText file.
+
+
+.. _reSTxt_style_guide_ReguTxt:
+
+*************
+Regular text
+*************
+
+You can write any text, 
+but please keep in mind, 
+white       spaces      or new lines are ignored.
+
+If you want to define a new line you can to use line blocks ``|``.
+For more information about line blocks please check `How to write lists and line blocks`_.
+
+| ``|`` Here I have defined when a new line has to be printed,
+| ``|`` so it looks like how I have specified it. 
+
+For information about inline markup please check `How to use inline-markup`_.
+
+
+.. _reSTxt_style_guide_Whitespaces:
+
+***********
+Whitespaces
+***********
+
+Indentation
+===========
+
+We indent with 3 spaces. We do not use tabs.
+
+Blank lines
+===========
+
+Blank lines are often need, please think about the description in `Regular text`_.
+For a better reading in rst, please write two blank lines before overlined sections,
+i.e. before H1 and H2 and one blank line before other sections.
+See `Headlines`_ for an example.
+
+
+.. _reSTxt_style_guide_Headlines:
+
+*********
+Headlines
+*********
+
+We use the following symbols for the headlines:
+
+| Headline level 1. ``#`` with overline
+| Headline level 2. ``*`` with overline
+| Headline level 3. ``=``
+| Headline level 4. ``-``
+| Headline level 5. ``^``
+| Headline level 6. ``"``
+
+Please define only on H1 for a rst document.
+
+As an example:
+
+.. code:: rst
+
+  ##################
+  H1: document title
+  ##################
+
+  Introduction text.
+
+
+  *********
+  Sample H2
+  *********
+
+  Sample content.
+
+
+  **********
+  Another H2
+  **********
+
+  Sample H3
+  =========
+
+  Sample H4
+  ---------
+
+  Sample H5
+  ^^^^^^^^^
+
+  Sample H6
+  """""""""
+
+  And some more content.
+
+
+.. _reSTxt_style_guide_Tables:
+
+******
+Tables
+******
+
+The information about tables are wonderful provided in `How to write a table`_.
+
+
+.. _reSTxt_style_guide_Lists:
+
+******
+Lists
+******
+
+The information about lists are wonderful provided in `How to write lists and line blocks`_.
+
+
+.. _reSTxt_style_guide_Math:
+
+****
+Math
+****
+
+The information about mathematical expression are wonderful provided in `How to write math`_.
+
+
+.. _reSTxt_style_guide_src_code:
+
+********************************
+Source code in the documentation
+********************************
+
+We use the ``code`` directive. It is good style to specify the programming language.
+
+.. code:: rst
+
+  .. code:: rst
+
+
+      ##################
+      H1: document title
+      ##################
+
+
+.. _reSTxt_style_guide_links:
+
+****************************************
+Links between parts of the documentation
+****************************************
+
+Here you can find an example how you link to a reference label (here a headline) in your documentation.
+The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
+
+.. code:: rst
+
+   .. _how-to-write-rst-reference-label:
+
+   How to reference to a reference label / headline
+   ===============================================
+
+   If you want to reference to the reference-label, see :ref:`how-to-write-rst-reference-label`.
+   If you want to customize your link text use :ref:`custom text<how-to-write-rst-reference-label>`
+
+.. Note:: It is recommended to shorten the link mark as most as possible and use the customized link text way most of the time.
+
+If you only want to link to a headline within a document you can use the headline text itself.
+
+.. code:: rst
+
+   ... content ...
+   I want to link to `Links`_.
+   ... content ...
+
+
+.. _reSTxt_style_guide_download_file:
+
+***********************
+Links to download files
+***********************
+
+It is possible to reference to non-rst files, so they can be "downloaded".
+For more details please see `How to reference to downloadable files`_.
+
+It is even possible to refernce to a document with `:doc:`.
+
+.. code:: rst
+   
+   :doc:`reference to this file <how-to-write-rst>`
+
+and this looks like :doc:`reference to this file <how-to-write-rst>`
+
+
+.. _reSTxt_style_guide_include_file:
+
+************************************
+Include a file into current document
+************************************
+
+It is possible to `include` in the current document another document.
+Please be aware, that it is useful to have another file extension for included files,
+standard pattern is `.rst.inc`.
+Even files with extension `.inc` shall **not** be fetched by the conf.py.
+
+Example of `.. include` directive.
+
+.. code:: rst
+   
+   .. include:: inclusion.rst.inc
+
+Docutils documentation: `How to include file in document`_.
+
+
+.. _reSTxt_style_guide_references:
+
+****************************
+References to external sites
+****************************
+
+We use target-notes to mark links to external sites. The approach is used in this file, too.
+The opportunity is you even get a back link, where in the document this link is been used. 
+
+.. code:: rst
+
+   ... content ...
+   If you want to have an example see `How to link within a rst documentation`_.
+   You can even customize the link `text<How to link within a rst documentation>`_.
+   ... content ...
+
+   **********
+   References
+   **********
+
+   .. target-notes::
+
+   _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
+
+
+.. _reSTxt_style_guide_table_of_contents:
+
+*****************
+Table of Contents
+*****************
+
+It is possible to explicit create a table of contents over a complete documentation (overall documents) with `.. toctree::`.
+For detailed information see `How to create table of contents with toctree`_ or check `index.rst`.
+
+With `.. contents::` it is possible to create a "table of contents" for the current document.
+
+.. code:: rst
+   
+   .. contents:: table of contents
+
+This will be printed like:
+
+.. contents:: table of contents
+
+
+.. _reSTxt_style_guide_glossary:
+
+********
+Glossary
+********
+
+We use glossaries to define often used terms in a documentation. To get more information how to 
+setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
+glossary entry please use `:term:`<glossary entry>` `
+
+
+.. _reSTxt_style_guide_notes_and_warnings:
+
+************************
+Notes, warnings and tips
+************************
+
+We use sphinx build possibility to indicate notes and warnings to user of the documentation.
+Please keep in mind, that we only use notes and warnings for really important things.
+
+**Note**:
+
+.. code:: rest
+
+   .. note::
+
+      Note to the user of the documentation.
+
+Printed note example:
+
+.. note::
+
+   Note to the user of the documentation.
+
+**Warning**:
+
+.. code:: rest
+
+   .. warning::
+
+      Warning to the user of the documentation.
+
+Printed warning example:
+
+.. warning::
+
+   Warning to the user of the documentation.
+
+**Tip**:
+
+.. code:: rest
+
+   .. tip::
+
+      Tip to the user of the documentation.
+
+Printed tip example:
+
+.. tip::
+
+   Tip to the user of the documentation.
+
+.. _reSTxt_style_guide_open_point:
+
+**********
+Open point
+**********
+
+As the complete methodology of Doc-As-Code and the changes we foresee during the transition phase,
+it is needed to indicate open points in the same way across the work.
+For this please use ``todo:`` in the documentation the start of an open point.
+
+
+**********
+References
+**********
+
+.. target-notes::
+
+.. _`How to write lists and line blocks` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#lists-and-quote-like-blocks
+
+.. _`How to write a table`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
+
+.. _`How to use inline-markup`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup
+
+.. _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
+
+.. _`How to use a glossary`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html
+
+.. _`How to reference to downloadable files`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#referencing-downloadable-files
+
+.. _`How to create table of contents with toctree`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents
+
+.. _`How to write math`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#math
+
+.. _`Quick Reference`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
+
+.. _`How to include file in document`: https://docutils.sourceforge.io/docs/ref/rst/directives.html#including-an-external-document-fragment
