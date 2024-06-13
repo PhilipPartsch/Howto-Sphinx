@@ -277,9 +277,16 @@ For detailed information see `How to create table of contents with toctree`_ or 
 
 With `.. contents::` it is possible to create a "table of contents" for the current document.
 
-.. example:: Table of Contents
+.. it is not possible to include `contents` directive within another directive. So we cannot use `example` directive here.
+
+.. code:: rst
    
    .. contents:: table of contents
+
+This will be printed like:
+
+.. contents:: table of contents
+
 
 
 .. _reSTxt_style_guide_glossary:
