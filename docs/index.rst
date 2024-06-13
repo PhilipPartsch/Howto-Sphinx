@@ -12,6 +12,9 @@ How-To Sphinx
 .. toctree::
    :caption: Contents
 
+   how-to-write-rst
+
+
 .. example:: My first example
 
    .. needbar::
