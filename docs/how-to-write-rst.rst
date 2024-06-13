@@ -37,17 +37,19 @@ We use the ``.rst`` extension to indicate we defining a reStructuredText file.
 Regular text
 *************
 
-You can write any text, 
-but please keep in mind, 
-white       spaces      or new lines are ignored.
+.. example:: Regular text
 
-If you want to define a new line you can to use line blocks ``|``.
-For more information about line blocks please check `How to write lists and line blocks`_.
+   You can write any text, 
+   but please keep in mind, 
+   white       spaces      or new lines are ignored.
 
-| ``|`` Here I have defined when a new line has to be printed,
-| ``|`` so it looks like how I have specified it. 
+   If you want to define a new line you can to use line blocks ``|``.
+   For more information about line blocks please check `How to write lists and line blocks`_.
 
-For information about inline markup please check `How to use inline-markup`_.
+   | ``|`` Here I have defined when a new line has to be printed,
+   | ``|`` so it looks like how I have specified it. 
+
+   For information about inline markup please check `How to use inline-markup`_.
 
 
 .. _reSTxt_style_guide_Whitespaces:
@@ -192,7 +194,7 @@ The ref is working across rst files. You can find more examples for picture and 
 
 If you only want to link to a headline within a document you can use the headline text itself.
 
-.. code:: rst
+.. example:: Link to headline in the current document
 
    ... content ...
    I want to link to `Links`_.
@@ -208,13 +210,15 @@ Links to download files
 It is possible to reference to non-rst files, so they can be "downloaded".
 For more details please see `How to reference to downloadable files`_.
 
+*********************
+Reference to document
+*********************
+
 It is even possible to refernce to a document with `:doc:`.
 
-.. code:: rst
+.. example:: Link to headline in the current document
    
    :doc:`reference to this file <how-to-write-rst>`
-
-and this looks like :doc:`reference to this file <how-to-write-rst>`
 
 
 .. _reSTxt_style_guide_include_file:
@@ -273,13 +277,9 @@ For detailed information see `How to create table of contents with toctree`_ or 
 
 With `.. contents::` it is possible to create a "table of contents" for the current document.
 
-.. code:: rst
+.. example:: Table of Contents
    
    .. contents:: table of contents
-
-This will be printed like:
-
-.. contents:: table of contents
 
 
 .. _reSTxt_style_guide_glossary:
@@ -304,7 +304,7 @@ Please keep in mind, that we only use notes and warnings for really important th
 
 **Note**:
 
-.. code:: rest
+.. code:: rst
 
    .. note::
 
@@ -318,7 +318,7 @@ Printed note example:
 
 **Warning**:
 
-.. code:: rest
+.. code:: rst
 
    .. warning::
 
@@ -332,7 +332,7 @@ Printed warning example:
 
 **Tip**:
 
-.. code:: rest
+.. code:: rst
 
    .. tip::
 
