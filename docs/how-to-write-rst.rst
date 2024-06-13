@@ -197,7 +197,7 @@ If you only want to link to a headline within a document you can use the headlin
 .. example:: Link to headline in the current document
 
    ... content ...
-   I want to link to `Links`_.
+   I want to link to `References`_.
    ... content ...
 
 
