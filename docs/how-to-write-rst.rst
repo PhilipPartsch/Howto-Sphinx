@@ -557,7 +557,7 @@ Variants
 See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
 
 In the pipeline, we currently set the project_b tag via command line option ``-t project_b``.
-See :download:`../.gitlab-ci.yml`.
+See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
 
 .. example:: only directive
@@ -569,6 +569,12 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
    .. only:: project_b
       
       We are building currently for Project B.
+
+.. warning::
+
+   Sphinx is always reandering the content inside the only directive,
+   but is dicsarding the output if not needed.
+   So if you need objects within the only directive, they are available to the datamodel. 
 
 .. _reSTxt_style_guide_notes_and_warnings:
 
