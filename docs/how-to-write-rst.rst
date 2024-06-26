@@ -557,6 +557,7 @@ Variants
 See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
 
 In the pipeline, we currently set the project_b tag via command line option ``-t project_b``.
+See :download:`../.gitlab-ci.yml`.
 Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
 
 .. example:: only directive
