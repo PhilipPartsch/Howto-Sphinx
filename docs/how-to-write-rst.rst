@@ -473,12 +473,13 @@ setup a glossary and how to link to, see `How to use a glossary`_. If you want t
 glossary entry please use `:term:`<glossary entry>` `
 
 .. example:: Glossary
+
    .. glossary::
 
       rst
          Apprivation of :term:`reStructuredText`.
 
-      reStructuredTex`
+      reStructuredText
          Markdown language we currently use.
 
 
@@ -493,45 +494,28 @@ Please keep in mind, that we only use notes and warnings for really important th
 
 **Note**:
 
-.. code:: rst
+.. example:: note
 
    .. note::
 
       Note to the user of the documentation.
 
-Printed note example:
-
-.. note::
-
-   Note to the user of the documentation.
-
 **Warning**:
 
-.. code:: rst
+.. example:: warning
 
    .. warning::
 
       Warning to the user of the documentation.
 
-Printed warning example:
-
-.. warning::
-
-   Warning to the user of the documentation.
-
 **Tip**:
 
-.. code:: rst
+.. example:: tip
 
    .. tip::
 
       Tip to the user of the documentation.
 
-Printed tip example:
-
-.. tip::
-
-   Tip to the user of the documentation.
 
 .. _reSTxt_style_guide_open_point:
 
