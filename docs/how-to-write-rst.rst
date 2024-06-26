@@ -325,6 +325,21 @@ Math
 
 The information about mathematical expression are wonderful provided in `How to write math`_.
 
+You can use a directive:
+
+.. example:: math directive
+   .. math::
+
+      (a + b)^2 = a^2 + 2ab + b^2
+
+      (a - b)^2 = a^2 - 2ab + b^2
+
+You can use an inline `math` role:
+
+.. example:: inline math role
+
+   :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
+
 
 .. _reSTxt_style_guide_src_code:
 
@@ -383,6 +398,11 @@ Links to download files
 It is possible to reference to non-rst files, so they can be "downloaded".
 For more details please see `How to reference to downloadable files`_.
 
+.. example::
+
+   Download file to this :download:`file itself <how-to-write-rst.rst>`.
+
+
 *********************
 Reference to document
 *********************
@@ -391,7 +411,7 @@ It is even possible to refernce to a document with `:doc:`.
 
 .. example:: Link to headline in the current document
    
-   :doc:`reference to this file <how-to-write-rst>`
+   Reference to this :doc:`file itself <how-to-write-rst>`.
 
 
 .. _reSTxt_style_guide_include_file:
@@ -461,7 +481,6 @@ This will be printed like:
 .. contents:: table of contents
 
 
-
 .. _reSTxt_style_guide_glossary:
 
 ********
@@ -492,23 +511,17 @@ Notes, warnings and tips
 We use sphinx build possibility to indicate notes and warnings to user of the documentation.
 Please keep in mind, that we only use notes and warnings for really important things.
 
-**Note**:
-
 .. example:: note
 
    .. note::
 
       Note to the user of the documentation.
 
-**Warning**:
-
 .. example:: warning
 
    .. warning::
 
       Warning to the user of the documentation.
-
-**Tip**:
 
 .. example:: tip
 
