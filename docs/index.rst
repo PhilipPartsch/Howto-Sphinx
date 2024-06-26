@@ -12,15 +12,5 @@ How-To Sphinx
 .. toctree::
    :caption: Contents
 
+   relation_sphinx_needs
    how-to-write-rst
-
-
-.. example:: My first example
-
-   .. needbar::
-
-      5,20,15
-      10,15,10
-      15,10,20
-      20,15,10
-
