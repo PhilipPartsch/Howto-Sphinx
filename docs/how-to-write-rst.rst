@@ -70,7 +70,7 @@ Docutils Directive
 ==================
 
 A directive gives the opportunity to structure information together.
-Here we use the `figure` directive to explain how it looks like. 
+Here we use the ``figure`` directive to explain how it looks like. 
 
 | Directive Type: "figure"
 | Directive Arguments: one, required (image URI)
@@ -90,7 +90,7 @@ Docutils Role
 =============
 
 A role is an inline annottaion to get an information or link destination from a script.
-Here we use the `math` role to explain how it looks like. 
+Here we use the ``mat`` role to explain how it looks like. 
 
 .. example:: Docutils Role
 
@@ -162,7 +162,7 @@ Comments
 
    Text before the comment.
    
-   .. You can comment with `..`.
+   .. You can comment with ``..``.
 
    Text after the comment.
    
@@ -235,25 +235,25 @@ and https://docutils.sourceforge.io/docs/ref/rst/directives.html#tables .
 Grid table syntax
 =================
 
-Especially the handling of bars `|` within tables has to be acknowledge.
+Especially the handling of bars ``|`` within tables has to be acknowledge.
 They do have to be of sifted to the alligment.
 So pay attention, a table with mailformed middel bares will not reported.
 
 .. example:: Grid table syntax
 
-   +------------------------+------------+----------+----------+
-   | Header row, column 1   | Header 2   | Header 3 | Header 4 |
-   | (header rows optional) |            |          |          |
-   +========================+============+==========+==========+
-   | body row 1, column 1   | column 2   | column 3 | column 4 |
-   +------------------------+------------+----------+----------+
-   | body row 2             | Cells may span columns.          |
-   |                        | And with an bar `|` in the text  |
-   +------------------------+------------+---------------------+
-   | body row 3             | Cells may  | - Table cells       |
-   +------------------------+ span rows. | - contain           |
-   | body row 4             |            | - body elements.    |
-   +------------------------+------------+---------------------+
+   +------------------------+------------+----------+-----------+
+   | Header row, column 1   | Header 2   | Header 3 | Header 4  |
+   | (header rows optional) |            |          |           |
+   +========================+============+==========+===========+
+   | body row 1, column 1   | column 2   | column 3 | column 4  |
+   +------------------------+------------+----------+-----------+
+   | body row 2             | Cells may span columns.           |
+   |                        | And with an bar ``|`` in the text |
+   +------------------------+------------+----------------------+
+   | body row 3             | Cells may  | - Table cells        |
+   +------------------------+ span rows. | - contain            |
+   | body row 4             |            | - body elements.     |
+   +------------------------+------------+----------------------+
 
 
 Simple tables
@@ -299,7 +299,7 @@ Table directive
 CSV Table directive
 ===================
 
-We want to highlight the directive options `file`, `header` and `header-rows`.
+We want to highlight the directive options ``file``, ``header`` and ``header-rows``.
 
 .. example:: csv-table directive
 
@@ -401,7 +401,7 @@ You can use a directive:
 
       (a - b)^2 = a^2 - 2ab + b^2
 
-You can even use inline `math` role:
+You can even use inline ``math`` role:
 
 .. example:: inline math role
 
@@ -440,12 +440,12 @@ Links between parts of the documentation
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
 The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
 
-.. code:: rst
+.. example:: reference to a reference label
 
    .. _how-to-write-rst-reference-label:
 
    How to reference to a reference label / headline
-   ===============================================
+   ================================================
 
    If you want to reference to the reference-label, see :ref:`how-to-write-rst-reference-label`.
    If you want to customize your link text use :ref:`custom text<how-to-write-rst-reference-label>`
@@ -477,7 +477,7 @@ For more details please see `How to reference to downloadable files`_.
 Reference to document
 =====================
 
-It is even possible to refernce to a document with `:doc:`.
+It is even possible to refernce to a document with ``:doc:``.
 
 .. example:: Link to headline in the current document
    
@@ -489,12 +489,12 @@ It is even possible to refernce to a document with `:doc:`.
 Include a file into current document
 ====================================
 
-It is possible to `include` in the current document another document.
+It is possible to ``include`` in the current document another document.
 Please be aware, that it is useful to have another file extension for included files,
-standard pattern is `.rst.inc`.
-Even files with extension `.inc` shall **not** be fetched by the conf.py.
+standard pattern is ``.rst.inc``.
+Even files with extension ``.inc`` shall **not** be fetched by the conf.py.
 
-Example of `.. include` directive.
+Example of ``include`` directive.
 
 .. code:: rst
    
@@ -533,12 +533,12 @@ The opportunity is you even get a back link, where in the document this link is 
 Table of Contents
 *****************
 
-It is possible to explicit create a table of contents over a complete documentation (overall documents) with `.. toctree::`.
-For detailed information see `How to create table of contents with toctree`_ or check `index.rst`.
+It is possible to explicit create a table of contents over a complete documentation (overall documents) with ``.. toctree::``.
+For detailed information see `How to create table of contents with toctree`_ or check ``index.rst``.
 
 With `.. contents::` it is possible to create a "table of contents" for the current document.
 
-.. it is not possible to include `contents` directive within another directive. So we cannot use `example` directive here.
+.. it is not possible to include ``contents`` directive within another directive. So we cannot use``example`` directive here.
 
 .. code:: rst
    
@@ -557,7 +557,7 @@ Glossary
 
 We use glossaries to define often used terms in a documentation. To get more information how to 
 setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
-glossary entry please use `:term:`<glossary entry>` `
+glossary entry please use ``:term:`<glossary entry>` ``.
 
 .. example:: Glossary
 
