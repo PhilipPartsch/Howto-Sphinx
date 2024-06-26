@@ -138,6 +138,7 @@ Indentation
 
 We indent with 3 spaces. We do not use tabs.
 
+
 Blank lines
 ===========
 
@@ -146,6 +147,16 @@ For a better reading in rst, please write two blank lines before overlined secti
 i.e. before H1 and H2 and one blank line before other sections.
 See `Headlines`_ for an example.
 
+
+Comments
+========
+
+.. example:: Comments
+
+   Text before the comment.
+   .. You can comment with `..`.
+   Text after the comment.
+   
 
 .. _reSTxt_style_guide_Headlines:
 
