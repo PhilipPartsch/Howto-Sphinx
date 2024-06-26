@@ -1,3 +1,6 @@
+.. sectnum::
+   :start: 1
+
 .. _reSTxt_style_guide:
 
 ############################
@@ -94,9 +97,6 @@ Here we use the ``mat`` role to explain how it looks like.
 .. example:: Docutils Role
 
    :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
-
-.. sectnum::
-   :start: 1
 
 *********
 Filenames
@@ -234,6 +234,13 @@ As an example:
 
   And some more content.
 
+It is often useful to define auto numbering of chapters / sections.
+Here you can use:
+
+.. code:: rst
+
+   .. sectnum::
+      :start: 1
 
 .. _reSTxt_style_guide_Tables:
 
