@@ -451,6 +451,7 @@ The ref is working across rst files. You can find more examples for picture and 
    .. _how-to-write-rst-reference-label:
 
    How to reference to a reference label / headline
+   ------------------------------------------------
 
    If you want to reference to the reference-label, see :ref:`how-to-write-rst-reference-label`.
    If you want to customize your link text use :ref:`custom text<how-to-write-rst-reference-label>`
