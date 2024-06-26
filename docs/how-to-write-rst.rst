@@ -499,10 +499,9 @@ The opportunity is you even get a back link, where in the document this link is 
 
 It is even possible to reference directly to an external webside:
 
-..  example:: dirct external links
+..  example:: direct external links
 
     - https://www.sphinx-needs.com
-    - `https://www.sphinx-needs.com`_
     - `sphinx-needs <https://www.sphinx-needs.com>`_
 
 
