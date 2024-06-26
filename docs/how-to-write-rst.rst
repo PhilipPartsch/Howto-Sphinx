@@ -4,7 +4,6 @@
 reStructuredText Style Guide
 ############################
 
-
 *******************
 General information
 *******************
@@ -96,6 +95,8 @@ Here we use the ``mat`` role to explain how it looks like.
 
    :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
 
+.. sectnum::
+   :start: 1
 
 *********
 Filenames
