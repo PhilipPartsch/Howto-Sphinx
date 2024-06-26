@@ -90,6 +90,12 @@ Here we use the figure directive to explain how it looks like.
 Docutils Role
 =============
 
+A role is an inline annottaion to get an information or link destination from a script:
+
+.. example:: Docutils Role
+
+   :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
+
 
 *********
 Filenames
@@ -328,6 +334,7 @@ The information about mathematical expression are wonderful provided in `How to 
 You can use a directive:
 
 .. example:: math directive
+
    .. math::
 
       (a + b)^2 = a^2 + 2ab + b^2
