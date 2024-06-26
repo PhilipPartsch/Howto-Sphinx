@@ -339,7 +339,6 @@ Image
 .. image:: pictures/avatar.png
    :height: 100px
    :width: 200 px
-   :loading: embed
    :alt: alternate text
    :align: right
 
