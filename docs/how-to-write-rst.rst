@@ -154,7 +154,7 @@ Comments
 .. example:: Comments
 
    | Text before the comment.
-   | .. You can comment with `..`.
+   .. You can comment with `..`.
    | Text after the comment.
    
 
