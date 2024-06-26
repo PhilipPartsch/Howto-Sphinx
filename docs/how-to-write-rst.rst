@@ -1,5 +1,3 @@
-.. sectnum::
-
 .. _reSTxt_style_guide:
 
 ############################
@@ -186,7 +184,7 @@ Comments
 Substitution Definition
 ***********************
 
-With this you can substitute content.  
+With this you can substitute content see https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions.  
 
 .. example:: Substitution
 
@@ -196,8 +194,16 @@ With this you can substitute content.
    abbreviate it.
 
 .. note::
-   replace itself is a directive and you can sue even otherones like image.
-   See even the :ref:`image example <reSTxt_style_guide_Pictures>`.
+   You can use 
+   
+   "image": can be used for block-level images as well as in a substitution definition for inline images.
+   See even the :ref:`image example <reSTxt_style_guide_Pictures>'.
+
+   "replace": allows simple macro substitution. It also provides a workaround for the still missing support of nested inline markup.
+
+   "unicode": converts Unicode character codes to characters.
+
+   "date": inserts the current local date.
 
 
 .. _reSTxt_style_guide_Headlines:
@@ -253,13 +259,6 @@ As an example:
 
   And some more content.
 
-It is often useful to define auto numbering of chapters / sections.
-Here you can use:
-
-.. code:: rst
-
-   .. sectnum::
-      :start: 1
 
 .. _reSTxt_style_guide_Tables:
 
