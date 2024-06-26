@@ -197,7 +197,7 @@ With this you can substitute content see https://docutils.sourceforge.io/docs/re
    You can use 
    
    "image": can be used for block-level images as well as in a substitution definition for inline images.
-   See even the :ref:`image example <reSTxt_style_guide_Pictures>'.
+   See even the :ref:`image example <reSTxt_style_guide_Pictures>.
 
    "replace": allows simple macro substitution. It also provides a workaround for the still missing support of nested inline markup.
 
