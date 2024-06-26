@@ -348,6 +348,30 @@ Lists
 
 The information about lists are wonderful provided in `How to write lists and line blocks`_.
 
+.. example:: Lists and Quote-like blocks
+
+   * This is a bulleted list.
+   * It has two items, the second
+   item uses two lines.
+
+   1. This is a numbered list.
+   2. It has two items too.
+
+   #. This is a numbered list.
+   #. It has two items too.
+
+Nested lists are even possible, but be aware that they must be separated from the parent list items by blank lines:
+
+.. example:: Nested lists
+
+   * this is
+   * a list
+
+   * with a nested list
+   * and some subitems
+
+   * and here the parent list continues
+
 
 .. _reSTxt_style_guide_Math:
 
