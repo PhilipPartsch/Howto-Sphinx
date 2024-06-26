@@ -406,10 +406,13 @@ Source code in the documentation
 
 We use the ``code`` directive. It is good style to specify the programming language.
 
+.. Here we do not use the example directive, as we want to document the code directive itself.
+
 .. code:: rst
+   :number-lines:
 
-  .. code:: rst
-
+   .. code:: rst
+      :number-lines:
 
       ##################
       H1: document title
