@@ -66,16 +66,29 @@ analyze requirements, specifications, test cases and more inside Sphinx-based do
 Advantages: Enhance Sphinx to support object like elements with attributes, links, content and porcess them with functions.
 
 
-directive
-=========
+Docutils Directive
+==================
 
-| Directive Type:
-| Directive Arguments: one, optional (table caption)
-| Directive Options:
-| Directive Content:
+A driective gives the opportunity to structure information together.
+Here we use the figure directive to explain how it looks like. 
 
-role
-====
+| Directive Type: "figure"
+| Directive Arguments: one, required (image URI)
+| Directive Options: see below
+| Directive Content: Interpreted as the figure caption and an optional legend.
+
+.. example:: What is a Directive?
+
+   .. figure:: pictures/avatar.png
+      :scale: 200 %
+      :alt: my avatar
+
+      This is the caption of the figure (a simple paragraph).
+
+
+
+Docutils Role
+=============
 
 
 *********
@@ -191,6 +204,7 @@ Tables
 The information about tables are wonderful provided in `How to write a table`_, https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables 
 and https://docutils.sourceforge.io/docs/ref/rst/directives.html#tables .
 
+
 Grid table syntax
 =================
 
@@ -211,6 +225,7 @@ Especially the handling of bars `|` within tables has to be acknowledge.
    +------------------------+ span rows. | - contain           |
    | body row 4             |            | - body elements.    |
    +------------------------+------------+---------------------+
+
 
 Simple tables
 =============
@@ -234,6 +249,7 @@ Especially the handling to join adjacent columns has to be acknowledge.
    \      Row 4; column 1 will be empty.
    =====  =====
 
+
 Table directive
 ===============
 
@@ -250,6 +266,7 @@ Table directive
       True   False
       =====  =====
 
+
 CSV Table directive
 ===================
 
@@ -265,6 +282,7 @@ We want to highlight the directive options `file`, `header` and `header-rows`.
       "Crunchy Frog", 1.49, "If we took the bones out,
       it wouldn't be crunchy, now would it?"
       "Gannet Ripple", 1.99, "On a stick!"
+
 
 List Table directive
 ====================
@@ -288,7 +306,6 @@ List Table directive
       * - Gannet Ripple
         - 1.99
         - On a stick!
-
 
 
 .. _reSTxt_style_guide_Lists:
