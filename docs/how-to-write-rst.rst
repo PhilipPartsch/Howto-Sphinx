@@ -138,6 +138,10 @@ The standard reST inline markup is quite simple, use:
 
    backquotes: ``text`` for code samples.
 
+   subscript: H\ :sub:`2`\ O
+
+   superscript: E = mc\ :sup:`2`
+
 For information about inline markup please check `How to use inline-markup`_.
 
 .. _reSTxt_style_guide_Whitespaces:
