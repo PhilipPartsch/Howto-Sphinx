@@ -22,6 +22,62 @@ Quick Reference
 
 For a `Quick Reference`_ have a look at https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
 
+******************************
+Defintions of reStructuredText
+******************************
+
+Docutils
+========
+
+Author: David Goodger
+
+Link: https://docutils.sourceforge.io
+
+Description: Docutils is an open-source text processing system for processing plaintext documentation into useful formats,
+such as HTML, LaTeX, man-pages, OpenDocument, or XML. 
+It includes `reStructuredText <https://docutils.sourceforge.io/rst.html>`, the easy to read, easy to use,
+what-you-see-is-what-you-get plaintext markup language.
+
+Advantages: It is possible to extend rst with own directives.
+
+Restriction: Can only process one page.
+
+
+Sphinx
+======
+
+Link: https://www.sphinx-doc.org
+
+Description: Create intelligent and beautiful documentation ...
+
+Advantages: Enhance Docutils to support multi file documentation build with commonly used directives.
+
+
+Sphinx-Needs
+============
+
+Author: useblocks
+
+Link: https://www.sphinx-needs.com
+
+Description: Sphinx-Needs allows to create, manage and
+analyze requirements, specifications, test cases and more inside Sphinx-based documentations.
+
+Advantages: Enhance Sphinx to support object like elements with attributes, links, content and porcess them with functions.
+
+
+directive
+=========
+
+| Directive Type:
+| Directive Arguments: one, optional (table caption)
+| Directive Options:
+| Directive Content:
+
+role
+====
+
+
 *********
 Filenames
 *********
@@ -132,7 +188,107 @@ As an example:
 Tables
 ******
 
-The information about tables are wonderful provided in `How to write a table`_.
+The information about tables are wonderful provided in `How to write a table`_, https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables 
+and https://docutils.sourceforge.io/docs/ref/rst/directives.html#tables .
+
+Grid table syntax
+=================
+
+Especially the handling of bars `|` within tables has to be acknowledge.
+
+.. example:: Grid table syntax
+
+   +------------------------+------------+----------+----------+
+   | Header row, column 1   | Header 2   | Header 3 | Header 4 |
+   | (header rows optional) |            |          |          |
+   +========================+============+==========+==========+
+   | body row 1, column 1   | column 2   | column 3 | column 4 |
+   +------------------------+------------+----------+----------+
+   | body row 2             | Cells may span columns.          |
+   |                        | And with an bar `|` in the text  |
+   +------------------------+------------+---------------------+
+   | body row 3             | Cells may  | - Table cells       |
+   +------------------------+ span rows. | - contain           |
+   | body row 4             |            | - body elements.    |
+   +------------------------+------------+---------------------+
+
+Simple tables
+=============
+
+Especially the handling to join adjacent columns has to be acknowledge.
+
+.. example:: Simple tables
+
+   =====  =====
+      Inputs
+   ------------
+     A      B
+   =====  =====
+   1      Second column of row 1.
+   2      Second column of row 2.
+          Second line of paragraph.
+   3      - Second column of row 3.
+
+          - Second item in bullet
+            list (row 3, column 2).
+   \      Row 4; column 1 will be empty.
+   =====  =====
+
+Table directive
+===============
+
+.. example:: Table directive
+
+   .. table:: Truth table for "not"
+      :widths: auto
+      :align: center
+
+      =====  =====
+        A    not A
+      =====  =====
+      False  True
+      True   False
+      =====  =====
+
+CSV Table directive
+===================
+
+We want to highlight the directive options `file`, `header` and `header-rows`.
+
+.. example:: csv-table directive
+
+   .. csv-table:: Frozen Delights!
+      :header: "Treat", "Quantity", "Description"
+      :widths: 15, 10, 30
+
+      "Albatross", 2.99, "On a stick!"
+      "Crunchy Frog", 1.49, "If we took the bones out,
+      it wouldn't be crunchy, now would it?"
+      "Gannet Ripple", 1.99, "On a stick!"
+
+List Table directive
+====================
+
+.. example:: list-table directive
+
+   .. list-table:: Frozen Delights!
+      :widths: 15 10 30
+      :header-rows: 1
+
+      * - Treat
+        - Quantity
+        - Description
+      * - Albatross
+        - 2.99
+        - On a stick!
+      * - Crunchy Frog
+        - 1.49
+        - If we took the bones out, it wouldn't be
+          crunchy, now would it?
+      * - Gannet Ripple
+        - 1.99
+        - On a stick!
+
 
 
 .. _reSTxt_style_guide_Lists:
