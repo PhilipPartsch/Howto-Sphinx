@@ -153,11 +153,11 @@ Comments
 
 .. example:: Comments
 
-   | Text before the comment.
+   Text before the comment.
    
    .. You can comment with `..`.
 
-   | Text after the comment.
+   Text after the comment.
    
 
 .. _reSTxt_style_guide_Headlines:
@@ -327,11 +327,52 @@ List Table directive
         - On a stick!
 
 
+.. _reSTxt_style_guide_Pictures:
+
+********
+Pictures
+********
+
+Image
+=====
+
+.. image:: pictures/avatar.png
+   :height: 100px
+   :width: 200 px
+   :loading: embed
+   :alt: alternate text
+   :align: right
+
+|my avatar| greats you.
+
+.. |my avatar|    image:: pictures/avatar.png
+   :align: top
+
+Figure
+======
+
+.. figure:: pictures/avatar.png
+   :scale: 50 %
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+
+   The legend consists of all elements after the caption.  In this
+   case, the legend consists of this paragraph and the following
+   table:
+
+   +--------------------------------+-----------------------+
+   | Symbol                         | Meaning               |
+   +================================+=======================+
+   | .. image:: pictures/avatar.png | Campground            |
+   +--------------------------------+-----------------------+
+
+
 .. _reSTxt_style_guide_Lists:
 
-******
+*****
 Lists
-******
+*****
 
 The information about lists are wonderful provided in `How to write lists and line blocks`_.
 
