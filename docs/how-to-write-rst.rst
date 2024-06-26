@@ -178,7 +178,27 @@ Comments
    .. You can comment with ``..``.
 
    Text after the comment.
-   
+
+
+.. _reSTxt_style_guide_Substitution:
+
+***********************
+Substitution Definition
+***********************
+
+With this you can substitute content.  
+
+.. example:: Substitution
+
+   .. |reST| replace:: reStructuredText
+
+   Yes, |reST| is a long word, so I can't blame anyone for wanting to
+   abbreviate it.
+
+.. note::
+   replace itself is a directive and you can sue even otherones like image.
+   See even the :ref:`image example <reSTxt_style_guide_Pictures>`.
+
 
 .. _reSTxt_style_guide_Headlines:
 
