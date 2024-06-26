@@ -548,6 +548,27 @@ glossary entry please use role ``term``.
          Markdown language we currently use.
 
 
+.. _reSTxt_style_guide_variants:
+
+********
+Variants
+********
+
+See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
+
+In the pipeline, we currently set the project_b tag via command line option ``-t project_b``.
+Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
+
+.. example:: only directive
+
+   .. only:: project_a
+
+      We are building currently for Project A.
+
+   .. only:: project_b
+      
+      We are building currently for Project B.
+
 .. _reSTxt_style_guide_notes_and_warnings:
 
 ************************
