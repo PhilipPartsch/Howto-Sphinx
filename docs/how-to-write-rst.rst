@@ -339,8 +339,6 @@ Image
 .. example:: Image directive
 
    .. image:: pictures/avatar.png
-      :height: 100px
-      :width: 200 px
       :alt: my avatar
       :align: center
 
@@ -348,7 +346,7 @@ Image
 
    |my avatar| greats you.
 
-   .. |my avatar|    image:: pictures/avatar.png
+   .. |my avatar| image:: pictures/avatar.png
       :align: top
       :scale: 10%
 
