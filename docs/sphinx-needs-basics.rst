@@ -54,7 +54,7 @@ Build in Variants
 
 Currently out-of-scope
 
-**********
+
 References
 **********
 
