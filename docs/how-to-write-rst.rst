@@ -574,7 +574,7 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
 
    Sphinx is always reandering the content inside the only directive,
    but is dicsarding the output if not needed.
-   So if you need objects within the only directive, they are available to the datamodel. 
+   So if you create objects within the only directive, they are available to the datamodel. 
 
 .. _reSTxt_style_guide_notes_and_warnings:
 
