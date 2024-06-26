@@ -153,9 +153,9 @@ Comments
 
 .. example:: Comments
 
-   Text before the comment.
-   .. You can comment with `..`.
-   Text after the comment.
+   | Text before the comment.
+   | .. You can comment with `..`.
+   | Text after the comment.
    
 
 .. _reSTxt_style_guide_Headlines:
@@ -379,9 +379,12 @@ We use the ``code`` directive. It is good style to specify the programming langu
 
 .. _reSTxt_style_guide_links:
 
-****************************************
+*****
+Links
+*****
+
 Links between parts of the documentation
-****************************************
+========================================
 
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
 The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
@@ -402,16 +405,15 @@ If you only want to link to a headline within a document you can use the headlin
 
 .. example:: Link to headline in the current document
 
-   ... content ...
-   I want to link to `References`_.
-   ... content ...
+   | ... content ...
+   | I want to link to `References`_.
+   | ... content ...
 
 
 .. _reSTxt_style_guide_download_file:
 
-***********************
 Links to download files
-***********************
+=======================
 
 It is possible to reference to non-rst files, so they can be "downloaded".
 For more details please see `How to reference to downloadable files`_.
@@ -421,9 +423,8 @@ For more details please see `How to reference to downloadable files`_.
    Download file to this :download:`file itself <how-to-write-rst.rst>`.
 
 
-*********************
 Reference to document
-*********************
+=====================
 
 It is even possible to refernce to a document with `:doc:`.
 
@@ -434,9 +435,8 @@ It is even possible to refernce to a document with `:doc:`.
 
 .. _reSTxt_style_guide_include_file:
 
-************************************
 Include a file into current document
-************************************
+====================================
 
 It is possible to `include` in the current document another document.
 Please be aware, that it is useful to have another file extension for included files,
@@ -454,9 +454,8 @@ Docutils documentation: `How to include file in document`_.
 
 .. _reSTxt_style_guide_references:
 
-****************************
 References to external sites
-****************************
+============================
 
 We use target-notes to mark links to external sites. The approach is used in this file, too.
 The opportunity is you even get a back link, where in the document this link is been used. 
