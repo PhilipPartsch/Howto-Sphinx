@@ -142,6 +142,9 @@ The standard reST inline markup is quite simple, use:
 
    superscript: E = mc\ :sup:`2`
 
+Alternatives for are subscript and superscript are often the ``math`` :ref:`role <reSTxt_style_guide_Math>` (:math:` E = mc^2`)
+or literal Unicode characters (H₂O).
+
 For information about inline markup please check `How to use inline-markup`_.
 
 .. _reSTxt_style_guide_Whitespaces:
