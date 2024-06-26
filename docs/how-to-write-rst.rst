@@ -446,6 +446,8 @@ Links between parts of the documentation
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
 The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
 
+From this chapter:
+
 .. code:: rst
 
    .. _reSTxt_style_guide_links:
@@ -456,8 +458,8 @@ The ref is working across rst files. You can find more examples for picture and 
 
 .. example:: reference to a reference label
 
-   If you want to reference to the reference-label, see :ref:`how-to-write-rst-reference-label`.
-   If you want to customize your link text use :ref:`custom text<how-to-write-rst-reference-label>`
+   If you want to reference to the reference-label, see :ref:`reSTxt_style_guide_links`.
+   If you want to customize your link text use :ref:`custom text <reSTxt_style_guide_links>`.
 
 .. Note:: It is recommended to shorten the link mark as most as possible and use the customized link text way most of the time.
 
@@ -566,7 +568,7 @@ Glossary
 
 We use glossaries to define often used terms in a documentation. To get more information how to 
 setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
-glossary entry please use `:term:`glossary entry text` `.
+glossary entry please use role ``term``.
 
 .. example:: Glossary
 
