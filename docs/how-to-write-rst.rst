@@ -1,5 +1,4 @@
 .. sectnum::
-   :start: 1
 
 .. _reSTxt_style_guide:
 
