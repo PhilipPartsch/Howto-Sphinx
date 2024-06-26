@@ -80,7 +80,7 @@ Here we use the figure directive to explain how it looks like.
 .. example:: What is a Directive?
 
    .. figure:: pictures/avatar.png
-      :scale: 200 %
+      :scale: 150 %
       :alt: my avatar
 
       This is the caption of the figure (a simple paragraph).
