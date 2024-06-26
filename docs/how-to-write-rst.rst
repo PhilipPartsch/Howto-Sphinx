@@ -352,7 +352,7 @@ The information about lists are wonderful provided in `How to write lists and li
 
    * This is a bulleted list.
    * It has two items, the second
-   item uses two lines.
+     item uses two lines.
 
    1. This is a numbered list.
    2. It has two items too.
