@@ -339,32 +339,25 @@ Image
 .. image:: pictures/avatar.png
    :height: 100px
    :width: 200 px
-   :alt: alternate text
-   :align: right
+   :alt: my avatar
+   :align: center
 
 |my avatar| greats you.
 
 .. |my avatar|    image:: pictures/avatar.png
    :align: top
+   :scale: 10%
 
 Figure
 ======
 
 .. figure:: pictures/avatar.png
-   :scale: 50 %
+   :scale: 100 %
    :alt: map to buried treasure
 
    This is the caption of the figure (a simple paragraph).
 
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
-   table:
-
-   +--------------------------------+-----------------------+
-   | Symbol                         | Meaning               |
-   +================================+=======================+
-   | .. image:: pictures/avatar.png | Campground            |
-   +--------------------------------+-----------------------+
+   A legend consists of all elements after the caption.
 
 
 .. _reSTxt_style_guide_Lists:
