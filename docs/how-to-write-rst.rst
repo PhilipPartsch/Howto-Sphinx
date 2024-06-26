@@ -124,8 +124,15 @@ Regular text
    | ``|`` Here I have defined when a new line has to be printed,
    | ``|`` so it looks like how I have specified it. 
 
-   For information about inline markup please check `How to use inline-markup`_.
+.. example:: reST inline markup
+   
+   The standard reST inline markup is quite simple: use
 
+   one asterisk: *text* for emphasis (italics),
+   two asterisks: **text** for strong emphasis (boldface), and
+   backquotes: ``text`` for code samples.
+
+For information about inline markup please check `How to use inline-markup`_.
 
 .. _reSTxt_style_guide_Whitespaces:
 
