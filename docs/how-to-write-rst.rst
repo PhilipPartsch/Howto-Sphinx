@@ -124,12 +124,18 @@ Regular text
    | ``|`` Here I have defined when a new line has to be printed,
    | ``|`` so it looks like how I have specified it. 
 
-.. example:: reST inline markup
+   Or you use a empty line to serpeate the text
+
+   from each other.
    
-   The standard reST inline markup is quite simple: use
+The standard reST inline markup is quite simple, use:
+
+.. example:: reST inline markup
 
    one asterisk: *text* for emphasis (italics),
+
    two asterisks: **text** for strong emphasis (boldface), and
+
    backquotes: ``text`` for code samples.
 
 For information about inline markup please check `How to use inline-markup`_.
