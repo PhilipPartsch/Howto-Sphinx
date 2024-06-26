@@ -497,6 +497,14 @@ The opportunity is you even get a back link, where in the document this link is 
 
    _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
 
+It is even possible to reference directly to an external webside:
+
+..  example:: dirct external links
+
+    - https://www.sphinx-needs.com
+    - `https://www.sphinx-needs.com`_
+    - `sphinx-needs <https://www.sphinx-needs.com>`_
+
 
 .. _reSTxt_style_guide_table_of_contents:
 
