@@ -446,12 +446,15 @@ Links between parts of the documentation
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
 The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
 
+.. code:: rst
+
+   .. _reSTxt_style_guide_links:
+
+   *****
+   Links
+   *****
+
 .. example:: reference to a reference label
-
-   .. _how-to-write-rst-reference-label:
-
-   How to reference to a reference label / headline
-   ------------------------------------------------
 
    If you want to reference to the reference-label, see :ref:`how-to-write-rst-reference-label`.
    If you want to customize your link text use :ref:`custom text<how-to-write-rst-reference-label>`
