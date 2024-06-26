@@ -69,12 +69,12 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
 Docutils Directive
 ==================
 
-A driective gives the opportunity to structure information together.
-Here we use the figure directive to explain how it looks like. 
+A directive gives the opportunity to structure information together.
+Here we use the `figure` directive to explain how it looks like. 
 
 | Directive Type: "figure"
 | Directive Arguments: one, required (image URI)
-| Directive Options: see below
+| Directive Options: see documentation
 | Directive Content: Interpreted as the figure caption and an optional legend.
 
 .. example:: What is a Directive?
@@ -86,11 +86,11 @@ Here we use the figure directive to explain how it looks like.
       This is the caption of the figure (a simple paragraph).
 
 
-
 Docutils Role
 =============
 
-A role is an inline annottaion to get an information or link destination from a script:
+A role is an inline annottaion to get an information or link destination from a script.
+Here we use the `math` role to explain how it looks like. 
 
 .. example:: Docutils Role
 
@@ -220,7 +220,8 @@ As an example:
 Tables
 ******
 
-The information about tables are wonderful provided in `How to write a table`_, https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables 
+The information about tables are wonderful provided in `How to write a table`_,
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables 
 and https://docutils.sourceforge.io/docs/ref/rst/directives.html#tables .
 
 
@@ -228,6 +229,8 @@ Grid table syntax
 =================
 
 Especially the handling of bars `|` within tables has to be acknowledge.
+They do have to be of sifted to the alligment.
+So pay attention, a table with mailformed middel bares will not reported.
 
 .. example:: Grid table syntax
 
@@ -391,7 +394,7 @@ You can use a directive:
 
       (a - b)^2 = a^2 - 2ab + b^2
 
-You can use an inline `math` role:
+You can even use inline `math` role:
 
 .. example:: inline math role
 
@@ -408,8 +411,7 @@ We use the ``code`` directive. It is good style to specify the programming langu
 
 .. Here we do not use the example directive, as we want to document the code directive itself.
 
-.. code:: rst
-   :number-lines:
+.. example:: code directive
 
    .. code:: rst
       :number-lines:
