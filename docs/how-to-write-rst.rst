@@ -472,6 +472,15 @@ We use glossaries to define often used terms in a documentation. To get more inf
 setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
 glossary entry please use `:term:`<glossary entry>` `
 
+.. example:: Glossary
+   .. glossary::
+
+      rst
+         Apprivation of :term:`reStructuredText`.
+
+      reStructuredTex`
+         Markdown language we currently use.
+
 
 .. _reSTxt_style_guide_notes_and_warnings:
 
