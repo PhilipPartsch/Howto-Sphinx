@@ -547,7 +547,7 @@ For detailed information see `How to create table of contents with toctree`_ or 
 
 With `.. contents::` it is possible to create a "table of contents" for the current document.
 
-.. it is not possible to include ``contents`` directive within another directive. So we cannot use``example`` directive here.
+.. it is not possible to include ``contents`` directive within another directive. So we cannot use ``example`` directive here.
 
 .. code:: rst
    
@@ -566,7 +566,7 @@ Glossary
 
 We use glossaries to define often used terms in a documentation. To get more information how to 
 setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
-glossary entry please use ``:term:`<glossary entry>` ``.
+glossary entry please use `:term:`glossary entry text` `.
 
 .. example:: Glossary
 
