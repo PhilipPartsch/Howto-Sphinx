@@ -336,28 +336,34 @@ Pictures
 Image
 =====
 
-.. image:: pictures/avatar.png
-   :height: 100px
-   :width: 200 px
-   :alt: my avatar
-   :align: center
+.. example:: Image directive
 
-|my avatar| greats you.
+   .. image:: pictures/avatar.png
+      :height: 100px
+      :width: 200 px
+      :alt: my avatar
+      :align: center
 
-.. |my avatar|    image:: pictures/avatar.png
-   :align: top
-   :scale: 10%
+.. example:: Image directive inline
+
+   |my avatar| greats you.
+
+   .. |my avatar|    image:: pictures/avatar.png
+      :align: top
+      :scale: 10%
 
 Figure
 ======
 
-.. figure:: pictures/avatar.png
-   :scale: 100 %
-   :alt: map to buried treasure
+.. example:: Figure directive
 
-   This is the caption of the figure (a simple paragraph).
+   .. figure:: pictures/avatar.png
+      :scale: 100 %
+      :alt: my avatar
 
-   A legend consists of all elements after the caption.
+      This is the caption of the figure (a simple paragraph).
+
+      A legend consists of all elements after the caption.
 
 
 .. _reSTxt_style_guide_Lists:
