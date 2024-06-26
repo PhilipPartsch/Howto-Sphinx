@@ -22,7 +22,7 @@ Filter
 ******
 
 NeedPie
-******
+*******
 
 NeedBar
 *******
@@ -39,6 +39,17 @@ NeedArch
 NeedUML
 *******
 
+Variants
+********
 
+Currently out-of-scope
 
+Only directive
+==============
 
+Currently out-of-scope
+
+Build in Variants
+=================
+
+Currently out-of-scope
