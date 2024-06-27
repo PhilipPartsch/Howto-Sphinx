@@ -67,7 +67,7 @@ NeedPie
 
 Documentation: How-to use `Sphinx-Needs NeedPie`_.
 
-.. example:: How-to use a NeedPie.
+.. example : : How-to use a NeedPie.
 
    .. needpie:: Ratio of requirement types
       :labels: Stakeholder Requirement, Software Requirement, Evaluation
@@ -81,7 +81,7 @@ NeedBar
 
 Documentation: How-to use `Sphinx-Needs NeedBar`_.
 
-.. example:: How-to use a NeedBar.
+.. example : : How-to use a NeedBar.
 
    .. needbar:: Requirements & Status Overview
       :legend:
@@ -100,7 +100,7 @@ NeedTable
 
 Documentation: How-to use `Sphinx-Needs NeedTable`_.
 
-.. example:: How-to use a NeedTable.
+.. example : : How-to use a NeedTable.
 
    .. needtable:: List of software requirements
       :types: sw_req
@@ -112,7 +112,7 @@ NeedFlow
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 
-.. example:: How-to use a NeedFlow.
+.. example : : How-to use a NeedFlow.
 
    .. needflow:: Requirement Linkage
       :types: stake_req, sw_req
@@ -129,7 +129,7 @@ NeedUML
 
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
-.. example:: How-to use a NeedUML.
+.. example : : How-to use a NeedUML.
 
    .. needuml:: Architecture of Module Merge_Dicts
 
