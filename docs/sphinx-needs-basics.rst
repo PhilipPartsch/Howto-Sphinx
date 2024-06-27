@@ -100,7 +100,7 @@ NeedTable
 
 Documentation: How-to use `Sphinx-Needs NeedTable`_.
 
-.. example : : How-to use a NeedTable.
+.. example:: How-to use a NeedTable.
 
    .. needtable:: List of software requirements
       :types: sw_req
@@ -131,9 +131,15 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
 .. example:: How-to use a NeedUML.
 
-   .. needuml:: Architecture of Module Merge_Dicts
+   .. needuml::
+      :extra: name:Roberto,work:RocketLab
 
-      {{flow("M_MERGE_DICTS")}}
+      card "{{name}}" as a
+      card "{{work}}" as b
+      a -> b
+
+      '{{flow("M_MERGE_DICTS")}}
+
 
 Variants
 ********
