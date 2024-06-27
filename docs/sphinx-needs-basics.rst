@@ -5,27 +5,27 @@ Introduction to Sphinx-Needs
 Define a Need
 *************
 
-Sphinx-Needs documentation: how-to work with `sn-need`_.
+Sphinx-Needs documentation: how-to work with `Sphinx-Needs Need`_.
 
 Types
 =====
 
-Sphinx-Needs documentation: how-to configure `Types <sn-types>`_.
+Sphinx-Needs documentation: how-to configure `Sphinx-Needs Types`_.
 
 Options
 =======
 
-Sphinx-Needs documentation: how-to configure `Options <sn-options>`_.
+Sphinx-Needs documentation: how-to configure `Sphinx-Needs Options`_.
 
 Links
 =====
 
-Sphinx-Needs documentation: how-to configure `Links <sn-links>`_.
+Sphinx-Needs documentation: how-to configure `Sphinx-Needs Links`_.
 
 Reference to Needs
 ==================
 
-Sphinx-Needs documentation: how-to use `Reference to Needs <sn-role-need>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs Reference to Needs`_.
 
 Embedded a Need in a Need
 =========================
@@ -33,37 +33,37 @@ Embedded a Need in a Need
 Filter
 ******
 
-Sphinx-Needs documentation: how-to use `Filters <sn-filter>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs Filters`_.
 
 NeedPie
 *******
 
-Sphinx-Needs documentation: how-to use `NeedPie <sn-needpie>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedPie`_.
 
 NeedBar
 *******
 
-Sphinx-Needs documentation: how-to use `NeedBar <sn-needbar>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedBar`_.
 
 NeedTable
 *********
 
-Sphinx-Needs documentation: how-to use `NeedTable <sn-needtable>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedTable`_.
 
 NeedFlow
 ********
 
-Sphinx-Needs documentation: how-to use `NeedFlow <sn-needflow>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedFlow`_.
 
 NeedArch
 ********
 
-Sphinx-Needs documentation: how-to use `NeedArch <sn-needarch>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedArch`_.
 
 NeedUML
 *******
 
-Sphinx-Needs documentation: how-to use `NeedUML <sn-needuml>`_.
+Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedUML`_.
 
 Variants
 ********
@@ -95,24 +95,24 @@ References
 
 .. target-notes::
 
-.. _`sn-need` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html
+.. _`Sphinx-Needs Need` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html
 
-.. _`sn-types` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-types
+.. _`Sphinx-Needs Types` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-types
 
-.. _`sn-options` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options
+.. _`Sphinx-Needs Options` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options
 
-.. _`sn-links` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-links
+.. _`Sphinx-Needs Links` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-links
 
-.. _`sn-role-need` : https://sphinx-needs.readthedocs.io/en/latest/roles.html#need
+.. _`Sphinx-Needs Reference to Needs` : https://sphinx-needs.readthedocs.io/en/latest/roles.html#need
 
-.. _`sn-filter` : https://sphinx-needs.readthedocs.io/en/latest/filter.html
+.. _`Sphinx-Needs Filters` : https://sphinx-needs.readthedocs.io/en/latest/filter.html
 
-.. _`sn-needpie` : https://sphinx-needs.readthedocs.io/en/latest/directives/needpie.html
+.. _`Sphinx-Needs NeedPie` : https://sphinx-needs.readthedocs.io/en/latest/directives/needpie.html
 
-.. _`sn-needbar` : https://sphinx-needs.readthedocs.io/en/latest/directives/needbar.html
+.. _`Sphinx-Needs NeedBar` : https://sphinx-needs.readthedocs.io/en/latest/directives/needbar.html
 
-.. _`sn-needtable` : https://sphinx-needs.readthedocs.io/en/latest/directives/needtable.html
+.. _`Sphinx-Needs NeedTable` : https://sphinx-needs.readthedocs.io/en/latest/directives/needtable.html
 
-.. _`sn-needarch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
+.. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
-.. _`sn-needuml` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+.. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
