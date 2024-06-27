@@ -123,7 +123,7 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
 .. needuml:: Architecture of Module Merge_Dicts
 
-   {{uml("M_MERGE_DICTS", "class")}}
+   {{uml("M_MERGE_DICTS")}}
 
 Variants
 ********
