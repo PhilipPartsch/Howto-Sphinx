@@ -79,7 +79,7 @@ NeedBar
 
 Documentation: How-to use `Sphinx-Needs NeedBar`_.
 
-.. needbar : : Requirements & Status Overview
+.. needbar:: Requirements & Status Overview
    :legend:
    :colors: black, yellow, orange, green
    :xlabels: FROM_DATA
