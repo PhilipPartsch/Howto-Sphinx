@@ -67,7 +67,7 @@ NeedPie
 
 Documentation: How-to use `Sphinx-Needs NeedPie`_.
 
-.. example : : How-to use a NeedPie.
+.. example:: How-to use a NeedPie.
 
    .. needpie:: Ratio of requirement types
       :labels: Stakeholder Requirement, Software Requirement, Evaluation
