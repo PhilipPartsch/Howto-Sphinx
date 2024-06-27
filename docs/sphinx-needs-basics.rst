@@ -96,7 +96,7 @@ NeedTable
 
 Documentation: How-to use `Sphinx-Needs NeedTable`_.
 
-.. needtable : : List of software requirements
+.. needtable:: List of software requirements
    :types: sw_req
    :style: table
    :columns: id; title; docname as "document"
