@@ -5,7 +5,7 @@ Introduction to Sphinx-Needs
 Define a Need
 *************
 
-Sphinx-Needs documentation: how-to work with `Needs <sn-need>`_.
+Sphinx-Needs documentation: how-to work with `sn-need`_.
 
 Types
 =====
