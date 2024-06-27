@@ -99,15 +99,14 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
 .. needtable : : List of software requirements
    :types: sw_req
    :style: table
-   :columns: id;title;docname as "document";lineno as "line no"
-   :sort: lineno
+   :columns: id; title; docname as "document"
 
 NeedFlow
 ********
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 
-.. needflow : : Requirement Linkage
+.. needflow:: Requirement Linkage
    :types: stake_req, sw_req
    :show_link_names:
    :show_filters:
@@ -124,7 +123,7 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
 .. needuml:: Architecture of Module Merge_Dicts
 
-   {{flow("M_MERGE_DICTS")}}
+   {{uml("M_MERGE_DICTS", "class")}}
 
 Variants
 ********
