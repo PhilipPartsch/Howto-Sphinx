@@ -10,25 +10,52 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
 Types
 =====
 
-How-to configure `Sphinx-Needs Types`_.
+Documentation: How-to configure `Sphinx-Needs Types`_.
+
+.. example:: How-to create a Need.
+
+    .. req:: Example Requirement
+       :id: R_EXAMPLE_REQUIREMENT
+       :status: new
+
+       This is our example requirement.
+    
+    .. spec:: Example Specification
+       :id: S_EXAMPLE_SPECIFICATION
+       :status: new
+       :links: R_EXAMPLE_REQUIREMENT
+
+       This is our example Specification.
+
 
 Options
 =======
 
-How-to configure `Sphinx-Needs Options`_.
+Documentation: How-to configure `Sphinx-Needs Options`_.
 
 Links
 =====
 
-How-to configure `Sphinx-Needs Links`_.
+Documentation: How-to configure `Sphinx-Needs Links`_.
 
 Reference to Needs
 ==================
 
 Documentation: How-to use `Sphinx-Needs Reference to Needs`_.
 
+:need:`R_EXAMPLE_REQUIREMENT` is here like a customer requirement,
+where the :need:`S_EXAMPLE_SPECIFICATION` is our derivied specification.
+
 Embedded a Need in a Need
 =========================
+
+.. example:: Embedded a Need in a Need
+
+   .. need:: Parent
+      :id: N_PARENT
+
+      .. need:: Child
+         :id: N_CHILD
 
 Filter
 ******
