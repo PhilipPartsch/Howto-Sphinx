@@ -129,7 +129,7 @@ NeedUML
 
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
-.. example : : How-to use a NeedUML.
+.. example:: How-to use a NeedUML.
 
    .. needuml:: Architecture of Module Merge_Dicts
 
