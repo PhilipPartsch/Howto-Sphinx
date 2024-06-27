@@ -99,7 +99,7 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
 .. needtable:: List of software requirements
    :types: sw_req
    :style: table
-   :columns: id; title; docname as "document"
+   :columns: id; title; status
 
 NeedFlow
 ********
@@ -123,7 +123,7 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
 .. needuml:: Architecture of Module Merge_Dicts
 
-   {{uml("M_MERGE_DICTS")}}
+   {{flow("M_MERGE_DICTS")}}
 
 Variants
 ********
