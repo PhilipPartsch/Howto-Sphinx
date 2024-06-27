@@ -79,7 +79,7 @@ NeedBar
 
 Documentation: How-to use `Sphinx-Needs NeedBar`_.
 
-.. needbar:: Requirements & Status Overview
+.. needbar : : Requirements & Status Overview
    :legend:
    :colors: black, yellow, orange, green
    :xlabels: FROM_DATA
@@ -96,7 +96,7 @@ NeedTable
 
 Documentation: How-to use `Sphinx-Needs NeedTable`_.
 
-.. needtable:: List of software requirements
+.. needtable : : List of software requirements
    :types: sw_req
    :style: table
    :columns: id;title;docname as "document";lineno as "line no"
@@ -107,7 +107,7 @@ NeedFlow
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 
-.. needflow:: Requirement Linkage
+.. needflow : : Requirement Linkage
    :types: stake_req, sw_req
    :show_link_names:
    :show_filters:
