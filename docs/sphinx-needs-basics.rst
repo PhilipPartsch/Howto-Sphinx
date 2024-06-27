@@ -132,13 +132,13 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
 .. example:: How-to use a NeedUML.
 
    .. needuml::
-      :extra: name:Roberto,work:RocketLab
-
-      card "{{name}}" as a
-      card "{{work}}" as b
-      a -> b
 
       {{flow("M_MERGE_DICTS")}}
+
+      note right of [M_MERGE_DICTS]
+         We use M_MERGE_DICTS to
+         merge python dictonaries.
+      end note
 
 
 Variants
