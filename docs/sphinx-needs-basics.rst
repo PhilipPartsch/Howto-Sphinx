@@ -138,7 +138,7 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
       card "{{work}}" as b
       a -> b
 
-      '{{flow("M_MERGE_DICTS")}}
+      {{flow("M_MERGE_DICTS")}}
 
 
 Variants
