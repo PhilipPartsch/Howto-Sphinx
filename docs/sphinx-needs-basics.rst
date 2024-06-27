@@ -113,6 +113,8 @@ References
 
 .. _`Sphinx-Needs NeedTable` : https://sphinx-needs.readthedocs.io/en/latest/directives/needtable.html
 
+.. _`Sphinx-Needs NeedFlow` : https://sphinx-needs.readthedocs.io/en/latest/directives/needflow.html
+
 .. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
 .. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
