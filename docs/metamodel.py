@@ -66,6 +66,11 @@ needs_types = [
                dict(directive="evaluation", title="Evaluation", prefix="EVAL_", color="#abcdef", style="artifact"),
                dict(directive="verify", title="Verification Information", prefix="VERIFY_", color="#abcdef", style="artifact"),
 
+               # From Sphinx-needs Standards:
+               dict(directive="req", title="Requirement", prefix="R_", color="#BFD8D2", style="node"),
+               dict(directive="spec", title="Specification", prefix="S_", color="#FEDCD2", style="node"),
+               dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node")
+
               ]
 
 # Define extra options for needs object
