@@ -503,7 +503,7 @@ Docutils documentation: `How to include file in document`_.
 References to external sites
 ============================
 
-We use target-notes to mark links to external sites. The approach is used in this file, too.
+We can use target-notes to mark ofte used links to external sites. The approach is used in this file, too.
 The opportunity is you even get a back link, where in the document this link is been used. 
 
 .. code:: rst
