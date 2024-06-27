@@ -5,27 +5,27 @@ Introduction to Sphinx-Needs
 Define a Need
 *************
 
-Sphinx-Needs documentation: how-to work with `Sphinx-Needs Need`_.
+Documentation: How-to work with `Sphinx-Needs Need`_.
 
 Types
 =====
 
-Sphinx-Needs documentation: how-to configure `Sphinx-Needs Types`_.
+How-to configure `Sphinx-Needs Types`_.
 
 Options
 =======
 
-Sphinx-Needs documentation: how-to configure `Sphinx-Needs Options`_.
+How-to configure `Sphinx-Needs Options`_.
 
 Links
 =====
 
-Sphinx-Needs documentation: how-to configure `Sphinx-Needs Links`_.
+How-to configure `Sphinx-Needs Links`_.
 
 Reference to Needs
 ==================
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs Reference to Needs`_.
+Documentation: How-to use `Sphinx-Needs Reference to Needs`_.
 
 Embedded a Need in a Need
 =========================
@@ -33,37 +33,37 @@ Embedded a Need in a Need
 Filter
 ******
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs Filters`_.
+Documentation: How-to use `Sphinx-Needs Filters`_.
 
 NeedPie
 *******
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedPie`_.
+Documentation: How-to use `Sphinx-Needs NeedPie`_.
 
 NeedBar
 *******
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedBar`_.
+Documentation: How-to use `Sphinx-Needs NeedBar`_.
 
 NeedTable
 *********
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedTable`_.
+Documentation: How-to use `Sphinx-Needs NeedTable`_.
 
 NeedFlow
 ********
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedFlow`_.
+Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 
 NeedArch
 ********
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedArch`_.
+Documentation: How-to use `Sphinx-Needs NeedArch`_.
 
 NeedUML
 *******
 
-Sphinx-Needs documentation: how-to use `Sphinx-Needs NeedUML`_.
+Documentation: How-to use `Sphinx-Needs NeedUML`_.
 
 Variants
 ********
