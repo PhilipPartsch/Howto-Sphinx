@@ -81,7 +81,7 @@ NeedBar
 
 Documentation: How-to use `Sphinx-Needs NeedBar`_.
 
-.. example : : How-to use a NeedBar.
+.. example:: How-to use a NeedBar.
 
    .. needbar:: Requirements & Status Overview
       :legend:
@@ -112,7 +112,7 @@ NeedFlow
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 
-.. example : : How-to use a NeedFlow.
+.. example:: How-to use a NeedFlow.
 
    .. needflow:: Requirement Linkage
       :types: stake_req, sw_req
