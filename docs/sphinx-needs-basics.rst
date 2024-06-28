@@ -43,8 +43,10 @@ Reference to Needs
 
 Documentation: How-to use `Sphinx-Needs Reference to Needs`_.
 
-:need:`R_EXAMPLE_REQUIREMENT` is here like a customer requirement,
-where the :need:`S_EXAMPLE_SPECIFICATION` is our derivied specification.
+.. example:: Reference to Needs
+
+   :need:`R_EXAMPLE_REQUIREMENT` is here like a customer requirement,
+   where the :need:`S_EXAMPLE_SPECIFICATION` is our derivied specification.
 
 Embedded a Need in a Need
 =========================
