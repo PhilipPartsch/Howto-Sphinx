@@ -40,8 +40,7 @@ pages:
   script:
     # install documentation requirements
     - pip install -r ./docs/requirements.txt
-    #disabled -W
-    - sphinx-build -b html -t project_b ./docs ./public
+    - sphinx-build -W -b html -t project_b ./docs ./public
   artifacts:
     paths:
     - public
