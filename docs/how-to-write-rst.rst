@@ -367,8 +367,8 @@ Nested lists are even possible, but be aware that they must be separated from th
    * this is
    * a list
 
-   * with a nested list
-   * and some subitems
+      * with a nested list
+      * and some subitems
 
    * and here the parent list continues
 
