@@ -169,7 +169,7 @@ The code been expected and generated is for `plantuml`_.
 .. _ide_vscode:
 
 Visula Studio Code Extensions
------------------------------
+*****************************
 
 VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
 provides support for Sphinx-Needs. See more details in the `Documentation <https://sphinx-needs-vscode.useblocks.com/>`_.
