@@ -2230,7 +2230,7 @@ Table B.2 — Work Product Characteristics
 [This table contains only the relevant work product characteristics for the Automotive SPICE for
 Cybersecurity]
 
-.. needtable:: Table B.2 — Work Product Characteristics
+.. needtable : : Table B.2 — Work Product Characteristics
    :tags: artifact
    :filter: 'section_name=="Annex B Work Product Characteristics"'
    :style: table
