@@ -86,12 +86,42 @@ Here we use the ``figure`` directive to explain how it looks like.
         :alt: my avatar
 
         This is the caption of the figure (a simple paragraph).
-     
-
   
-| Directive Arguments: one, required (image URI)
-| Directive Options: see documentation
-| Directive Content: Interpreted as the figure caption and an optional legend.
+- Directive Arguments: "pictures/avatar.png"
+
+  .. code-block:: rst
+     :emphasize-lines: 1
+     :linenos:
+
+     .. figure:: pictures/avatar.png
+        :scale: 150 %
+        :alt: my avatar
+
+        This is the caption of the figure (a simple paragraph).
+
+- Directive Options: ":scale: 150 %" and ":alt: my avatar"
+
+  .. code-block:: rst
+     :emphasize-lines: 2, 3
+     :linenos:
+
+     .. figure:: pictures/avatar.png
+        :scale: 150 %
+        :alt: my avatar
+
+        This is the caption of the figure (a simple paragraph).
+
+- Directive Content: "This is the caption of the figure (a simple paragraph)."
+
+  .. code-block:: rst
+     :emphasize-lines: 5
+     :linenos:
+
+     .. figure:: pictures/avatar.png
+        :scale: 150 %
+        :alt: my avatar
+
+        This is the caption of the figure (a simple paragraph).
 
 .. example:: What is a Directive?
 
