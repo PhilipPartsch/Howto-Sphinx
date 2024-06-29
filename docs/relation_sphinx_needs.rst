@@ -67,7 +67,7 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
       {{flow(need().id)}}
       {{uml("E_SPHINX")}}
 
-      '{{need().id}}  -> E_SPHINX : extends
+      {{need().id}}  -> E_SPHINX : extends
 
 
 Directive
