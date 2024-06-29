@@ -136,7 +136,7 @@ Role
 ****
 
 A role is an inline annottaion to get an information or link destination from a script.
-Here we use the ``mat`` role to explain how it looks like. 
+Here we use the ``math`` role to explain how it looks like. 
 
 .. example:: Docutils Role
 
