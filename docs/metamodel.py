@@ -72,7 +72,7 @@ needs_types = [
                dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node"),
 
                # For documentation
-               dict(directive="element", title="Element", prefix="E_", color="#BFD8D2", style="node"),
+               dict(directive="element", title="Element", prefix="E_", color="#BFD8D2", style="component"),
 
               ]
 
