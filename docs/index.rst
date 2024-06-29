@@ -12,6 +12,7 @@ How-To Sphinx
 .. toctree::
    :caption: Contents
 
+   why.rst
    relation_sphinx_needs
    how-to-write-rst
    sphinx-needs-basics
