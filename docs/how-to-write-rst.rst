@@ -475,8 +475,8 @@ If you only want to link to a headline within a document you can use the headlin
    | ... content ...
 
 
-Links to refences on the same page
-==================================
+Links named to refences
+=======================
 
 You can link to named elements like figures, tables, and so on.
 
