@@ -172,7 +172,7 @@ Other usefull parameter are:
 
 - ``-v``, --verbose
 - ``-W``, --fail-on-warning
-- ``-E``, --fresh-env #discard prvious build results
+- ``-E``, --fresh-env #discard previous build results
 
 
 How it is been used with in this repo, you can see here:
