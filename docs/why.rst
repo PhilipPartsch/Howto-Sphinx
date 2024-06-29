@@ -11,6 +11,10 @@ E.g. in the automotive industry it is the ISO26262 or ASPICE.
 As the ASPICE specification is public available let's what is requested:
 https://vda-qmc.de/wp-content/uploads/2023/12/Automotive-SPICE-PAM-v40.pdf
 
+Or within is documentation for Version Automotive-SPICE-PAM-v4.1 
+:numref:`Figure D.4 — Bidirectional traceability and consistency`
+
+
 .. toctree::
    :caption: ASPICE
 
