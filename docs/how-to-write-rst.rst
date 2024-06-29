@@ -19,9 +19,10 @@ This document intends to define the reStructuredText style-guide.
 References to useful pages
 ==========================
 
-`Quick Reference`_ 
-https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
-https://documatt.com/restructuredtext-reference/index.html
+- `Quick Reference`_ 
+- https://sublime-and-sphinx-guide.readthedocs.io
+- https://documatt.com/restructuredtext-reference/index.html
+- https://myst-parser.readthedocs.io
 
 
 *********
