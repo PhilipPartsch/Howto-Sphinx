@@ -54,6 +54,7 @@ templates_path = ['_templates']
 
 exclude_patterns = ['_tools/*',]
 
+# to use numref see https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-numfig
 numfig = True
 
 # -- intersphinx
