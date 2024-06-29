@@ -61,12 +61,13 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
 .. element:: Sphinx-Needs
    :id: E_SPHINX_NEEDS
 
-   .. needarch : :
+   .. needarch::
+      :debug:
 
       {{flow(need().id)}} 
       {{uml("E_SPHINX")}}
 
-      need().id) -> E_SPHINX : extends
+      'need().id) -> E_SPHINX : extends
 
 
 Directive
