@@ -69,8 +69,8 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
       {{need().id}}  -> E_SPHINX : extends
 
 
-Directive
-*********
+Definition of a Directive
+*************************
 
 A directive gives the opportunity to structure information together.
 Here we use the ``figure`` directive to explain how it looks like. 
@@ -132,8 +132,8 @@ Here we use the ``figure`` directive to explain how it looks like.
       This is the caption of the figure (a simple paragraph).
 
 
-Role
-****
+Definition of a Role
+********************
 
 A role is an inline annottaion to get an information or link destination from a script.
 Here we use the ``math`` role to explain how it looks like. 
