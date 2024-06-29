@@ -71,6 +71,9 @@ needs_types = [
                dict(directive="spec", title="Specification", prefix="S_", color="#FEDCD2", style="node"),
                dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node")
 
+               # For documentation
+               dict(directive="element", title="", prefix="E_", color="#BFD8D2", style="node"),
+
               ]
 
 # Define extra options for needs object
