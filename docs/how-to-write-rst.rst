@@ -482,6 +482,8 @@ You can link to named elements like figures, tables, and so on.
 
 Here we link to the above named figure ``my-avatar``.
 
+You have to enable ``numfig = True`` in your ``conf.py``. 
+
 .. example:: role numref
 
    :numref:`my-avatar`

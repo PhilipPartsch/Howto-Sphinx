@@ -54,6 +54,8 @@ templates_path = ['_templates']
 
 exclude_patterns = ['_tools/*',]
 
+numfig = True
+
 # -- intersphinx
 
 #intersphinx_mapping = {
