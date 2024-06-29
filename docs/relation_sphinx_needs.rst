@@ -153,5 +153,5 @@ How it is been used with in this repo, you can see here:
 
 .. literalinclude:: ../.gitlab-ci.yml
    :language: yml
-   :emphasize-lines: 15-18
+   :emphasize-lines: 43
    :linenos:
