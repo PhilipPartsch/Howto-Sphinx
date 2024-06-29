@@ -63,10 +63,10 @@ Regular text
    | ``|`` Here I have defined when a new line has to be printed,
    | ``|`` so it looks like how I have specified it. 
 
-   Or you use a empty line to serpeate the text
+   Or you use an empty line to separate the text
 
    from each other.
-   
+
 The standard reST inline markup is quite simple, use:
 
 .. example:: reST inline markup
@@ -168,37 +168,37 @@ As an example:
 
 .. code:: rst
 
-  ##################
-  H1: document title
-  ##################
+   ##################
+   H1: document title
+   ##################
 
-  Introduction text.
-
-
-  *********
-  Sample H2
-  *********
-
-  Sample content.
+   Introduction text.
 
 
-  **********
-  Another H2
-  **********
+   *********
+   Sample H2
+   *********
 
-  Sample H3
-  =========
+   Sample content.
 
-  Sample H4
-  ---------
 
-  Sample H5
-  ^^^^^^^^^
+   **********
+   Another H2
+   **********
 
-  Sample H6
-  """""""""
+   Sample H3
+   =========
 
-  And some more content.
+   Sample H4
+   ---------
+
+   Sample H5
+   ^^^^^^^^^
+
+   Sample H6
+   """""""""
+
+   And some more content.
 
 
 .. _reSTxt_style_guide_Tables:
@@ -216,8 +216,8 @@ Grid table syntax
 =================
 
 Especially the handling of bars ``|`` within tables has to be acknowledge.
-They do have to be of sifted to the alligment.
-So pay attention, a table with mailformed middel bares will not reported.
+They do have to be of sifted to the alignment.
+So pay attention, a table with malformed middle bares will not reported.
 
 .. example:: Grid table syntax
 
@@ -424,7 +424,7 @@ We use the ``code``, ``code-block`` and ``literalinclude`` directive.
 It is good style to specify the programming language.
 See `How to document code`_.
 
-More sofisticated examples and even a special extension for multilanguge examples can be found under
+More sophisticated examples and even a special extension for multilanguage examples can be found under
 `How to document multi language code`_.
 
 .. example:: code directive
@@ -475,8 +475,8 @@ If you only want to link to a headline within a document you can use the headlin
    | ... content ...
 
 
-Links named to refences
-=======================
+Links to named references
+=========================
 
 You can link to named elements like figures, tables, and so on.
 
@@ -506,7 +506,7 @@ For more details please see `How to reference to downloadable files`_.
 Reference to document
 =====================
 
-It is even possible to refernce to a document with ``:doc:``.
+It is even possible to reference to a document with ``:doc:``.
 
 .. example:: Link to headline in the current document
    
@@ -537,7 +537,7 @@ Docutils documentation: `How to include file in document`_.
 References to external sites
 ============================
 
-We can use target-notes to mark ofte used links to external sites. The approach is used in this file, too.
+We can use target-notes to mark often used links to external sites. The approach is used in this file, too.
 The opportunity is you even get a back link, where in the document this link is been used. 
 
 .. code:: rst
@@ -600,7 +600,7 @@ glossary entry please use role ``term``.
    .. glossary::
 
       rst
-         Apprivation of :term:`reStructuredText`.
+         Abbreviation of :term:`reStructuredText`.
 
       reStructuredText
          Markdown language we currently use.
@@ -630,8 +630,8 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
 
 .. warning::
 
-   Sphinx is always reandering the content inside the only directive,
-   but is dicsarding the output if not needed.
+   Sphinx is always rendering the content inside the only directive,
+   but is discarding the output if not needed.
    So if you create objects within the only directive, they are available to the datamodel. 
 
 .. _reSTxt_style_guide_notes_and_warnings:

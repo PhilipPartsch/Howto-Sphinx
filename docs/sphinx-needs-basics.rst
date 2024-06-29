@@ -46,7 +46,7 @@ Documentation: How-to use `Sphinx-Needs Reference to Needs`_.
 .. example:: Reference to Needs
 
    :need:`R_EXAMPLE_REQUIREMENT` is here like a customer requirement,
-   where the :need:`S_EXAMPLE_SPECIFICATION` is our derivied specification.
+   where the :need:`S_EXAMPLE_SPECIFICATION` is our derived specification.
 
 Embedded a Need in a Need
 =========================
@@ -139,14 +139,14 @@ The code been expected and generated is for `plantuml`_.
 
       note right of [M_MERGE_DICTS]
          We use M_MERGE_DICTS to
-         merge python dictonaries.
+         merge python dictionaries.
       end note
 
 
 NeedArch
 ********
 
-NeedArch is extenting the functionality of NeedUML, to access local data of a Need.
+NeedArch is extending the functionality of NeedUML, to access local data of a Need.
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
 The code been expected and generated is for `plantuml`_ and
 you can use `jinja`_ to template your planuml code.

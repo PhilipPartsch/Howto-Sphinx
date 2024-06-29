@@ -56,7 +56,7 @@ Link: https://www.sphinx-needs.com
 Description: Sphinx-Needs allows to create, manage and
 analyze requirements, specifications, test cases and more inside Sphinx-based documentations.
 
-Advantages: Enhance Sphinx to support object like elements with attributes, links, content and porcess them with functions.
+Advantages: Enhance Sphinx to support object like elements with attributes, links, content and process them with functions.
 
 .. element:: Sphinx-Needs
    :id: E_SPHINX_NEEDS
@@ -135,7 +135,7 @@ Here we use the ``figure`` directive to explain how it looks like.
 Definition of a Role
 ********************
 
-A role is an inline annottaion to get an information or link destination from a script.
+A role is an inline annotation to get an information or link destination from a script.
 Here we use the ``math`` role to explain how it looks like. 
 
 .. example:: Docutils Role
@@ -163,12 +163,12 @@ How-to use Sphinx and Sphinx-Needs
 **********************************
 
 You call ``sphinx-build`` with ``input`` and ``output`` folder.
-All CLI paramters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+All CLI parameters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
 
 In the ``ìnput`` folder Sphinx expects a ``index.rst`` file and normally a ``conf.py`` file for the configuration.
 You can change the path to the configuration even with a ``sphinx-build`` parameter ``-c``.
 
-Other usefull parameter are:
+Other useful parameter are:
 
 - ``-v``, --verbose
 - ``-W``, --fail-on-warning
