@@ -1062,7 +1062,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Contract Agreement
    :id: ACQ3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1085,7 +1085,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 13-05, 13-09
@@ -1095,7 +1095,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00
@@ -1106,7 +1106,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00
@@ -1119,7 +1119,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -1132,7 +1132,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    
    .. stake_req:: ACQ.3.BP1: Negotiate the contract/agreement.
       :id: ACQ_3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT1
@@ -1153,7 +1153,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.3.BP2: Specify rights and duties.
       :id: ACQ_3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT2
@@ -1165,7 +1165,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: ACQ.3.BP3: Review contract/agreement for supplier \
       capability monitoring.
       :id: ACQ_3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT3
@@ -1177,7 +1177,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: ACQ.3.BP4: Review contract/agreement for risk mitigation \
       actions.
       :id: ACQ_3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT3
@@ -1187,7 +1187,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.3.BP5: Approve contract/agreement.
       :id: ACQ_3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT1
@@ -1196,7 +1196,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.3.BP6: Award contract/agreement.
       :id: ACQ_3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT1
@@ -1206,7 +1206,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.3.BP7: Communicate result to tenderers.
       :id: ACQ_3_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ3_OUT4
@@ -1238,7 +1238,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Supplier Monitoring
    :id: ACQ4
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1261,7 +1261,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ4_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-09
@@ -1271,7 +1271,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ4_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-14, 13-19
@@ -1281,7 +1281,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ4_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-01, 15-01
@@ -1292,7 +1292,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ4_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-01, 13-16, 14-02
@@ -1304,7 +1304,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    
    .. stake_req:: ACQ.4.BP1: Agree on and maintain jointprocesses,
       :id: ACQ4_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ4_OUT1, ACQ4_OUT2, ACQ4_OUT4
@@ -1327,7 +1327,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.4.BP2: Exchange all agreed information.
       :id: ACQ4_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ4_OUT1, ACQ4_OUT2, ACQ4_OUT3
@@ -1339,7 +1339,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.4.BP3: Review technical development with the supplier.
       :id: ACQ4_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ4_OUT1, ACQ4_OUT3, ACQ4_OUT4
@@ -1350,7 +1350,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.4.BP4: Review progress of the supplier.
       :id: ACQ4_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ4_OUT1, ACQ4_OUT3, ACQ4_OUT4
@@ -1361,7 +1361,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.4.BP5: Act to correct deviations.
       :id: ACQ4_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ4_OUT1, ACQ4_OUT3, ACQ4_OUT4
@@ -1402,7 +1402,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Technical Requirements
    :id: ACQ11
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1428,7 +1428,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ11_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-17, 14-50
@@ -1439,7 +1439,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ11_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21, 14-01, 14-02
@@ -1448,7 +1448,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ11_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -1458,7 +1458,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ11_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-28
@@ -1468,7 +1468,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: ACQ11_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-51
@@ -1480,7 +1480,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: ACQ11_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-24, 17-00, 17-03
@@ -1493,7 +1493,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP1: Elicit needs.
       :id: ACQ11_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT1
@@ -1502,7 +1502,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP2: Define technical requirements.
       :id: ACQ11_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT1
@@ -1525,7 +1525,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP3: Identify acquisition needs.
       :id: ACQ11_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT2
@@ -1534,7 +1534,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP4: Ensure consistency.
       :id: ACQ11_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT2
@@ -1544,7 +1544,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP5: Identify affected groups.
       :id: ACQ11_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT3
@@ -1554,7 +1554,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP6: Communicate to affected groups.
       :id: ACQ11_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT3
@@ -1570,7 +1570,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP7: Establish a change mechanism.
       :id: ACQ11_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT4
@@ -1583,7 +1583,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP8: Track impact of changing technology.
       :id: ACQ11_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT5
@@ -1594,7 +1594,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP9: Identify constraints and standards.
       :id: ACQ11_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT6
@@ -1604,7 +1604,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.11.BP10: Ensure compliance of stated requirements.
       :id: ACQ11_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ11_OUT6
@@ -1647,7 +1647,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Legal and Administrative Requirements
    :id: ACQ12
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1671,7 +1671,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ12_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 10-00, 17-00
@@ -1681,7 +1681,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ12_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 17-00
@@ -1691,7 +1691,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ12_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 10-00, 14-02, 17-00, 18-01
@@ -1701,7 +1701,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ12_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 17-00
@@ -1711,7 +1711,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: ACQ12_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 17-00
@@ -1720,7 +1720,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: ACQ12_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 17-00
@@ -1732,7 +1732,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: ACQ12_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 17-00
@@ -1744,7 +1744,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP1: Identify relevant regulations.
       :id: ACQ12_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT1
@@ -1753,7 +1753,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP2: Consider relevant regulations.
       :id: ACQ12_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT2
@@ -1763,7 +1763,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP3: Agree on (contractual) terms and conditions.
       :id: ACQ12_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT2
@@ -1783,7 +1783,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP4: Ensure usage of agreed terms and conditions.
       :id: ACQ12_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT2
@@ -1793,14 +1793,14 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP5: Establish acceptance criteria.
       :id: ACQ12_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT3
 
    .. stake_req:: ACQ.12.BP6: Establish escalation mechanisms.
       :id: ACQ12_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT3
@@ -1813,7 +1813,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP7: Establish management of intellectual property rights.
       :id: ACQ12_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT4
@@ -1823,7 +1823,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP8: Provide for warranties and service level agreements.
       :id: ACQ12_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT5
@@ -1832,7 +1832,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP9: Define provision for the suppliers.
       :id: ACQ12_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT6
@@ -1842,7 +1842,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.12.BP10: Establish criteria for liability issues.
       :id: ACQ12_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ12_OUT7
@@ -1883,7 +1883,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Project Requirements
    :id: ACQ13
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1907,7 +1907,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ13_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 13-19, 17-00
@@ -1917,7 +1917,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ13_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1927,7 +1927,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ13_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1938,7 +1938,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ13_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1947,7 +1947,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: ACQ13_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1957,7 +1957,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: ACQ13_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 13-20, 17-00
@@ -1966,7 +1966,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: ACQ13_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1976,7 +1976,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: ACQ13_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1988,7 +1988,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 9
       :id: ACQ13_OUT9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 17-00
@@ -1999,7 +1999,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP1: Identify relevant groups.
       :id: ACQ13_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT1
@@ -2009,7 +2009,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP2: Communicate with relevant groups.
       :id: ACQ13_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT1
@@ -2019,7 +2019,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP3: Define organizational requirements.
       :id: ACQ13_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT2
@@ -2031,7 +2031,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP4: Define management requirements.
       :id: ACQ13_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT2
@@ -2055,7 +2055,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP5: Identify required competency.
       :id: ACQ13_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT3
@@ -2065,7 +2065,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP6: Define responsibilities and goals.
       :id: ACQ13_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT3
@@ -2074,7 +2074,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP7: Identify information needs.
       :id: ACQ13_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT4
@@ -2083,7 +2083,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP8: Define exchange of information.
       :id: ACQ13_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT4
@@ -2095,7 +2095,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP9: Establish criteria for interim work products.
       :id: ACQ13_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT5
@@ -2104,7 +2104,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP10: Establish payment requirements.
       :id: ACQ13_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT5
@@ -2118,7 +2118,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP11: Identify risks.
       :id: ACQ13_BP11
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT6
@@ -2133,7 +2133,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP12: Communicate risks.
       :id: ACQ13_BP12
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT6
@@ -2142,7 +2142,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP13: Define ownership of relationships.
       :id: ACQ13_BP13
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT7
@@ -2156,7 +2156,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP14: Define rights for use and distribution.
       :id: ACQ13_BP14
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT8
@@ -2168,7 +2168,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.13.BP15: Establish support and maintenance requirements.
       :id: ACQ13_BP15
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ13_OUT9
@@ -2206,7 +2206,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Request for Proposals
    :id: ACQ14
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -2231,7 +2231,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ14_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 19-11
@@ -2241,7 +2241,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ14_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-00
@@ -2251,7 +2251,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ14_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-01
@@ -2261,7 +2261,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ14_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-00
@@ -2270,7 +2270,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: ACQ14_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-00
@@ -2279,7 +2279,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: ACQ14_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-00
@@ -2290,7 +2290,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: ACQ14_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 12-01
@@ -2303,7 +2303,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP1: Define rules for CFP / ITT.
       :id: ACQ14_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT1
@@ -2328,7 +2328,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP2: Assemble requirements.
       :id: ACQ14_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT2
@@ -2341,7 +2341,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP3: Establish terms and conditions for CFP / ITT.
       :id: ACQ14_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT3
@@ -2350,7 +2350,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP4: Define financial terms.
       :id: ACQ14_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT4
@@ -2359,7 +2359,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP5: Define project terms.
       :id: ACQ14_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT5
@@ -2371,7 +2371,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP6: Define technical terms.
       :id: ACQ14_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT6
@@ -2380,7 +2380,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP7: Identify relevant regulations.
       :id: ACQ14_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT7
@@ -2390,7 +2390,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.14.BP8: Prepare and issue a CFP / ITT.
       :id: ACQ14_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ14_OUT7
@@ -2421,7 +2421,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Supplier Qualification
    :id: ACQ15
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -2447,7 +2447,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: ACQ15_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 18-50
@@ -2456,7 +2456,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: ACQ15_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-21
@@ -2465,7 +2465,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: ACQ15_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-05
@@ -2475,7 +2475,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: ACQ15_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-16
@@ -2486,7 +2486,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: ACQ15_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-02
@@ -2497,7 +2497,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.15.BP1: Establish qualification criteria.
       :id: ACQ15_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ15_OUT1
@@ -2516,7 +2516,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.15.BP2: Evaluate supplier.
       :id: ACQ15_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ15_OUT2
@@ -2531,7 +2531,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.15.BP3: Short-list suppliers with required qualification.
       :id: ACQ15_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ15_OUT3
@@ -2541,7 +2541,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.15.BP4: Evaluate any shortfalls.
       :id: ACQ15_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ15_OUT4
@@ -2553,7 +2553,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: ACQ.15.BP5: Perform corrective actions.
       :id: ACQ15_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ15_OUT5
@@ -2586,7 +2586,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Supplier Tendering
    :id: SPL1
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -2611,7 +2611,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SPL1_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -2621,7 +2621,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SPL1_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19
@@ -2631,7 +2631,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SPL1_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-15
@@ -2640,7 +2640,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SPL1_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-12, 13-15
@@ -2649,7 +2649,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SPL1_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 12-04
@@ -2660,7 +2660,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SPL1_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-01, 13-04
@@ -2671,7 +2671,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP1: Establish communication interface.
       :id: SPL1_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT1
@@ -2681,7 +2681,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP2: Perform customer inquiry screening.
       :id: SPL1_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT1
@@ -2691,7 +2691,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP3: Establish customer proposal evaluation criteria.
       :id: SPL1_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT2
@@ -2701,7 +2701,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP4: Evaluate customer request for proposal.
       :id: SPL1_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT2
@@ -2710,7 +2710,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP5: Determine need for preliminary pre-studies.
       :id: SPL1_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT3
@@ -2720,7 +2720,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP6: Identify and nominate staff.
       :id: SPL1_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT4
@@ -2729,7 +2729,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP7: Prepare supplier proposal response.
       :id: SPL1_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT5
@@ -2738,7 +2738,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.1.BP8: Establish confirmation of agreement.
       :id: SPL1_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL1_OUT6
@@ -2773,7 +2773,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Product Release
    :id: SPL2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -2796,7 +2796,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SPL2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-16, 11-03
@@ -2805,7 +2805,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SPL2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-04, 15-03
@@ -2814,7 +2814,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SPL2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-16, 11-03, 11-04
@@ -2823,7 +2823,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SPL2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-03
@@ -2832,7 +2832,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SPL2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-13, 18-06
@@ -2841,7 +2841,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SPL2_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-03, 11-04, 11-07, 13-06
@@ -2852,7 +2852,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SPL2_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-06, 18-06
@@ -2864,7 +2864,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP1: Define the functional content of releases.
       :id: SPL2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT1, SPL2_OUT3
@@ -2877,7 +2877,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP2: Define release products.
       :id: SPL2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT1
@@ -2889,7 +2889,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP3: Establish a product release classification and numbering scheme.
       :id: SPL2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT2
@@ -2911,7 +2911,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP4: Define the build activities and build environment.
       :id: SPL2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT2
@@ -2922,7 +2922,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP5: Build the release from configured items.
       :id: SPL2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT2
@@ -2935,7 +2935,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: SPL2.BP6: Communicate the type, service level and duration of support \
       for a release.
       :id: SPL2_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT3
@@ -2945,7 +2945,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP7: Determine the delivery media type for the release.
       :id: SPL2_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT4
@@ -2960,7 +2960,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP8: Identify the packaging for the release media.
       :id: SPL2_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT4
@@ -2973,7 +2973,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: SPL.2.BP9: Define and produce the product release \
       documentation/release notes.
       :id: SPL2_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT3
@@ -2983,7 +2983,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP10: Ensure product release approval before delivery.
       :id: SPL2_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT5
@@ -2992,7 +2992,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP11: Ensure consistency.
       :id: SPL2_BP11
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT5
@@ -3002,7 +3002,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP12: Provide a release note.
       :id: SPL2_BP12
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT6
@@ -3015,7 +3015,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SPL.2.BP13: Deliver the release to the intended customer.
       :id: SPL2_BP13
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SPL2_OUT6, SPL2_OUT7
@@ -3063,7 +3063,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Requirements Elicitation
    :id: SYS1
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -3088,7 +3088,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SYS1_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 17-03
@@ -3097,7 +3097,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SYS1_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-03
@@ -3106,7 +3106,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SYS1_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21, 15-01
@@ -3117,7 +3117,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SYS1_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-19, 13-21
@@ -3126,7 +3126,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SYS1_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19
@@ -3138,7 +3138,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SYS1_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 08-20, 15-01
@@ -3150,7 +3150,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP1: Obtain stakeholder requirements and requests.
       :id: SYS1_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT1, SYS1_OUT4
@@ -3170,7 +3170,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP2: Understand stakeholder expectations.
       :id: SYS1_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT2
@@ -3183,7 +3183,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP3: Agree on requirements.
       :id: SYS1_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT2
@@ -3192,7 +3192,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP4: Establish stakeholder requirements baseline.
       :id: SYS1_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT2, SYS1_OUT3
@@ -3204,7 +3204,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP5: Manage stakeholder requirements changes.
       :id: SYS1_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT3, SYS1_OUT6
@@ -3224,7 +3224,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.1.BP6: Establish customer-supplier query communication mechanism.
       :id: SYS1_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS1_OUT5
@@ -3272,7 +3272,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: System Requirements Analysis
    :id: SYS2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -3296,7 +3296,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SYS2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21, 17-08, 17-12
@@ -3305,7 +3305,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SYS2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-50
@@ -3315,7 +3315,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SYS2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-08
@@ -3324,7 +3324,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SYS2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01
@@ -3333,7 +3333,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SYS2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-12
@@ -3342,7 +3342,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SYS2_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -3352,7 +3352,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SYS2_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01
@@ -3363,7 +3363,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: SYS2_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -3374,7 +3374,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP1: Specify system requirements.
       :id: SYS2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT1, SYS2_OUT5, SYS2_OUT7
@@ -3391,7 +3391,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP2: Structure system requirements.
       :id: SYS2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT2, SYS2_OUT4
@@ -3411,7 +3411,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP3: Analyze system requirements.
       :id: SYS2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT1, SYS2_OUT2, SYS2_OUT7
@@ -3426,7 +3426,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP4: Analyze the impact on the operating environment.
       :id: SYS2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT3, SYS2_OUT7
@@ -3437,7 +3437,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP5: Develop verification criteria.
       :id: SYS2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT2, SYS2_OUT7
@@ -3455,7 +3455,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP6: Establish bidirectional traceability.
       :id: SYS2_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT6
@@ -3468,7 +3468,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP7: Ensure consistency
       :id: SYS2_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT6
@@ -3480,7 +3480,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.2.BP8: Communicate agreed system requirements.
       :id: SYS2_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS2_OUT8
@@ -3518,7 +3518,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: System Architectural Design
    :id: SYS3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -3544,7 +3544,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SYS3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-06
@@ -3554,7 +3554,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SYS3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-06
@@ -3563,7 +3563,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SYS3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-06, 17-08
@@ -3572,7 +3572,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SYS3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-06
@@ -3581,7 +3581,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SYS3_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-06, 13-19, 13-22
@@ -3594,7 +3594,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SYS3_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -3605,7 +3605,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP1: Develop system architectural design.
       :id: SYS3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT1
@@ -3620,7 +3620,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP2: Allocate system requirements.
       :id: SYS3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT2
@@ -3630,7 +3630,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP3: Define interfaces of system elements.
       :id: SYS3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT3
@@ -3639,7 +3639,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP4: Describe dynamic behavior.
       :id: SYS3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT4
@@ -3653,7 +3653,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP5: Evaluate alternative system architectures.
       :id: SYS3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT1
@@ -3670,7 +3670,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP6: Establish bidirectional traceability.
       :id: SYS3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT5
@@ -3687,7 +3687,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP7: Ensure consistency.
       :id: SYS3_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT1, SYS3_OUT2, SYS3_OUT5, SYS3_OUT6
@@ -3702,7 +3702,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.3.BP8: Communicate agreed system architectural design.
       :id: SYS3_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS3_OUT6
@@ -3735,7 +3735,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: System Integration and Integration Test
    :id: SYS4
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -3761,7 +3761,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SYS4_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -3771,7 +3771,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SYS4_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -3781,7 +3781,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SYS4_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -3793,7 +3793,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SYS4_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-06
@@ -3803,7 +3803,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SYS4_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -3813,7 +3813,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SYS4_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-50
@@ -3823,7 +3823,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SYS4_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -3837,7 +3837,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: SYS4_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-50
@@ -3849,7 +3849,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP1: Develop system integration strategy.
       :id: SYS4_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT1
@@ -3861,7 +3861,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: SYS.4.BP2: Develop system integration test strategy including \
       regression test strategy.
       :id: SYS4_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT2
@@ -3872,7 +3872,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP3: Develop specification for system integration test.
       :id: SYS4_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT3
@@ -3905,7 +3905,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP4: Integrate system items.
       :id: SYS4_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT4
@@ -3920,7 +3920,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP5: Select test cases.
       :id: SYS4_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT5
@@ -3931,7 +3931,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP6: Perform system integration test.
       :id: SYS4_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT6
@@ -3943,7 +3943,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP7: Establish bidirectional traceability.
       :id: SYS4_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT7
@@ -3958,7 +3958,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP8: Ensure consistency.
       :id: SYS4_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT7
@@ -3971,7 +3971,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.4.BP9: Summarize and communicate results.
       :id: SYS4_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS4_OUT8
@@ -4009,7 +4009,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: System Qualification Test
    :id: SYS5
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -4033,7 +4033,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SYS5_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -4044,7 +4044,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SYS5_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -4056,7 +4056,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SYS5_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -4067,7 +4067,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SYS5_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-50
@@ -4077,7 +4077,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SYS5_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -4090,7 +4090,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SYS5_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-50
@@ -4103,7 +4103,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    .. stake_req:: SYS.5.BP1: Develop system qualification test strategy including \
       regression test strategy.
       :id: SYS5_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT1
@@ -4114,7 +4114,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP2: Develop specification for system qualification test.
       :id: SYS5_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT2
@@ -4126,7 +4126,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP3: Select test cases.
       :id: SYS5_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT3
@@ -4137,7 +4137,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP4: Test integrated system.
       :id: SYS5_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT4
@@ -4149,7 +4149,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP5: Establish bidirectional traceability.
       :id: SYS5_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT5
@@ -4163,7 +4163,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP6: Ensure consistency.
       :id: SYS5_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT5
@@ -4176,7 +4176,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SYS.5.BP7: Summarize and communicate results.
       :id: SYS5_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SYS5_OUT6
@@ -4215,7 +4215,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Requirements Analysis
    :id: SWE1
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -4239,7 +4239,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE1_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-22, 17-08, 17-11
@@ -4249,7 +4249,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE1_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-50
@@ -4259,7 +4259,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE1_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-08
@@ -4268,7 +4268,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE1_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01
@@ -4277,7 +4277,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE1_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21
@@ -4286,7 +4286,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SWE1_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -4297,7 +4297,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SWE1_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21, 15-01
@@ -4308,7 +4308,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: SWE1_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -4319,7 +4319,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP1: Specify software requirements.
       :id: SWE1_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT1, SWE1_OUT5, SWE1_OUT7
@@ -4340,7 +4340,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP2: Structure software requirements.
       :id: SWE1_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT2, SWE1_OUT4
@@ -4361,7 +4361,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP3: Analyze software requirements.
       :id: SWE1_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT2, SWE1_OUT7
@@ -4376,7 +4376,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP4: Analyze the impact on the operating environment.
       :id: SWE1_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT3, SWE1_OUT7
@@ -4389,7 +4389,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP5: Develop verification criteria.
       :id: SWE1_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT2, SWE1_OUT7
@@ -4406,7 +4406,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP6: Establish bidirectional traceability.
       :id: SWE1_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT6
@@ -4423,7 +4423,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP7: Ensure consistency.
       :id: SWE1_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT6
@@ -4441,7 +4441,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.1.BP8: Communicate agreed software requirements.
       :id: SWE1_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT8
@@ -4479,7 +4479,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Architectural Design
    :id: SWE2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -4505,7 +4505,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04
@@ -4515,7 +4515,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04
@@ -4525,7 +4525,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04, 17-08
@@ -4534,7 +4534,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04
@@ -4544,7 +4544,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04, 13-19, 13-22
@@ -4555,7 +4555,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SWE2_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -4567,7 +4567,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP1: Develop software architectural design.
       :id: SWE2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT1
@@ -4584,7 +4584,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP2: Allocate software requirements.
       :id: SWE2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT2
@@ -4594,7 +4594,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP3: Define interfaces of software elements.
       :id: SWE2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT3
@@ -4604,7 +4604,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP4: Describe dynamic behavior.
       :id: SWE2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT4
@@ -4624,7 +4624,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP5: Define resource consumption objectives.
       :id: SWE2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT4
@@ -4639,7 +4639,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP6: Evaluate alternative software architectures.
       :id: SWE2_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT1, SWE1_OUT2, SWE1_OUT3, SWE1_OUT4, SWE1_OUT5
@@ -4657,7 +4657,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP7: Establish bidirectional traceability.
       :id: SWE2_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT5
@@ -4675,7 +4675,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP8: Ensure consistency.
       :id: SWE2_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT1, SWE1_OUT2, SWE1_OUT5, SWE1_OUT6
@@ -4688,7 +4688,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.2.BP9: Communicate agreed software architectural design.
       :id: SWE2_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE1_OUT6
@@ -4721,7 +4721,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Detailed Design and Unit Construction 
    :id: SWE3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -4745,7 +4745,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-05
@@ -4754,7 +4754,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-05
@@ -4763,7 +4763,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-05
@@ -4772,7 +4772,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -4785,7 +4785,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE3_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -4797,7 +4797,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SWE3_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-05
@@ -4808,7 +4808,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP1: Develop software detailed design.
       :id: SWE3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT1
@@ -4819,7 +4819,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP2: Define interfaces of software units.
       :id: SWE3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT2
@@ -4828,7 +4828,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP3: Describe dynamic behavior.
       :id: SWE3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT3
@@ -4839,7 +4839,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP4: Evaluate software detailed design.
       :id: SWE3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT1, SWE3_OUT2, SWE3_OUT3, SWE3_OUT4
@@ -4851,7 +4851,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP5: Establish bidirectional traceability.
       :id: SWE3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT4
@@ -4868,7 +4868,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP6: Ensure consistency.
       :id: SWE3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT4
@@ -4881,7 +4881,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP7: Communicate agreed software detailed design.
       :id: SWE3_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT5
@@ -4891,7 +4891,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.3.BP8: Develop software units.
       :id: SWE3_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE3_OUT6
@@ -4923,7 +4923,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Unit Verification 
    :id: SWE4
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -4948,7 +4948,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE4_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -4959,7 +4959,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE4_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -4975,7 +4975,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE4_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-25, 13-50, 15-01
@@ -4988,7 +4988,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE4_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -5001,7 +5001,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE4_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-25, 13-50
@@ -5014,7 +5014,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP1: Develop software unit verification strategy including regression strategy.
       :id: SWE4_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT1
@@ -5029,7 +5029,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP2: Develop criteria for unit verification.
       :id: SWE4_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT2
@@ -5048,7 +5048,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP3: Perform static verification of software units.
       :id: SWE4_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT3
@@ -5063,7 +5063,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP4: Test software units.
       :id: SWE4_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT3
@@ -5075,7 +5075,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP5: Establish bidirectional traceability.
       :id: SWE4_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT4
@@ -5089,7 +5089,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP6: Ensure consistency.
       :id: SWE4_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT4
@@ -5101,7 +5101,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.4.BP7: Summarize and communicate results.
       :id: SWE4_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE4_OUT5
@@ -5142,7 +5142,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Integration and Integration Test 
    :id: SWE5
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -5169,7 +5169,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE5_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -5179,7 +5179,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE5_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -5189,7 +5189,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE5_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -5201,7 +5201,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE5_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 01-03, 01-50, 17-02
@@ -5211,7 +5211,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE5_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -5221,7 +5221,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SWE5_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-50
@@ -5231,7 +5231,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SWE5_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22, 17-02
@@ -5242,7 +5242,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: SWE5_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-50
@@ -5254,7 +5254,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP1: Develop software integration strategy.
       :id: SWE5_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT1
@@ -5265,7 +5265,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP2: Develop software integration test strategy including regression test strategy.
       :id: SWE5_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT2
@@ -5276,7 +5276,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP3: Develop specification for software integration test.
       :id: SWE5_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT3
@@ -5304,7 +5304,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP4: Integrate software units and software items.
       :id: SWE5_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT4
@@ -5315,7 +5315,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP5: Select test cases.
       :id: SWE5_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT5
@@ -5326,7 +5326,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP6: Perform software integration test.
       :id: SWE5_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT6
@@ -5341,7 +5341,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP7: Establish bidirectional traceability.
       :id: SWE5_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT7
@@ -5355,7 +5355,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP8: Ensure consistency.
       :id: SWE5_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT7
@@ -5368,7 +5368,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.5.BP9: Summarize and communicate results.
       :id: SWE5_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE5_OUT8
@@ -5410,7 +5410,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Software Qualification Test 
    :id: SWE6
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -5434,7 +5434,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SWE6_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52
@@ -5447,7 +5447,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SWE6_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -5462,7 +5462,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SWE6_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -5475,7 +5475,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SWE6_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-50
@@ -5487,7 +5487,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SWE6_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -5501,7 +5501,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SWE6_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-50
@@ -5514,7 +5514,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP1: Develop software qualification test strategy including regression test strategy.
       :id: SWE6_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT1
@@ -5525,7 +5525,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP2: Develop specification for software qualification test.
       :id: SWE6_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT2
@@ -5537,7 +5537,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP3: Select test cases.
       :id: SWE6_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT3
@@ -5547,7 +5547,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP4: Test integrated software.
       :id: SWE6_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT4
@@ -5559,7 +5559,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP5: Establish bidirectional traceability.
       :id: SWE6_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT5
@@ -5573,7 +5573,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP6: Ensure consistency.
       :id: SWE6_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT5
@@ -5586,7 +5586,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SWE.6.BP7: Summarize and communicate results.
       :id: SWE6_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SWE6_OUT6
@@ -5626,7 +5626,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Quality Assurance 
    :id: SUP1
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -5651,7 +5651,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP1_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-13, 18-07
@@ -5662,7 +5662,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP1_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-13, 13-18, 13-19
@@ -5673,7 +5673,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP1_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-07, 13-18, 13-19, 14-02
@@ -5687,7 +5687,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP1_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-18, 13-19
@@ -5700,7 +5700,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP1_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-07, 14-02
@@ -5711,7 +5711,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SUP1_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-02
@@ -5723,7 +5723,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP1: Develop a project quality assurance strategy.
       :id: SUP1_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT1, SUP1_OUT2
@@ -5748,7 +5748,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP2: Assure quality of work products.
       :id: SUP1_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT2, SUP1_OUT3, SUP1_OUT4
@@ -5764,7 +5764,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP3: Assure quality of process activities.
       :id: SUP1_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT2, SUP1_OUT3, SUP1_OUT4
@@ -5780,7 +5780,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP4: Summarize and communicate quality assurance activities and results.
       :id: SUP1_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT3, SUP1_OUT4
@@ -5791,7 +5791,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP5: Ensure resolution of non-conformances.
       :id: SUP1_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT3, SUP1_OUT6
@@ -5801,7 +5801,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.1.BP6: Implement an escalation mechanism.
       :id: SUP1_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP1_OUT5, SUP1_OUT6
@@ -5842,7 +5842,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Verification 
    :id: SUP2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -5866,7 +5866,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 19-10
@@ -5876,7 +5876,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-25, 18-07
@@ -5886,7 +5886,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07, 13-25
@@ -5896,7 +5896,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07, 13-25, 14-02
@@ -5906,7 +5906,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-07, 13-25
@@ -5919,7 +5919,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.2.BP1: Develop a verification strategy.
       :id: SUP2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP2_OUT1
@@ -5941,7 +5941,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.2.BP2: Develop criteria for verification.
       :id: SUP2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP2_OUT2
@@ -5950,7 +5950,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.2.BP3: Conduct verification.
       :id: SUP2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP2_OUT3
@@ -5961,7 +5961,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.2.BP4: Determine and track actions for verification results.
       :id: SUP2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP2_OUT4
@@ -5972,7 +5972,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.2.BP5: Report verification results.
       :id: SUP2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP2_OUT5
@@ -6007,7 +6007,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Joint Review 
    :id: SUP4
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -6033,7 +6033,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP4_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-05, 13-09, 13-19, 15-13
@@ -6042,7 +6042,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP4_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-05, 13-09, 13-19, 15-13
@@ -6052,7 +6052,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP4_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-05, 13-07, 13-19, 14-02, 14-08, 15-01, 15-16
@@ -6061,7 +6061,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP4_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 14-02, 14-08, 15-16
@@ -6070,7 +6070,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP4_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07, 13-19, 14-02, 14-08, 15-01
@@ -6091,7 +6091,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP1: Define review elements.
       :id: SUP4_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT1
@@ -6103,7 +6103,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP2: Establish a mechanism to handle review outcomes.
       :id: SUP4_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT3
@@ -6114,7 +6114,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP3: Prepare joint review.
       :id: SUP4_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT1
@@ -6129,7 +6129,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP4: Conduct joint reviews.
       :id: SUP4_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT1, SUP4_OUT2
@@ -6138,7 +6138,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP5: Distribute the results.
       :id: SUP4_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT3
@@ -6147,7 +6147,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP6: Determine actions for review results.
       :id: SUP4_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT4
@@ -6156,7 +6156,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP7: Track actions for review results.
       :id: SUP4_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT4
@@ -6165,7 +6165,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.4.BP8: Identify and record problems.
       :id: SUP4_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP4_OUT5
@@ -6211,7 +6211,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Documentation 
    :id: SUP7
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -6235,7 +6235,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP7_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-26
@@ -6248,7 +6248,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP7_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-26
@@ -6259,7 +6259,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP7_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-11
@@ -6270,7 +6270,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP7_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-01, 13-19
@@ -6281,7 +6281,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP7_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-01, 13-19, 14-01
@@ -6292,7 +6292,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SUP7_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-01
@@ -6305,7 +6305,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP1: Develop a documentation management strategy.
       :id: SUP7_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT1
@@ -6324,7 +6324,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP2: Establish standards for documentation.
       :id: SUP7_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT2
@@ -6333,7 +6333,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP3: Specify documentation requirements.
       :id: SUP7_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT2
@@ -6343,7 +6343,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP4: Identify the relevant documentation to be produced
       :id: SUP7_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT3
@@ -6352,7 +6352,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP5: Develop documentation.
       :id: SUP7_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT4, SUP7_OUT5
@@ -6362,7 +6362,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP6: Check documentation.
       :id: SUP7_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT5
@@ -6378,7 +6378,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP7: Distribute documentation.
       :id: SUP7_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT5
@@ -6388,7 +6388,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.7.BP8: Maintain documentation.
       :id: SUP7_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP7_OUT6
@@ -6423,7 +6423,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Configuration Management
    :id: SUP8
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -6446,7 +6446,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP8_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-04, 08-14, 16-03
@@ -6455,7 +6455,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP8_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-04, 13-08, 13-10
@@ -6465,7 +6465,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP8_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 06-02, 13-08, 14-01, 16-03
@@ -6474,7 +6474,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP8_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 06-02, 13-08, 16-03
@@ -6483,7 +6483,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP8_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 06-02, 13-08, 13-10
@@ -6492,7 +6492,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SUP8_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-08
@@ -6501,7 +6501,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SUP8_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 06-02, 08-04, 08-14, 13-10
@@ -6512,7 +6512,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP1: Develop a configuration management strategy.
       :id: SUP8_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT1
@@ -6546,7 +6546,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP2: Identify configuration items.
       :id: SUP8_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT2
@@ -6559,7 +6559,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP3: Establish a configuration management system.
       :id: SUP8_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT1, SUP8_OUT2, SUP8_OUT3, SUP8_OUT4, SUP8_OUT6, SUP8_OUT7
@@ -6568,7 +6568,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP4: Establish branch management.
       :id: SUP8_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT1, SUP8_OUT3, SUP8_OUT4, SUP8_OUT6, SUP8_OUT7
@@ -6578,7 +6578,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP5: Control modifications and releases.
       :id: SUP8_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT3, SUP8_OUT4, SUP8_OUT5
@@ -6589,7 +6589,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP6: Establish baselines.
       :id: SUP8_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT2
@@ -6601,7 +6601,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP7: Report configuration status.
       :id: SUP8_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT5
@@ -6615,7 +6615,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP8: Verify the information about configured items.
       :id: SUP8_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT6
@@ -6627,7 +6627,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.8.BP9: Manage the storage of configuration items and baselines.
       :id: SUP8_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP8_OUT4, SUP8_OUT5, SUP8_OUT6, SUP8_OUT7
@@ -6674,7 +6674,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Problem Resolution Management 
    :id: SUP9
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -6697,7 +6697,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP9_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-27
@@ -6706,7 +6706,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP9_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07
@@ -6715,7 +6715,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP9_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07, 15-01, 15-05
@@ -6724,7 +6724,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP9_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07
@@ -6733,7 +6733,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP9_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-07
@@ -6742,7 +6742,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SUP9_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-12
@@ -6753,7 +6753,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP1: Develop a problem resolution management strategy.
       :id: SUP9_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT1
@@ -6769,7 +6769,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP2: Identify and record the problem.
       :id: SUP9_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT2
@@ -6785,7 +6785,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP3: Record the status of problems.
       :id: SUP9_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT6
@@ -6794,7 +6794,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP4: Diagnose the cause and determine the impact of the problem.
       :id: SUP9_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT2, SUP9_OUT3
@@ -6807,7 +6807,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP5: Authorize urgent resolution action.
       :id: SUP9_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT4
@@ -6818,7 +6818,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP6: Raise alert notifications.
       :id: SUP9_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT4
@@ -6829,7 +6829,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP7: Initiate problem resolution.
       :id: SUP9_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT4
@@ -6848,7 +6848,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP8: Track problems to closure.
       :id: SUP9_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT5, SUP9_OUT6
@@ -6859,7 +6859,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.9.BP9: Analyze problem trends.
       :id: SUP9_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP9_OUT6
@@ -6894,7 +6894,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Change Request Management 
    :id: SUP10
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -6918,7 +6918,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: SUP10_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-28
@@ -6928,7 +6928,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: SUP10_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16
@@ -6938,7 +6938,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: SUP10_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16
@@ -6948,7 +6948,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: SUP10_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16
@@ -6958,7 +6958,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: SUP10_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16
@@ -6968,7 +6968,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: SUP10_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16
@@ -6979,7 +6979,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: SUP10_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16, 13-19
@@ -6989,7 +6989,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: SUP10_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21
@@ -6999,7 +6999,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 9
       :id: SUP10_OUT9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-21
@@ -7012,7 +7012,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP1: Develop a change request management strategy.
       :id: SUP10_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT1
@@ -7036,7 +7036,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP2: Identify and record the change requests.
       :id: SUP10_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT2, SUP10_OUT3
@@ -7046,7 +7046,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP3: Record the status of change requests.
       :id: SUP10_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT8
@@ -7055,7 +7055,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP4: Analyze and assess change requests.
       :id: SUP10_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT3, SUP10_OUT4, SUP10_OUT5, SUP10_OUT9
@@ -7066,7 +7066,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP5: Approve change requests before implementation.
       :id: SUP10_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT6
@@ -7080,7 +7080,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP6: Review the implementation of change requests.
       :id: SUP10_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT7, SUP10_OUT8
@@ -7090,7 +7090,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP7: Track change requests to closure.
       :id: SUP10_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT7, SUP10_OUT8
@@ -7099,7 +7099,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: SUP.10.BP8: Establish bidirectional traceability.
       :id: SUP10_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SUP10_OUT9
@@ -7138,7 +7138,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Project Management 
    :id: MAN3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -7162,7 +7162,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: MAN3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-12
@@ -7171,7 +7171,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: MAN3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19
@@ -7181,7 +7181,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: MAN3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-12, 14-06, 14-09
@@ -7190,7 +7190,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: MAN3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-12, 13-04, 14-09, 14-50, 15-06
@@ -7200,7 +7200,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: MAN3_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-12, 14-06, 14-09
@@ -7209,7 +7209,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: MAN3_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 15-06
@@ -7218,7 +7218,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: MAN3_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-16, 13-19, 14-02
@@ -7230,7 +7230,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP1: Define the scope of work.
       :id: MAN3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT1
@@ -7239,7 +7239,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP2: Define project life cycle.
       :id: MAN3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT2
@@ -7252,7 +7252,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP3: Evaluate feasibility of the project.
       :id: MAN3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT2
@@ -7263,7 +7263,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP4: Define, monitor and adjust project activities.
       :id: MAN3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT3, MAN3_OUT5, MAN3_OUT7
@@ -7279,7 +7279,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP5: Define, monitor and adjust project estimates and resources.
       :id: MAN3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT2, MAN3_OUT3, MAN3_OUT7
@@ -7300,7 +7300,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP6: Ensure required skills, knowledge, and experience.
       :id: MAN3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT3, MAN3_OUT7
@@ -7313,7 +7313,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP7: Identify, monitor and adjust project interfaces and agreed commitments.
       :id: MAN3_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT4, MAN3_OUT7
@@ -7325,7 +7325,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP8: Define, monitor and adjust project schedule.
       :id: MAN3_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT3, MAN3_OUT5, MAN3_OUT7
@@ -7338,7 +7338,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP9: Ensure consistency.
       :id: MAN3_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT3, MAN3_OUT4, MAN3_OUT5, MAN3_OUT7
@@ -7348,7 +7348,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.3.BP10: Review and report progress of the project.
       :id: MAN3_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN3_OUT6, MAN3_OUT7
@@ -7394,7 +7394,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Risk Management 
    :id: MAN5
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -7418,7 +7418,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: MAN5_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 13-20
@@ -7428,7 +7428,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: MAN5_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 13-20
@@ -7438,7 +7438,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: MAN5_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 08-20
@@ -7448,7 +7448,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: MAN5_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-14, 08-19, 08-20, 15-08, 15-09
@@ -7459,7 +7459,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: MAN5_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 07-07, 08-19, 08-20, 14-08, 15-09
@@ -7471,7 +7471,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: MAN5_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-14, 08-19, 08-20, 13-20, 14-02, 14-08
@@ -7486,7 +7486,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP1: Establish risk management scope.
       :id: MAN5_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT1
@@ -7498,7 +7498,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP2: Define risk management strategies.
       :id: MAN5_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT2
@@ -7508,7 +7508,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP3: Identify risks.
       :id: MAN5_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT2, MAN5_OUT3
@@ -7525,7 +7525,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP4: Analyze risks.
       :id: MAN5_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT4
@@ -7539,7 +7539,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP5: Define risk treatment actions.
       :id: MAN5_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT5, MAN5_OUT6
@@ -7549,7 +7549,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP6: Monitor risks.
       :id: MAN5_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT5, MAN5_OUT6
@@ -7562,7 +7562,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.5.BP7: Take corrective action.
       :id: MAN5_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN5_OUT6
@@ -7608,7 +7608,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Measurement 
    :id: MAN6
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -7633,7 +7633,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: MAN6_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-01
@@ -7643,7 +7643,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: MAN6_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01
@@ -7653,7 +7653,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: MAN6_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 07-01, 07-02, 07-03, 07-04, 07-05, 07-06, 07-07, 07-08
@@ -7663,7 +7663,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: MAN6_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 07-03, 07-04, 07-05, 07-06, 07-07, 07-08
@@ -7672,7 +7672,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: MAN6_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 03-03, 03-04, 15-01, 15-05, 15-18
@@ -7681,7 +7681,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: MAN6_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 03-06
@@ -7691,7 +7691,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: MAN6_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 07-01, 07-02, 07-03, 07-04, 07-05, 07-06, 07-07, 07-08, 15-05, 15-18
@@ -7703,7 +7703,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP1: Establish organizational commitment for measurement.
       :id: MAN6_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT1
@@ -7713,7 +7713,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP2: Develop measurement strategy.
       :id: MAN6_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT1
@@ -7724,7 +7724,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP3: Identify measurement information needs.
       :id: MAN6_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT2
@@ -7733,7 +7733,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP4: Specify measures.
       :id: MAN6_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT3
@@ -7742,7 +7742,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP5: Perform measurement activities.
       :id: MAN6_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT4
@@ -7751,7 +7751,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP6: Retrieve measurement data.
       :id: MAN6_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT5
@@ -7761,7 +7761,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP7: Analyze measures.
       :id: MAN6_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT5
@@ -7770,7 +7770,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP8: Use measurement information for decision-making.
       :id: MAN6_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT6
@@ -7780,7 +7780,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP9: Communicate measures.
       :id: MAN6_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT5, MAN6_OUT6
@@ -7790,7 +7790,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP10: Evaluate information products and measurement activities.
       :id: MAN6_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT7
@@ -7805,7 +7805,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: MAN.6.BP11: Communicate potential improvements.
       :id: MAN6_BP11
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN6_OUT7
@@ -7866,7 +7866,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Process Improvement 
    :id: PIM3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -7890,7 +7890,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: PIM3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-01
@@ -7899,7 +7899,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: PIM3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-00, 13-16, 15-05, 15-16
@@ -7909,7 +7909,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: PIM3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-05, 15-13, 15-16
@@ -7919,7 +7919,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: PIM3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 05-00, 06-04, 08-00, 08-29, 10-00, 15-05, 15-16, 16-06
@@ -7929,7 +7929,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: PIM3_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-05, 15-13
@@ -7939,7 +7939,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: PIM3_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 06-04, 07-04, 13-04
@@ -7948,7 +7948,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: PIM3_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-00, 15-05, 15-16
@@ -7960,7 +7960,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP1: Establish commitment.
       :id: PIM3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT1
@@ -7978,7 +7978,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP2: Identify issues.
       :id: PIM3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT2, PIM3_OUT3
@@ -7999,7 +7999,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP3: Establish process improvement goals.
       :id: PIM3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT3
@@ -8012,7 +8012,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP4: Prioritize improvements.
       :id: PIM3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT4
@@ -8021,7 +8021,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP5: Plan process changes.
       :id: PIM3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT4
@@ -8042,7 +8042,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP6: Implement process changes.
       :id: PIM3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT4
@@ -8057,7 +8057,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP7: Confirm process improvement.
       :id: PIM3_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT5
@@ -8070,7 +8070,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP8: Communicate results of improvement.
       :id: PIM3_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT6
@@ -8081,7 +8081,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: PIM.3.BP9: Evaluate the results of the improvement project.
       :id: PIM3_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: PIM3_OUT7
@@ -8137,7 +8137,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 .. stake_req:: Reuse Program Management 
    :id: REU2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -8162,7 +8162,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 1
       :id: REU2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 09-03, 19-05
@@ -8173,7 +8173,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 2
       :id: REU2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-02, 04-03
@@ -8183,7 +8183,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 3
       :id: REU2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-13
@@ -8195,7 +8195,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 4
       :id: REU2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 12-03, 15-13
@@ -8205,7 +8205,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 5
       :id: REU2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-17, 15-07
@@ -8216,7 +8216,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 6
       :id: REU2_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-17, 15-07
@@ -8226,7 +8226,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 7
       :id: REU2_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -8238,7 +8238,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: 8
       :id: REU2_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-07
@@ -8250,7 +8250,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP1: Define organizational reuse strategy.
       :id: REU2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT2
@@ -8263,7 +8263,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP3: Assess domains for potential reuse.
       :id: REU2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT3
@@ -8272,7 +8272,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP4: Assess reuse maturity.
       :id: REU2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT4
@@ -8282,7 +8282,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP5: Evaluate reuse proposals.
       :id: REU2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT5
@@ -8291,7 +8291,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP6: Implement the reuse program.
       :id: REU2_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT6
@@ -8300,7 +8300,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP7: Get feedback from reuse.
       :id: REU2_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT7, REU2_OUT8
@@ -8313,7 +8313,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
    .. stake_req:: REU.2.BP8: Monitor reuse.
       :id: REU2_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: REU2_OUT6, REU2_OUT8
@@ -9348,7 +9348,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Configuration item
    :id: 01-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9373,7 +9373,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Software item
    :id: 01-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9398,7 +9398,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Integrated software
    :id: 01-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9408,7 +9408,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Application parameter
    :id: 01-51
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9427,7 +9427,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Contract
    :id: 02-00_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9454,7 +9454,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Commitment / agreement
    :id: 02-01_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9471,7 +9471,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Data
    :id: 03-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9480,7 +9480,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Benchmarking data
    :id: 03-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9491,7 +9491,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Customer satisfaction data
    :id: 03-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9506,7 +9506,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Process performance data
    :id: 03-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9521,7 +9521,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Design
    :id: 04-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9537,7 +9537,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Domain architecture
    :id: 04-02
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9551,7 +9551,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Domain model
    :id: 04-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9561,7 +9561,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Software architectural design
    :id: 04-04_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9588,7 +9588,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Software detailed design
    :id: 04-05_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9606,7 +9606,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: System architectural design
    :id: 04-06_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9636,7 +9636,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Goals
    :id: 05-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9652,7 +9652,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: User documentation
    :id: 06-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9668,7 +9668,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Customer manual
    :id: 06-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9695,7 +9695,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Handling and storage guide
    :id: 06-02
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9718,7 +9718,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Training material
    :id: 06-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9729,7 +9729,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Measure
    :id: 07-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9748,7 +9748,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Customer satisfaction survey
    :id: 07-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9761,7 +9761,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Field measure
    :id: 07-02
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9780,7 +9780,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Personnel performance measure
    :id: 07-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9796,7 +9796,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Process measure
    :id: 07-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9813,7 +9813,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Project measure
    :id: 07-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9836,7 +9836,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Quality measure
    :id: 07-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9856,7 +9856,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk measure
    :id: 07-07_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9868,7 +9868,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Service level measure
    :id: 07-08
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9887,7 +9887,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Plan
    :id: 08-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9927,7 +9927,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Configuration management plan
    :id: 08-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9943,7 +9943,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Project plan
    :id: 08-12
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9963,7 +9963,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Quality plan
    :id: 08-13
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -9988,7 +9988,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Recovery plan
    :id: 08-14_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10013,7 +10013,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Release plan
    :id: 08-16
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10024,7 +10024,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Reuse plan
    :id: 08-17
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10050,7 +10050,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Review plan
    :id: 08-18
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10074,7 +10074,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk management plan
    :id: 08-19_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10092,7 +10092,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk mitigation plan
    :id: 08-20_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10130,7 +10130,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Documentation plan
    :id: 08-26
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10146,7 +10146,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Problem management plan
    :id: 08-27
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10160,7 +10160,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Change management plan
    :id: 08-28
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10173,7 +10173,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Improvement plan
    :id: 08-29
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10188,7 +10188,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Test specification
    :id: 08-50_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10207,7 +10207,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Technology monitoring plan
    :id: 08-51
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10216,7 +10216,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Test plan
    :id: 08-52_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10257,7 +10257,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Policy
    :id: 09-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10268,7 +10268,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Reuse policy
    :id: 09-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10284,7 +10284,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Process description
    :id: 10-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10309,7 +10309,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Product
    :id: 11-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10321,7 +10321,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Product release information
    :id: 11-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10342,7 +10342,7 @@ Table B.2 — Work product characteristics
       -  hardware / software / product elements, libraries, etc.
       -  associated documentation list
 
-   •  New/changed parameter information (e.g. for application parameters or global
+   •  new parameter information (e.g. for application parameters or global
       variables) and/or commands
    •  Backup and recovery information
    •  List of open known problems, faults, warning information, etc.
@@ -10355,7 +10355,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Product release package
    :id: 11-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10372,7 +10372,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Software unit
    :id: 11-05_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10404,7 +10404,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: System
    :id: 11-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10421,7 +10421,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Temporary solution
    :id: 11-07
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10442,7 +10442,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Proposal
    :id: 12-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10459,7 +10459,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Request for proposal
    :id: 12-01_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10483,7 +10483,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Reuse proposal
    :id: 12-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10498,7 +10498,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Supplier proposal response
    :id: 12-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10515,7 +10515,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Record
    :id: 13-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10526,7 +10526,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Acceptance record
    :id: 13-01_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10539,7 +10539,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Communication record
    :id: 13-04_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10561,7 +10561,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Contract review record
    :id: 13-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10578,7 +10578,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Delivery record
    :id: 13-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10594,7 +10594,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Problem record
    :id: 13-07
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10611,7 +10611,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Baseline
    :id: 13-08
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10626,7 +10626,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Meeting support record
    :id: 13-09
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10644,7 +10644,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Configuration management record
    :id: 13-10
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10657,7 +10657,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Product release approval record
    :id: 13-13
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10673,7 +10673,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Progress status record
    :id: 13-14_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10691,7 +10691,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Proposal review record
    :id: 13-15
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10709,7 +10709,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Change request
    :id: 13-16_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10724,7 +10724,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Customer request
    :id: 13-17
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10762,7 +10762,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Quality record
    :id: 13-18
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10777,7 +10777,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Review record
    :id: 13-19_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10816,7 +10816,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk action request
    :id: 13-20_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10861,7 +10861,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Change control record
    :id: 13-21
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10882,7 +10882,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Traceability record
    :id: 13-22_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10900,7 +10900,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Validation results
    :id: 13-24_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10917,7 +10917,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Verification results
    :id: 13-25_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10934,7 +10934,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Test results
    :id: 13-50_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10954,7 +10954,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Register
    :id: 14-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10968,7 +10968,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Change history
    :id: 14-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10984,7 +10984,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Corrective action register
    :id: 14-02_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -10998,7 +10998,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Preferred suppliers register
    :id: 14-05_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11011,7 +11011,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Schedule
    :id: 14-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11027,7 +11027,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Tracking system
    :id: 14-08_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11049,7 +11049,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Work breakdown structure
    :id: 14-09
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11064,7 +11064,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Work product list
    :id: 14-11
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11082,7 +11082,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Stakeholder groups list
    :id: 14-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11096,7 +11096,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Report
    :id: 15-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11110,7 +11110,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Analysis report
    :id: 15-01_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11143,7 +11143,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Configuration status report
    :id: 15-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11158,7 +11158,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Evaluation report
    :id: 15-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11182,7 +11182,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Project status report
    :id: 15-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11217,7 +11217,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Reuse evaluation report
    :id: 15-07
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11231,7 +11231,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk analysis report
    :id: 15-08_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11245,7 +11245,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Risk status report
    :id: 15-09_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11264,7 +11264,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Problem status report
    :id: 15-12
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11279,7 +11279,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Assessment/audit report
    :id: 15-13
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11307,7 +11307,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Improvement opportunity
    :id: 15-16
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11320,7 +11320,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Process performance report
    :id: 15-18
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11329,7 +11329,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Supplier evaluation report
    :id: 15-21_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11338,7 +11338,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Repository
    :id: 16-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11354,7 +11354,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Configuration management system
    :id: 16-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11367,7 +11367,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Process repository
    :id: 16-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11377,7 +11377,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Requirement specification
    :id: 17-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11390,7 +11390,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Build list
    :id: 17-02
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11403,7 +11403,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Stakeholder requirements
    :id: 17-03
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11430,7 +11430,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Documentation requirements
    :id: 17-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11447,7 +11447,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Interface requirements specification
    :id: 17-08
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11471,7 +11471,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Software requirements specification
    :id: 17-11_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11491,7 +11491,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: System requirements specification
    :id: 17-12_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11529,7 +11529,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Verification criteria
    :id: 17-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11542,7 +11542,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Standard
    :id: 18-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11554,7 +11554,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Acceptance criteria
    :id: 18-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11570,7 +11570,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Product release criteria
    :id: 18-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11586,7 +11586,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Quality criteria
    :id: 18-07
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11603,7 +11603,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Supplier qualification criteria
    :id: 18-50_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11617,7 +11617,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Strategy
    :id: 19-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11629,7 +11629,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Reuse strategy
    :id: 19-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11643,7 +11643,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Verification strategy
    :id: 19-10_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11662,7 +11662,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Validation strategy
    :id: 19-11_old
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11679,7 +11679,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Template
    :id: 20-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -11691,7 +11691,7 @@ Table B.2 — Work product characteristics
 
 .. stake_req:: Work product
    :id: 21-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact

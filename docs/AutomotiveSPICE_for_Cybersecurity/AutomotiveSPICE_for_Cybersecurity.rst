@@ -502,7 +502,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Supplier request and selection
    :id: ACQ2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -525,7 +525,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: ACQ2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 18-50
@@ -534,7 +534,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: ACQ2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-05, 15-21
@@ -543,7 +543,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: ACQ2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 12-01, 14-02
@@ -552,7 +552,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: ACQ2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 02-00, 02-01, 02-50, 08-20, 14-02
@@ -564,7 +564,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: ACQ.2.BP1: Establish supplier evaluation criteria.
       :id: ACQ2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ2_OUT1
@@ -590,7 +590,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: ACQ.2.BP2: Evaluate potential suppliers.
       :id: ACQ2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ2_OUT2
@@ -612,7 +612,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: ACQ.2.BP3: Prepare and execute request for quotation
       :id: ACQ2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ2_OUT3, ACQ2_OUT4
@@ -634,7 +634,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: ACQ.2.BP4: Negotiate and award the contract/agreement.
       :id: ACQ2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: ACQ2_OUT4
@@ -716,7 +716,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Cybersecurity Risk Management
    :id: MAN7
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -740,7 +740,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: MAN7_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 14-51, 14-52
@@ -749,7 +749,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: MAN7_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19
@@ -758,7 +758,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: MAN7_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 14-51, 14-52
@@ -767,7 +767,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: MAN7_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 14-08
@@ -776,7 +776,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 5
       :id: MAN7_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-19, 14-08, 14-51, 15-08
@@ -785,7 +785,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 6
       :id: MAN7_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 07-07, 08-14, 08-19, 13-20, 14-08, 15-08, 15-09
@@ -794,7 +794,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 7
       :id: MAN7_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-14, 08-19, 13-20, 14-08, 15-09
@@ -803,7 +803,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 8
       :id: MAN7_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-14, 08-19, 13-20, 14-08, 15-09
@@ -814,7 +814,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP1: Determine cybersecurity risk management scope.
       :id: MAN7_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT1
@@ -831,7 +831,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP2: Define cybersecurity risk management practices.
       :id: MAN7_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT2
@@ -854,7 +854,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP3: Identify potential risks.
       :id: MAN7_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT3
@@ -869,7 +869,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP4: Prioritize potential risks initially for damage.
       :id: MAN7_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT4
@@ -881,7 +881,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP5: Analyze potential risks and evaluate risks.
       :id: MAN7_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT5
@@ -897,7 +897,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP6: Define risk treatment option.
       :id: MAN7_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT6
@@ -909,7 +909,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP7: Monitor risks.
       :id: MAN7_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT7
@@ -924,7 +924,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: MAN.7.BP8: Take corrective action.
       :id: MAN7_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: MAN7_OUT8
@@ -1018,7 +1018,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Cybersecurity Requirements Elicitation
    :id: SEC1
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1044,7 +1044,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: SEC1_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-11, 17-12, 17-51
@@ -1053,7 +1053,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: SEC1_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-01, 17-11, 17-12
@@ -1063,7 +1063,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: SEC1_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -1075,7 +1075,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: SEC1_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -1087,7 +1087,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.1.BP1: Derive cybersecurity goals and cybersecurity requirements.
       :id: SEC1_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC1_OUT1, SEC1_OUT2
@@ -1103,7 +1103,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.1.BP2: Establish bidirectional traceability.
       :id: SEC1_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC1_OUT3
@@ -1114,7 +1114,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.1.BP3: Ensure consistency.
       :id: SEC1_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
 
@@ -1123,7 +1123,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.1.BP4: Communicate agreed cybersecurity requirements.
       :id: SEC1_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC1_OUT4
@@ -1186,7 +1186,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Cybersecurity Implementation
    :id: SEC2
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1210,7 +1210,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: SEC2_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-04, 04-06
@@ -1219,7 +1219,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: SEC2_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-22
@@ -1229,7 +1229,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: SEC2_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 17-52
@@ -1238,7 +1238,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: SEC2_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 15-50
@@ -1247,7 +1247,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 5
       :id: SEC2_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 04-05
@@ -1256,7 +1256,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 6
       :id: SEC2_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 11-05
@@ -1265,7 +1265,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 7
       :id: SEC2_OUT7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-22
@@ -1275,7 +1275,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 8
       :id: SEC2_OUT8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -1287,7 +1287,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP1: Refine the details of the architectural design.
       :id: SEC2_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT1
@@ -1300,7 +1300,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP2: Allocate cybersecurity requirements.
       :id: SEC2_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT2
@@ -1311,7 +1311,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP3: Select cybersecurity controls.
       :id: SEC2_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT3
@@ -1323,7 +1323,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP4: Refine interfaces.
       :id: SEC2_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT1
@@ -1333,7 +1333,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP5: Analyze architectural design.
       :id: SEC2_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT4
@@ -1342,7 +1342,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP6: Refine the details of the detailed design.
       :id: SEC2_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT5
@@ -1353,7 +1353,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP7: Develop software units.
       :id: SEC2_BP7
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT6
@@ -1369,7 +1369,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP8: Establish bidirectional traceability.
       :id: SEC2_BP8
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT2, SEC2_OUT7
@@ -1379,7 +1379,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP9: Ensure consistency.
       :id: SEC2_BP9
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT7
@@ -1388,7 +1388,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.2.BP10: Communicate agreed results of cybersecurity implementation.
       :id: SEC2_BP10
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC2_OUT8
@@ -1475,7 +1475,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Risk Treatment Verification
    :id: SEC3
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1499,7 +1499,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: SEC3_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-52, 19-10
@@ -1509,7 +1509,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: SEC3_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50
@@ -1521,7 +1521,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: SEC3_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19, 13-25, 13-50
@@ -1533,7 +1533,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: SEC3_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-22
@@ -1548,7 +1548,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 5
       :id: SEC3_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19
@@ -1561,7 +1561,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 6
       :id: SEC3_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04, 13-25, 13-50
@@ -1573,7 +1573,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP1: Develop a risk treatment verification and integration strategy.
       :id: SEC3_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT1
@@ -1619,7 +1619,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP2: Develop specification for risk treatment verification.
       :id: SEC3_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT2
@@ -1641,7 +1641,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP3: Perform verification activities.
       :id: SEC3_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT3
@@ -1656,7 +1656,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP4: Establish bidirectional traceability.
       :id: SEC3_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT4
@@ -1675,7 +1675,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP5: Ensure consistency.
       :id: SEC3_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT5
@@ -1691,7 +1691,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.3.BP6: Summarize and communicate results.
       :id: SEC3_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC3_OUT6
@@ -1765,7 +1765,7 @@ tooling, etc. is left to the HOW level.
 
 .. stake_req:: Risk Treatment Validation
    :id: SEC4
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
 
@@ -1788,7 +1788,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 1
       :id: SEC4_OUT1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 19-11
@@ -1799,7 +1799,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 2
       :id: SEC4_OUT2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 08-50, 13-19
@@ -1809,7 +1809,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 3
       :id: SEC4_OUT3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-24
@@ -1818,7 +1818,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 4
       :id: SEC4_OUT4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-22
@@ -1828,7 +1828,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 5
       :id: SEC4_OUT5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-19
@@ -1838,7 +1838,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: 6
       :id: SEC4_OUT6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: 13-04
@@ -1850,7 +1850,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP1: Develop a risk treatment validation strategy.
       :id: SEC4_BP1
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT1
@@ -1865,7 +1865,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP2: Develop specification for risk treatment validation.
       :id: SEC4_BP2
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT2
@@ -1887,7 +1887,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP3: Perform and document risk treatment validation activities.
       :id: SEC4_BP3
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT2, SEC4_OUT3
@@ -1902,7 +1902,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP4: Establish bidirectional traceability.
       :id: SEC4_BP4
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT4
@@ -1916,7 +1916,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP5: Ensure consistency.
       :id: SEC4_BP5
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT5
@@ -1928,7 +1928,7 @@ tooling, etc. is left to the HOW level.
 
    .. stake_req:: SEC.4.BP6 Summarize and communicate results.
       :id: SEC4_BP6
-      :status: new/changed
+      :status: new
       :safety_level: not set
       :security_level: not set
       :output: SEC4_OUT3, SEC4_OUT6
@@ -2239,7 +2239,7 @@ Cybersecurity]
 
 .. stake_req:: Contract
    :id: 02-00
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2272,7 +2272,7 @@ Cybersecurity]
 
 .. stake_req:: Commitment/agreement
    :id: 02-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2290,7 +2290,7 @@ Cybersecurity]
 
 .. stake_req:: Interface agreement
    :id: 02-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2309,7 +2309,7 @@ Cybersecurity]
 
 .. stake_req:: Software architectural design
    :id: 04-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2339,7 +2339,7 @@ Cybersecurity]
 
 .. stake_req:: Software detailed design
    :id: 04-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2358,7 +2358,7 @@ Cybersecurity]
 
 .. stake_req:: System architectural design
    :id: 04-06
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2391,7 +2391,7 @@ Cybersecurity]
 
 .. stake_req:: Risk measure
    :id: 07-07
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2403,7 +2403,7 @@ Cybersecurity]
 
 .. stake_req:: Recovery plan
    :id: 08-14
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2428,7 +2428,7 @@ Cybersecurity]
 
 .. stake_req:: Risk management plan
    :id: 08-19
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2446,7 +2446,7 @@ Cybersecurity]
 
 .. stake_req:: Risk mitigation plan
    :id: 08-20
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2487,7 +2487,7 @@ Cybersecurity]
 
 .. stake_req:: Test specification
    :id: 08-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2507,7 +2507,7 @@ Cybersecurity]
 
 .. stake_req:: Test plan
    :id: 08-52
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2551,7 +2551,7 @@ Cybersecurity]
 
 .. stake_req:: Software unit
    :id: 11-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2584,7 +2584,7 @@ Cybersecurity]
 
 .. stake_req:: Request for quotation
    :id: 12-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2608,7 +2608,7 @@ Cybersecurity]
 
 .. stake_req:: Acceptance record
    :id: 13-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2621,7 +2621,7 @@ Cybersecurity]
 
 .. stake_req:: Communication record
    :id: 13-04
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2643,7 +2643,7 @@ Cybersecurity]
 
 .. stake_req:: Progress status record
    :id: 13-14
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2665,7 +2665,7 @@ Cybersecurity]
 
 .. stake_req:: Change request
    :id: 13-16
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2681,7 +2681,7 @@ Cybersecurity]
 
 .. stake_req:: Review record
    :id: 13-19
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2721,7 +2721,7 @@ Cybersecurity]
 
 .. stake_req:: Risk action request
    :id: 13-20
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2772,7 +2772,7 @@ Cybersecurity]
 
 .. stake_req:: Traceability record
    :id: 13-22
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2794,7 +2794,7 @@ Cybersecurity]
 
 .. stake_req:: Validation results
    :id: 13-24
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2811,7 +2811,7 @@ Cybersecurity]
 
 .. stake_req:: Verification results
    :id: 13-25
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2828,7 +2828,7 @@ Cybersecurity]
 
 .. stake_req:: Test results
    :id: 13-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2848,7 +2848,7 @@ Cybersecurity]
 
 .. stake_req:: Corrective action register
    :id: 14-02
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2862,7 +2862,7 @@ Cybersecurity]
 
 .. stake_req:: Preferred suppliers register
    :id: 14-05
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2875,7 +2875,7 @@ Cybersecurity]
 
 .. stake_req:: Tracking system
    :id: 14-08
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2898,7 +2898,7 @@ Cybersecurity]
 
 .. stake_req:: Cybersecurity scenario register
    :id: 14-51
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2933,7 +2933,7 @@ Cybersecurity]
 
 .. stake_req:: Asset library
    :id: 14-52
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2952,7 +2952,7 @@ Cybersecurity]
 
 .. stake_req:: Analysis report
    :id: 15-01
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -2985,7 +2985,7 @@ Cybersecurity]
 
 .. stake_req:: Risk analysis report
    :id: 15-08
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3007,7 +3007,7 @@ Cybersecurity]
 
 .. stake_req:: Risk status report
    :id: 15-09
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3026,7 +3026,7 @@ Cybersecurity]
 
 .. stake_req:: Supplier evaluation report
    :id: 15-21
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3041,7 +3041,7 @@ Cybersecurity]
 
 .. stake_req:: Vulnerability analysis report
    :id: 15-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3056,7 +3056,7 @@ Cybersecurity]
 
 .. stake_req:: Software requirements specification
    :id: 17-11
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3082,7 +3082,7 @@ Cybersecurity]
 
 .. stake_req:: System requirements specification
    :id: 17-12
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3128,7 +3128,7 @@ Cybersecurity]
 
 .. stake_req:: Cybersecurity goals
    :id: 17-51
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3139,7 +3139,7 @@ Cybersecurity]
 
 .. stake_req:: Cybersecurity controls
    :id: 17-52
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3150,7 +3150,7 @@ Cybersecurity]
 
 .. stake_req:: Supplier evaluation criteria
    :id: 18-50
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3167,7 +3167,7 @@ Cybersecurity]
 
 .. stake_req:: Verification strategy
    :id: 19-10
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
@@ -3186,7 +3186,7 @@ Cybersecurity]
 
 .. stake_req:: Validation strategy
    :id: 19-11
-   :status: new/changed
+   :status: new
    :safety_level: not set
    :security_level: not set
    :tags: artifact
