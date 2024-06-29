@@ -374,6 +374,10 @@ needs_warnings = {
 # _not_following_naming_convention
 for type in needs_types:
 
+    if type == 'stake_req':
+        # We cannot enforce ID's of stakeholder requirements.
+        continue
+
     warn_text = type['directive'] + '_not_following_naming_convention'
     if warn_text not in needs_warnings:
         warn_test = "type == '" + type['directive'] + "' and not id.startswith('" + type['prefix'] + "')"
