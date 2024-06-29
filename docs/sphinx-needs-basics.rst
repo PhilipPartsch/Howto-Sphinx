@@ -113,6 +113,7 @@ NeedFlow
 ********
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
+The code been expected and generated is for `plantuml`_.
 
 .. example:: How-to use a NeedFlow.
 
@@ -127,6 +128,7 @@ NeedUML
 
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
 The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch debug option`_.
+The code been expected and generated is for `plantuml`_.
 
 .. example:: How-to use a NeedUML.
 
@@ -140,11 +142,13 @@ The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch 
          merge python dictonaries.
       end note
 
+
 NeedArch
 ********
 
 NeedArch is extenting the functionality of NeedUML, to access local data of a Need.
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
+The code been expected and generated is for `plantuml`_.
 
 Variants
 ********
@@ -203,3 +207,5 @@ References
 .. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
 
 .. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
+
+.. _`plantuml` : https://plantuml.com
