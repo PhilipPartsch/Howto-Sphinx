@@ -347,11 +347,13 @@ Figure
 
    .. figure:: pictures/avatar.png
       :scale: 100 %
-      :alt: my avatar
+      :alt: My avatar
+      :name: my-avatar
 
-      This is the caption of the figure (a simple paragraph).
+      First line is the caption of the figure (a simple paragraph).
 
       A legend consists of all elements after the caption.
+
 
 
 .. _reSTxt_style_guide_Lists:
@@ -472,6 +474,18 @@ If you only want to link to a headline within a document you can use the headlin
    | I want to link to `References`_.
    | ... content ...
 
+
+Links to refences on the same page
+==================================
+
+You can link to named elements like figures, tables, and so on.
+
+Here we link to the above named figure ``my-avatar``.
+
+.. example:: role numref
+
+   :numref:`my-avatar`
+   :numref:`Image of Sphinx (Fig. {number} and name. {name}) <my-avatar>`
 
 .. _reSTxt_style_guide_download_file:
 

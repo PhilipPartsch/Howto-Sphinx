@@ -11939,6 +11939,7 @@ Furthermore, bidirectional traceability has been explicitly defined between
 An overview of bidirectional traceability and consistency is depicted in the following figure.
 
 .. figure:: media/figureD.4.png
+   :name:  ASPICE-V31-Figure-D4—Bidirectional-traceability-and-consistency
    :width: 6.72667in
    :height: 3.95in
 
