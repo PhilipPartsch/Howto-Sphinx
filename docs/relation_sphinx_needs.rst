@@ -61,7 +61,7 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
 .. element:: Sphinx-Needs
    :id: E_SPHINX_NEEDS
 
-   .. needarch::
+   .. needarch : :
 
       {{flow(need().id)}} 
       {{uml("E_SPHINX")}}
@@ -75,7 +75,20 @@ Directive
 A directive gives the opportunity to structure information together.
 Here we use the ``figure`` directive to explain how it looks like. 
 
-| Directive Type: "figure"
+- Directive Type: "figure"
+
+  .. code-block:: rst
+     :emphasize-lines: 1
+     :linenos:
+
+     .. figure:: pictures/avatar.png
+        :scale: 150 %
+        :alt: my avatar
+
+        This is the caption of the figure (a simple paragraph).
+     
+
+  
 | Directive Arguments: one, required (image URI)
 | Directive Options: see documentation
 | Directive Content: Interpreted as the figure caption and an optional legend.
