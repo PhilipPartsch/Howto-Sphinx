@@ -150,20 +150,20 @@ NeedArch is extenting the functionality of NeedUML, to access local data of a Ne
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
 The code been expected and generated is for `plantuml`_.
 
-Variants
-********
+.. Variants
+   ********
 
-Currently out-of-scope
+   Currently out-of-scope
 
-Only directive
-==============
+   Only directive
+   ==============
 
-Currently out-of-scope
+   Currently out-of-scope
 
-Build in Variants
-=================
+   Build in Variants
+   =================
 
-Currently out-of-scope
+   Currently out-of-scope
 
 
 .. _ide_vscode:
@@ -171,10 +171,10 @@ Currently out-of-scope
 Visula Studio Code Extensions
 -----------------------------
 
-VsCode extension `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
+VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
 provides support for Sphinx-Needs. See more details in the `Documentation <https://sphinx-needs-vscode.useblocks.com/>`_.
 
-reStructuredText Extension: https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext
+VsCode extension for `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>``_.
 
 
 References
