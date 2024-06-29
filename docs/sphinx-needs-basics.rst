@@ -121,19 +121,17 @@ Documentation: How-to use `Sphinx-Needs NeedFlow`_.
       :show_link_names:
       :show_filters:
 
-NeedArch
-********
-
-Documentation: How-to use `Sphinx-Needs NeedArch`_.
 
 NeedUML
 *******
 
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
+The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch debug option`_.
 
 .. example:: How-to use a NeedUML.
 
    .. needuml::
+      :debug:
 
       {{flow("M_MERGE_DICTS")}}
 
@@ -142,6 +140,11 @@ Documentation: How-to use `Sphinx-Needs NeedUML`_.
          merge python dictonaries.
       end note
 
+NeedArch
+********
+
+NeedArch is extenting the functionality of NeedUML, to access local data of a Need.
+Documentation: How-to use `Sphinx-Needs NeedArch`_.
 
 Variants
 ********
@@ -198,3 +201,5 @@ References
 .. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
 .. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+
+.. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
