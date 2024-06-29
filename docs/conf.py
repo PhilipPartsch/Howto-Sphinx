@@ -27,8 +27,8 @@ project = 'HowTo-Sphinx'
 copyright = f'2023 - {date.year}, PhilipPartsch'
 author = 'PhilipPartsch'
 
-release = '0.1'
-version = '0.0.1'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 on_rtd = os.environ.get("READTHEDOCS") == "True"
