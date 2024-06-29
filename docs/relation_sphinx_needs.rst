@@ -146,7 +146,7 @@ Here we use the ``math`` role to explain how it looks like.
 How-to use Sphinx and Sphinx-Needs
 **********************************
 
-You call ``sphinx-build`` with ``input``and ``òutput`` folder.
+You call ``sphinx-build`` with ``input`` and ``output`` folder.
 All CLI paramters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
 
 How it is been used with in this repo, you can see here:
