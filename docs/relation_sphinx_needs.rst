@@ -62,7 +62,6 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
    :id: E_SPHINX_NEEDS
 
    .. needarch::
-      :debug:
 
       {{flow(need().id)}}
       {{uml("E_SPHINX")}}
@@ -142,3 +141,17 @@ Here we use the ``math`` role to explain how it looks like.
 .. example:: Docutils Role
 
    :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
+
+
+How-to use Sphinx and Sphinx-Needs
+**********************************
+
+You call ``sphinx-build`` with ``input``and ``òutput`` folder.
+All CLI paramters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+
+How it is been used with in this repo, you can see here:
+
+.. literalinclude:: ../.gitlab-ci.yml
+   :language: yml
+   :emphasize-lines: 15-18
+   :linenos:
