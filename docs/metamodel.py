@@ -374,7 +374,7 @@ needs_warnings = {
 # _not_following_naming_convention
 for type in needs_types:
 
-    if type == 'stake_req':
+    if type['directive'] == 'stake_req':
         # We cannot enforce ID's of stakeholder requirements.
         continue
 
