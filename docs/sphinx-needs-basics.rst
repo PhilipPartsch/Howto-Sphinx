@@ -148,7 +148,8 @@ NeedArch
 
 NeedArch is extenting the functionality of NeedUML, to access local data of a Need.
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
-The code been expected and generated is for `plantuml`_.
+The code been expected and generated is for `plantuml`_ and
+you can use `jinja`_ to template your planuml code.
 
 .. Variants
    ********
@@ -209,3 +210,5 @@ References
 .. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
 
 .. _`plantuml` : https://plantuml.com
+
+.. _`jinja`: https://jinja.palletsprojects.com
