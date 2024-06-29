@@ -404,9 +404,12 @@ You can even use inline ``math`` role:
 Source code in the documentation
 ********************************
 
-We use the ``code`` directive. It is good style to specify the programming language.
+We use the ``code``, ``code-block`` and ``literalinclude`` directive.
+It is good style to specify the programming language.
+See `How to document code`_.
 
-.. Here we do not use the example directive, as we want to document the code directive itself.
+More sofisticated examples and even a special extension for multilanguge examples can be found under
+`How to document multi language code`_.
 
 .. example:: code directive
 
@@ -664,3 +667,7 @@ References
 .. _`Quick Reference`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
 
 .. _`How to include file in document`: https://docutils.sourceforge.io/docs/ref/rst/directives.html#including-an-external-document-fragment
+
+.. _`How to document code` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#showing-code-examples
+
+.. _`How to document multi language code` : https://sublime-and-sphinx-guide.readthedocs.io/en/latest/code_blocks.html
