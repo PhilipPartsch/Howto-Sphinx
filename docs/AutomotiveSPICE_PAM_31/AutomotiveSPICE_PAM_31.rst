@@ -9339,7 +9339,7 @@ are included for completeness.*
 
 Table B.2 — Work product characteristics
 
-.. needtable:: Table B.2 — Work product characteristicse
+.. needtable : : Table B.2 — Work product characteristicse
    :tags: artifact
    :filter: 'section_name=="Annex B Work product characteristics"'
    :style: table
