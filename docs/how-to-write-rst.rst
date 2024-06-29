@@ -16,10 +16,12 @@ This document intends to define the reStructuredText style-guide.
 
 .. _reSTxt_style_guide_Filenames:
 
-Quick Reference
-===============
+References to useful pages
+==========================
 
-For a `Quick Reference`_ have a look at https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
+`Quick Reference`_ 
+https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
+https://documatt.com/restructuredtext-reference/index.html
 
 
 *********
@@ -111,7 +113,7 @@ Comments
 Substitution Definition
 ***********************
 
-With this you can substitute content see https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions.  
+See `How to substitute content`_.  
 
 .. example:: Substitution
 
@@ -581,7 +583,7 @@ glossary entry please use role ``term``.
 Variants
 ********
 
-See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
+See `How to use only directive`_.
 
 In the pipeline, we currently set the project_b tag via command line option ``-t project_b``.
 See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
@@ -671,3 +673,7 @@ References
 .. _`How to document code` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#showing-code-examples
 
 .. _`How to document multi language code` : https://sublime-and-sphinx-guide.readthedocs.io/en/latest/code_blocks.html
+
+.. _`How to substitute content` : https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions
+
+.. _`How to use only directive` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
