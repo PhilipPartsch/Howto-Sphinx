@@ -151,7 +151,7 @@ All CLI paramters can be found here: https://www.sphinx-doc.org/en/master/man/sp
 
 How it is been used with in this repo, you can see here:
 
-.. literalinclude:: /.gitlab-ci.yml
+.. literalinclude:: ../.gitlab-ci.yml
    :language: yaml
    :emphasize-lines: 43
    :linenos:
