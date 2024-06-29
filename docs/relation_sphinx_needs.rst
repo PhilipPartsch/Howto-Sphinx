@@ -18,6 +18,14 @@ Advantages: It is possible to extend rst with own directives.
 
 Restriction: Can only process one page.
 
+.. element:: Docutils
+   :id: E_DOCUTILS
+
+   .. needarch::
+
+      {{flow(need().id)}}
+
+
 
 Sphinx
 ******
@@ -27,6 +35,15 @@ Link: https://www.sphinx-doc.org
 Description: Create intelligent and beautiful documentation ...
 
 Advantages: Enhance Docutils to support multi file documentation build with commonly used directives.
+
+.. element:: Sphinx
+   :id: E_SPHINX
+
+   .. needarch::
+
+      {{flow(need().id)}} {
+         {{uml("E_DOCUTILS")}}
+      }
 
 
 Sphinx-Needs
@@ -40,6 +57,16 @@ Description: Sphinx-Needs allows to create, manage and
 analyze requirements, specifications, test cases and more inside Sphinx-based documentations.
 
 Advantages: Enhance Sphinx to support object like elements with attributes, links, content and porcess them with functions.
+
+.. element:: Sphinx-Needs
+   :id: E_SPHINX_NEEDS
+
+   .. needarch::
+
+      {{flow(need().id)}} 
+      {{uml("E_SPHINX")}}
+
+      need().id) -> E_SPHINX : extends
 
 
 Directive
