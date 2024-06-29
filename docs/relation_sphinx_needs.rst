@@ -142,6 +142,21 @@ Here we use the ``math`` role to explain how it looks like.
 
    :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
 
+- Role Type: "math"
+
+  .. code-block:: rst
+     :emphasize-lines: 1
+     :linenos:
+
+     :math:`(a + b)`
+  
+- Role Argument: "(a + b)"
+
+  .. code-block:: rst
+     :emphasize-lines: 1
+     :linenos:
+
+     :math:`(a + b)`
 
 How-to use Sphinx and Sphinx-Needs
 **********************************
