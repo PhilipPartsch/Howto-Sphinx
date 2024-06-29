@@ -24,6 +24,17 @@ References to useful pages
 - https://documatt.com/restructuredtext-reference/index.html
 - https://myst-parser.readthedocs.io
 
+************************************
+Include a file to your documentation
+************************************
+
+Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file. 
+
+.. literalinclude:: index.rst
+   :language: rst
+   :emphasize-lines: 12
+   :linenos:
+
 
 *********
 Filenames
