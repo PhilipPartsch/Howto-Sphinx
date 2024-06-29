@@ -15,4 +15,5 @@ https://vda-qmc.de/wp-content/uploads/2023/12/Automotive-SPICE-PAM-v40.pdf
    :caption: ASPICE
 
    AutomotiveSPICE_PAM_31/AutomotiveSPICE_PAM_31
+   AutomotiveSPICE_for_Cybersecurity/AutomotiveSPICE_for_Cybersecurity
 
