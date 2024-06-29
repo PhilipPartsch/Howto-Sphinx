@@ -32,7 +32,7 @@ Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another `
 
 .. literalinclude:: index.rst
    :language: rst
-   :emphasize-lines: 12
+   :emphasize-lines: 12-18
    :linenos:
 
 
