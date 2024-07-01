@@ -7,11 +7,6 @@ Define a Need
 
 Documentation: How-to work with `Sphinx-Needs Need`_.
 
-Types
-=====
-
-Documentation: How-to configure `Sphinx-Needs Types`_.
-
 .. example:: How-to create a Need.
 
     .. req:: Example Requirement
@@ -27,11 +22,22 @@ Documentation: How-to configure `Sphinx-Needs Types`_.
 
        This is our example Specification.
 
+Types
+=====
+
+Documentation: How-to configure `Sphinx-Needs Types`_.
+
 
 Options
 =======
 
 Documentation: How-to configure `Sphinx-Needs Options`_.
+
+The special option ``:id:``, has to be unique within the current project.
+It is often the case, you write sel speacking id's which are even can be easly reviewed.
+Additionally you can use auto generated ids via IDE extension or scripting or scripting see https://github.com/useblocks/sphinx-needs/issues/728.
+A discussion how ID's could be generated accross organisations is currently ongoing in https://github.com/useblocks/sphinx-needs/discussions/1088#discussioncomment-8131189.
+
 
 Links
 =====
@@ -46,7 +52,7 @@ Documentation: How-to use `Sphinx-Needs Reference to Needs`_.
 .. example:: Reference to Needs
 
    :need:`R_EXAMPLE_REQUIREMENT` is here like a customer requirement,
-   where the :need:`S_EXAMPLE_SPECIFICATION` is our derived specification.
+   where the :need:`[[title]] ([[id]] [[status]]) <S_EXAMPLE_SPECIFICATION>` is our derived specification.
 
 Embedded a Need in a Need
 =========================
@@ -91,7 +97,7 @@ Documentation: How-to use `Sphinx-Needs NeedBar`_.
       :xlabels: FROM_DATA
       :ylabels: FROM_DATA
 
-               ,        Stakeholder Requirement             ,           Software Requirement
+                 ,        Stakeholder Requirement             ,           Software Requirement
             empty, type=='stake_req' and status==''           ,    type=='sw_req' and status==''
          accepted, type=='stake_req' and status=='accepted'   ,    type=='sw_req' and status=='accepted'
       implemented, type=='stake_req' and status=='implemented',    type=='sw_req' and status=='implemented'
@@ -108,6 +114,7 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
       :types: sw_req
       :style: table
       :columns: id; title; status
+      :scale: 50
 
 NeedFlow
 ********
@@ -119,6 +126,7 @@ The code been expected and generated is for `plantuml`_.
 
    .. needflow:: Requirement Linkage
       :types: stake_req, sw_req
+      :filter: is_external == "True"
       :show_link_names:
       :show_filters:
 

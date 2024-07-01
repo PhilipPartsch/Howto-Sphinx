@@ -24,9 +24,16 @@ References to useful pages
 - https://documatt.com/restructuredtext-reference/index.html
 - https://myst-parser.readthedocs.io
 
-************************************
-Include a file to your documentation
-************************************
+
+.. _reSTxt_style_guide_table_of_contents:
+
+
+********************************
+Add a file to your documentation
+********************************
+
+It is possible to explicit create a table of contents over a complete documentation (overall documents) with ``.. toctree::``.
+For detailed information see `How to create table of contents with toctree`_ or check ``index.rst``.
 
 Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file. 
 
@@ -34,6 +41,25 @@ Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another `
    :language: rst
    :emphasize-lines: 12-18
    :linenos:
+
+
+*****************
+Table of Contents
+*****************
+
+For detailed information see `How to create table of contents with contents`_.
+
+With `.. contents::` it is possible to create a "table of contents" for the current document.
+
+.. it is not possible to include ``contents`` directive within another directive. So we cannot use ``example`` directive here.
+
+.. code:: rst
+   
+   .. contents:: table of contents
+
+This will be printed like:
+
+.. contents:: table of contents
 
 
 *********
@@ -317,45 +343,6 @@ List Table directive
         - On a stick!
 
 
-.. _reSTxt_style_guide_Pictures:
-
-********
-Pictures
-********
-
-Image
-=====
-
-.. example:: Image directive
-
-   .. image:: pictures/avatar.png
-      :alt: my avatar
-      :align: center
-
-.. example:: Image directive inline
-
-   |my avatar| greats you.
-
-   .. |my avatar| image:: pictures/avatar.png
-      :align: top
-      :scale: 10%
-
-Figure
-======
-
-.. example:: Figure directive
-
-   .. figure:: pictures/avatar.png
-      :scale: 100 %
-      :alt: My avatar
-      :name: my-avatar
-
-      First line is the caption of the figure (a simple paragraph).
-
-      A legend consists of all elements after the caption.
-
-
-
 .. _reSTxt_style_guide_Lists:
 
 *****
@@ -387,6 +374,48 @@ Nested lists are even possible, but be aware that they must be separated from th
       * and some subitems
 
    * and here the parent list continues
+
+
+.. _reSTxt_style_guide_Pictures:
+
+********
+Pictures
+********
+
+Image
+=====
+
+See `How to create image`_.
+
+.. example:: Image directive
+
+   .. image:: pictures/avatar.png
+      :alt: my avatar
+      :align: center
+
+.. example:: Image directive inline
+
+   |my avatar| greats you.
+
+   .. |my avatar| image:: pictures/avatar.png
+      :align: top
+      :scale: 10%
+
+Figure
+======
+
+See `How to create figure`_.
+
+.. example:: Figure directive
+
+   .. figure:: pictures/avatar.png
+      :scale: 100 %
+      :alt: My avatar
+      :name: my-avatar
+
+      First line is the caption of the figure (a simple paragraph).
+
+      A legend consists of all elements after the caption.
 
 
 .. _reSTxt_style_guide_Math:
@@ -449,8 +478,11 @@ Links between parts of the documentation
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
 The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
 
-From this chapter:
+So the starting ``_`` of ``.. _reSTxt_style_guide_links:`` defines a start of a reference / anker.
+And last ``_`` in ``reSTxt_style_guide_links_`` uses this reference / anker.
 
+From this chapter:
+`
 .. code:: rst
 
    .. _reSTxt_style_guide_links:
@@ -477,6 +509,8 @@ If you only want to link to a headline within a document you can use the headlin
 
 Links to named references
 =========================
+
+See `How to use numref`.
 
 You can link to named elements like figures, tables, and so on.
 
@@ -507,6 +541,7 @@ Reference to document
 =====================
 
 It is even possible to reference to a document with ``:doc:``.
+For more details please see `How to reference to file`_.
 
 .. example:: Link to headline in the current document
    
@@ -517,6 +552,8 @@ It is even possible to reference to a document with ``:doc:``.
 
 Include a file into current document
 ====================================
+
+Docutils documentation: `How to include file in document`_.
 
 It is possible to ``include`` in the current document another document.
 Please be aware, that it is useful to have another file extension for included files,
@@ -529,8 +566,6 @@ Example of ``include`` directive.
    
    .. include:: inclusion.rst.inc
 
-Docutils documentation: `How to include file in document`_.
-
 
 .. _reSTxt_style_guide_references:
 
@@ -538,7 +573,9 @@ References to external sites
 ============================
 
 We can use target-notes to mark often used links to external sites. The approach is used in this file, too.
-The opportunity is you even get a back link, where in the document this link is been used. 
+The opportunity is you even get a back link, where in the document this link is been used.
+
+For more details please see `How to reference to external web pages`_.
 
 .. code:: rst
 
@@ -561,28 +598,6 @@ It is even possible to reference directly to an external webside:
 
     - https://www.sphinx-needs.com
     - `sphinx-needs <https://www.sphinx-needs.com>`_
-
-
-.. _reSTxt_style_guide_table_of_contents:
-
-*****************
-Table of Contents
-*****************
-
-It is possible to explicit create a table of contents over a complete documentation (overall documents) with ``.. toctree::``.
-For detailed information see `How to create table of contents with toctree`_ or check ``index.rst``.
-
-With `.. contents::` it is possible to create a "table of contents" for the current document.
-
-.. it is not possible to include ``contents`` directive within another directive. So we cannot use ``example`` directive here.
-
-.. code:: rst
-   
-   .. contents:: table of contents
-
-This will be printed like:
-
-.. contents:: table of contents
 
 
 .. _reSTxt_style_guide_glossary:
@@ -634,6 +649,7 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
    but is discarding the output if not needed.
    So if you create objects within the only directive, they are available to the datamodel. 
 
+
 .. _reSTxt_style_guide_notes_and_warnings:
 
 ************************
@@ -642,6 +658,7 @@ Notes, warnings and tips
 
 We use sphinx build possibility to indicate notes and warnings to user of the documentation.
 Please keep in mind, that we only use notes and warnings for really important things.
+For more details please see `How to use admonitions`_.
 
 .. example:: note
 
@@ -684,14 +701,13 @@ References
 .. _`How to write a table`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
 
 .. _`How to use inline-markup`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup
-
-.. _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
-
-.. _`How to use a glossary`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html
-
-.. _`How to reference to downloadable files`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#referencing-downloadable-files
-
 .. _`How to create table of contents with toctree`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents
+
+.. _`How to create table of contents with contents`: https://documatt.com/restructuredtext-reference/element/contents.html
+
+.. _`How to create image`: https://documatt.com/restructuredtext-reference/images.html
+
+.. _`How to create figure`: https://documatt.com/restructuredtext-reference/element/figure.html
 
 .. _`How to write math`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#math
 
@@ -705,4 +721,18 @@ References
 
 .. _`How to substitute content` : https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#substitution-definitions
 
+.. _`How to link within a rst documentation`: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html
+
+.. _`How to use numref`: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#the-numref-role
+
+.. _`How to reference to downloadable files`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#referencing-downloadable-files
+
+.. _`How to reference to file`: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#the-doc-role
+
+.. _`How to reference to external web pages`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#links-to-external-web-pages
+
 .. _`How to use only directive` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
+
+.. _`How to use a glossary`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html
+
+.. _`How to use admonitions`: https://documatt.com/restructuredtext-reference/admonitions.html
