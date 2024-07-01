@@ -482,7 +482,7 @@ So the starting ``_`` of ``.. _reSTxt_style_guide_links:`` defines a start of a 
 And last ``_`` in ``reSTxt_style_guide_links_`` uses this reference / anker.
 
 From this chapter:
-`
+
 .. code:: rst
 
    .. _reSTxt_style_guide_links:
