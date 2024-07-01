@@ -114,7 +114,6 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
       :types: sw_req
       :style: table
       :columns: id; title; status
-      :scale: 50
 
 NeedFlow
 ********
@@ -129,6 +128,7 @@ The code been expected and generated is for `plantuml`_.
       :filter: is_external == "True"
       :show_link_names:
       :show_filters:
+      :scale: 50
 
 
 NeedUML
