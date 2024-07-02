@@ -522,7 +522,7 @@ You have to enable ``numfig = True`` in your ``conf.py``.
 
    :numref:`my-avatar`
 
-   :numref:`Image of Sphinx (Fig. '{number}'' and Name. '{name}'') <my-avatar>`
+   :numref:`Image of Sphinx (Fig. '{number}' and Name. '{name}') <my-avatar>`
 
 .. _reSTxt_style_guide_download_file:
 
