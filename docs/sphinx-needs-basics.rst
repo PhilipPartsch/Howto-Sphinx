@@ -80,9 +80,9 @@ Documentation: How-to use `Sphinx-Needs NeedPie`_.
    .. needpie:: Ratio of requirement types
       :labels: Stakeholder Requirement, Software Requirement, Evaluation
 
-      type == 'stake_req'
-      type == 'sw_req'
-      type == 'evaluation'
+      type == 'stake_req' and is_external == True
+      type == 'sw_req' and is_external == True
+      type == 'evaluation' and is_external == True
 
 NeedBar
 *******
