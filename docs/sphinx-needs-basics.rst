@@ -14,6 +14,7 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
        :status: new
 
        This is our example requirement.
+
     
     .. spec:: Example Specification
        :id: S_EXAMPLE_SPECIFICATION
@@ -21,6 +22,12 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
        :links: R_EXAMPLE_REQUIREMENT
 
        This is our example Specification.
+
+New level 1 chapter
+*******************
+
+New level 2 chapter
+===================
 
 Types
 =====
