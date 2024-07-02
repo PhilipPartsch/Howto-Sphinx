@@ -14,20 +14,28 @@ https://vda-qmc.de/wp-content/uploads/2023/12/Automotive-SPICE-PAM-v40.pdf
 Or within is documentation for Version Automotive-SPICE-PAM-v4.1 
 :numref:`{name} <ASPICE-V31-Figure-D4—Bidirectional-traceability-and-consistency>`.
 
-
 .. toctree::
    :caption: ASPICE
-   :maxdepth: 2
+   :maxdepth: 1
 
    AutomotiveSPICE_PAM_31/AutomotiveSPICE_PAM_31
    AutomotiveSPICE_for_Cybersecurity/AutomotiveSPICE_for_Cybersecurity
 
-
 Implemented with Sphinx-Needs
 *****************************
 
+With Sphinx-Needs we get one tool to cover all demands of ASPICE
+(often you want to use a planning tool for change request management).
+Everything should be reviewed with `github pull-requests <https://docs.github.com/en/pull-requests>`_ or 
+`gitlab merge requests <https://docs.gitlab.com/ee/user/project/merge_requests/>`_ as a single point of review tool.
+You can protect branches with rules, so you can enforce all content is reviewed.
 
-You can find a Example with all classical ASPICE artfiacts in this open source repository:
+If you want to use sphinx-needs even as your ticket management tool, here are some hints:
+
+- https://docs.github.com/en/actions/examples/using-the-github-cli-on-a-runner to create github issues automatically (peter-evans/create-issue-from-file),
+- you can use https://sphinx-needs.readthedocs.io/en/latest/directives/needgantt.html and a need of a self defined type like ticket.
+
+You can find a Example with all classical ASPICE artifacts in this open source repository:
 
 - gitlab:
 
@@ -40,3 +48,6 @@ You can find a Example with all classical ASPICE artfiacts in this open source r
   - Repository: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code
   - Hosted documentation: https://reconf2023-product-as-code.readthedocs.io
   - Pipeline: https://readthedocs.org/projects/reconf2023-product-as-code/builds/
+
+
+

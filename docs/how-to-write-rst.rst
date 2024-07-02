@@ -35,7 +35,8 @@ Add a file to your documentation
 It is possible to explicit create a table of contents over a complete documentation (overall documents) with ``.. toctree::``.
 For detailed information see `How to create table of contents with toctree`_ or check ``index.rst``.
 
-Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file. 
+Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file.
+Interesting options are ``:hidden:`` to hide the toctree and ``:glob:`` to import all files in a folder.
 
 .. literalinclude:: index.rst
    :language: rst
