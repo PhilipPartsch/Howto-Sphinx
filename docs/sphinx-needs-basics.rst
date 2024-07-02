@@ -23,11 +23,6 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
 
        This is our example Specification.
 
-New level 1 chapter
-*******************
-
-New level 2 chapter
-===================
 
 Types
 =====
