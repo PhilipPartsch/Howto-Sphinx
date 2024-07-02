@@ -17,6 +17,7 @@ Or within is documentation for Version Automotive-SPICE-PAM-v4.1
 
 .. toctree::
    :caption: ASPICE
+   :maxdepth: 2
 
    AutomotiveSPICE_PAM_31/AutomotiveSPICE_PAM_31
    AutomotiveSPICE_for_Cybersecurity/AutomotiveSPICE_for_Cybersecurity
