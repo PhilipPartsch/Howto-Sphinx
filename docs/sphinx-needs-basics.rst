@@ -115,11 +115,11 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
       :style: table
       :columns: id; title; status
 
-.. example:: How-to use a NeedTable.
+.. example:: How-to use a NeedTable II.
 
-   .. needtable:: List of software requirements
+   .. needtable:: List of stakeholder requirements
       :types: stake_req
-      :style: table
+      :style: datatables
       :columns: id; title; status; is_external as "External"
 
 NeedFlow
@@ -131,8 +131,7 @@ The code been expected and generated is for `plantuml`_.
 .. example:: How-to use a NeedFlow.
 
    .. needflow:: Requirement Linkage
-      :types: stake_req, sw_req
-      :filter: is_external == "True"
+      :filter: is_external == "True" and (type=='stake_req' or type=='sw_req')
       :show_link_names:
       :show_filters:
       :scale: 50

@@ -21,3 +21,19 @@ Or within is documentation for Version Automotive-SPICE-PAM-v4.1
    AutomotiveSPICE_PAM_31/AutomotiveSPICE_PAM_31
    AutomotiveSPICE_for_Cybersecurity/AutomotiveSPICE_for_Cybersecurity
 
+
+Implmented with Sphinx-Needs
+****************************
+
+
+You can find a Example with all classical artfiacts from ASPICE in this open source repository:
+
+- gitlab:
+
+  - Repository: 
+  - Hosted documentation:
+
+- github:
+
+  - Repository: 
+  - Hosted documentation:
