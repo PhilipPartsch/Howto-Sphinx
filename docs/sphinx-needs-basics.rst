@@ -115,6 +115,13 @@ Documentation: How-to use `Sphinx-Needs NeedTable`_.
       :style: table
       :columns: id; title; status
 
+.. example:: How-to use a NeedTable.
+
+   .. needtable:: List of software requirements
+      :types: stake_req
+      :style: table
+      :columns: id; title; status; is_external as "External"
+
 NeedFlow
 ********
 
