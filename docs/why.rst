@@ -30,10 +30,12 @@ You can find a Example with all classical artfiacts from ASPICE in this open sou
 
 - gitlab:
 
-  - Repository: 
-  - Hosted documentation:
+  - Repository: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code
+  - Hosted documentation: https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io/
+  - Pipeline: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/pipelines
 
 - github:
 
-  - Repository: 
-  - Hosted documentation:
+  - Repository: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code
+  - Hosted documentation: https://reconf2023-product-as-code.readthedocs.io
+  - Pipeline: https://readthedocs.org/projects/reconf2023-product-as-code/builds/

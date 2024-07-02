@@ -131,7 +131,7 @@ The code been expected and generated is for `plantuml`_.
 .. example:: How-to use a NeedFlow.
 
    .. needflow:: Requirement Linkage
-      :filter: is_external == "True" and (type=='stake_req' or type=='sw_req')
+      :filter: is_external == True and (type=='stake_req' or type=='sw_req')
       :show_link_names:
       :show_filters:
       :scale: 50
