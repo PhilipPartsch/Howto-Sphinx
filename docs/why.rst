@@ -32,8 +32,11 @@ You can protect branches with rules, so you can enforce all content is reviewed.
 
 If you want to use sphinx-needs even as your ticket management tool, here are some hints:
 
-- https://docs.github.com/en/actions/examples/using-the-github-cli-on-a-runner to create github issues automatically (peter-evans/create-issue-from-file),
-- you can use https://sphinx-needs.readthedocs.io/en/latest/directives/needgantt.html and a need of a self defined type like ticket.
+- You could use https://docs.github.com/en/actions/examples/using-the-github-cli-on-a-runner
+  to create github issues automatically (peter-evans/create-issue-from-file),
+- You could use https://sphinx-needs.readthedocs.io/en/latest/directives/needgantt.html
+  and a need of a self defined type like ticket to manage work packages.
+
 
 You can find a Example with all classical ASPICE artifacts in this open source repository:
 
