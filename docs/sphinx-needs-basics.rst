@@ -34,8 +34,8 @@ Options
 Documentation: How-to configure `Sphinx-Needs Options`_.
 
 The special option ``:id:``, has to be unique within the current project.
-It is often the case, you write sel speacking id's which are even can be easly reviewed.
-Additionally you can use auto generated ids via IDE extension or scripting or scripting see https://github.com/useblocks/sphinx-needs/issues/728.
+It is often useful, you write self speacking id's which even can be easly reviewed.
+Additionally you can use auto generated ids via IDE extension or scripting see https://github.com/useblocks/sphinx-needs/issues/728.
 A discussion how ID's could be generated accross organisations is currently ongoing in https://github.com/useblocks/sphinx-needs/discussions/1088#discussioncomment-8131189.
 
 
@@ -134,7 +134,7 @@ The code been expected and generated is for `plantuml`_.
       :filter: is_external == True and (type=='stake_req' or type=='sw_req')
       :show_link_names:
       :show_filters:
-      :scale: 50
+      :scale: 30
 
 
 NeedUML
