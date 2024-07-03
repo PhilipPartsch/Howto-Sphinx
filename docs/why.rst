@@ -40,17 +40,20 @@ If you want to use sphinx-needs even as your ticket management tool, here are so
 
 You can find a Example with all classical ASPICE artifacts in this open source repository:
 
-- gitlab:
+- GitHub
+   - Repository: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code
+   - GitHub Pipeline: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code/actions
+   - GitHub Pipeline Scripts: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code/blob/main/.github/workflows/builddoc.yml
+   - GitHub hosted documentation: https://philippartsch.github.io/ReConf2023-Product-As-Code/
+   - ReadtheDocs Pipeline: https://readthedocs.org/projects/reconf2023-product-as-code/builds/
+   - ReadtheDocs Pipeline Script: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code/blob/main/.readthedocs.yaml
+   - ReadtheDocs hosted documentation: https://reconf2023-product-as-code.readthedocs.io/en/latest/
 
-  - Repository: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code
-  - Hosted documentation: https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io/
-  - Pipeline: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/pipelines
-
-- github:
-
-  - Repository: https://github.com/PhilipPartsch/ReConf2023-Product-As-Code
-  - Hosted documentation: https://reconf2023-product-as-code.readthedocs.io
-  - Pipeline: https://readthedocs.org/projects/reconf2023-product-as-code/builds/
+- GitLab
+   - Repository: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code
+   - Gitlab Pipeline: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/pipelines
+   - Gitlab Pipeline Script: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/blob/main/.gitlab-ci.yml
+   - GitLab hosted documentation: https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io
 
 
 
