@@ -64,8 +64,14 @@ Embedded a Need in a Need
    .. need:: Parent
       :id: N_PARENT
 
+      Here is some text before the embedded need. You could even write any other rst text.
+
       .. need:: Child
          :id: N_CHILD
+
+         Here is some text inside of the embedded need. You could even write any other rst text.
+
+      Here is some text after the embedded need. You could even write any other rst text.
 
 Filter
 ******
