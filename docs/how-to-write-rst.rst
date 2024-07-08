@@ -160,7 +160,7 @@ Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used.
 
    .. |reST| replace:: reStructuredText
 
-   Yes, |reST| is a long word, anyway I **can* blame anyone for wanting to
+   Yes, |reST| is a long word, anyway I **can** blame anyone for wanting to
    abbreviate it. Better use a glossary :).
 
 .. note::
