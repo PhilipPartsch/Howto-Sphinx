@@ -152,14 +152,16 @@ Comments
 Substitution Definition
 ***********************
 
-See `How to substitute content`_.  
+See `How to substitute content`_.
+It is best practice, to use substitution as less as possible. 
+Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used. 
 
 .. example:: Substitution
 
    .. |reST| replace:: reStructuredText
 
-   Yes, |reST| is a long word, so I can't blame anyone for wanting to
-   abbreviate it.
+   Yes, |reST| is a long word, anyway I **can* blame anyone for wanting to
+   abbreviate it. Better use a glossary :).
 
 .. note::
    You can use 
@@ -364,7 +366,8 @@ The information about lists are wonderful provided in `How to write lists and li
    #. This is a numbered list.
    #. It has two items too.
 
-Nested lists are even possible, but be aware that they must be separated from the parent list items by blank lines:
+Nested lists are even possible, but be aware that they must be separated
+from the parent list items by blank lines:
 
 .. example:: Nested lists
 
@@ -517,13 +520,20 @@ You can link to named elements like figures, tables, and so on.
 
 Here we link to the above named figure ``my-avatar``.
 
+.. example:: role numref
+
+   :ref:`my-avatar`
+
+   :ref:`Image of Avatar (Name. '{name}') <my-avatar>`
+
 You have to enable ``numfig = True`` in your ``conf.py``. 
 
 .. example:: role numref
 
    :numref:`my-avatar`
 
-   :numref:`Image of Sphinx (Fig. '{number}' and Name. '{name}') <my-avatar>`
+   :numref:`Image of Avatar (Fig. '{number}' and Name. '{name}') <my-avatar>`
+
 
 .. _reSTxt_style_guide_download_file:
 
