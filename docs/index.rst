@@ -16,3 +16,10 @@ How-To Sphinx
    relation_sphinx_needs
    how-to-write-rst
    sphinx-needs-basics
+
+Indices and tables
+******************
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
