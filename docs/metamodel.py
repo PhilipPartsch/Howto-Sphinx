@@ -429,7 +429,7 @@ def custom_defined_func():
 
 dict_needs_types = {}
 for nt in needs_types:
-    dict_needs_types[nt.directive] = nt
+    dict_needs_types[nt['directive']] = nt
 
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
