@@ -31,7 +31,7 @@ How-To model Archiecture with Sphinx-Needs
          {%- if (needs[f].type == "inport") -%}
          {% for g in needs[f].input %}
          'g = {{g}}
-         {{f}} -> {{g}}
+         {{g}} -> {{f}}
          {% endfor %}
          {%- endif -%}
          {% endfor %}
@@ -61,7 +61,7 @@ How-To model Archiecture with Sphinx-Needs
          {%- if (needs[f].type == "inport") -%}
          {% for g in needs[f].input %}
          'g = {{g}}
-         '{{e}} -> {{needs[g].parent_need}}
+         {{needs[g].parent_need}} #-# {{e}}
          {% endfor %}
          {%- endif -%}
          {% endfor %}
