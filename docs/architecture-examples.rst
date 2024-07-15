@@ -40,7 +40,7 @@ How-To model Archiecture with Sphinx-Needs
          {% for e in need().parent_needs_back %}
          '{{e}}
          {% if (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
-         {{uml(e, 'Component')}}
+         {{uml(e)}}
          {% endfor %}
          }
 
