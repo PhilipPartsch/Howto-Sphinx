@@ -16,9 +16,39 @@ How-To model Archiecture with Sphinx-Needs
          'Define elements
          '{{need()}}
          {{flow(need().id)}} {
-         {%- for e in need().part_of_back -%}
+         {% for e in need().part_of_back %}
          '{{e}}
          {% if needs[e].type == "comp" %}{{uml(e, 'Component')}}{% endif %}
+         {% endfor %}
+         }
+
+         'Link defined elements
+         {% for e in need().part_of_back %}
+         'e = {{e}}
+         {%- if needs[e].type == "comp" -%}
+         {% for f in needs[e].parent_needs_back %}
+         'f = {{f}}
+         {%- if (needs[f].type == "inport") -%}
+         {% for g in needs[f].input %}
+         'g = {{g}}
+         {{f}} -> {{g}}
+         {% endfor %}
+         {%- endif -%}
+         {% endfor %}
+         {%- endif -%}
+         {% endfor %}
+         }
+
+      .. needarch::
+         :key: Component2
+         :debug:
+
+         'Define elements
+         '{{need()}}
+         {{flow(need().id)}} {
+         {%- for e in need().part_of_back -%}
+         '{{e}}
+         {% if needs[e].type == "comp" %}{{flow(e)}}{% endif %}
          {% endfor %}
          }
 
@@ -31,7 +61,7 @@ How-To model Archiecture with Sphinx-Needs
          {%- if (needs[f].type == "inport") -%}
          {%- for g in needs[f].input -%}
          'g = {{g}}
-         {{f}} -> {{g}}
+         {{e}} #-># {{needs[g].parent_need}}
          {%- endfor -%}
          {%- endif -%}
          {%- endfor -%}
