@@ -15,9 +15,9 @@ How-To model Archiecture with Sphinx-Needs
 
          '{{need()}}
          {{flow(need().id)}} {
-         {% for e in need().parent_needs_back %}
+         {% for e in need().part_of_back %}
          '{{e}}
-         {% if e.parent_need == need().id and e.type == "comp" %}{{uml(e, 'Component')}}{% endif %}
+         {% if e.type == "comp" %}{{uml(e, 'Component')}}{% endif %}
          {% endfor %}
          }
 
@@ -32,6 +32,7 @@ How-To model Archiecture with Sphinx-Needs
 
       .. needarch::
          :key: Component
+         :debug:
 
          '{{need()}}
          {{flow(need().id)}} {
