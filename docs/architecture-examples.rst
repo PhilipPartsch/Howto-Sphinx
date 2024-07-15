@@ -17,8 +17,8 @@ How-To model Archiecture with Sphinx-Needs
          {{flow(need().id)}} {
          {% for e in need().part_of_back %}
          '{{e}}
-         {% if e.type == "comp" %}{{uml(e, 'Component')}}{% endif %}
-         {{uml(e, 'Component')}}
+         {% if needs[e].type == "comp" %}{{uml(e, 'Component')}}{% endif %}
+         '{{uml(e, 'Component')}}
          {% endfor %}
          }
 
@@ -39,7 +39,7 @@ How-To model Archiecture with Sphinx-Needs
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
          '{{e}}
-         {% if (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% if (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
          {{uml(e)}}
          {% endfor %}
          }
@@ -57,7 +57,7 @@ How-To model Archiecture with Sphinx-Needs
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
-         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
          {% endfor %}
          }
 
@@ -82,7 +82,7 @@ How-To model Archiecture with Sphinx-Needs
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
-         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
          {% endfor %}
          }
 
@@ -100,7 +100,7 @@ How-To model Archiecture with Sphinx-Needs
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
-         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
          {% endfor %}
          }
 
