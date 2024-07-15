@@ -46,6 +46,16 @@ How-To model Archiecture with Sphinx-Needs
       .. outport:: out
          :id: OP_C_B_OUT
 
+      .. needarch::
+         :key: Component
+
+         {{flow(need().id)}} {
+         {% for e in need().parent_needs_back %}
+         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% endfor %}
+         }
+
+
    .. comp:: Component C
       :id: C_C
       :part_of: LIB_MY_LIB
@@ -61,6 +71,16 @@ How-To model Archiecture with Sphinx-Needs
       .. outport:: out
          :id: OP_C_C_OUT
 
+      .. needarch::
+         :key: Component
+
+         {{flow(need().id)}} {
+         {% for e in need().parent_needs_back %}
+         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% endfor %}
+         }
+
+
    .. comp:: Component D
       :id: C_D
       :part_of: LIB_MY_LIB
@@ -68,6 +88,15 @@ How-To model Archiecture with Sphinx-Needs
       .. inport:: in
          :id: IP_C_D_IN
          :input: OP_C_C_OUT
+
+      .. needarch::
+         :key: Component
+
+         {{flow(need().id)}} {
+         {% for e in need().parent_needs_back %}
+         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% endfor %}
+         }
 
 
 .. example:: Visialize the dependencies
