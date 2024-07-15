@@ -9,6 +9,15 @@ How-To model Archiecture with Sphinx-Needs
    .. lib:: My lib
       :id: LIB_MY_LIB
 
+      .. needarch::
+         :key: Component
+
+         {{flow(need().id)}} {
+         {% for e in need().parent_need_back %}
+         {% if e.type == "comp" %}{{uml(e, 'Component')}}{% endif %}
+         {% endfor %}
+         }
+
 .. example:: Definiton of elements within the super structure
 
    .. comp:: Component A
@@ -22,8 +31,8 @@ How-To model Archiecture with Sphinx-Needs
          :key: Component
 
          {{flow(need().id)}} {
-         {% for e in need().parents_back %}
-         {% if e.type == "outport" or if e.type == "inport" %}{{uml(e)}}{% endif %}
+         {% for e in need().parent_need_back %}
+         {% if e.type == "outport" or e.type == "inport" %}{{uml(e)}}{% endif %}
          {% endfor %}
          }
 
