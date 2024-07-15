@@ -13,6 +13,9 @@ How-To model Archiecture with Sphinx-Needs
          :key: Component
          :debug:
 
+         left to right direction
+         'top to bottom direction
+
          'Define elements
          '{{need()}}
          {{flow(need().id)}} {
@@ -21,6 +24,9 @@ How-To model Archiecture with Sphinx-Needs
          {% if needs[e].type == "comp" %}{{uml(e, 'Component')}}{% endif %}
          {% endfor %}
          }
+
+         'Extra link to make diagramm nice looking
+         C_A --[hidden] C_B
 
          'Link defined elements
          {% for e in need().part_of_back %}
@@ -51,6 +57,9 @@ How-To model Archiecture with Sphinx-Needs
          {% if needs[e].type == "comp" %}{{flow(e)}}{% endif %}
          {% endfor %}
          }
+
+         'Extra link to make diagramm nice looking
+         C_A --[hidden] C_B
 
          'Link defined elements
          {% for e in need().part_of_back %}
