@@ -165,3 +165,9 @@ How-To model Archiecture with Sphinx-Needs
    .. needflow::
       :filter: docname == "architecture-examples"
       :show_link_names:
+
+.. example:: Visialize the dependencies II
+
+   .. needflow::
+      :filter: docname == "architecture-examples" and type != "lib"
+      :show_link_names:
