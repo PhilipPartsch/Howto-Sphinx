@@ -38,7 +38,7 @@ How-To model Archiecture with Sphinx-Needs
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
          '{{e}}
-         {% if e.parent_need == need().id and (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
+         {% if (e.type == "outport" or e.type == "inport") %}{{uml(e)}}{% endif %}
          {% endfor %}
          }
 
