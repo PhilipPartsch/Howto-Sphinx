@@ -9,7 +9,7 @@ How-To model Archiecture with Sphinx-Needs
    .. lib:: My lib
       :id: LIB_MY_LIB
 
-.. example:: Definiton of a elements with in the super structure
+.. example:: Definiton of elements within the super structure
 
    .. comp:: Component A
       :id: C_A
@@ -35,7 +35,7 @@ How-To model Archiecture with Sphinx-Needs
          :output: OP_C_A_OUT
 
       .. outport:: out
-         :id: OP_C_B_OUT
+         :id: OP_C_C_OUT
 
    .. comp:: Component D
       :id: C_D
