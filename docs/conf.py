@@ -157,6 +157,8 @@ needs_string_links = metamodel.needs_string_links
 
 needs_external_needs = metamodel.needs_external_needs
 
+needs_diagram_template = metamodel.needs_diagram_template
+
 needs_default_layout = 'clean_with_edit_link'
 
 # -- custom extensions ---------------------------------------
