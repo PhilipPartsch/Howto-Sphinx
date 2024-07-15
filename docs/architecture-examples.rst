@@ -30,7 +30,7 @@ How-To model Archiecture with Sphinx-Needs
       :part_of: LIB_MY_LIB
 
       .. inport:: in
-         :id: OP_C_C_IN
+         :id: IP_C_C_IN
          :input: OP_C_A_OUT
          :output: OP_C_A_OUT
 
@@ -42,7 +42,7 @@ How-To model Archiecture with Sphinx-Needs
       :part_of: LIB_MY_LIB
 
       .. inport:: in
-         :id: OP_C_D_IN
+         :id: IP_C_D_IN
          :input: OP_C_C_OUT
          :output: OP_C_C_OUT
 
