@@ -11,11 +11,13 @@ How-To Sphinx
 
 .. toctree::
    :caption: Contents
+   :maxdepth: 1
 
    why.rst
    relation_sphinx_needs
    how-to-write-rst
    sphinx-needs-basics
+   architecture-examples
 
 Indices and tables
 ******************
