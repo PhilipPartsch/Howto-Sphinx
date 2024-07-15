@@ -55,8 +55,8 @@ needs_types = [
                dict(directive="unit", title="Unit", prefix="U_", color="#abcdef", style="rectangle"),
                dict(directive="if", title="Interface", prefix="IF_", color="#abcdef", style="card"),
                dict(directive="decision", title="Decision", prefix="D_", color="#efff9c", style="artifact"),
-               dict(directive="inport", title="In Port", prefix="IP_", color="#efff9c", style="port"),
-               dict(directive="outport", title="Out Port", prefix="OP_", color="#efff9c", style="port"),
+               dict(directive="inport", title="InPort", prefix="IP_", color="#efff9c", style="port"),
+               dict(directive="outport", title="OutPort", prefix="OP_", color="#efff9c", style="port"),
 
                # Test
                dict(directive="test_spec", title="Test Specification", prefix="TS_", color="#abcdef", style="artifact"),
@@ -162,6 +162,8 @@ needs_extra_links = [
       "incoming": "Includes",
       "outgoing": "Part of",
       "style": "#000000",
+      "style_start": "-down",
+      "style_end": "->",
    },
    # links to repos and artifacts (an artifact can be stored in another artifact)
    {
@@ -221,7 +223,15 @@ needs_extra_links = [
       "style_start": "-up",
       "style_end": "->",
    },
-   
+   # links from Activity to Artifacts
+   {
+      "option": "uses",
+      "incoming": "consumed by",
+      "outgoing": "uses",
+      "style": "#000000",
+      "style_start": "<-right",
+      "style_end": "-",
+   },
    {
       "option": "implements",
       "incoming": "implemented by",
