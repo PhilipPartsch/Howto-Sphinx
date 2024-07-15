@@ -423,3 +423,17 @@ needs_diagram_template = """{%- if is_need and ( type == 'inport' or type == 'ou
 {%- else -%}
 <size:12>{{type_name}} (part)</size>\\n**{{content|wordwrap(15, wrapstring='**\\\\n**')}}**\\n<size:10>{{id_parent}}.**{{id}}**</size>
 {%- endif -%}"""
+
+def custom_defined_func():
+    return "my_tag"
+
+dict_needs_types = {}
+for nt in needs_types:
+    dict_needs_types[nt.directive] = nt
+
+
+# See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
+needs_render_context = {
+    "needs_types": dict_needs_types,
+    "custom_data_2": custom_defined_func(),
+}

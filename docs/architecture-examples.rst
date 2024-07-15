@@ -61,7 +61,7 @@ How-To model Archiecture with Sphinx-Needs
          {%- if (needs[f].type == "inport") -%}
          {% for g in needs[f].input %}
          'g = {{g}}
-         {{e}} #-># {{needs[g].parent_need}}
+         '{{e}} -> {{needs[g].parent_need}}
          {% endfor %}
          {%- endif -%}
          {% endfor %}
