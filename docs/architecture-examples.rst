@@ -13,6 +13,8 @@ How-To model Archiecture with Sphinx-Needs
          :key: Component
          :debug:
 
+         left to right direction
+
          'Define elements
          '{{need()}}
          {{flow(need().id)}} {
@@ -27,8 +29,8 @@ How-To model Archiecture with Sphinx-Needs
          'e = {{e}}
          {% if needs[e].type == "comp" %}
          {% for f in needs[e].parent_needs_back %}
-         {% if needs[f].parent_need == need().id and (needs[f].type == "inport") %}
          'f = {{f}}
+         {% if (needs[f].type == "inport") %}
          {% for g in needs[f].input %}
          'g = {{g}}
          {{f}} -> {{g}}
