@@ -13,9 +13,9 @@ How-To model Archiecture with Sphinx-Needs
          :key: Component
          :debug:
 
+         '{{need()}}
          {{flow(need().id)}} {
          {% for e in need().parent_need_back %}
-         '{{need()}}
          {% if e.type == "comp" %}{{uml(e, 'Component')}}{% endif %}
          {% endfor %}
          }
