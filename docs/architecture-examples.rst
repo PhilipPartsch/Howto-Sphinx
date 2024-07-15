@@ -13,32 +13,30 @@ How-To model Archiecture with Sphinx-Needs
          :key: Component
          :debug:
 
-         left to right direction
-
          'Define elements
          '{{need()}}
          {{flow(need().id)}} {
-         {% for e in need().part_of_back %}
+         {%- for e in need().part_of_back -%}
          '{{e}}
          {% if needs[e].type == "comp" %}{{uml(e, 'Component')}}{% endif %}
          {% endfor %}
          }
 
          'Link defined elements
-         {% for e in need().part_of_back %}
+         {%- for e in need().part_of_back -%}
          'e = {{e}}
-         {% if needs[e].type == "comp" %}
-         {% for f in needs[e].parent_needs_back %}
+         {%- if needs[e].type == "comp" -%}
+         {%- for f in needs[e].parent_needs_back -%}
          'f = {{f}}
-         {% if (needs[f].type == "inport") %}
-         {% for g in needs[f].input %}
+         {%- if (needs[f].type == "inport") -%}
+         {%- for g in needs[f].input -%}
          'g = {{g}}
          {{f}} -> {{g}}
-         {% endfor %}
-         {% endif %}
-         {% endfor %}
-         {% endif %}
-         {% endfor %}
+         {%- endfor -%}
+         {%- endif -%}
+         {%- endfor -%}
+         {%- endif -%}
+         {%- endfor -%}
          }
 
 .. example:: Definiton of elements within the super structure
