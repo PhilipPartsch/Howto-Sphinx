@@ -55,8 +55,8 @@ needs_types = [
                dict(directive="unit", title="Unit", prefix="U_", color="#abcdef", style="rectangle"),
                dict(directive="if", title="Interface", prefix="IF_", color="#abcdef", style="card"),
                dict(directive="decision", title="Decision", prefix="D_", color="#efff9c", style="artifact"),
-               dict(directive="inport", title="In Port", prefix="IP_", color="#efff9c", style="artifact"),
-               dict(directive="outport", title="Out Port", prefix="OP_", color="#efff9c", style="artifact"),
+               dict(directive="inport", title="In Port", prefix="IP_", color="#efff9c", style="port"),
+               dict(directive="outport", title="Out Port", prefix="OP_", color="#efff9c", style="port"),
 
                # Test
                dict(directive="test_spec", title="Test Specification", prefix="TS_", color="#abcdef", style="artifact"),
