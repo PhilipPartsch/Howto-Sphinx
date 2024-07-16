@@ -209,6 +209,12 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
       'group "{{ref('OP_C_A_OUT', option='title')}}"
       C_A -> C_C
       end
+
+      group "{{ref('OP_C_B_OUT', option='title')}} {{ref('IP_C_C_IN2', option='title')}}"
       C_B -> C_C
+      end
+
+      group "{{ref('OP_C_C_OUT', option='title')}} {{ref('IP_C_D_IN', option='title')}}"
       C_C -> C_D
+      end
 
