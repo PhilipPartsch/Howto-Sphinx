@@ -159,6 +159,8 @@ needs_external_needs = metamodel.needs_external_needs
 
 needs_diagram_template = metamodel.needs_diagram_template
 
+suppress_warnings = ["config.cache"]
+
 needs_render_context = metamodel.needs_render_context
 
 needs_default_layout = 'clean_with_edit_link'
