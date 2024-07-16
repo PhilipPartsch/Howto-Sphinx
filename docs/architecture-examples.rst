@@ -205,6 +205,10 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
       {{sequence(needs, c)}} {{ref(c)}}
       {% endfor %}
 
+      'group "{{ref('OP_C_A_OUT', option='title')}} {{ref('OP_C_C_IN', option='title')}}"
+      group "{{ref('OP_C_A_OUT', option='title')}}"
+      C_A -> C_C
+      end
       C_A -> C_C
       C_B -> C_C
       C_C -> C_D
