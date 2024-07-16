@@ -196,9 +196,12 @@ This is only because to see the dirrences tin the tooling.
 .. example:: Visulize a sequence diagram
 
    .. needuml::
+      :debug:
+
+      C_A -> C_B
 
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {%- for c in components -%}
       'c = {{c}}
-      {{sequence(needs, c)}}
+      '{{sequence(needs, c)}}
       {%- endfor -%}
