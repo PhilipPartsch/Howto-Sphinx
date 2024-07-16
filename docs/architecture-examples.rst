@@ -210,29 +210,29 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       'here you can add your plantuml sequence diagramm syntax
       'documentation can be found here: https://plantuml.com/en/sequence-diagram
 
-      activate C
+      activate C_C
 
       'If you want to higlight a group of interactions are part of "port's",
       'you can use "group" as with the following example:
       group "{{ref('OP_C_A_OUT', option='title')}} {{ref('IP_C_C_IN', option='title')}}"
-      activate A
+      activate C_A
       C_A <- C_C : subscribe for service
       C_A -> C_C : agree on subscribtion
       C_A -> C_C : send data
-      deactivate A
+      deactivate C_A
       end
 
       group "{{ref('OP_C_B_OUT', option='title')}} {{ref('IP_C_C_IN2', option='title')}}"
-      activate B
+      activate C_B
       C_B <- C_C : subscribe for service
       C_B -> C_C : agree on subscribtion
       C_B -> C_C : send data
-      deactivate B
+      deactivate C_B
       end
 
       group "{{ref('OP_C_C_OUT', option='title')}} {{ref('IP_C_D_IN', option='title')}}"
       C_C -> C_D : send data
       end
 
-      deactivate C
+      deactivate C_C
 
