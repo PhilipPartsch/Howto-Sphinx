@@ -2,7 +2,8 @@
 How-To model Archiecture with Sphinx-Needs
 ##########################################
 
-
+Pay attention: We do use ``:input:`` and ``:output:`` in the same datamodel.
+This is only because to see the dirrences tin the tooling. 
 
 .. example:: Definiton of a super structure element
 
@@ -37,7 +38,7 @@ How-To model Archiecture with Sphinx-Needs
          {%- if (needs[f].type == "inport") -%}
          {% for g in needs[f].input %}
          'g = {{g}}
-         {{g}} -> {{f}}
+         {{g}} -[#000000]-> {{f}}
          {% endfor %}
          {%- endif -%}
          {% endfor %}
@@ -78,7 +79,7 @@ How-To model Archiecture with Sphinx-Needs
          {% endfor %}
          }
 
-.. example:: Definiton of elements within the super structure
+.. example:: Definition of elements within the super structure
 
    .. comp:: Component A
       :id: C_A
@@ -86,6 +87,7 @@ How-To model Archiecture with Sphinx-Needs
 
       .. outport:: out
          :id: OP_C_A_OUT
+         :output: IP_C_C_IN
 
       .. needarch::
          :key: Component
@@ -106,6 +108,7 @@ How-To model Archiecture with Sphinx-Needs
 
       .. outport:: out
          :id: OP_C_B_OUT
+         :output: IP_C_C_IN2
 
       .. needarch::
          :key: Component
@@ -131,6 +134,7 @@ How-To model Archiecture with Sphinx-Needs
 
       .. outport:: out
          :id: OP_C_C_OUT
+         :output: IP_C_D_IN
 
       .. needarch::
          :key: Component
@@ -160,16 +164,30 @@ How-To model Archiecture with Sphinx-Needs
          }
 
 
-.. example:: Visialize the dependencies
+.. example:: Visialize the dependencies - Input
 
    .. needflow::
       :filter: docname == "architecture-examples"
+      :link_types: input, part_of
       :show_link_names:
       :debug:
 
-.. example:: Visialize the dependencies II
+   .. needflow::
+      :filter: docname == "architecture-examples" and type != "lib"
+      :link_types: input
+      :show_link_names:
+      :debug:
+
+.. example:: Visialize the dependencies - Output
+
+   .. needflow::
+      :filter: docname == "architecture-examples"
+      :link_types: output, part_of
+      :show_link_names:
+      :debug:
 
    .. needflow::
       :filter: docname == "architecture-examples" and type != "lib"
+      :link_types: output
       :show_link_names:
       :debug:
