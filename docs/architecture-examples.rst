@@ -198,8 +198,6 @@ This is only because to see the dirrences tin the tooling.
    .. needuml::
       :debug:
 
-      '{{get_githoster_edit_url_for_need()}}
-
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {% for c in components %}
       'c = {{c}}
@@ -207,6 +205,7 @@ This is only because to see the dirrences tin the tooling.
       {{sequence(needs, c)}} 
       {% endfor %}
 
-      C_A -> C_B
-
+      C_A -> C_C
+      C_B -> C_C
+      C_C -> C_D
 
