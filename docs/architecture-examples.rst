@@ -164,6 +164,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          {% endfor %}
          }
 
+To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input).
 
 .. example:: Visialize the dependencies - Input
 
@@ -199,22 +200,31 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
    .. needuml::
       :debug:
 
+      'add you needed sphinx-needs elements to the list "components"
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {% for c in components %}
       'c = {{c}}
       {{sequence(needs, c)}} {{ref(c)}}
       {% endfor %}
 
+      'here you can add your plantuml sequence diagramm syntax
+      'documentation can be found here: https://plantuml.com/en/sequence-diagram
+
+      'If you want to higlight a group of interactions are part of "port's",
+      'you can use "group" as with the following example:
       group "{{ref('OP_C_A_OUT', option='title')}} {{ref('IP_C_C_IN', option='title')}}"
-      'group "{{ref('OP_C_A_OUT', option='title')}}"
-      C_A -> C_C
+      C_A <- C_C : subscribe for service
+      C_A -> C_C : agree on subscribtion
+      C_A -> C_C : send data
       end
 
       group "{{ref('OP_C_B_OUT', option='title')}} {{ref('IP_C_C_IN2', option='title')}}"
-      C_B -> C_C
+      C_B <- C_C : subscribe for service
+      C_B -> C_C : agree on subscribtion
+      C_B -> C_C : send data
       end
 
       group "{{ref('OP_C_C_OUT', option='title')}} {{ref('IP_C_D_IN', option='title')}}"
-      C_C -> C_D
+      C_C -> C_D : send data
       end
 
