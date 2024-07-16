@@ -456,5 +456,5 @@ def sequence(needs, id):
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
     "needs_types": dict_needs_types,
-    "sequence": sequence(),
+    "sequence": sequence,
 }

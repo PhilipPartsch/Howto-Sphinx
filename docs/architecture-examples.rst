@@ -197,7 +197,7 @@ This is only because to see the dirrences tin the tooling.
 
    .. needuml::
 
-      {%- set components = ['C_A', 'C_B','C_C','C_D',] -%}
+      {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {%- for c in components -%}
       'c = {{c}}
       {{sequence(needs, c)}}
