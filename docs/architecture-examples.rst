@@ -3,7 +3,8 @@ How-To model Archiecture with Sphinx-Needs
 ##########################################
 
 Pay attention: We do use ``:input:`` and ``:output:`` in the same datamodel.
-This is only because to see the dirrences tin the tooling. 
+This is only because to see the differences in the output of plantuml tooling.
+Especially the ordering of links like ``A -> B`` vs ``B <- A``.
 
 .. example:: Definiton of a super structure element
 
@@ -201,8 +202,7 @@ This is only because to see the dirrences tin the tooling.
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {% for c in components %}
       'c = {{c}}
-      '{{sequence(needs, c)}} {{ref(c)}}
-      {{sequence(needs, c)}} 
+      {{sequence(needs, c)}} {{ref(c)}}
       {% endfor %}
 
       C_A -> C_C
