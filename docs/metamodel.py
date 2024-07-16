@@ -55,8 +55,8 @@ needs_types = [
                dict(directive="unit", title="Unit", prefix="U_", color="#abcdef", style="rectangle"),
                dict(directive="if", title="Interface", prefix="IF_", color="#abcdef", style="card"),
                dict(directive="decision", title="Decision", prefix="D_", color="#efff9c", style="artifact"),
-               dict(directive="inport", title="InPort", prefix="IP_", color="#abcdef", style="portin"),
-               dict(directive="outport", title="OutPort", prefix="OP_", color="#abcdef", style="portout"),
+               dict(directive="inport", title="InPort", prefix="IP_", color="#abcdef", style="portin", sequence_style="control"),
+               dict(directive="outport", title="OutPort", prefix="OP_", color="#abcdef", style="portout", sequence_style="control"),
 
                # Test
                dict(directive="test_spec", title="Test Specification", prefix="TS_", color="#abcdef", style="artifact"),
@@ -430,12 +430,31 @@ dict_needs_types = {}
 for nt in needs_types:
     dict_needs_types[nt['directive']] = nt
 
-def custom_defined_func():
-    return "my_tag"
+# you do have to import "JinjaFunctions" from "sphinx-needs/sphinx_needs/directives/needuml.py"
+# and extend functions. Not done here, is only a fast hack :)
+
+def sequence(needs, id):
+
+    # check that id is part of needs and raise excpetion if not. 
+
+    node_text = needs[id]["title"]
+    need_type = needs[id]["type"]
+    if "sequence_style" in dict_needs_types[need_type]
+        style = dict_needs_types[need_type]["sequence_style"]
+    else:
+        style = "participant"
+
+    need_uml = '{style} "{node_text}" as {id}'.format(
+        id=make_entity_name(need_id),
+        node_text=node_text,
+        style=style,
+    )
+
+    return need_uml
 
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
     "needs_types": dict_needs_types,
-    "custom_data_2": custom_defined_func(),
+    "custom_data_2": sequence(),
 }
