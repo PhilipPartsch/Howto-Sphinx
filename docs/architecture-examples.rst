@@ -191,3 +191,14 @@ This is only because to see the dirrences tin the tooling.
       :link_types: output
       :show_link_names:
       :debug:
+
+
+.. example:: Visulize a sequence diagram
+
+   .. needuml::
+
+      {%- set components = ['C_A', 'C_B','C_C','C_D',] -%}
+      {%- for c in components -%}
+      'c = {{c}}
+      {{sequence(needs, c)}}
+      {%- endfor -%}

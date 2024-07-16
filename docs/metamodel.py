@@ -439,7 +439,7 @@ def sequence(needs, id):
 
     node_text = needs[id]["title"]
     need_type = needs[id]["type"]
-    if "sequence_style" in dict_needs_types[need_type]
+    if "sequence_style" in dict_needs_types[need_type]:
         style = dict_needs_types[need_type]["sequence_style"]
     else:
         style = "participant"
@@ -456,5 +456,5 @@ def sequence(needs, id):
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
     "needs_types": dict_needs_types,
-    "custom_data_2": sequence(),
+    "sequence": sequence(),
 }
