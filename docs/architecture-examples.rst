@@ -200,14 +200,14 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
    .. needuml::
       :debug:
 
-      'add you needed sphinx-needs elements to the list "components"
+      'add your needed sphinx-needs elements to the list "components"
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {% for c in components %}
       'c = {{c}}
       {{sequence(needs, c)}} {{ref(c)}}
       {% endfor %}
 
-      'here you can add your plantuml sequence diagramm syntax
+      'here you can add your plantuml sequence diagramm code.
       'documentation can be found here: https://plantuml.com/en/sequence-diagram
 
       activate C_C
@@ -215,16 +215,16 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       'If you want to higlight a group of interactions are part of "port's",
       'you can use "group" as with the following example:
       group "{{ref('OP_C_A_OUT', option='title')}} {{ref('IP_C_C_IN', option='title')}}"
-      activate C_A
       C_A <- C_C : subscribe for service
+      activate C_A
       C_A -> C_C : agree on subscribtion
       C_A -> C_C : send data
       deactivate C_A
       end
 
       group "{{ref('OP_C_B_OUT', option='title')}} {{ref('IP_C_C_IN2', option='title')}}"
-      activate C_B
       C_B <- C_C : subscribe for service
+      activate C_B
       C_B -> C_C : agree on subscribtion
       C_B -> C_C : send data
       deactivate C_B
