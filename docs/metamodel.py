@@ -437,6 +437,7 @@ def sequence(needs, id):
 
     # check that id is part of needs and raise excpetion if not. 
 
+    need_id = id
     node_text = needs[id]["title"]
     need_type = needs[id]["type"]
     if "sequence_style" in dict_needs_types[need_type]:
@@ -445,7 +446,7 @@ def sequence(needs, id):
         style = "participant"
 
     need_uml = '{style} "{node_text}" as {id}'.format(
-        id=make_entity_name(need_id),
+        id=need_id,
         node_text=node_text,
         style=style,
     )
