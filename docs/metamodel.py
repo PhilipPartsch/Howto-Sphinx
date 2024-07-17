@@ -453,9 +453,20 @@ def sequence(needs, id):
 
     return need_uml
 
+from sphinx_needs.directives.needuml import JinjaFunctions
+
+def class_sequence(self, need_id: str) -> str:
+
+    needs = self.needs
+
+    return sequence(needs, need_id)
+
+JinjaFunctions.class_sequence = class_sequence
+
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
     "needs_types": dict_needs_types,
     "sequence": sequence,
+    "sequence2": JinjaFunctions.class_sequence,
 }
