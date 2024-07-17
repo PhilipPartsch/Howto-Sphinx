@@ -523,8 +523,8 @@ def jinja2uml_new(
 
     return (uml, processed_need_ids_return)
 
-
-jinja2uml = jinja2uml_new
+import sphinx_needs
+sphinx_needs.directives.needuml.jinja2uml = jinja2uml_new
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
