@@ -511,6 +511,7 @@ def jinja2uml_new(
             "filter": jinja_utils.filter,
             "import": jinja_utils.imports,
             "ref": jinja_utils.ref,
+            "sequence3": jinja_utils.class_sequence,
             "context": jinja_utils,
         }
     )
