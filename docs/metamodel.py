@@ -468,6 +468,7 @@ from sphinx_needs.directives.needuml import jinja2uml
 from sphinx.application import Sphinx
 from sphinx_needs.directives.needuml import ProcessedNeedsType
 from jinja2 import BaseLoader, Environment, Template
+from typing import TYPE_CHECKING, Any, Dict, List, Sequence, TypedDict
 
 def jinja2uml_new(
     app: Sphinx,
