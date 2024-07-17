@@ -465,6 +465,9 @@ JinjaFunctions.class_sequence = class_sequence
 
 from sphinx_needs.directives.needuml import jinja2uml
 
+from sphinx.application import Sphinx
+from sphinx_needs.directives.needuml import ProcessedNeedsType
+from jinja2 import BaseLoader, Environment, Template
 
 def jinja2uml_new(
     app: Sphinx,
