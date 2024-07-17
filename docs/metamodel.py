@@ -468,5 +468,5 @@ JinjaFunctions.class_sequence = class_sequence
 needs_render_context = {
     "needs_types": dict_needs_types,
     "sequence": sequence,
-    "sequence2": JinjaFunctions.class_sequence,
+    "sequence2": jinja_utils.class_sequence,
 }
