@@ -246,7 +246,7 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       {%- set components = ['C_A', 'C_B', 'C_C', 'C_D',] -%}
       {% for c in components %}
       'c = {{c}}
-      {{sequence2(jinja_utils, c)}} {{ref(c)}}
+      {{sequence2(context, c)}} {{ref(c)}}
       {% endfor %}
 
       'If you want to higlight a group of interactions are part of "port's",

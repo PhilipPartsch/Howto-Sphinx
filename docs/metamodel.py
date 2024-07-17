@@ -463,6 +463,64 @@ def class_sequence(self, need_id: str) -> str:
 
 JinjaFunctions.class_sequence = class_sequence
 
+from sphinx_needs.directives.needuml import jinja2uml
+
+
+def jinja2uml_new(
+    app: Sphinx,
+    fromdocname: None | str,
+    uml_content: str,
+    parent_need_id: None | str,
+    key: None | str,
+    processed_need_ids: ProcessedNeedsType,
+    kwargs: dict[str, Any],
+) -> tuple[str, ProcessedNeedsType]:
+    # Let's render jinja templates with uml content template to 'plantuml syntax' uml
+    # 1. Remove @startuml and @enduml
+    uml_content = uml_content.replace("@startuml", "").replace("@enduml", "")
+
+    # 2. Prepare jinja template
+    mem_template = Environment(loader=BaseLoader()).from_string(uml_content)
+
+    # 3. Get a new instance of Jinja Helper Functions
+    jinja_utils = JinjaFunctions(app, fromdocname, parent_need_id, processed_need_ids)
+
+    # 4. Append need_id to processed_need_ids, so it will not been processed again
+    if parent_need_id:
+        jinja_utils.append_need_to_processed_needs(
+            need_id=parent_need_id, art="uml", key=key, kwargs=kwargs
+        )
+
+    # 5. Get data for the jinja processing
+    data: dict[str, Any] = {}
+    # 5.1 Set default config to data
+    data.update(**NeedsSphinxConfig(app.config).render_context)
+    # 5.2 Set uml() kwargs to data and maybe overwrite default settings
+    data.update(kwargs)
+    # 5.3 Make the helpers available during rendering and overwrite maybe wrongly default and uml() kwargs settings
+    data.update(
+        {
+            "needs": jinja_utils.needs,
+            "need": jinja_utils.need,
+            "uml": jinja_utils.uml_from_need,
+            "flow": jinja_utils.flow,
+            "filter": jinja_utils.filter,
+            "import": jinja_utils.imports,
+            "ref": jinja_utils.ref,
+            "context": jinja_utils,
+        }
+    )
+
+    # 6. Render the uml content with the fetched data
+    uml = mem_template.render(**data)
+
+    # 7. Get processed need ids
+    processed_need_ids_return = jinja_utils.get_processed_need_ids()
+
+    return (uml, processed_need_ids_return)
+
+
+jinja2uml = jinja2uml_new
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
@@ -470,3 +528,4 @@ needs_render_context = {
     "sequence": sequence,
     "sequence2": JinjaFunctions.class_sequence,
 }
+
