@@ -236,10 +236,10 @@ Visiual repesentation of many Elements
    .. needuml::
       :debug:
 
-      {%- set components = filter("docname == 'architecture-many-components'") -%}
-      {% for c in components %}
-      'c = {{c}}
-      {{flow(c)}}
+      '{%- set components = filter("docname == 'architecture-many-components'") -%}
+      {% for need in filter("docname == 'architecture-many-components'") %}
+      '{{need}}
+      {{flow(need.id)}}
       {% endfor %}
 
 

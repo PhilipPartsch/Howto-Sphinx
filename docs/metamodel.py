@@ -529,7 +529,7 @@ sphinx_needs.directives.needuml.jinja2uml = jinja2uml_new
 
 # See https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 needs_render_context = {
-    #"needs_types": dict_needs_types,
+    "needs_types": dict_needs_types,
     "sequence": sequence,
     "sequence2": JinjaFunctions.class_sequence,
 }
