@@ -8,8 +8,8 @@ How-To model Architecture with Sphinx-Needs
 Structure Model: Deployment-Diagram
 ***********************************
 
-Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphinx-Needs NeedFlow>`_,
-`needarch <Sphinx-Needs NeedArch>`_, and `needuml <Sphinx-Needs NeedUML>`_.
+Sphinx-Needs offers a build in represenatation of elements with `needflow`_,
+`needarch`_, and `needuml`_.
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`_
 to change repesentation in needflow.
@@ -219,6 +219,29 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 Visiual repesentation of many Elements
 ======================================
 
+.. toctree::
+   :maxdepth: 1
+
+   architecture-many-components
+
+.. example:: Visialize many elements with needflow
+
+   .. needflow::
+      :filter: docname == "architecture-many-components"
+      :show_link_names:
+      :debug:
+
+.. example:: Visulize many elements with needuml
+
+   .. needuml::
+      :debug:
+
+      {%- set components = filter("docname == 'architecture-many-components'") -%}
+      {% for c in components %}
+      'c = {{c}}
+      {{flow(c)}}
+      {% endfor %}
+
 
 Behaviour Model: Sequence-Diagram
 *********************************
@@ -317,11 +340,11 @@ from sphinx-needs. Currently used functions:
 
 .. target-notes::
 
-.. _`Sphinx-Needs NeedFlow` : https://sphinx-needs.readthedocs.io/en/latest/directives/needflow.html
+.. _`needflow` : https://sphinx-needs.readthedocs.io/en/latest/directives/needflow.html
 
-.. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
+.. _`needarch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
-.. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+.. _`needuml` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
 
 .. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 
