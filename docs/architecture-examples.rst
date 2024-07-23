@@ -8,7 +8,7 @@ Structure Model: Deployment-Diagram
 ***********************************
 
 Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphinx-Needs NeedFlow>`_,
-:ref:`needarch <Sphinx-Needs NeedArch>`, and :ref:`needuml <Sphinx-Needs NeedUML>`.
+:any:`needarch <Sphinx-Needs NeedArch>`, and :ref:`needuml <Sphinx-Needs NeedUML>`.
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`
 to change repesentation in needflow.
