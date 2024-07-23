@@ -238,7 +238,6 @@ Visiual repesentation of many Elements
 
       '{%- set components = filter("docname == 'architecture-many-components'") -%}
       {% for need in filter("docname == 'architecture-many-components'") %}
-      '{{need}}
       {{flow(need.id)}}
       {% endfor %}
 
