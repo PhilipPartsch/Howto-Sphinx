@@ -135,6 +135,8 @@ NeedFlow
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 The code been expected and generated is for `plantuml`_.
+You can configure the visiual repsentation of needs elements in  needflow with `needs-types`_.
+Needflow expects to get plantuml `deployment-diagram`_ elements as representation.
 
 .. example:: How-to use a NeedFlow.
 
@@ -151,6 +153,7 @@ NeedUML
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
 The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch debug option`_.
 The code been expected and generated is for `plantuml`_.
+You can use `needs-render-context` to extend the data available in needarch and needuml.
 
 .. example:: How-to use a NeedUML.
 
@@ -228,6 +231,12 @@ References
 .. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
 .. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+
+.. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
+
+.. _`needs-types` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-types
+
+.. _`deployment-diagram` : http://plantuml.com/deployment-diagram
 
 .. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
 

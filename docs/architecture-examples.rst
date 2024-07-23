@@ -1,6 +1,25 @@
-##########################################
-How-To model Archiecture with Sphinx-Needs
-##########################################
+###########################################
+How-To model Architecture with Sphinx-Needs
+###########################################
+
+.. contents:: table of contents
+
+Structure Model: Deployment-Diagram
+***********************************
+
+Sphinx-Needs offers a build in represenatation of elements with :ref:`needflow <Sphinx-Needs NeedFlow>`,
+:ref:`needarch <Sphinx-Needs NeedArch>`, and :ref:`needuml <Sphinx-Needs NeedUML>`.
+
+You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`
+to change repesentation in needflow.
+You can use :ref:`needs-render-context` to extend the data available in needarch and needuml.
+
+Needflow expects to get plantuml :ref:`deployment-diagram` elements as representation.
+With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`
+you can get this repesentation even in needarch and needuml.
+
+Visial representation of UML Ports in Sphinx-Needs
+==================================================
 
 Pay attention: We do use ``:input:`` and ``:output:`` in the same datamodel.
 This is only because to see the differences in the output of plantuml tooling.
@@ -194,6 +213,19 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       :show_link_names:
       :debug:
 
+
+Visiual repesentation of many Elements
+======================================
+
+
+Behaviour Model: Sequence-Diagram
+*********************************
+
+Here we use monkey patching to get in fucntions in class `JinjaFunctions`
+from sphinx-needs. Currently used functions:
+
+- sequence2
+- sequence3
 
 .. example:: Visulize a sequence diagram
 
