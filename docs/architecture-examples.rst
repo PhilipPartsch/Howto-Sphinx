@@ -4,6 +4,7 @@ How-To model Architecture with Sphinx-Needs
 
 .. contents:: table of contents
 
+
 Structure Model: Deployment-Diagram
 ***********************************
 
@@ -12,11 +13,12 @@ Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphin
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`_
 to change repesentation in needflow.
-You can use `needs-render-context <needs-render-context>`_ to extend the data available in needarch and needuml.
+You can use `needs-render-context`_ to extend the data available in needarch and needuml.
 
-Needflow expects to get `plantuml deployment-diagram <plantuml deployment-diagram>`_ elements as representation.
+Needflow expects to get `plantuml deployment-diagram`_ elements as representation.
 With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`_
 you can get this repesentation even in needarch and needuml.
+
 
 Visial representation of UML Ports in Sphinx-Needs
 ==================================================
@@ -312,3 +314,15 @@ from sphinx-needs. Currently used functions:
       C_A -> C_C : send data
       deactivate C_A
       end
+
+.. target-notes::
+
+.. _`Sphinx-Needs NeedFlow` : https://sphinx-needs.readthedocs.io/en/latest/directives/needflow.html
+
+.. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
+
+.. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+
+.. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
+
+.. _`plantuml deployment-diagram` : http://plantuml.com/deployment-diagram
