@@ -7,7 +7,7 @@ How-To model Architecture with Sphinx-Needs
 Structure Model: Deployment-Diagram
 ***********************************
 
-Sphinx-Needs offers a build in represenatation of elements with :ref:`needflow <Sphinx-Needs NeedFlow>`,
+Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphinx-Needs NeedFlow>`_,
 :ref:`needarch <Sphinx-Needs NeedArch>`, and :ref:`needuml <Sphinx-Needs NeedUML>`.
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`
