@@ -8,13 +8,13 @@ Structure Model: Deployment-Diagram
 ***********************************
 
 Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphinx-Needs NeedFlow>`_,
-:any:`needarch <Sphinx-Needs NeedArch>`, and :ref:`needuml <Sphinx-Needs NeedUML>`.
+:any:`needarch <Sphinx-Needs NeedArch>`, and :any:`needuml <Sphinx-Needs NeedUML>`.
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`
 to change repesentation in needflow.
-You can use :ref:`needs-render-context` to extend the data available in needarch and needuml.
+You can use :any:`needs-render-context` to extend the data available in needarch and needuml.
 
-Needflow expects to get plantuml :ref:`deployment-diagram` elements as representation.
+Needflow expects to get plantuml :any:`deployment-diagram` elements as representation.
 With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`
 you can get this repesentation even in needarch and needuml.
 
