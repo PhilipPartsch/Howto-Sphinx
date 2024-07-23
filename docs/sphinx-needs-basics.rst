@@ -234,8 +234,6 @@ References
 
 .. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 
-.. _`needs-types` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-types
-
 .. _`deployment-diagram` : http://plantuml.com/deployment-diagram
 
 .. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug

@@ -514,8 +514,6 @@ If you only want to link to a headline within a document you can use the headlin
 Links to named references
 =========================
 
-See `How to use numref`.
-
 You can link to named elements like figures, tables, and so on.
 
 Here we link to the above named figure ``my-avatar``.
@@ -526,7 +524,8 @@ Here we link to the above named figure ``my-avatar``.
 
    :ref:`Image of Avatar (Name. '{name}') <my-avatar>`
 
-You have to enable ``numfig = True`` in your ``conf.py``. 
+If you want to use ``numref``, you have to enable ``numfig = True`` in your ``conf.py``.
+See `How to use numref`_.
 
 .. example:: role numref
 
