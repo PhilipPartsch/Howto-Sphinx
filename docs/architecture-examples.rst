@@ -10,12 +10,12 @@ Structure Model: Deployment-Diagram
 Sphinx-Needs offers a build in represenatation of elements with `needflow <Sphinx-Needs NeedFlow>`_,
 `needarch <Sphinx-Needs NeedArch>`_, and `needuml <Sphinx-Needs NeedUML>`_.
 
-You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`
+You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`_
 to change repesentation in needflow.
 You can use `needs-render-context <needs-render-context>`_ to extend the data available in needarch and needuml.
 
 Needflow expects to get `plantuml deployment-diagram <plantuml deployment-diagram>`_ elements as representation.
-With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`
+With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`_
 you can get this repesentation even in needarch and needuml.
 
 Visial representation of UML Ports in Sphinx-Needs
