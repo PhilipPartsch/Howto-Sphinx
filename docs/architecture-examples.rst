@@ -187,7 +187,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
 
 To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input).
 
-.. example:: Visialize the dependencies - Input
+.. example:: Visualize the dependencies - Input
 
    .. needflow::
       :filter: docname == "architecture-examples"
@@ -201,7 +201,7 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       :show_link_names:
       :debug:
 
-.. example:: Visialize the dependencies - Output
+.. example:: Visualize the dependencies - Output
 
    .. needflow::
       :filter: docname == "architecture-examples"
@@ -224,14 +224,14 @@ Visiual repesentation of many Elements
 
    architecture-many-components
 
-.. example:: Visialize many elements with needflow
+.. example:: Visualize many elements with needflow
 
    .. needflow::
       :filter: docname == "architecture-many-components"
       :show_link_names:
       :debug:
 
-.. example:: Visulize many elements with needuml
+.. example:: Visualize many elements with needuml
 
    .. needuml::
       :debug:
@@ -252,7 +252,7 @@ from sphinx-needs. Currently used functions:
 - sequence2
 - sequence3
 
-.. example:: Visulize a sequence diagram
+.. example:: Visualize a sequence diagram
 
    .. needuml::
       :debug:
@@ -294,7 +294,7 @@ from sphinx-needs. Currently used functions:
       deactivate C_C
 
 
-.. example:: Visulize a sequence diagram II
+.. example:: visualizeisualize a sequence diagram II
 
    .. needuml::
       :debug:
@@ -316,7 +316,7 @@ from sphinx-needs. Currently used functions:
       deactivate C_A
       end
 
-.. example:: Visulize a sequence diagram III
+.. example:: Visualize a sequence diagram III
 
    .. needuml::
       :debug:
