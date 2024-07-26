@@ -261,7 +261,8 @@ Visiual repesentation of many Elements
       ' connect elements
       {% for e in p["elements"] %}
       {%- if loop.previtem is defined -%}
-      {{loop.previtem}} #--# {{e}}
+      {{loop.previtem}} #-# {{e}}
+      {# here it is important to use #-#, as - has a left / right alignment and -- has up / down alignment #}
       {% endif %}
       {% endfor %}
       }
