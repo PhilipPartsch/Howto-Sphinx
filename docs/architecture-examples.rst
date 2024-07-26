@@ -249,7 +249,7 @@ Visiual repesentation of many Elements
    .. needuml::
       :debug:
 
-      'the packages are project specific defined in needs_render_context in conf.py
+      'the packages are project specific and defined in needs_render_context in conf.py
       {% for p in packages %}
       package {{p["name"]}} {
       ' import elements
@@ -258,15 +258,15 @@ Visiual repesentation of many Elements
       {% endfor %}
       ' connect elements
       {% for e in p["elements"] %}
-         {% if loop.previtem is defined %}
+         {%- if loop.previtem is defined -%}
          '{{loop.previtem}} #--# {{e}}
-         {% endif %}
+         {%- endif -%}
       {% endfor %}
       }
-      {% if loop.previtem is defined %}
+      {%- if loop.previtem is defined -%}
       ' connect packages with hidden link to nice align elements
-      '{{loop.previtem}} --[hidden] {{p}}
-      {% endif %}
+      '{{loop.previtem["name"]}} --[hidden] {{p["name"]}}
+      {%- endif -%}
       {% endfor %}
 
 
