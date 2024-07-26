@@ -532,5 +532,11 @@ needs_render_context = {
     "needs_types": dict_needs_types,
     "sequence": sequence,
     "sequence2": JinjaFunctions.class_sequence,
+    "packages": [
+        {"name" : "P1", "elements" : ["C_MANY_A", "C_MANY_B", "C_MANY_C", "C_MANY_D"],},
+        {"name" : "P2", "elements" : ["C_MANY_E", "C_MANY_F", "C_MANY_G"],},
+        {"name" : "P3", "elements" : ["C_MANY_H", "C_MANY_I", "C_MANY_J", "C_MANY_K", "C_MANY_L"],},
+        {"name" : "P4", "elements" : ["C_MANY_M", "C_MANY_N", "C_MANY_O", "C_MANY_P"],},
+    ],
 }
 

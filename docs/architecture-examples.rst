@@ -231,7 +231,8 @@ Visiual repesentation of many Elements
       :show_link_names:
       :debug:
 
-.. example:: Visualize many elements with needuml
+
+.. example:: Visualize many elements with needuml I
 
    .. needuml::
       :debug:
@@ -240,6 +241,20 @@ Visiual repesentation of many Elements
       '{{components}}
       {% for need in filter("docname == 'architecture-many-components'") %}
       {{flow(need.id)}}
+      {% endfor %}
+
+
+.. example:: Visualize many elements with needuml I
+
+   .. needuml::
+      :debug:
+
+      {% for p in packages %}
+      package {{p["name"]}} {
+      {% for e in p["elements"] %}
+      {{flow(e)}}
+      {% endfor %}
+      }
       {% endfor %}
 
 
