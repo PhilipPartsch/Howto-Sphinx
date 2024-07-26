@@ -249,6 +249,8 @@ Visiual repesentation of many Elements
    .. needuml::
       :debug:
 
+      left to right direction
+
       'the packages are project specific and defined in needs_render_context in conf.py
       {% for p in packages %}
       package {{p["name"]}} {
@@ -258,7 +260,7 @@ Visiual repesentation of many Elements
       {% endfor %}
       ' connect elements
       {% for e in p["elements"] %}
-      {% if loop.previtem is defined %}
+      {%- if loop.previtem is defined -%}
       {{loop.previtem}} #--# {{e}}
       {% endif %}
       {% endfor %}
