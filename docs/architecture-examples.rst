@@ -236,7 +236,7 @@ Visiual repesentation of many Elements
    .. needuml::
       :debug:
 
-      '{%- set components = filter("docname == 'architecture-many-components'") -%}
+      {%- set components = filter("docname == 'architecture-many-components'") -%}
       {% for need in filter("docname == 'architecture-many-components'") %}
       {{flow(need.id)}}
       {% endfor %}
@@ -293,7 +293,7 @@ from sphinx-needs. Currently used functions:
       deactivate C_C
 
 
-.. example:: visualizeisualize a sequence diagram II
+.. example:: Visualize a sequence diagram II
 
    .. needuml::
       :debug:
