@@ -251,10 +251,21 @@ Visiual repesentation of many Elements
 
       {% for p in packages %}
       package {{p["name"]}} {
+      ' import elements
       {% for e in p["elements"] %}
-      {{flow(e)}}
+         {{flow(e)}}
+      {% endfor %}
+      ' connect elements
+      {% for e in p["elements"] %}
+         {% if loop.previtem is defined %}
+         {{loop.previtem}} #--# {{p}}
+         {% endif %}
       {% endfor %}
       }
+      {% if loop.previtem is defined %}
+      ' connect packages with hidden link to nice align elements
+      {{loop.previtem}} --[hidden] {{p}}
+      {% endif %}
       {% endfor %}
 
 
