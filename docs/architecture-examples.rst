@@ -259,13 +259,13 @@ Visiual repesentation of many Elements
       ' connect elements
       {% for e in p["elements"] %}
          {%- if loop.previtem is defined -%}
-         '{{loop.previtem}} #--# {{e}}
+         {{loop.previtem}} #--# {{e}}
          {%- endif -%}
       {% endfor %}
       }
       {%- if loop.previtem is defined -%}
       ' connect packages with hidden link to nice align elements
-      '{{loop.previtem["name"]}} --[hidden] {{p["name"]}}
+      {{loop.previtem["name"]}} --[hidden] {{p["name"]}}
       {%- endif -%}
       {% endfor %}
 
