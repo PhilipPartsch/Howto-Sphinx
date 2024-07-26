@@ -244,7 +244,7 @@ Visiual repesentation of many Elements
       {% endfor %}
 
 
-.. example:: Visualize many elements with needuml I
+.. example:: Visualize many elements with needuml II
 
    .. needuml::
       :debug:
@@ -254,19 +254,19 @@ Visiual repesentation of many Elements
       package {{p["name"]}} {
       ' import elements
       {% for e in p["elements"] %}
-         {{flow(e)}}
+      {{flow(e)}}
       {% endfor %}
       ' connect elements
       {% for e in p["elements"] %}
-         {%- if loop.previtem is defined -%}
-         {{loop.previtem}} #--# {{e}}
-         {%- endif -%}
+      {% if loop.previtem is defined %}
+      {{loop.previtem}} #--# {{e}}
+      {% endif %}
       {% endfor %}
       }
-      {%- if loop.previtem is defined -%}
+      {% if loop.previtem is defined %}
       ' connect packages with hidden link to nice align elements
       {{loop.previtem["name"]}} --[hidden] {{p["name"]}}
-      {%- endif -%}
+      {% endif %}
       {% endfor %}
 
 
