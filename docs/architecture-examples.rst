@@ -249,8 +249,6 @@ Visiual repesentation of many Elements
    .. needuml::
       :debug:
 
-      left to right direction
-
       'the packages are project specific and defined in needs_render_context in conf.py
       {% for p in packages %}
       package {{p["name"]}} {
