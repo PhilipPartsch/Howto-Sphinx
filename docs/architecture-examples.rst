@@ -274,7 +274,7 @@ Visiual repesentation of many Elements
 Behaviour Model: Sequence-Diagram
 *********************************
 
-Here we use monkey patching to get in fucntions in class `JinjaFunctions`
+Here we use monkey patching to get in functions in class `JinjaFunctions`
 from sphinx-needs. Currently used functions:
 
 - sequence2
