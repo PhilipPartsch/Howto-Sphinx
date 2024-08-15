@@ -431,7 +431,8 @@ How-to referring to Diagrams within a Need
          :debug:
 
          {{sequence3(need().id)}} {{ref(need().id)}}
-         {{sequence3('C_DIAGRAMS.Sequence')}} {{ref('C_DIAGRAMS.Sequence')}}
+         '{# {{sequence3('C_DIAGRAMS.Sequence')}} {{ref('C_DIAGRAMS.Sequence')}} #}
+         'component C_DIAGRAMS.Sequence {{ref('C_DIAGRAMS.Sequence')}}
 
          '{{need().id}} -> C_DIAGRAMS.Sequence : uses Sequence Diagram
 
