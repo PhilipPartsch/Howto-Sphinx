@@ -404,7 +404,7 @@ How-to referring to Diagrams within a Need
 
          {{sequence3(need().id)}} {{ref(need().id)}}
 
-         participant C_DIAGRAMS2 {{ref(need().id)}} [
+         participant C_DIAGRAMS2 [
          {{need().title}}
          ----
          {#{{ref(need().id + '.Deployment', text="Deployment Diagram")}
