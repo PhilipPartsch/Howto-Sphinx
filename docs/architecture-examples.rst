@@ -420,10 +420,10 @@ How-to referring to Diagrams within a Need
          :debug:
 
          {{flow(need().id)}}
-         {#' {{flow('C_DIAGRAMS.Deployment')}} #}
-         component C_DIAGRAMS.Deployment {#{{ref('C_DIAGRAMS.Deployment')}}#}
+         {{uml('C_DIAGRAMS', 'Deployment')}}
+         'component C_DIAGRAMS.Deployment {#{{ref('C_DIAGRAMS.Deployment')}}#}
 
-         {{need().id}} -> C_DIAGRAMS.Deployment : uses Sequence Diagram
+         {{need().id}} -> C_DIAGRAMS : uses Deployment Diagram
 
       :np:`(Sequence)` Diagram
 
@@ -432,10 +432,9 @@ How-to referring to Diagrams within a Need
          :debug:
 
          {{sequence3(need().id)}} {{ref(need().id)}}
-         {#' {{sequence3('C_DIAGRAMS.Sequence')}} {{ref('C_DIAGRAMS.Sequence')}} #}
-         participant C_DIAGRAMS.Sequence {#{{ref('C_DIAGRAMS.Sequence')}}#}
+         {{uml('C_DIAGRAMS', 'Sequence')}}
 
-         {{need().id}} -> C_DIAGRAMS.Sequence : uses Sequence Diagram
+         {{need().id}} -> C_DIAGRAMS : uses Sequence Diagram
 
 
 .. target-notes::
