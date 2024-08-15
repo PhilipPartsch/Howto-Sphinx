@@ -465,7 +465,7 @@ JinjaFunctions.class_sequence = class_sequence
 
 from sphinx_needs.directives.needuml import NeedumlException
 from sphinx_needs.utils import split_need_id
-from sphinx_needs.utils import check_and_calc_base_url_rel_path, split_need_id
+from sphinx_needs.diagrams_common import calculate_link
 
 def ref_new(
         self, need_id: str, option: None | str = None, text: None | str = None
