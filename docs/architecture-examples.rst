@@ -403,6 +403,7 @@ How-to referring to Diagrams within a Need
 
    .. comp:: Component linking to Diagrams within another Need
       :id: C_LINK2DIAGRAMS
+      :links: C_DIAGRAMS.Deployment, C_DIAGRAMS.Sequence
 
       Link to the Deployment Diagram of Component :need:`C_DIAGRAMS`: :need:`C_DIAGRAMS.Deployment`
 
@@ -435,6 +436,11 @@ How-to referring to Diagrams within a Need
          {{uml('C_DIAGRAMS', 'Sequence')}}
 
          {{need().id}} -> C_DIAGRAMS : uses Sequence Diagram
+
+   .. needflow::
+      :filter: docname == "architecture-examples" and section_name == "How-to referring to Diagrams within a Need"
+      :show_link_names:
+      :debug:
 
 
 .. target-notes::
