@@ -391,7 +391,10 @@ How-to referring to Diagrams within a Need
          :key: Deployment
          :debug:
 
-         {{flow(need().id)}}
+         {{flow(need().id)}}{
+         card "Deployment Diagram" as {{need().id + '.Deployment'}} {{ref(need().id + '.Deployment')}}
+         card "Sequence Diagram" as {{need().id + '.Sequence'}} {{ref(need().id + '.Sequence')}}
+         }
 
       :np:`(Sequence)` Diagram
 

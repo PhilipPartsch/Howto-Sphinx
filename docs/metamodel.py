@@ -463,6 +463,45 @@ def class_sequence(self, need_id: str) -> str:
 
 JinjaFunctions.class_sequence = class_sequence
 
+from sphinx_needs.directives.needuml import NeedumlException
+
+def ref_new(
+        self, need_id: str, option: None | str = None, text: None | str = None
+    ) -> str:
+
+    need_id_main, need_id_part = split_need_id(need_id)
+
+    if need_id_main not in self.needs:
+        raise NeedumlException(
+            f"Jinja function ref is called with undefined need_id: '{need_id}'."
+        )
+
+    if (option and text) and (not option and not text):
+        raise NeedumlException(
+            "Jinja function ref requires exactly one entry 'option' or 'text'"
+        )
+
+    need_info = self.needs[need_id]
+
+    if (need_id_part and need_id_part not in need_info["parts"]):
+        raise NeedumlException(
+            f"Jinja function ref is called with undefined need_id part: '{need_id}'."
+        )
+
+    link = calculate_link(self.app, need_info, self.fromdocname)
+
+    if need_id_part:
+        link = link + '.' + need_id_part
+
+    need_uml = " [[{link} {content}]]".format(
+        link=link,
+        content=need_info.get(option, "") if option else text,
+    )
+
+    return need_uml
+
+JinjaFunctions.ref_new = ref_new
+
 from sphinx_needs.directives.needuml import jinja2uml
 
 from sphinx.application import Sphinx
@@ -510,7 +549,7 @@ def jinja2uml_new(
             "flow": jinja_utils.flow,
             "filter": jinja_utils.filter,
             "import": jinja_utils.imports,
-            "ref": jinja_utils.ref,
+            "ref": jinja_utils.ref_new,
             "sequence3": jinja_utils.class_sequence,
             "context": jinja_utils,
         }
