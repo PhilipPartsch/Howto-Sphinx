@@ -466,6 +466,7 @@ JinjaFunctions.class_sequence = class_sequence
 from sphinx_needs.directives.needuml import NeedumlException
 from sphinx_needs.utils import split_need_id
 from sphinx_needs.diagrams_common import calculate_link
+import copy
 
 def ref_new(
         self, need_id: str, option: None | str = None, text: None | str = None
@@ -483,7 +484,7 @@ def ref_new(
             "Jinja function ref requires exactly one entry 'option' or 'text'"
         )
 
-    need_info = self.needs[need_id_main]
+    need_info = copy.deepcopy(self.needs[need_id_main])
 
     if need_id_part:
         if need_id_part not in need_info["parts"]:
