@@ -407,8 +407,8 @@ How-to referring to Diagrams within a Need
          participant C_DIAGRAMS2 {{ref(need().id)}} [
          {{need().title}}
          ----
-         {{ref(need().id + '.Deployment', text="Deployment Diagram")}
-         {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
+         {#{{ref(need().id + '.Deployment', text="Deployment Diagram")}
+         {{ref(need().id + '.Sequence', text="Sequence Diagram")}}#}
          ]
 
    .. comp:: Component linking to Diagrams within another Need
