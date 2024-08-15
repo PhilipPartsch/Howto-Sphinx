@@ -33,7 +33,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
       :id: LIB_MY_LIB
 
       .. needarch::
-         :key: Component
+         :key: Deployment
          :debug:
 
          left to right direction
@@ -44,7 +44,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          {{flow(need().id)}} {
          {% for e in need().part_of_back %}
          '{{e}}
-         {% if needs[e].type == "comp" %}{{uml(e, 'Component')}}{% endif %}
+         {% if needs[e].type == "comp" %}{{uml(e, 'Deployment')}}{% endif %}
          {% endfor %}
          }
 
@@ -69,7 +69,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          }
 
       .. needarch::
-         :key: Component2
+         :key: Deployment2
          :debug:
 
          'Define elements
@@ -112,7 +112,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :output: IP_C_C_IN
 
       .. needarch::
-         :key: Component
+         :key: Deployment
          :debug:
 
          '{{need()}}
@@ -133,7 +133,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :output: IP_C_C_IN2
 
       .. needarch::
-         :key: Component
+         :key: Deployment
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
@@ -159,7 +159,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :output: IP_C_D_IN
 
       .. needarch::
-         :key: Component
+         :key: Deployment
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
@@ -177,7 +177,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :input: OP_C_C_OUT
 
       .. needarch::
-         :key: Component
+         :key: Deployment
 
          {{flow(need().id)}} {
          {% for e in need().parent_needs_back %}
@@ -218,6 +218,8 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 
 Visiual repesentation of many Elements
 ======================================
+
+Following the link to the elements defined.
 
 .. toctree::
    :maxdepth: 1
@@ -277,8 +279,11 @@ Behaviour Model: Sequence-Diagram
 Here we use monkey patching to get in functions in class `JinjaFunctions`
 from sphinx-needs. Currently used functions:
 
+- sequence
 - sequence2
 - sequence3
+
+The patching is been done in `metamodel.py`.
 
 .. example:: Visualize a sequence diagram
 
@@ -365,6 +370,71 @@ from sphinx-needs. Currently used functions:
       C_A -> C_C : send data
       deactivate C_A
       end
+
+
+How-to referring to Diagrams within a Need
+******************************************
+
+.. example:: How-to referring to Diagrams within a Need
+
+   .. comp:: Component with Diagrams
+      :id: C_DIAGRAMS
+
+      .. needarch::
+         :debug:
+
+         {{flow(need().id)}}
+
+      :np:`(Deployment)` Diagram
+
+      .. needarch::
+         :key: Deployment
+         :debug:
+
+         {{flow(need().id)}}
+
+      :np:`(Sequence)` Diagram
+
+      .. needarch::
+         :key: Sequence
+         :debug:
+
+         {{sequence3(need().id)}} {{ref(need().id)}}
+
+   .. comp:: Component linking to Diagrams within another Need
+      :id: C_LINK2DIAGRAMS
+
+      Link to the Deployment Diagram of Component :need:`C_DIAGRAMS`: :need:`C_DIAGRAMS.Deployment`
+
+      Link to the Sequence Diagram of Component :need:`C_DIAGRAMS`: :need:`C_DIAGRAMS.Sequence`
+
+      .. needarch::
+         :debug:
+
+         {{flow(need().id)}}
+
+      :np:`(Deployment)` Diagram
+
+      .. needarch::
+         :key: Deployment
+         :debug:
+
+         {{flow(need().id)}}
+         {{flow('C_DIAGRAMS.Deployment')}}
+
+         '{{need().id}} -> C_DIAGRAMS.Deployment : uses Sequence Diagram
+
+      :np:`(Sequence)` Diagram
+
+      .. needarch::
+         :key: Sequence
+         :debug:
+
+         {{sequence3(need().id)}} {{ref(need().id)}}
+         {{sequence3('C_DIAGRAMS.Sequence')}} {{ref('C_DIAGRAMS.Sequence')}}
+
+         '{{need().id}} -> C_DIAGRAMS.Sequence : uses Sequence Diagram
+
 
 .. target-notes::
 
