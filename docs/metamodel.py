@@ -465,6 +465,7 @@ JinjaFunctions.class_sequence = class_sequence
 
 from sphinx_needs.directives.needuml import NeedumlException
 from sphinx_needs.utils import split_need_id
+from sphinx_needs.utils import check_and_calc_base_url_rel_path, split_need_id
 
 def ref_new(
         self, need_id: str, option: None | str = None, text: None | str = None
@@ -484,15 +485,17 @@ def ref_new(
 
     need_info = self.needs[need_id]
 
-    if (need_id_part and need_id_part not in need_info["parts"]):
-        raise NeedumlException(
-            f"Jinja function ref is called with undefined need_id part: '{need_id}'."
-        )
+    if need_id_part:
+        if need_id_part not in need_info["parts"]:
+            raise NeedumlException(
+                f"Jinja function ref is called with undefined need_id part: '{need_id}'."
+            )
+
+        need_info["id"] = need_id_part
+        need_info["is_part"] = True
+        need_info["is_need"] = False
 
     link = calculate_link(self.app, need_info, self.fromdocname)
-
-    if need_id_part:
-        link = link + '.' + need_id_part
 
     need_uml = " [[{link} {content}]]".format(
         link=link,
