@@ -464,6 +464,7 @@ def class_sequence(self, need_id: str) -> str:
 JinjaFunctions.class_sequence = class_sequence
 
 from sphinx_needs.directives.needuml import NeedumlException
+from sphinx_needs.utils import split_need_id
 
 def ref_new(
         self, need_id: str, option: None | str = None, text: None | str = None
