@@ -404,11 +404,11 @@ How-to referring to Diagrams within a Need
 
          {{sequence3(need().id)}} {{ref(need().id)}}
 
-         participant C_DIAGRAMS2 [[../architecture-examples.html#C_DIAGRAMS]] [
-         Component with Diagrams
+         participant C_DIAGRAMS2 {{ref(need().id)}} [
+         {{need().title}}
          ----
-         [[../architecture-examples.html#C_DIAGRAMS.Deployment Deployment Diagram]]
-         [[../architecture-examples.html#C_DIAGRAMS.Sequence Sequence Diagram]]
+         {{ref(need().id + '.Deployment', text="Deployment Diagram")}
+         {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          ]
 
    .. comp:: Component linking to Diagrams within another Need
