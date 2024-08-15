@@ -484,13 +484,14 @@ def ref_new(
             "Jinja function ref requires exactly one entry 'option' or 'text'"
         )
 
-    need_info = copy.deepcopy(self.needs[need_id_main])
-
     if need_id_part:
         if need_id_part not in need_info["parts"]:
             raise NeedumlException(
                 f"Jinja function ref is called with undefined need_id part: '{need_id}'."
             )
+
+        # We are changing the needinfo, so we need a deepcopy, to not change the original info.
+        need_info = copy.deepcopy(self.needs[need_id_main])
 
         need_info["id"] = need_id_part
         need_info["is_part"] = True
