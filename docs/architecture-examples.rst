@@ -190,13 +190,13 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 .. example:: Visualize the dependencies - Input
 
    .. needflow::
-      :filter: docname == "architecture-examples"
+      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
       :link_types: input, part_of
       :show_link_names:
       :debug:
 
    .. needflow::
-      :filter: docname == "architecture-examples" and type != "lib"
+      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
       :link_types: input
       :show_link_names:
       :debug:
@@ -408,6 +408,7 @@ How-to referring to Diagrams within a Need
          participant C_DIAGRAMS2 {{ref(need().id)}} [
          {{need().title}}
          ----
+         'Here is a bug in plantuml. In png, the text is shown; in svg not.
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          ]
