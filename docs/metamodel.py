@@ -469,7 +469,7 @@ from sphinx_needs.diagrams_common import calculate_link
 import copy
 
 def ref_new(
-        self, need_id: str, option: None | str = None, text: None | str = None
+        self, need_id: str, option: str = "", text: str = ""
     ) -> str:
 
     need_id_main, need_id_part = split_need_id(need_id)
@@ -479,9 +479,9 @@ def ref_new(
             f"Jinja function ref is called with undefined need_id: '{need_id}'."
         )
 
-    if (option and text) and (not option and not text):
+    if (option != "" and text != ""):
         raise NeedumlException(
-            "Jinja function ref requires exactly one entry 'option' or 'text'"
+            "Jinja function ref requires 'option' or 'text', not both"
         )
 
     if need_id_part:
@@ -501,10 +501,12 @@ def ref_new(
         need_info = self.needs[need_id_main]
 
     link = calculate_link(self.app, need_info, self.fromdocname)
+    content: str = need_info.get(option, "empty") if option != "" else text
 
-    need_uml = " [[{link} {content}]]".format(
+    need_uml = "[[{link}{seperator}{content}]]".format(
         link=link,
-        content=need_info.get(option, "") if option else text,
+        seperator=" " if content != "" else "",
+        content=content,
     )
 
     return need_uml
