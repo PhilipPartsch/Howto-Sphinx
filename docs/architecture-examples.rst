@@ -407,12 +407,10 @@ so we can reference to these.
          :key: Sequence
          :debug:
 
-         {{sequence3(need().id)}} {{ref(need().id)}}
-
-         participant C_DIAGRAMS2 {{ref(need().id)}} [
+         participant {{need().id}} {{ref(need().id)}} [
          {{need().title}}
          ----
-         'Here is a bug in plantuml. In png, the text is shown; in svg not.
+         'Here is a bug in safari, it is been rendered in firefox.
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          ]
