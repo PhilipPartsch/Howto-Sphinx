@@ -493,7 +493,9 @@ def ref_new(
                 f"Jinja function ref is called with undefined need_id part: '{need_id}'."
             )
 
+        # This algorithm is following the implmentation of needref
         need_info["id"] = need_id_part
+        need_info["title"] = need_info["parts"][need_id_part]["content"]
         need_info["is_part"] = True
         need_info["is_need"] = False
 
