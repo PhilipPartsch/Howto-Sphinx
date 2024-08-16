@@ -376,6 +376,10 @@ The patching is been done in `metamodel.py`.
 How-to referring to Diagrams within a Need
 ******************************************
 
+It is not directly possible to refernce to a needarch (diagram).
+So we introduce here a `needpart <https://sphinx-needs.readthedocs.io/en/stable/roles.html#need-part-np>`_ in the need,
+so we can reference to these.
+
 .. example:: How-to referring to Diagrams within a Need
 
    .. comp:: Component with Diagrams
