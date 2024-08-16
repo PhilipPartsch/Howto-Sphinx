@@ -499,13 +499,6 @@ def ref_new(
         need_info["is_part"] = True
         need_info["is_need"] = False
 
-        print ("ref need part start")
-        print (need_info)
-        print ("end all")
-        print (need_info["id"])
-        print (need_info["title"])
-        print ("ref need part end")
-
     else:
         need_info = self.needs[need_id_main]
 
