@@ -415,8 +415,8 @@ so we can reference to these.
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          With link text from needpart title:
-         {{ref(need().id + '.Deployment', option="title")}} Diagram
-         {{ref(need().id + '.Sequence', option="title")}} Diagram
+         {{ref(need().id + '.Deployment', option="id")}} Diagram
+         {{ref(need().id + '.Sequence', option="id")}} Diagram
          ]
 
    .. comp:: Component linking to Diagrams within another Need
