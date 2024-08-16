@@ -499,8 +499,20 @@ def ref_new(
         need_info["is_part"] = True
         need_info["is_need"] = False
 
+        print ("ref need part start")
+        print (need_info)
+        print ("end all")
+        print (need_info["id"])
+        print (need_info["title"])
+        print ("ref need part end")
+
     else:
         need_info = self.needs[need_id_main]
+
+    if (option != "" and option not in need_info):
+        raise NeedumlException(
+            f"Jinja function ref is called with undefined option '{option}' for need '{need_id}'."
+        )
 
     link = calculate_link(self.app, need_info, self.fromdocname)
     content: str = need_info.get(option, "empty") if option != "" else text
