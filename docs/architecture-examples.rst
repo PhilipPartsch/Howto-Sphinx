@@ -204,13 +204,13 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 .. example:: Visualize the dependencies - Output
 
    .. needflow::
-      :filter: docname == "architecture-examples"
+      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
       :link_types: output, part_of
       :show_link_names:
       :debug:
 
    .. needflow::
-      :filter: docname == "architecture-examples" and type != "lib"
+      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
       :link_types: output
       :show_link_names:
       :debug:
@@ -285,7 +285,7 @@ from sphinx-needs. Currently used functions:
 
 The patching is been done in `metamodel.py`.
 
-.. example:: Visualize a sequence diagram
+.. example:: Visualize a sequence diagram I
 
    .. needuml::
       :debug:
@@ -348,6 +348,7 @@ The patching is been done in `metamodel.py`.
       C_A -> C_C : send data
       deactivate C_A
       end
+
 
 .. example:: Visualize a sequence diagram III
 
