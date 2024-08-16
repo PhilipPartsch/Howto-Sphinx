@@ -410,9 +410,13 @@ so we can reference to these.
          participant {{need().id}} {{ref(need().id)}} [
          {{need().title}}
          ----
-         'Here is a bug in safari, it is been rendered in firefox.
+         Here is a bug in safari, it is been rendered in firefox.
+         With explicite link text:
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
+         With link text from needpart title:
+         {{ref(need().id + '.Deployment', option="title")}} Diagram
+         {{ref(need().id + '.Sequence', option="title")}} Diagram
          ]
 
    .. comp:: Component linking to Diagrams within another Need
