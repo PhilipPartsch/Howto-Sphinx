@@ -390,7 +390,7 @@ so we can reference to these.
 
          {{flow(need().id)}}
 
-      :np:`(Deployment)` Diagram
+      :np:`(Deployment) Deployment Diagram`
 
       .. needarch::
          :key: Deployment
@@ -401,7 +401,7 @@ so we can reference to these.
          card "Sequence Diagram" as {{need().id + '.Sequence'}} {{ref(need().id + '.Sequence')}}
          }
 
-      :np:`(Sequence)` Diagram
+      :np:`(Sequence) Sequence Diagram`
 
       .. needarch::
          :key: Sequence
@@ -416,7 +416,7 @@ so we can reference to these.
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          With link text from needpart title:
          {{ref(need().id + '.Deployment', option="id")}} Diagram
-         {{ref(need().id + '.Sequence', option="id")}} Diagram
+         {{ref(need().id + '.Sequence', option="title")}}
          ]
 
    .. comp:: Component linking to Diagrams within another Need
