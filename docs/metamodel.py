@@ -508,7 +508,7 @@ def ref_new(
         )
 
     link = calculate_link(self.app, need_info, self.fromdocname)
-    content: str = need_info.get(option, "empty") if option != "" else text
+    content: str = need_info.get(option, "") if option != "" else text
 
     need_uml = "[[{link}{seperator}{content}]]".format(
         link=link,
