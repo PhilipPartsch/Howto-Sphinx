@@ -605,8 +605,6 @@ Cares about handling and execution warnings.
 
 """
 
-from __future__ import annotations
-
 from sphinx.application import Sphinx
 from sphinx.util import logging
 
