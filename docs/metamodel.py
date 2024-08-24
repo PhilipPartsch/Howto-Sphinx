@@ -733,6 +733,11 @@ def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
                 type="needs",
             )
 
+print ('999999')
+print (sphinx_needs.warnings.process_warnings)
+
 sphinx_needs.warnings.process_warnings = process_warnings2
 
 
+print (sphinx_needs.warnings.process_warnings)
+print ('8888888')
