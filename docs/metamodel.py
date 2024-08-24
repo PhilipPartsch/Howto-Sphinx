@@ -629,6 +629,11 @@ def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
 
     print ("added my process warnings")
 
+    logger.info(
+                    f"added my process warnings [needs]",
+                    type="needs",
+                )
+
     # We get called also if an exception occured during build
     # In this case the build is already broken and we do not need to check anything.
     if exception:
