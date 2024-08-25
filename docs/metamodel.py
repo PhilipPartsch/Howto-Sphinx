@@ -616,7 +616,7 @@ from sphinx_needs.logging import get_logger
 logger = get_logger(__name__)
 
 
-def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
+def my_process_warnings(app: Sphinx, exception: Exception | None) -> None:
     """
     Checks the configured warnings.
 
@@ -648,10 +648,10 @@ def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
     # Check if warnings already got executed.
     # Needed because the used event gets executed multiple times, but warnings need to be checked only
     # on first execution
-    if hasattr(env, "needs_warnings_executed") and env.needs_warnings_executed:
+    if hasattr(env, "my_needs_warnings_executed") and env.my_needs_warnings_executed:
         return
 
-    env.needs_warnings_executed = True  # type: ignore[attr-defined]
+    env.my_needs_warnings_executed = True  # type: ignore[attr-defined]
 
     # Exclude external needs for warnings check
     checked_needs: dict[str, NeedsInfoType] = {}
@@ -663,7 +663,7 @@ def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
     warnings_always_warn = needs_config.warnings_always_warn
 
     with logging.pending_logging():
-        logger.info("\nChecking sphinx-needs warnings")
+        logger.info("\nChecking sphinx-needs warnings2")
         warning_raised = False
         for warning_name, warning_filter in NEEDS_CONFIG.warnings.items():
             if isinstance(warning_filter, str):
@@ -733,11 +733,3 @@ def process_warnings2(app: Sphinx, exception: Exception | None) -> None:
                 type="needs",
             )
 
-print ('999999')
-print (sphinx_needs.warnings.process_warnings)
-
-sphinx_needs.warnings.process_warnings = process_warnings2
-
-
-print (sphinx_needs.warnings.process_warnings)
-print ('8888888')

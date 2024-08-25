@@ -215,3 +215,8 @@ def setup(app):
     for func in metamodel.needs_functions:
         add_dynamic_function(app, func)
 
+    app.connect("build-finished", process_warnings)
+
+    env = app.env
+    env.needs_warnings_executed = True
+
