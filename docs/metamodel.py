@@ -598,6 +598,10 @@ needs_render_context = {
     ],
 }
 
+my_needs_warnings = {
+    'artifact_without_stored_in_link2': "type == 'artifact' and len(stored_in) == 0",
+}
+
 # test warnings with needs
 
 """
@@ -665,7 +669,7 @@ def my_process_warnings(app: Sphinx, exception: Exception | None) -> None:
     with logging.pending_logging():
         logger.info("\nChecking sphinx-needs warnings2")
         warning_raised = False
-        for warning_name, warning_filter in NEEDS_CONFIG.warnings.items():
+        for warning_name, warning_filter in my_needs_warnings.items():
             if isinstance(warning_filter, str):
                 # filter string used
                 result = filter_needs(
