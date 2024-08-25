@@ -696,7 +696,7 @@ def my_process_warnings(app: Sphinx, exception: Exception | None) -> None:
                 for need in checked_needs.values():
                     from inspect import signature
                     sig = signature(warning_filter)
-                    if 3 == len(sig.parameters):
+                    if 3 <= len(sig.parameters):
                         if warning_filter(need, logger, needs):
                             result.append(need)
                     else:
