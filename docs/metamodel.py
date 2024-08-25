@@ -600,12 +600,18 @@ needs_render_context = {
 
 def my_custom_warning(need, log):
     # some checks
-    print ('my_custom_warning')
     return False
+
+
+def my_custom_warning2(need, log, needs):
+    # some checks
+    return False
+
 
 my_needs_warnings = {
     'artifact_without_stored_in_link2': "type == 'artifact' and len(stored_in) == 0",
     'my_warning_no_inc_build': my_custom_warning,
+    'my_warning_no_inc_build2': my_custom_warning2,
 }
 
 # test warnings with needs
@@ -688,8 +694,14 @@ def my_process_warnings(app: Sphinx, exception: Exception | None) -> None:
                 # custom defined filter code used from conf.py
                 result = []
                 for need in checked_needs.values():
-                    if warning_filter(need, logger):
-                        result.append(need)
+                    from inspect import signature
+                    sig = signature(warning_filter)
+                    if 3 == len(sig):
+                        if warning_filter(need, logger, needs):
+                            result.append(need)
+                    else:
+                        if warning_filter(need, logger):
+                            result.append(need)
             else:
                 logger.warning(
                     f"Unknown needs warnings filter {warning_filter}! [needs]",
