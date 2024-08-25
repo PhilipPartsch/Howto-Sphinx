@@ -217,6 +217,3 @@ def setup(app):
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
-    env = app.env
-    env.needs_warnings_executed = True
-
