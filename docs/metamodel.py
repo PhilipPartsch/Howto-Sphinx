@@ -598,8 +598,14 @@ needs_render_context = {
     ],
 }
 
+def my_custom_warning(need, log):
+    # some checks
+    print ('my_custom_warning')
+    return False
+
 my_needs_warnings = {
     'artifact_without_stored_in_link2': "type == 'artifact' and len(stored_in) == 0",
+    'my_warning_no_inc_build': my_custom_warning,
 }
 
 # test warnings with needs
