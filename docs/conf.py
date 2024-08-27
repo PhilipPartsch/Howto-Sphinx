@@ -170,6 +170,7 @@ needs_default_layout = 'clean_with_edit_link'
 from docutils import nodes  # noqa: E402
 from sphinx.application import Sphinx  # noqa: E402
 from sphinx.util.docutils import SphinxDirective, SphinxRole
+from sphinx.errors import ExtensionError
 
 
 class NeedExampleDirective(SphinxDirective):
@@ -204,11 +205,16 @@ class NeedExampleDirective(SphinxDirective):
         self.state.nested_parse(self.content, self.content_offset, parsed)
         return [root]
 
+class myExtensionError(ExtensionError)
+    pass
+
 class HelloRole(SphinxRole):
     """A role to say hello!"""
 
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
         node = nodes.inline(text=f'Hello {self.text}!' + str(self.get_source_info()))
+        if self.text == "Woorld2":
+            raise myExtensionError
         return [node], []
 
 def setup(app):
