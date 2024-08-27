@@ -169,7 +169,7 @@ needs_default_layout = 'clean_with_edit_link'
 
 from docutils import nodes  # noqa: E402
 from sphinx.application import Sphinx  # noqa: E402
-from sphinx.directives import SphinxDirective  # noqa: E402
+from sphinx.directives import SphinxDirective, SphinxRole  # noqa: E402
 
 
 class NeedExampleDirective(SphinxDirective):
@@ -204,11 +204,18 @@ class NeedExampleDirective(SphinxDirective):
         self.state.nested_parse(self.content, self.content_offset, parsed)
         return [root]
 
+class HelloRole(SphinxRole):
+    """A role to say hello!"""
+
+    def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
+        node = nodes.inline(text=f'Hello {self.text}!' + str(self.get_source_info()))
+        return [node], []
 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
     app.add_directive("example", NeedExampleDirective)
+    app.add_role('hello', HelloRole())
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)
 

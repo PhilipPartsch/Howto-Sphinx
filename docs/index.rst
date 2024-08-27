@@ -25,3 +25,8 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Tests
+*****
+
+:hello:`Woorld` :hello:`Woorld2`
