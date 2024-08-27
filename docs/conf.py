@@ -169,7 +169,7 @@ needs_default_layout = 'clean_with_edit_link'
 
 from docutils import nodes  # noqa: E402
 from sphinx.application import Sphinx  # noqa: E402
-from sphinx.directives import SphinxDirective, SphinxRole  # noqa: E402
+from sphinx.util.docutils import SphinxDirective, SphinxRole
 
 
 class NeedExampleDirective(SphinxDirective):
