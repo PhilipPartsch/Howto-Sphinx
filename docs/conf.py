@@ -214,7 +214,7 @@ class HelloRole(SphinxRole):
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
         node = nodes.inline(text=f'Hello {self.text}!' + str(self.get_source_info()))
         if self.text == "Woorld2":
-            raise myExtensionError
+            raise myExtensionError('my random error')
         return [node], []
 
 def setup(app):
