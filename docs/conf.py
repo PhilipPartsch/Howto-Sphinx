@@ -205,6 +205,10 @@ class NeedExampleDirective(SphinxDirective):
         self.state.nested_parse(self.content, self.content_offset, parsed)
         return [root]
 
+ from sphinx_needs.logging import get_logger, log_warning
+
+logger = get_logger(__name__)
+
 
 class HelloRole(SphinxRole):
     """A role to say hello!"""
@@ -212,7 +216,14 @@ class HelloRole(SphinxRole):
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
         node = nodes.inline(text=f'Hello {self.text}!' + str(self.get_source_info()))
         if self.text == "Woorld2":
-            raise ExtensionError('my random error')
+            #raise ExtensionError('my random error')
+            log_warning(
+                    logger,
+                    f"my random error",
+                    "hello",
+                    location=self.get_source_info()
+                    color="red",
+                )
         return [node], []
 
 def setup(app):
