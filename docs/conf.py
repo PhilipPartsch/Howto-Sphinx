@@ -205,7 +205,7 @@ class NeedExampleDirective(SphinxDirective):
         self.state.nested_parse(self.content, self.content_offset, parsed)
         return [root]
 
- from sphinx_needs.logging import get_logger, log_warning
+from sphinx_needs.logging import get_logger, log_warning
 
 logger = get_logger(__name__)
 
