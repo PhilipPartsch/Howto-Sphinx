@@ -221,7 +221,7 @@ class HelloRole(SphinxRole):
                     logger,
                     f"my random error",
                     "hello",
-                    location=self.get_source_info()
+                    location=self.get_source_info(),
                     color="red",
                 )
         return [node], []
