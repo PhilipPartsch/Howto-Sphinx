@@ -210,6 +210,57 @@ from sphinx import version_info
 from sphinx.util import logging
 from sphinx.util.logging import SphinxLoggerAdapter
 
+class mySphinxLoggerAdapter(SphinxLoggerAdapter)
+def error(  # type: ignore[override]
+        self,
+        msg: object,
+        *args: object,
+        type: None | str = None,
+        subtype: None | str = None,
+        location: None | str | tuple[str | None, int | None] | Node = None,
+        nonl: bool = True,
+        color: str | None = None,
+        once: bool = False,
+        **kwargs: Any,
+    ) -> None:
+        """Log a sphinx warning.
+
+        It is recommended to include a ``type`` and ``subtype`` for warnings as
+        these can be displayed to the user using :confval:`show_warning_types`
+        and used in :confval:`suppress_warnings` to suppress specific warnings.
+
+        It is also recommended to specify a ``location`` whenever possible
+        to help users in correcting the warning.
+
+        :param msg: The message, which may contain placeholders for ``args``.
+        :param args: The arguments to substitute into ``msg``.
+        :param type: The type of the warning.
+        :param subtype: The subtype of the warning.
+        :param location: The source location of the warning's origin,
+            which can be a string (the ``docname`` or ``docname:lineno``),
+            a tuple of ``(docname, lineno)``,
+            or the docutils node object.
+        :param nonl: Whether to append a new line terminator to the message.
+        :param color: A color code for the message.
+        :param once: Do not log this warning,
+            if a previous warning already has same ``msg``, ``args`` and ``once=True``.
+        """
+        return super().warning(
+            msg,
+            *args,
+            type=type,
+            subtype=subtype,
+            location=location,
+            nonl=nonl,
+            color=color,
+            once=once,
+            **kwargs,
+        )
+
+
+sphinx.util.logging.SphinxLoggerAdapter 
+
+
 
 def get_logger(name: str) -> SphinxLoggerAdapter:
     return logging.getLogger(name)
@@ -242,8 +293,38 @@ def log_warning(
         once=once,
     )
 
-logger = get_logger(__name__)
+def get_mylogger(name: str) -> logging.LoggerAdapter:
+    return logging.getLogger(name)
 
+def log_error(
+    logger: logging.LoggerAdapter,
+    message: str,
+    subtype: str | None,
+    /,
+    location: str | tuple[str | None, int | None] | Node | None,
+    *,
+    color: str | None = None,
+    once: bool = False,
+) -> None:
+    # Since sphinx in v7.3, sphinx will show warning types if `show_warning_types=True` is set,
+    # and in v8.0 this was made the default.
+    if version_info < (8,):
+        if subtype:
+            message += f" [needs.{subtype}]"
+        else:
+            message += " [needs]"
+
+    logger.error(
+        message,
+        type="needs",
+        subtype=subtype,
+        location=location,
+        color=color,
+        once=once,
+    )
+
+logger = get_logger(__name__)
+mylogger = get_mylogger(__name__)
 
 class HelloRole(SphinxRole):
     """A role to say hello!"""
@@ -254,6 +335,13 @@ class HelloRole(SphinxRole):
             #raise ExtensionError('my random error')
             log_warning(
                     logger,
+                    f"my random error",
+                    "hello",
+                    location=self.get_source_info(),
+                    color="red",
+                )
+            log_error(
+                    mylogger,
                     f"my random error",
                     "hello",
                     location=self.get_source_info(),
