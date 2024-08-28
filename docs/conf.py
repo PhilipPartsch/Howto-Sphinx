@@ -207,6 +207,8 @@ class NeedExampleDirective(SphinxDirective):
 
 from sphinx_needs.logging import get_logger, log_warning
 
+print('__name__')
+print(__name__)
 logger = get_logger(__name__)
 
 
