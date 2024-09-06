@@ -29,4 +29,4 @@ Indices and tables
 Tests
 *****
 
-:hello:`Woorld` :hello:`Woorld2`
+.. :hello:`Woorld` :hello:`Woorld2`
