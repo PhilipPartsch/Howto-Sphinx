@@ -12,7 +12,7 @@ tabulate
 sphinx-immaterial
 sphinx-rtd-theme
 esbonio>=0.13.0
-sphinx-test-reports
+sphinx-test-reports==1.0.2
 pytest
 pytest-reportlog
 coverage
