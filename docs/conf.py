@@ -2,8 +2,19 @@
 
 import os
 import sys
+
+import sphinx
+sphinx_version = sphinx.__version__
+print ('sphinx version: ' + str(sphinx_version))
+
+from packaging.version import Version
+print (str(Version(sphinx_version)))
+print (str(Version("6.1")))
+print (str(Version(sphinx_version) >= Version("6.1")))
+
 from sphinx_needs import __version__
 print ('sphinx-needs version: ' + str(__version__))
+
 from sphinx_needs.api import add_dynamic_function
 
 sys.path.append(os.path.abspath('.'))
