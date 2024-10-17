@@ -152,13 +152,13 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 .. example:: Visualize the dependencies - Input
 
    .. needflow::
-      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
+      :filter: is_need and docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
       :link_types: input, part_of
       :show_link_names:
       :debug:
 
    .. needflow::
-      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
+      :filter: is_need and docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
       :link_types: input
       :show_link_names:
       :debug:
@@ -166,13 +166,13 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
 .. example:: Visualize the dependencies - Output
 
    .. needflow::
-      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
+      :filter: is_need and docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs"
       :link_types: output, part_of
       :show_link_names:
       :debug:
 
    .. needflow::
-      :filter: docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
+      :filter: is_need and docname == "architecture-examples" and section_name == "Visial representation of UML Ports in Sphinx-Needs" and type != "lib"
       :link_types: output
       :show_link_names:
       :debug:
@@ -191,7 +191,7 @@ Following the link to the elements defined.
 .. example:: Visualize many elements with needflow
 
    .. needflow::
-      :filter: docname == "architecture-many-components"
+      :filter: is_need and docname == "architecture-many-components"
       :show_link_names:
       :debug:
 
@@ -351,17 +351,6 @@ so we can reference to these.
          :debug:
 
          {{flow(need().id)}}
-
-      :np:`(Deployment2)` Diagram
-
-      .. needarch::
-         :key: Deployment2
-         :debug:
-
-         {{flow(need().id)}}{
-         card "Deployment Diagram" as {{need().id + '.Deployment'}} {{ref(need().id + '.Deployment')}}
-         card "Sequence Diagram" as {{need().id + '.Sequence'}} {{ref(need().id + '.Sequence')}}
-         }
 
       :np:`(Sequence)` Diagram
 
