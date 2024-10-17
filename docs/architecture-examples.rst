@@ -111,18 +111,6 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :id: OP_C_A_OUT
          :output: IP_C_C_IN
 
-      .. needarch::
-         :key: Deployment
-         :debug:
-
-         '{{need()}}
-         {{flow(need().id)}} {
-         {% for e in need().parent_needs_back %}
-         '{{e}}
-         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
-         {% endfor %}
-         }
-
 
    .. comp:: Component B
       :id: C_B
@@ -131,15 +119,6 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
       .. outport:: out
          :id: OP_C_B_OUT
          :output: IP_C_C_IN2
-
-      .. needarch::
-         :key: Deployment
-
-         {{flow(need().id)}} {
-         {% for e in need().parent_needs_back %}
-         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
-         {% endfor %}
-         }
 
 
    .. comp:: Component C
@@ -158,15 +137,6 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :id: OP_C_C_OUT
          :output: IP_C_D_IN
 
-      .. needarch::
-         :key: Deployment
-
-         {{flow(need().id)}} {
-         {% for e in need().parent_needs_back %}
-         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
-         {% endfor %}
-         }
-
 
    .. comp:: Component D
       :id: C_D
@@ -176,14 +146,6 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :id: IP_C_D_IN
          :input: OP_C_C_OUT
 
-      .. needarch::
-         :key: Deployment
-
-         {{flow(need().id)}} {
-         {% for e in need().parent_needs_back %}
-         {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
-         {% endfor %}
-         }
 
 To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input).
 
@@ -390,10 +352,10 @@ so we can reference to these.
 
          {{flow(need().id)}}
 
-      :np:`(Deployment)` Diagram
+      :np:`(Deployment2)` Diagram
 
       .. needarch::
-         :key: Deployment
+         :key: Deployment2
          :debug:
 
          {{flow(need().id)}}{
@@ -432,16 +394,14 @@ so we can reference to these.
 
          {{flow(need().id)}}
 
-      :np:`(Deployment)` Diagram
+      :np:`(Internal)` Diagram
 
       .. needarch::
-         :key: Deployment
+         :key: Internal
          :debug:
 
          {{flow(need().id)}}
          {{uml('C_DIAGRAMS', 'Deployment')}}
-         'component C_DIAGRAMS.Deployment {#{{ref('C_DIAGRAMS.Deployment')}}#}
-
          {{need().id}} -> C_DIAGRAMS : uses Deployment Diagram
 
       :np:`(Sequence)` Diagram
@@ -454,6 +414,10 @@ so we can reference to these.
          {{uml('C_DIAGRAMS', 'Sequence')}}
 
          {{need().id}} -> C_DIAGRAMS : uses Sequence Diagram
+
+   **How it is been in the native datamodel**
+
+   Finally a `needflow` to show the datamodel represenatation:
 
    .. needflow::
       :filter: docname == "architecture-examples" and section_name == "How-to referring to Diagrams within a Need"

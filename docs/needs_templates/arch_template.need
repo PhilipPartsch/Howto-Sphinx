@@ -2,13 +2,18 @@
 {{content}}
 
 **Following needarch is been added with needs template**
+
+:np:`(Deployment)` Diagram
+
 {% raw %}
 .. needarch::
-   :key: Deployment2
+   :key: Deployment
 
    {{flow(need().id)}} {
    {% for e in need().parent_needs_back %}
    {% if needs[e].parent_need == need().id and (needs[e].type == "outport" or needs[e].type == "inport") %}{{uml(e)}}{% endif %}
    {% endfor %}
+   {% if 'Deployment' in need().parts %}card "Deployment Diagram" as {{need().id + '.Deployment'}} {{ref(need().id + '.Deployment')}}{% endif %}
+   {% if 'Sequence' in need().parts %}card "Sequence Diagram" as {{need().id + '.Sequence'}} {{ref(need().id + '.Sequence')}}{% endif %}
    }
 {% endraw %}
