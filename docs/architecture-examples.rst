@@ -414,6 +414,25 @@ so we can reference to these.
       :debug:
 
 
+Template needarch to needs
+==========================
+
+It is possible to use `needarch`_ and `needuml`_ in Sphinx-Needs `template`_.
+You can set the template explicite in the need element itself or over `needs_global_options`_.
+
+Within this file we currently set generic views on needs elements of type comp.
+This is been done with a `needs_global_options`_ configuration within `metamodel.py`.
+
+As `template`_ are jinja templates, even like `needarch`_ and `needuml`_,
+we have to `escape <https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping>`_ the jinja templates
+in the needs_template with ```{% raw %} ... {% endraw %}```.
+
+You can find an example in the `needs_templates/arch_template.need`:
+
+.. literalinclude:: needs_templates/arch_template.need
+   :language: rst
+   :linenos:
+
 .. target-notes::
 
 .. _`needflow` : https://sphinx-needs.readthedocs.io/en/latest/directives/needflow.html
@@ -425,3 +444,8 @@ so we can reference to these.
 .. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 
 .. _`plantuml deployment-diagram` : http://plantuml.com/deployment-diagram
+
+.. _`template` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template
+
+.. _`needs_global_options` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-global-options
+

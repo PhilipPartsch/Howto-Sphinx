@@ -368,7 +368,7 @@ needs_global_options = {
         ('evaluation_post_template', 'type=="evaluation"'),
     ],
     'template': [
-        ('arch_template', 'type=="comp"'),
+        ('arch_template', 'type=="comp" and docname == "architecture-examples"'),
     ],
     'github_edit_url': '[[get_githoster_edit_url_for_need("id")]]',
 }
