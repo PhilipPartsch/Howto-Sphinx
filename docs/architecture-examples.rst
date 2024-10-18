@@ -415,7 +415,7 @@ so we can reference to these.
 
 
 Template needarch to needs
-==========================
+**************************
 
 It is possible to use `needarch`_ and `needuml`_ in Sphinx-Needs `template`_.
 You can set the template explicite in the need element itself or over `needs_global_options`_.
