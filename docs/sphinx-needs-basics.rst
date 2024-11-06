@@ -168,6 +168,32 @@ representation.
                 type == 'sw_req' and is_external == True
                 type == 'evaluation' and is_external == True
 
+         * - NeedBar
+           - .. needbar:: Requirements & Status Overview
+                :legend:
+                :colors: black, yellow, orange, green
+                :xlabels: FROM_DATA
+                :ylabels: FROM_DATA
+
+                           ,        Stakeholder Requirement             ,           Software Requirement
+                      empty, type=='stake_req' and status==''           ,    type=='sw_req' and status==''
+                   accepted, type=='stake_req' and status=='accepted'   ,    type=='sw_req' and status=='accepted'
+                implemented, type=='stake_req' and status=='implemented',    type=='sw_req' and status=='implemented'
+                   verified, type=='stake_req' and status=='verified'   ,    type=='sw_req' and status=='verified'
+
+         * - NeedTable
+           - .. needtable:: List of software requirements
+               :types: sw_req
+               :style: table
+               :columns: id; title; status
+
+         * - NeedFlow
+           - .. needflow:: Requirement Linkage
+                :filter: is_external == True and (type=='stake_req' or type=='sw_req')
+                :show_link_names:
+                :show_filters:
+                :scale: 30
+
 NeedUML
 *******
 
