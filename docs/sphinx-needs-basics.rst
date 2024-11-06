@@ -146,6 +146,27 @@ Needflow expects to get `plantuml deployment-diagram`_ elements as representatio
       :show_filters:
       :scale: 30
 
+Structured Sphinx-Needs reports in tables
+*****************************************
+
+Often you have the use case to structure reports of Sphinx-Needs in a nice
+looking way. You can do this with a list-atble to structure the visiual
+representation.
+
+.. example:: Reports structured with tables
+
+   .. list-table:: Reports
+         :header-rows: 1
+
+         * - Report
+           - Representation
+         * - NeedPie
+           - .. needpie:: Ratio of requirement types
+                :labels: Stakeholder Requirement, Software Requirement, Evaluation
+
+                type == 'stake_req' and is_external == True
+                type == 'sw_req' and is_external == True
+                type == 'evaluation' and is_external == True
 
 NeedUML
 *******
