@@ -150,7 +150,7 @@ Structured Sphinx-Needs reports in tables
 *****************************************
 
 Often you have the use case to structure reports of Sphinx-Needs in table view.
-You can do this with a list-atble to structure the visiual representation.
+You can do this with e.g. a`list-table` to structure the visiual representation.
 
 .. example:: Reports structured with tables
 
