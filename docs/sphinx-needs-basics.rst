@@ -182,9 +182,9 @@ You can do this with a list-atble to structure the visiual representation.
 
          * - NeedTable
            - .. needtable:: List of software requirements
-               :types: sw_req
-               :style: table
-               :columns: id; title; status
+                :types: sw_req
+                :style: table
+                :columns: id; title; status
 
          * - NeedFlow
            - .. needflow:: Requirement Linkage
