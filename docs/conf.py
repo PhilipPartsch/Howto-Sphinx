@@ -336,6 +336,7 @@ def setup(app):
 
     app.add_directive("example", NeedExampleDirective)
     app.add_role('hello', HelloRole())
+    app.add_directive("Code2Option", Code2Option)
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)
 
