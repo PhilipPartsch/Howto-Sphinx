@@ -40,8 +40,8 @@ pages:
   script:
     # install documentation requirements
     - pip install -r ./docs/requirements.txt
-    # - sphinx-build -b html -t project_b ./docs ./public --fail-on-warning --keep-going
-    - sphinx-build -b html -t project_b ./docs ./public -vv --show-traceback --fail-on-warning --keep-going
+    - sphinx-build -b html -t project_b ./docs ./public --fail-on-warning
+    # - sphinx-build -b html -t project_b ./docs ./public -vv --show-traceback --fail-on-warning --keep-going
   artifacts:
     paths:
     - public
