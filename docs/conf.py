@@ -304,12 +304,17 @@ class HelloRole(SphinxRole):
         return [node], []
 
 from sphinx.directives.code import CodeBlock
+from docutils.parsers.rst import directives
 
 class Code2Option(CodeBlock):
 
+    has_content = CodeBlock.has_content
+    required_arguments = CodeBlock.required_arguments
     optional_arguments = CodeBlock.optional_arguments
     final_argument_whitespace = CodeBlock.final_argument_whitespace
-    has_content = CodeBlock.has_content
+    option_spec = CodeBlock.option_spec
+    option_spec['option2'] = directives.unchanged
+
 
     def run(self):
 #        language = "rst"
@@ -319,6 +324,8 @@ class Code2Option(CodeBlock):
 #        self.set_source_info(code)
 #        return [code]
         super_run = super().run()
+
+        print(self.option2)
 
         return super_run
 
