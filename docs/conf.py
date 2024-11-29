@@ -324,7 +324,8 @@ class Code2Option(CodeBlock):
 #        return [code]
         super_run = super().run()
 
-        print(self.option2)
+        option2 = self.options.get('option2', [])
+        print(option2)
 
         return super_run
 
