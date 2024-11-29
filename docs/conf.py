@@ -303,6 +303,27 @@ class HelloRole(SphinxRole):
                 )
         return [node], []
 
+from sphinx.directives.code import CodeBlock
+
+class Code2Option(CodeBlock):
+
+    optional_arguments = CodeBlock.optional_arguments
+    final_argument_whitespace = CodeBlock.final_argument_whitespace
+    has_content = CodeBlock.has_content
+
+    def run(self):
+#        language = "rst"
+#        code = nodes.literal_block(
+#            "", "\n".join(self.content), language=language, classes=["code"]
+#        )
+#        self.set_source_info(code)
+#        return [code]
+        super_run = super().run()
+
+        return super_run
+
+
+
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
