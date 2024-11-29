@@ -315,7 +315,6 @@ class Code2Option(CodeBlock):
     option_spec = CodeBlock.option_spec
     option_spec['option2'] = directives.unchanged
 
-
     def run(self):
 #        language = "rst"
 #        code = nodes.literal_block(
