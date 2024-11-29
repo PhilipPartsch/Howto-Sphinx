@@ -31,7 +31,7 @@ Tests
 
 .. :hello:`Woorld` :hello:`Woorld2`
 
-.. Code2Option:: py
+.. codeoption:: py
    :option2: helllo_to_you
 
    import hello
