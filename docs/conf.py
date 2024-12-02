@@ -334,11 +334,11 @@ class Code2Option_Directive(CodeBlock):
         option_name = self.options.get('option2', [])
         print(option_name)
 
-        node = Code2Option_Node()
+        #node = Code2Option_Node()
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return [super_run, node]
+        return super_run #[super_run, node]
 
 def process_Code2Option(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     for node in doctree.findall(Code2Option_Node):
