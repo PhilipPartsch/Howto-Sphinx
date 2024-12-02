@@ -349,7 +349,10 @@ def process_Code2Option(app: Sphinx, doctree: nodes.document, fromdocname: str,)
         #print(node.option_name)
         print('node.option_content')
         #print(node.option_content)
-        node.replace_self([])
+        if node.parent is not None:
+            node.parent.remove(node)
+        else:
+            node.replace_self([])
 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
@@ -364,7 +367,7 @@ def setup(app):
         add_dynamic_function(app, func)
 
     #app.connect("needs-before-post-processing", process_Code2Option)
-    app.connect("doctree-resolved", process_Code2Option, priority=101,)
+    app.connect("doctree-resolved", process_Code2Option, priority=101)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
