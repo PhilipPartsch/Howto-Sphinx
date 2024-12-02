@@ -178,7 +178,7 @@ from sphinx.util.docutils import SphinxDirective, SphinxRole
 from sphinx.errors import ExtensionError
 
 
-class NeedExampleDirective(SphinxDirective):
+class ExampleDirective(SphinxDirective):
     """Directive to add example content to the documentation.
 
     It adds a container with a title, a code block, and a parsed content block.
@@ -330,7 +330,7 @@ class CodeOption_Directive(CodeBlock):
 #        self.set_source_info(code)
 #        return [code]
         env = self.state.document.settings.env
-        #super_run = super().run()
+        super_run = super().run()
 
         option_name = self.options.get('option2', [])
         print(option_name)
@@ -340,7 +340,7 @@ class CodeOption_Directive(CodeBlock):
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return node #[super_run, ]
+        return super_run + [node] #[super_run, ]
 
 def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     print('run process_CodeOption')
@@ -357,7 +357,7 @@ def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
-    app.add_directive("example", NeedExampleDirective)
+    app.add_directive("example", ExampleDirective)
     app.add_role('hello', HelloRole())
     app.add_directive("codeoption", CodeOption_Directive)
 
