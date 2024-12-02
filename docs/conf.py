@@ -308,12 +308,12 @@ from docutils.parsers.rst import directives
 
 from docutils import nodes
 
-class Code2Option_Node(nodes.General, nodes.Element):
+class CodeOption_Node(nodes.General, nodes.Element):
     # option_name : str = ''
     # option_content : str = ''
     pass
 
-class Code2Option_Directive(CodeBlock):
+class CodeOption_Directive(CodeBlock):
 
     has_content = CodeBlock.has_content
     required_arguments = CodeBlock.required_arguments
@@ -322,7 +322,7 @@ class Code2Option_Directive(CodeBlock):
     option_spec = CodeBlock.option_spec
     option_spec['option2'] = directives.unchanged
 
-    def run(self):
+    def run(self) -> list[nodes.Node]:
 #        language = "rst"
 #        code = nodes.literal_block(
 #            "", "\n".join(self.content), language=language, classes=["code"]
@@ -336,15 +336,15 @@ class Code2Option_Directive(CodeBlock):
         print(option_name)
 
         targetid = "needarch-{docname}-{id}".format(docname=env.docname, id=env.new_serialno("codeoption"))
-        node = Code2Option_Node(targetid)
+        #node = Code2Option_Node(targetid)
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return [super_run, node]
+        return [super_run]
 
 def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     print('run process_CodeOption')
-    for node in doctree.findall(Code2Option_Node):
+    for node in doctree.findall(CodeOption_Node):
         print('node.option_name')
         #print(node.option_name)
         print('node.option_content')
@@ -359,7 +359,7 @@ def setup(app):
 
     app.add_directive("example", NeedExampleDirective)
     app.add_role('hello', HelloRole())
-    app.add_directive("codeoption", Code2Option_Directive)
+    app.add_directive("codeoption", CodeOption_Directive)
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)
 
