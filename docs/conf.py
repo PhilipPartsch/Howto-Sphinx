@@ -312,7 +312,7 @@ class Code2Option_Node(nodes.General, nodes.Element):
     option_name : str = ''
     option_content : str = ''
 
-class Code2Option(CodeBlock):
+class Code2Option_Directive(CodeBlock):
 
     has_content = CodeBlock.has_content
     required_arguments = CodeBlock.required_arguments
@@ -335,28 +335,24 @@ class Code2Option(CodeBlock):
 
         node = Code2Option_Node()
         node.option_name = option_name
-        node.option_content = self.content
+        node.option_content = 'self.content'
 
         return [super_run, node]
 
-def process_Code2Option(
-    app: Sphinx,
-    doctree: nodes.document,
-    fromdocname: str,
-    found_nodes: list[nodes.Element],
-) -> None:
-
-    for node in found_nodes:
-        print(isinstance(node, Code2Option_Node))
-        if isinstance(node, Code2Option_Node):
-            node.replace_self([])
+def process_Code2Option(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
+    for node in doctree.findall(Code2Option_Node):
+        print('node.option_name')
+        print(node.option_name)
+        print('node.option_content')
+        print(node.option_content)
+        node.replace_self([])
 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
     app.add_directive("example", NeedExampleDirective)
     app.add_role('hello', HelloRole())
-    app.add_directive("codeoption", Code2Option)
+    app.add_directive("codeoption", Code2Option_Directive)
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)
 
