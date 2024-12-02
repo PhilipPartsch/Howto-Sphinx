@@ -306,6 +306,12 @@ class HelloRole(SphinxRole):
 from sphinx.directives.code import CodeBlock
 from docutils.parsers.rst import directives
 
+from docutils import nodes
+
+class Code2Option_Node(nodes.General, nodes.Element):
+    option_name : str = ''
+    option_content : str = ''
+
 class Code2Option(CodeBlock):
 
     has_content = CodeBlock.has_content
@@ -324,12 +330,26 @@ class Code2Option(CodeBlock):
 #        return [code]
         super_run = super().run()
 
-        option2 = self.options.get('option2', [])
-        print(option2)
+        option_name = self.options.get('option2', [])
+        print(option_name)
 
-        return super_run
+        node = Code2Option_Node()
+        node.option_name = option_name
+        node.option_content = self.content
 
+        return [super_run, node]
 
+def process_Code2Option(
+    app: Sphinx,
+    doctree: nodes.document,
+    fromdocname: str,
+    found_nodes: list[nodes.Element],
+) -> None:
+
+    for node in found_nodes:
+        print(isinstance(node, Code2Option_Node))
+        if isinstance(node, Code2Option_Node):
+            node.replace_self([])
 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
@@ -342,6 +362,8 @@ def setup(app):
 
     for func in metamodel.needs_functions:
         add_dynamic_function(app, func)
+
+    app.connect("needs-before-post-processing", Code2Option)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
