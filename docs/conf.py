@@ -335,7 +335,7 @@ class CodeOption_Directive(CodeBlock):
         option_name = self.options.get('option2', [])
         print(option_name)
 
-        targetid = "needarch-{docname}-{id}".format(docname=env.docname, id=env.new_serialno("codeoption"))
+        targetid = "codeoption-{docname}-{id}".format(docname=env.docname, id=env.new_serialno("codeoption"))
         node = CodeOption_Node(targetid)
         #node.option_name = option_name
         #node.option_content = 'self.content'
