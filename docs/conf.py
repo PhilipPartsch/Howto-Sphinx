@@ -340,7 +340,7 @@ class CodeOption_Directive(CodeBlock):
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return super_run + [node] #[super_run, ]
+        return super_run + [node]
 
 def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     print('run process_CodeOption')
@@ -370,3 +370,9 @@ def setup(app):
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
+    return {
+        'version': '0.1',
+        'env_version': 1,
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
