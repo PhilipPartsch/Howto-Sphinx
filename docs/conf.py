@@ -330,17 +330,17 @@ class CodeOption_Directive(CodeBlock):
 #        self.set_source_info(code)
 #        return [code]
         env = self.state.document.settings.env
-        super_run = super().run()
+        #super_run = super().run()
 
         option_name = self.options.get('option2', [])
         print(option_name)
 
         targetid = "needarch-{docname}-{id}".format(docname=env.docname, id=env.new_serialno("codeoption"))
-        #node = Code2Option_Node(targetid)
+        node = Code2Option_Node(targetid)
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return super_run #[super_run, ]
+        return node #[super_run, ]
 
 def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     print('run process_CodeOption')
