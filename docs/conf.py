@@ -366,7 +366,7 @@ def setup(app):
     for func in metamodel.needs_functions:
         add_dynamic_function(app, func)
 
-    app.connect("doctree-resolved", process_CodeOption, priority=101)
+    app.connect("doctree-resolved", process_CodeOption)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
