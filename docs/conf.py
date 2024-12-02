@@ -364,7 +364,7 @@ def setup(app):
         add_dynamic_function(app, func)
 
     #app.connect("needs-before-post-processing", process_Code2Option)
-    app.connect("doctree-resolved", process_Code2Option, priority=100,)
+    app.connect("doctree-resolved", process_Code2Option, priority=101,)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
