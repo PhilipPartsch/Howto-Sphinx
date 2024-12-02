@@ -309,8 +309,9 @@ from docutils.parsers.rst import directives
 from docutils import nodes
 
 class Code2Option_Node(nodes.General, nodes.Element):
-    option_name : str = ''
-    option_content : str = ''
+    # option_name : str = ''
+    # option_content : str = ''
+    pass
 
 class Code2Option_Directive(CodeBlock):
 
@@ -334,17 +335,17 @@ class Code2Option_Directive(CodeBlock):
         print(option_name)
 
         node = Code2Option_Node()
-        node.option_name = option_name
-        node.option_content = 'self.content'
+        #node.option_name = option_name
+        #node.option_content = 'self.content'
 
         return [super_run, node]
 
 def process_Code2Option(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     for node in doctree.findall(Code2Option_Node):
         print('node.option_name')
-        print(node.option_name)
+        #print(node.option_name)
         print('node.option_content')
-        print(node.option_content)
+        #print(node.option_content)
         node.replace_self([])
 
 def setup(app):
