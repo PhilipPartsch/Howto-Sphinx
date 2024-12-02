@@ -322,7 +322,7 @@ class CodeOption_Directive(CodeBlock):
     option_spec = CodeBlock.option_spec
     option_spec['option2'] = directives.unchanged
 
-    def run(self) -> list[nodes.Node]:
+    def run(self):# -> list[nodes.Node]:
 #        language = "rst"
 #        code = nodes.literal_block(
 #            "", "\n".join(self.content), language=language, classes=["code"]
@@ -340,7 +340,7 @@ class CodeOption_Directive(CodeBlock):
         #node.option_name = option_name
         #node.option_content = 'self.content'
 
-        return [super_run, ]
+        return super_run #[super_run, ]
 
 def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str,) -> None:
     print('run process_CodeOption')
