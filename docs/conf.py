@@ -342,9 +342,9 @@ class CodeOption_Directive(CodeBlock):
 
         return super_run + [node]
 
-# def process_CodeOption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
-def process_CodeOption(app, doctree, fromdocname):
-    print('run process_CodeOption')
+# def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
+def process_codeoption(app, doctree, fromdocname):
+    print('run process_codeoption')
     for node in doctree.findall(CodeOption_Node):
         print('node.option_name')
         #print(node.option_name)
@@ -367,7 +367,7 @@ def setup(app):
     for func in metamodel.needs_functions:
         add_dynamic_function(app, func)
 
-    app.connect("doctree-resolved", process_CodeOption)
+    app.connect("doctree-resolved", process_codeoption)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
