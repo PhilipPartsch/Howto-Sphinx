@@ -345,15 +345,19 @@ class CodeOption_Directive(CodeBlock):
 # def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
 def process_codeoption(app, doctree, fromdocname):
     print('run process_codeoption')
-    for node in doctree.findall(CodeOption_Node):
-        print('node.option_name')
-        #print(node.option_name)
-        print('node.option_content')
-        #print(node.option_content)
-        if node.parent is not None:
-            node.parent.remove(node)
-        else:
-            node.replace_self([])
+    logger.info(
+                f"added my process warnings [needs]",
+                type="needs",
+            )
+#    for node in doctree.findall(CodeOption_Node):
+#        print('node.option_name')
+#        #print(node.option_name)
+#        print('node.option_content')
+#        #print(node.option_content)
+#        if node.parent is not None:
+#            node.parent.remove(node)
+#        else:
+#            node.replace_self([])
 
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
@@ -368,7 +372,7 @@ def setup(app):
         add_dynamic_function(app, func)
 
     print('config to call process_codeoption')
-    app.connect("doctree-resolved", process_codeoption56, 600)
+    app.connect("doctree-resolved", process_codeoption, 600)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
