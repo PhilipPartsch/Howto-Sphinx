@@ -346,7 +346,7 @@ class CodeOption_Directive(CodeBlock):
 def process_codeoption(app, doctree, fromdocname):
     print('run process_codeoption')
     logger.info(
-                f"added my process warnings [needs]",
+                f"run process_codeoption [needs]",
                 type="needs",
             )
 #    for node in doctree.findall(CodeOption_Node):
