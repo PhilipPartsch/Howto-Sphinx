@@ -343,7 +343,7 @@ class CodeOption_Directive(CodeBlock):
         return super_run + [node]
 
 # def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
-def process_codeoption56(app, doctree, fromdocname):
+def process_codeoption(app, doctree, fromdocname):
     print('run process_codeoption')
     for node in doctree.findall(CodeOption_Node):
         print('node.option_name')
