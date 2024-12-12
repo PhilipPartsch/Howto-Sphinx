@@ -342,8 +342,8 @@ class CodeOption_Directive(CodeBlock):
 
         return super_run + [node]
 
-# def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
-def process_codeoption(app, doctree, fromdocname):
+def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
+#def process_codeoption(app, doctree, fromdocname):
     print('run process_codeoption')
     logger.info(
                 f"run process_codeoption [needs]",
@@ -359,6 +359,14 @@ def process_codeoption(app, doctree, fromdocname):
 #        else:
 #            node.replace_self([])
 
+def my_process_codeoption(app: Sphinx, exception: Exception | None) -> None:
+
+    print('run my_process_codeoption')
+    logger.info(
+                f"run my_process_codeoption [needs]",
+                type="needs",
+            )
+
 def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
@@ -372,7 +380,8 @@ def setup(app):
         add_dynamic_function(app, func)
 
     print('config to call process_codeoption')
-    app.connect("doctree-resolved", process_codeoption, 600)
+    app.connect("doctree-resolved", process_codeoption)
+    app.connect("build-finished", my_process_codeoption)
 
     app.connect("build-finished", metamodel.my_process_warnings)
 
