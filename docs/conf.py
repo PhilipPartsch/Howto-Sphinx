@@ -342,7 +342,7 @@ class CodeOption_Directive(CodeBlock):
 
         return super_run + [node]
 
-def process_codeoption(app: Sphinx, doctree: nodes.document, fromdocname: str) -> None:
+def process_codeoption(app: Sphinx, doctree: nodes.document, docname: str) -> None:
 #def process_codeoption(app, doctree, fromdocname):
     print('run process_codeoption')
     logger.info(
