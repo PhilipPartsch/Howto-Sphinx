@@ -501,6 +501,7 @@ of two files.
    .. literalinclude:: index.rst
       :caption: Example how-to incude source code from a file
       :name: Example_literalinclude
+      :language: rst
       :emphasize-lines: 12-20
       :linenos:
       :end-before: Tests
