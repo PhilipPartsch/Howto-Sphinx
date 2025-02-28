@@ -465,12 +465,34 @@ More sophisticated examples and even a special extension for multilanguage examp
 .. example:: code directive
 
    .. code:: rst
+      :caption: Example how-to document source code
+      :name: Example_Source_Code
       :number-lines:
 
       ##################
       H1: document title
       ##################
 
+The ``literalinclude`` directive is useful if you want to extract content from a existing file.
+
+Let's reuse our ``index.rst`` file from this project.
+You can filter for 
+`sections <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-start-at>`_,
+`lines <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-lineno-match>`_,
+or even show a 
+`diff <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-diff>`_
+of two files.
+
+.. example:: literalinclude directive
+
+   .. literalinclude:: index.rst
+      :caption: Example how-to incude source code from a file
+      :name: Example_literalinclude
+      :emphasize-lines: 12-20
+      :linenos:
+
+Often this is combined with a download link to the file,
+see :ref:`reSTxt_style_guide_download_file` how to achive this.
 
 .. _reSTxt_style_guide_links:
 
