@@ -38,7 +38,7 @@ For detailed information see `How to create table of contents with toctree`_ or 
 Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file.
 Interesting options are ``:hidden:`` to hide the toctree and ``:glob:`` to import all files in a folder.
 
-An example for use of ``.. toctree::`` can be found in the `ìndex.rst``within this porject:
+An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within this porject:
 
 .. literalinclude:: index.rst
    :language: rst
