@@ -462,6 +462,9 @@ See `How to document code`_.
 More sophisticated examples and even a special extension for multilanguage examples can be found under
 `How to document multi language code`_.
 
+code-block
+==========
+
 .. example:: code directive
 
    .. code-block:: rst
@@ -478,6 +481,10 @@ More sophisticated examples and even a special extension for multilanguage examp
 
       H2: document title
       ******************
+
+
+literalinclude
+==============
 
 The ``literalinclude`` directive is useful if you want to extract content from a existing file.
 
