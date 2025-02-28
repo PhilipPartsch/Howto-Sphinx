@@ -467,11 +467,18 @@ More sophisticated examples and even a special extension for multilanguage examp
    .. code-block:: rst
       :caption: Example how-to document source code
       :name: Example_Source_Code
+      :linenos:
       :number-lines:
 
       ##################
       H1: document title
       ##################
+   
+   .. code:: rst
+      :number-lines:
+
+      H2: document title
+      ******************
 
 The ``literalinclude`` directive is useful if you want to extract content from a existing file.
 
