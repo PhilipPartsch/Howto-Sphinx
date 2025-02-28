@@ -503,6 +503,7 @@ of two files.
       :name: Example_literalinclude
       :emphasize-lines: 12-20
       :linenos:
+      :end-before: Tests
 
 Often this is combined with a download link to the file,
 see :ref:`reSTxt_style_guide_download_file` how to achive this.
