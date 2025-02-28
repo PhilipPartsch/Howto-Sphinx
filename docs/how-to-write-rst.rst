@@ -464,7 +464,7 @@ More sophisticated examples and even a special extension for multilanguage examp
 
 .. example:: code directive
 
-   .. code:: rst
+   .. code-block:: rst
       :caption: Example how-to document source code
       :name: Example_Source_Code
       :number-lines:
