@@ -31,7 +31,8 @@ Tests
 
 .. :hello:`Woorld` :hello:`Woorld2`
 
-.. codeoption:: py
+.. disabled codeoption as the directive is even disabled
+.. codeoption :: py
    :option2: helllo_to_you
 
    import hello
