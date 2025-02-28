@@ -468,7 +468,6 @@ More sophisticated examples and even a special extension for multilanguage examp
       :caption: Example how-to document source code
       :name: Example_Source_Code
       :linenos:
-      :number-lines:
 
       ##################
       H1: document title
