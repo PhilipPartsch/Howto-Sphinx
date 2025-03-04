@@ -170,7 +170,7 @@ needs_render_context = metamodel.needs_render_context
 
 needs_default_layout = 'clean_with_edit_link'
 
-needs-title-optional = True
+needs_title_optional = True
 
 # -- custom extensions ---------------------------------------
 
