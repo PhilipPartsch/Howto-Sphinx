@@ -26,13 +26,15 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
 Minimum need
 ============
 
-With `needs-title-optional <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-title-optional>`_
+With `needs_title_optional <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-title-optional>`_
 it is even possible to skip the title.
 
 .. example:: Minimum Need.
 
     .. req::
        :id: R_MINIMUM_REQUIREMENT
+
+So the bare minimum need only has a `:id:`.
 
 
 Types

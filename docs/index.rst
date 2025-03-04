@@ -18,6 +18,7 @@ How-To Sphinx
    how-to-write-rst
    sphinx-needs-basics
    architecture-examples
+   import_needs
 
 Indices and tables
 ******************

@@ -1,0 +1,17 @@
+{"created": "2025-03-04T20:44:35.156280", "current_version": "1.0.0", "project": "HowTo-Sphinx", "versions": {"1.0.0": {"created": "2025-03-04T20:44:35.156245", "filters": {}, "filters_amount": 0, "needs": {
+    "01-00": {
+        "activities": [], "activities_back": [], "arch": {}, "author": "", "avatar": "", "blue_print": [], "blue_print_back": [], "case": "", "case_name": "", "case_parameter": "", "cases": "", "classname": "", "closed_at": "", "completion": "", "constraints": [], "constraints_passed": true, "constraints_results": {}, "coverage": "", "created_at": "", "delete": null, "derived": [], "derived_back": [], 
+        "description": "Keep my test text.",
+        "docname": "test", "doctype": ".rst",
+        "duration": "", "errors": "", "evaluated": [], "evaluated_back": [], "external_css": "external_link", "external_url": null, "failed": "", "file": "", "full_title": "Configuration item", "github_edit_url": "", "has_dead_links": false, "has_forbidden_dead_links": false, 
+        "id": "test",
+        "id_prefix": "", "implemented_by": [], "implemented_by_back": [], "implements": [], "implements_back": [], "input": [], "input_back": [], "instruction": [], "instruction_back": [], "interface_definition": "", "is_external": false, "is_modified": false, "is_need": true, "is_part": false, "jinja_content": null, "layout": "", "links": [], "links_back": [], "max_amount": "", "max_content_lines": "", "modifications": 0, "output": [], "output_back": [], "params": "", "parent_need": "", "parent_needs": [], "parent_needs_back": [], "part_of": [], "part_of_back": [], "parts": {}, "passed": "", "pathfile": "", "post_template": null, "pre_template": null, "prefix": "", "query": "", "reject_reason": "", "responsible": [], "responsible_back": [], "result": "", "safety_level": "not set", "satisfies": [], "satisfies_back": [],
+        "section_name": "Test", "sections": ["Test"],
+        "security_level": "not set", "service": "", "signature": "", "skipped": "", "specific": "", "status": "new", "stored_in": [], "stored_in_back": [], "style": null, "successor": [], "successor_back": [], "suite": "", "suites": "", "tags": ["artifact"], 
+        "target_id": "01-00",
+        "template": null, "test_status": "", "tests": [], "tests_back": [], "time": "",
+        "title": "Test item",
+        "type": "stake_req", "type_name": "Stakeholder Requirement",
+        "updated_at": "", "url": "", "url_postfix": "", "user": "", "uses": [], "uses_back": [], "verified_by": [], "verified_by_back": [], "when": [], "when_back": [], "why": [], "why_back": []},
+    }
+}}}
