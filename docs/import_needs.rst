@@ -16,6 +16,7 @@ Documentation: How-to import needs with
    .. needimport:: example_needs.json
       :id_prefix: imp_
       :tags: imported
+      :template: extend_template
 
 
 How-to change a imported need with `needextend`

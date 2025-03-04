@@ -1,0 +1,5 @@
+{# Place the original content here #}
+{{content}}
+
+**Reject Reason:**
+{{reject_reason}}
