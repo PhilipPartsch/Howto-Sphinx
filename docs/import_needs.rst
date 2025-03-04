@@ -27,7 +27,7 @@ Documentation: How-to extend needs with
 .. example:: How-to extend a Need.
 
    .. needextend:: imp_test_item
-      :status: closed
+      :status: implemented
       :reject_reason: 
          | Here I add a multi line reject reason.
          | First line
