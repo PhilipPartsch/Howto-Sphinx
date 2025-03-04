@@ -24,3 +24,11 @@ How-to change a imported need with `needextend`
 Documentation: How-to extend needs with
 `needextend <https://sphinx-needs.readthedocs.io/en/latest/directives/needextend.html>`_.
 
+.. example:: How-to extend a Need.
+
+   .. needextend:: imp_test_item
+      :status: closed
+      :reject_reason: 
+         | Here I add a multi line reject reason.
+         | First line
+         | Second line
