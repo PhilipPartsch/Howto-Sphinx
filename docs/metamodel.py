@@ -627,7 +627,7 @@ Cares about handling and execution warnings.
 from sphinx.application import Sphinx
 from sphinx.util import logging
 
-from sphinx_needs.config import NEEDS_CONFIG, NeedsSphinxConfig
+from sphinx_needs.config import NeedsSphinxConfig
 from sphinx_needs.data import NeedsInfoType, SphinxNeedsData
 from sphinx_needs.filter_common import filter_needs
 from sphinx_needs.logging import get_logger
