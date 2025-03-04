@@ -23,6 +23,14 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
 
        This is our example Specification.
 
+Minimum need
+============
+
+.. example:: Minimum Need.
+
+    .. req::
+       :id: R_MINIMUM_REQUIREMENT
+
 
 Types
 =====
