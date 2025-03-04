@@ -659,7 +659,7 @@ def my_process_warnings(app: Sphinx, exception: Exception | None) -> None:
         return
 
     env = app.env
-    needs = SphinxNeedsData(env).get_or_create_needs()
+    needs = SphinxNeedsData(env).get_needs_view()
     # If no needs were defined, we do not need to do anything
     if not needs:
         return

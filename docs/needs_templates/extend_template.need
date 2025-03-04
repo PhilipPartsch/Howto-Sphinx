@@ -1,6 +1,7 @@
 {# Place the original content here #}
 {{content}}
 
+
 **Reject Reason:**
 {{reject_reason}}
 :ndf:`copy('reject_reason', '{{id}}')`
