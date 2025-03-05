@@ -28,11 +28,11 @@ In the template `extend_template` we access to the reject reason:
    :language: jinja
    :linenos:
 
-You can find the the documenation of the option `template` for `needimport`
-`here <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html#customization>`_.
+You can find the the documenation of the option `template` for `needimport` in
+`needimport customization <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html#customization>`_.
 
-You can find the the documenation of the option `template` for `need`
-`here <https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template>`_.
+You can find the the documenation of the option `template` for `need` in
+`need template <https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template>`_.
 
 
 How-to change a imported need with `needextend`
