@@ -18,6 +18,15 @@ Documentation: How-to import needs with
       :tags: imported
       :template: extend_template
 
+We do use here a template, to make the `reject reason`` avaialbe to the content of the need.
+The `reject reason` is been set in the `needextend` in the next chapter.
+
+In the template `extend_template` we access to the reject reason:
+
+.. literalinclude:: needs_templates/extend_template.need
+   :language: rst
+   :linenos:
+
 
 How-to change a imported need with `needextend`
 ***********************************************

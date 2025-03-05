@@ -2,6 +2,8 @@
 {{content}}
 
 
-**Reject Reason:**
+**Reject Reason added during needimport:**
 {{reject_reason}}
+
+**Reject Reason copied with dynamic function:**
 :ndf:`copy('reject_reason', '{{id}}')`
