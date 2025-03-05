@@ -18,14 +18,21 @@ Documentation: How-to import needs with
       :tags: imported
       :template: extend_template
 
-We do use here a template, to make the `reject reason`` avaialbe to the content of the need.
-The `reject reason` is been set in the `needextend` in the next chapter.
+We do use here a template, to make the `reject_reason` availalbe to the content of the need.
+The `reject_reason` is been set in the `needextend` in the next chapter.
 
 In the template `extend_template` we access to the reject reason:
 
 .. literalinclude:: needs_templates/extend_template.need
-   :language: rst
+   :caption: file extend_template.need
+   :language: jinja
    :linenos:
+
+You can find the the documenation of the option `template` for `needimport`
+`here <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html#customization>`_.
+
+You can find the the documenation of the option `template` for `need`
+`here <https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template>`_.
 
 
 How-to change a imported need with `needextend`
@@ -42,3 +49,10 @@ Documentation: How-to extend needs with
          | Here I add a multi line reject reason.
          | First line
          | Second line
+
+Challanges
+**********
+
+The issue with `needextend` is, how to ensure the final output is correct.
+Here it is often necassary to protect attributes for changes via `needextend` via `needs_warnings`.
+See `Monitoring modifications <https://sphinx-needs.readthedocs.io/en/latest/directives/needextend.html#monitoring-modifications>`_.
