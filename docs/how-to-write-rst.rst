@@ -42,8 +42,10 @@ An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within
 
 .. literalinclude:: index.rst
    :language: rst
-   :emphasize-lines: 12-20
-   :linenos:
+   :lineno-match:
+   :start-at: .. toctree::
+   :end-before: Indices and tables
+
 
 
 *****************
