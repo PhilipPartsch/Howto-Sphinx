@@ -456,6 +456,9 @@ def sequence(needs, id):
 
     return need_uml
 
+# sequence def end
+# above comment, is for automatically extracting code to the documentation
+
 from sphinx_needs.directives.needuml import JinjaFunctions
 
 def class_sequence(self, need_id: str) -> str:
@@ -585,6 +588,8 @@ def jinja2uml_new(
 
     return (uml, processed_need_ids_return)
 
+# def jinja2uml_new end
+
 import sphinx_needs
 sphinx_needs.directives.needuml.jinja2uml = jinja2uml_new
 
@@ -600,6 +605,7 @@ needs_render_context = {
         {"name" : "P4", "elements" : ["C_MANY_M", "C_MANY_N", "C_MANY_O", "C_MANY_P"],},
     ],
 }
+# needs_render_context end
 
 def my_custom_warning(need, log):
     # some checks

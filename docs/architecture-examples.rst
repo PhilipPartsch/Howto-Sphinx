@@ -238,6 +238,9 @@ Following the link to the elements defined.
 Behaviour Model: Sequence-Diagram
 *********************************
 
+Configuration
+=============
+
 Here we use monkey patching to get in functions in class `JinjaFunctions`
 from sphinx-needs. Currently used functions:
 
@@ -246,6 +249,9 @@ from sphinx-needs. Currently used functions:
 - sequence3
 
 The patching is been done in `metamodel.py`.
+
+Example with sequence
+=====================
 
 .. example:: Visualize a sequence diagram I
 
@@ -288,6 +294,8 @@ The patching is been done in `metamodel.py`.
 
       deactivate C_C
 
+Example with sequence2
+======================
 
 .. example:: Visualize a sequence diagram II
 
@@ -311,6 +319,8 @@ The patching is been done in `metamodel.py`.
       deactivate C_A
       end
 
+Example with sequence3
+======================
 
 .. example:: Visualize a sequence diagram III
 
