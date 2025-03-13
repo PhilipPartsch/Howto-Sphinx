@@ -1,8 +1,7 @@
-sphinx==5.0.0
-#sphinx
+sphinx
 sphinxcontrib.jquery
 sphinxcontrib-plantuml
-sphinx-needs
+sphinx-needs==5.0.0
 matplotlib
 sphinx-copybutton
 sphinxcontrib-programoutput
