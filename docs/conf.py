@@ -1,13 +1,23 @@
 # Configuration file for the Sphinx documentation builder.
 
 import os
+import datetime
+
+# -- Print Versions
+
 import sys
+print ('python version: ' + str(sys.version))
 
 from sphinx import __version__ as sphinx_version
 print ('sphinx version: ' + str(sphinx_version))
 
+from sphinx_ifelse import __version__ as sphinx_ifelse_version
+print ('sphinx_ifelse version: ' + str(sphinx_ifelse_version))
+
 from sphinx_needs import __version__ as sphinx_needs_version
 print ('sphinx-needs version: ' + str(sphinx_needs_version))
+
+# -- APIs
 
 from sphinx_needs.api import add_dynamic_function
 
@@ -373,7 +383,7 @@ def setup(app):
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
     app.add_directive("example", ExampleDirective)
-    app.add_role('hello', HelloRole())
+    #app.add_role('hello', HelloRole())
     #app.add_directive("codeoption", CodeOption_Directive)
 
     add_dynamic_function(app, get_githoster_edit_url_for_need)

@@ -19,7 +19,7 @@ This document intends to define the reStructuredText style-guide.
 References to useful pages
 ==========================
 
-- `Quick Reference`_ 
+- `Quick Reference`_
 - https://sublime-and-sphinx-guide.readthedocs.io
 - https://documatt.com/restructuredtext-reference/index.html
 - https://myst-parser.readthedocs.io
@@ -59,7 +59,7 @@ With `.. contents::` it is possible to create a "table of contents" for the curr
 .. it is not possible to include ``contents`` directive within another directive. So we cannot use ``example`` directive here.
 
 .. code:: rst
-   
+
    .. contents:: table of contents
 
 This will be printed like:
@@ -84,15 +84,15 @@ Regular text
 
 .. example:: Regular text
 
-   You can write any text, 
-   but please keep in mind, 
+   You can write any text,
+   but please keep in mind,
    white       spaces      or new lines are ignored.
 
    If you want to define a new line you can to use line blocks ``|``.
    For more information about line blocks please check `How to write lists and line blocks`_.
 
    | ``|`` Here I have defined when a new line has to be printed,
-   | ``|`` so it looks like how I have specified it. 
+   | ``|`` so it looks like how I have specified it.
 
    Or you use an empty line to separate the text
 
@@ -144,7 +144,7 @@ Comments
 .. example:: Comments
 
    Text before the comment.
-   
+
    .. You can comment with ``..``.
 
    Text after the comment.
@@ -157,8 +157,8 @@ Substitution Definition
 ***********************
 
 See `How to substitute content`_.
-It is best practice, to use substitution as less as possible. 
-Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used. 
+It is best practice, to use substitution as less as possible.
+Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used.
 
 .. example:: Substitution
 
@@ -168,8 +168,8 @@ Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used.
    abbreviate it. Better use a glossary :).
 
 .. note::
-   You can use 
-   
+   You can use
+
    "image": can be used for block-level images as well as in a substitution definition for inline images.
    See even the :ref:`image example <reSTxt_style_guide_Pictures>`.
 
@@ -241,7 +241,7 @@ Tables
 ******
 
 The information about tables are wonderful provided in `How to write a table`_,
-https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables 
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables
 and https://docutils.sourceforge.io/docs/ref/rst/directives.html#tables .
 
 
@@ -477,7 +477,7 @@ code-block
       ##################
       H1: document title
       ##################
-   
+
    .. code:: rst
       :number-lines:
 
@@ -491,10 +491,10 @@ literalinclude
 The ``literalinclude`` directive is useful if you want to extract content from a existing file.
 
 Let's reuse our ``index.rst`` file from this project.
-You can filter for 
+You can filter for
 `sections <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-start-at>`_,
 `lines <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-lineno-match>`_,
-or even show a 
+or even show a
 `diff <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-option-literalinclude-diff>`_
 of two files.
 
@@ -525,7 +525,7 @@ Links between parts of the documentation
 ========================================
 
 Here you can find an example how you link to a reference label (here a headline) in your documentation.
-The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_. 
+The ref is working across rst files. You can find more examples for picture and tables under `How to link within a rst documentation`_.
 
 So the starting ``_`` of ``.. _reSTxt_style_guide_links:`` defines a start of a reference / anker.
 And last ``_`` in ``reSTxt_style_guide_links_`` uses this reference / anker.
@@ -599,7 +599,7 @@ It is even possible to reference to a document with ``:doc:``.
 For more details please see `How to reference to file`_.
 
 .. example:: Link to headline in the current document
-   
+
    Reference to this :doc:`file itself <how-to-write-rst>`.
 
 
@@ -618,7 +618,7 @@ Even files with extension ``.inc`` shall **not** be fetched by the conf.py.
 Example of ``include`` directive.
 
 .. code:: rst
-   
+
    .. include:: inclusion.rst.inc
 
 
@@ -661,7 +661,7 @@ It is even possible to reference directly to an external webside:
 Glossary
 ********
 
-We use glossaries to define often used terms in a documentation. To get more information how to 
+We use glossaries to define often used terms in a documentation. To get more information how to
 setup a glossary and how to link to, see `How to use a glossary`_. If you want to reference to a
 glossary entry please use role ``term``.
 
@@ -695,14 +695,14 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
       We are building currently for Project A.
 
    .. only:: project_b
-      
+
       We are building currently for Project B.
 
 .. warning::
 
    Sphinx is always rendering the content inside the only directive,
    but is discarding the output if not needed.
-   So if you create objects within the only directive, they are available to the datamodel. 
+   So if you create objects within the only directive, they are available to the datamodel.
 
 
 .. _reSTxt_style_guide_notes_and_warnings:
@@ -756,6 +756,7 @@ References
 .. _`How to write a table`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
 
 .. _`How to use inline-markup`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup
+
 .. _`How to create table of contents with toctree`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents
 
 .. _`How to create table of contents with contents`: https://documatt.com/restructuredtext-reference/element/contents.html

@@ -27,8 +27,10 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Tests
-*****
+
+.. disabled codeoption as the directive is even disabled
+   Tests
+   *****
 
 .. :hello:`Woorld` :hello:`Woorld2`
 
