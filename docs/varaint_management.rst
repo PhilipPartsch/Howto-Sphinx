@@ -6,10 +6,11 @@ Variant Management
 Sphinx: `only` Directive
 ========================
 
-See `How to use only directive`_.
+Documentation: `How to use only directive`_.
 
-In the pipeline, we currently set the tag via command line option ``--tag tag_Linux``.
-Or You could use `How to use tags`_.
+You can use a few mechanism to set tags, see `How to use tags`_.
+
+In the pipeline, we currently set the tag via command line option :code:`--tag tag_Linux`.
 See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
 .. example:: `only` directive
@@ -36,14 +37,12 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Sphinx: `ifconfig` Directive
 ============================
 
-``--define my_ifconfig='ifconfig_MacOS'``
+:code:`--define my_ifconfig='ifconfig_MacOS'`
 
 https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
 https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
 
 add literal include conf.py
-
-
 
 .. example:: `ifconfig` directive
 
@@ -59,11 +58,14 @@ add literal include conf.py
 
       We are building currently for `Linux`.
 
+
 useblocks Collections: `if_collection` Directive
 ================================================
 
+
 Sphinx-Needs: Atttribute Variants
 =================================
+
 
 Sphinx-Ifelse:
 ==============
