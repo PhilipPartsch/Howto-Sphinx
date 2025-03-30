@@ -151,7 +151,7 @@ def setup(app):
         name = 'my_ifconfig',
         default = '',
         rebuild = 'html',
-        types: [str]
+        types = frozenset({str})
         )
 
 # -- sphinx ifconfig end
