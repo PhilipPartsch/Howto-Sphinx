@@ -37,6 +37,9 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Sphinx: `ifconfig` Directive
 ============================
 
+extensions: sphinx.ext.ifconfig
+
+
 :code:`--define my_ifconfig='ifconfig_MacOS'`
 
 https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
@@ -46,15 +49,15 @@ add literal include conf.py
 
 .. example:: `ifconfig` directive
 
-   .. ifconfig:: my_ifconfig == ifconfig_Windows
+   .. ifconfig:: my_ifconfig == "ifconfig_Windows"
 
       We are building currently for `Windows`.
 
-   .. ifconfig:: my_ifconfig == ifconfig_MacOS
+   .. ifconfig:: my_ifconfig == "ifconfig_MacOS"
 
       We are building currently for `MacOS`.
 
-   .. ifconfig:: my_ifconfig == ifconfig_Linux
+   .. ifconfig:: my_ifconfig == "ifconfig_Linux"
 
       We are building currently for `Linux`.
 
