@@ -145,18 +145,6 @@ print('plantuml path: ' + str(plantuml))
 
 plantuml_output_format = 'svg'
 
-# -- sphinx ifconfig
-
-def setup(app):
-    app.add_config_value(
-        name = 'my_ifconfig',
-        default = '',
-        rebuild = 'html',
-        types = frozenset({str})
-        )
-
-# -- sphinx ifconfig end
-
 # -- sphinx_needs configuration
 
 needs_role_need_max_title_length = -1
@@ -393,6 +381,17 @@ def my_process_codeoption(app: Sphinx, exception: Exception | None) -> None:
             )
 
 def setup(app):
+
+    # -- sphinx ifconfig
+    app.add_config_value(
+        name = 'my_ifconfig',
+        default = '',
+        rebuild = 'html',
+        types = frozenset({str})
+        )
+
+    # -- sphinx ifconfig end
+
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])
 
     app.add_directive("example", ExampleDirective)
