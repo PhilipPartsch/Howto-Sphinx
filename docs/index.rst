@@ -13,12 +13,14 @@ How-To Sphinx
    :caption: Contents
    :maxdepth: 1
 
+   author
    why.rst
    relation_sphinx_needs
    how-to-write-rst
    sphinx-needs-basics
    architecture-examples
    import_needs
+   variant_management
 
 Indices and tables
 ******************

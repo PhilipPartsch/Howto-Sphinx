@@ -132,7 +132,7 @@ current_folder = pathlib.Path().resolve()
 git_hoster_edit_url = get_edit_url_from_folder(current_folder, with_docu_part = True, docu_part_default = 'docs')
 print('git hoster edit url: ' + git_hoster_edit_url)
 
-# sphinxcontrib.plantuml configuration
+# -- sphinxcontrib.plantuml configuration
 local_plantuml_path = os.path.join(os.path.dirname(__file__), "_tools", "plantuml.jar")
 
 if on_rtd:
@@ -144,7 +144,19 @@ print('plantuml path: ' + str(plantuml))
 
 plantuml_output_format = 'svg'
 
-# sphinx_needs configuration
+# -- sphinx ifconfig
+
+def setup(app):
+    app.add_config_value(
+        name = 'my_ifconfig',
+        default = '',
+        rebuild = 'html',
+        types: [str]
+        )
+
+# -- sphinx ifconfig end
+
+# -- sphinx_needs configuration
 
 needs_role_need_max_title_length = -1
 

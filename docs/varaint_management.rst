@@ -8,11 +8,11 @@ Sphinx: `only` Directive
 
 See `How to use only directive`_.
 
-In the pipeline, we currently set the tag via command line option ``-t tag_Linux``.
+In the pipeline, we currently set the tag via command line option ``--tag tag_Linux``.
+Or You could use `How to use tags`_.
 See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
-Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
 
-.. example:: only directive
+.. example:: `only` directive
 
    .. only:: tag_Windows
 
@@ -36,6 +36,29 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
 Sphinx: `ifconfig` Directive
 ============================
 
+``--define my_ifconfig='ifconfig_MacOS'``
+
+https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
+https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
+
+add literal include conf.py
+
+
+
+.. example:: `ifconfig` directive
+
+   .. ifconfig:: my_ifconfig == ifconfig_Windows
+
+      We are building currently for `Windows`.
+
+   .. ifconfig:: my_ifconfig == ifconfig_MacOS
+
+      We are building currently for `MacOS`.
+
+   .. ifconfig:: my_ifconfig == ifconfig_Linux
+
+      We are building currently for `Linux`.
+
 useblocks Collections: `if_collection` Directive
 ================================================
 
@@ -45,12 +68,13 @@ Sphinx-Needs: Atttribute Variants
 Sphinx-Ifelse:
 ==============
 
-.. comment
 
-   **********
-   References
-   **********
 
-   .. target-notes::
+References
+==========
 
-   .. _`How to use only directive` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
+.. target-notes::
+
+.. _`How to use only directive` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
+
+.. _`How to use tags` : https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
