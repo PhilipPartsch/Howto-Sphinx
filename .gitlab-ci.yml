@@ -40,7 +40,7 @@ pages:
   script:
     # install documentation requirements
     - pip install -r ./docs/requirements.txt
-    - sphinx-build -b html --tag project_b tag_Linux ./docs ./public --fail-on-warning --define my_ifconfig='ifconfig_MacOS'
+    - sphinx-build -b html --tag project_b ./docs ./public --fail-on-warning --tag tag_Linux --define my_ifconfig='ifconfig_MacOS'
     # - sphinx-build -b html -t project_b ./docs ./public -vv --show-traceback --fail-on-warning --keep-going
   artifacts:
     paths:
