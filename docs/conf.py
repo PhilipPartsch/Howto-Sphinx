@@ -389,7 +389,6 @@ def setup(app):
         rebuild = 'html',
         types = frozenset({str})
         )
-
     # -- sphinx ifconfig end
 
     app.add_config_value(name = 'gitlink_edit_url_to_git_hoster', default = git_hoster_edit_url, rebuild = '', types = [str])

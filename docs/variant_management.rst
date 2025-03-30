@@ -37,29 +37,47 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Sphinx: `ifconfig` Directive
 ============================
 
-extensions: sphinx.ext.ifconfig
+1. Add the `ifconfig` directive to the extensions:
 
+   .. code-block:: rst
+      :caption: How-to add `ifconfig` directive to the extensions
 
-:code:`--define my_ifconfig='ifconfig_MacOS'`
+      extensions = [
+         #...
+         'sphinx.ext.ifconfig',
+         #...
+      ]
 
-https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
-https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
+2. Add your configuration parameter to :code:`conf.py`
 
-add literal include conf.py
+   .. literalinclude:: conf.py
+      :caption: Example how-to incude source code from a file
+      :language: py
+      :linenos:
+      :start-after: # -- sphinx ifconfig
+      :end-before: # -- sphinx ifconfig end
 
-.. example:: `ifconfig` directive
+3. Overwrite the configuration parameter in your sphinx-build
+   :code:`sphinx-build [options] --define my_ifconfig='ifconfig_MacOS' <sourcedir> <outputdir>`
 
-   .. ifconfig:: my_ifconfig == "ifconfig_Windows"
+   https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
+   https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
 
-      We are building currently for `Windows`.
+4. Use the `ifconfig` directive in your rst files
 
-   .. ifconfig:: my_ifconfig == "ifconfig_MacOS"
+   .. example:: `ifconfig` directive
 
-      We are building currently for `MacOS`.
+      .. ifconfig:: my_ifconfig == "ifconfig_Windows"
 
-   .. ifconfig:: my_ifconfig == "ifconfig_Linux"
+         We are building currently for `Windows`.
 
-      We are building currently for `Linux`.
+      .. ifconfig:: my_ifconfig == "ifconfig_MacOS"
+
+         We are building currently for `MacOS`.
+
+      .. ifconfig:: my_ifconfig == "ifconfig_Linux"
+
+         We are building currently for `Linux`.
 
 
 useblocks Collections: `if_collection` Directive
