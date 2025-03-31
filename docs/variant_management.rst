@@ -178,6 +178,65 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
    :style: table
 
 
+useblocks Collections: if-collection Directive
+==============================================
+
+1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
+
+   .. code-block:: python
+      :caption: How-to add `sphinxcontrib.collections` extension to the extensions
+
+      extensions = [
+         #...
+         'sphinxcontrib.collections',
+         #...
+      ]
+
+2. Configure :code:`collections` in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: How-to configure collections extension
+      :language: py
+      :lineno-match:
+      :start-after: # -- extension configuration: collections
+      :end-before: # -- extension configuration: collections end
+
+3. Use it in your rst files:
+
+   .. example:: useblocks Collections: if-collection Directive
+
+      .. if-collection:: collection_Windows
+
+         We are building currently for Windows via if-collection.
+
+         .. need:: Need if-collection Windows
+            :id: N_VARIANT_COLLECTION_WINDOWS
+
+      .. if-collection:: collection_MacOS
+
+         We are building currently for MacOS via if-collection.
+
+         .. need:: Need if-collection MacOS
+            :id: N_VARIANT_COLLECTION_MACOS
+
+      .. if-collection:: collection_Linux
+
+         We are building currently for Linux via if-collection.
+
+         .. need:: Need if-collection Linux
+            :id: N_VARIANT_COLLECTION_LINUX
+
+   .. warning::
+
+      You can write headlines / sections in the content of the if-collection directive.
+      But you have to be careful with the correct ordering of sections in all
+      possible output variants.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "useblocks Collections: if-collection Directive"
+   :style: table
+
+
 Sphinx-Ifelse:
 ==============
 
@@ -241,65 +300,6 @@ Sphinx-Ifelse:
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
-   :style: table
-
-
-useblocks Collections: if-collection Directive
-==============================================
-
-1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
-
-   .. code-block:: python
-      :caption: How-to add `sphinxcontrib.collections` extension to the extensions
-
-      extensions = [
-         #...
-         'sphinxcontrib.collections',
-         #...
-      ]
-
-2. Configure :code:`collections` in :code:`conf.py`.
-
-   .. literalinclude:: conf.py
-      :caption: How-to configure collections extension
-      :language: py
-      :lineno-match:
-      :start-after: # -- extension configuration: collections
-      :end-before: # -- extension configuration: collections end
-
-3. Use it in your rst files:
-
-   .. example:: useblocks Collections: if-collection Directive
-
-      .. if-collection:: collection_Windows
-
-         We are building currently for Windows via if-collection.
-
-         .. need:: Need if-collection Windows
-            :id: N_VARIANT_COLLECTION_WINDOWS
-
-      .. if-collection:: collection_MacOS
-
-         We are building currently for MacOS via if-collection.
-
-         .. need:: Need if-collection MacOS
-            :id: N_VARIANT_COLLECTION_MACOS
-
-      .. if-collection:: collection_Linux
-
-         We are building currently for Linux via if-collection.
-
-         .. need:: Need if-collection Linux
-            :id: N_VARIANT_COLLECTION_LINUX
-
-   .. warning::
-
-      You can write headlines / sections in the content of the if-collection directive.
-      But you have to be careful with the correct ordering of sections in all
-      possible output variants.
-
-.. needtable::
-   :filter: c.this_doc() and section_name == "useblocks Collections: if-collection Directive"
    :style: table
 
 
