@@ -212,14 +212,14 @@ Sphinx-Ifelse:
          .. need:: Need ifelse Windows
             :id: N_VARIANT_IFCONFIG_WINDOWS
 
-      .. ifel:: ifelse_OS == "ifelse_MacOS"
+      .. elif:: ifelse_OS == "ifelse_MacOS"
 
          We are building currently for MacOS via ifelse.
 
          .. need:: Need ifelse MacOS
             :id: N_VARIANT_IFCONFIG_MACOS
 
-      .. ifel:: ifelse_OS == "ifelse_Linux"
+      .. elif:: ifelse_OS == "ifelse_Linux"
 
          We are building currently for Linux via ifelse.
 
