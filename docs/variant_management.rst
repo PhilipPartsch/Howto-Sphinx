@@ -115,12 +115,27 @@ Sphinx-Needs: Attribute Variants
       .. need:: A need with variants
          :id: N_EXAMPLE_VARIANTS
          :status: var_MacOS: MacOS, var_Linux: Linux, not set
-         :test_status: ['tag_MacOS' in tags]: set with sphinx-tag, not set
+         :test_status: var_MacOS: set with variant, not set
 
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
          :status: var_Linux: Linux, var_MacOS: MacOS, not set
          :test_status: [tag_Linux]: set with sphinx-tag, not set
+
+   .. warning::
+
+      If your are using sphinx tags, and these are not always set,
+      you will get a warning:
+
+      .. code-block:: python
+
+         .. need:: A need with variants which creates a warning
+            :id: N_EXAMPLE_VARIANTS_WARNING
+            :status: var_MacOS: MacOS, var_Linux: Linux, not set
+            :test_status: [tag_MacOS]: set with sphinx-tag, not set
+
+      In the example, we will get :code:`WARNING: Error in filter
+      'tag_MacOS': name 'tag_MacOS' is not defined [needs.variant]`.
 
 Sphinx-Ifelse:
 ==============
