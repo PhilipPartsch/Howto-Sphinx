@@ -384,6 +384,7 @@ Comparision of the different mechanisms:
    *  - `Sphinx-Needs Attribute Variants`
       -  - Build-in sphinx-needs directive
          - Support else or elif
+         - Can change attributes and links of needs elements
       -  - Can only change attributes of needs
          - Attention with combintion of tags
    *  - `jinja2`
