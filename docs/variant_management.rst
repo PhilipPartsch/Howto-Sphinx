@@ -275,18 +275,18 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 
       .. need:: A need with variants
          :id: N_EXAMPLE_VARIANTS
-         :status: var_MacOS: MacOS, var_Linux: Linux, not set
-         :test_status: var_MacOS: set with variant, not set
-         :satisfies: var_MacOS: N_EXAMPLE_VARIANTS_ORDERING
+         :status: var_MacOS:MacOS, var_Linux:Linux,not set
+         :test_status: var_MacOS:set with variant,not set
+         :satisfies: var_MacOS:N_EXAMPLE_VARIANTS_ORDERING
 
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
-         :status: var_Linux: Linux, var_MacOS: MacOS, not set
-         :test_status: [tag_Linux]: set with sphinx-tag, not set
+         :status: var_Linux:Linux, var_MacOS:MacOS,not set
+         :test_status: [tag_Linux]:set with sphinx-tag,not set
 
    .. warning::
 
-      If your are using sphinx tags, and these are not always set,
+      If your are using sphinx tags, these are not always set,
       you will get a warning:
 
       .. code-block:: python
@@ -366,23 +366,31 @@ Comparision of the different mechanisms:
       - Advantages
       - Disadvantages
    *  - `ifconfig`
-      - Build-in sphinx directive
-      - Always add the elements to the datamodel
+      -  - Build-in sphinx directive
+      -  - Always add the elements to the datamodel
+         - Does not support else or elif
    *  - `only`
-      - Build-in sphinx directive
-      - Always add the elements to the datamodel
+      -  - Build-in sphinx directive
+      -  - Always add the elements to the datamodel
+         - Does not support else or elif
    *  - `if-collection`
-      - Wonderfull to be combined with content specific to collections
-      -
+      -  - Wonderfull to be combined with content specific to collections
+      -  - Has to be installed and configured
+         - Does not support else or elif
    *  - `ifelse`
-      -
-      -
+      -  - Can chnage complete sections / parts of the documentation easly
+         - Support else or elif
+      -  - Has to be installed and configured
    *  - `Sphinx-Needs Attribute Variants`
-      - Build-in sphinx-needs directive
-      - Can change attributes of needs
+      -  - Build-in sphinx-needs directive
+         - Support else or elif
+      -  - Can only change attributes of needs
+         - Attention with combintion of tags
    *  - `jinja2`
-      -
-      -
+      -  - Can change everything depending on the context
+      -  - Is difficult to debug
+         - Neasting of jinja2 templates is difficult, but often requested e.g.
+           with use of needuml or needs templates
 
 References
 ==========
