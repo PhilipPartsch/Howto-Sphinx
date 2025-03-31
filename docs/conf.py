@@ -142,7 +142,10 @@ from sphinxcontrib.collections.api import register_driver
 
 class VariantDriver(Driver):
     def run(self):
-        self.info('Run VariantDriver with tags: {}'.format(self.config['tags']))
+        if 'tags' in self.config:
+            self.info('Run VariantDriver with tags: {}'.format(self.config['tags']))
+        else:
+            self.info('Run VariantDriver without tags')
 
     def clean(self):
         pass
@@ -150,17 +153,17 @@ class VariantDriver(Driver):
 register_driver('VariantDriver', VariantDriver)
 
 collections = {
-    'collections_Windows': {
+    'collection_Windows': {
         'driver': 'VariantDriver',
         'active': False,
         'tags': ['tag_Windows'],
     },
-    'collections_MacOS': {
+    'collection_MacOS': {
         'driver': 'VariantDriver',
         'active': False,
         'tags': ['tag_MacOS'],
     },
-    'collections_Linux': {
+    'collection_Linux': {
         'driver': 'VariantDriver',
         'active': False,
         'tags': ['tag_Linux'],

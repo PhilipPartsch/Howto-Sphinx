@@ -271,21 +271,21 @@ useblocks Collections: if_collection Directive
 
    .. example:: useblocks Collections: if_collection Directive
 
-      .. ifconfig:: collections_Windows
+      .. ifconfig:: collection_Windows
 
          We are building currently for Windows via ifconfig.
 
          .. need:: Need ifconfig Windows
             :id: N_VARIANT_IFCONFIG_WINDOWS
 
-      .. ifconfig:: collections_MacOS
+      .. ifconfig:: collection_MacOS
 
          We are building currently for MacOS via ifconfig.
 
          .. need:: Need ifconfig MacOS
             :id: N_VARIANT_IFCONFIG_MACOS
 
-      .. ifconfig:: collections_Linux
+      .. ifconfig:: collection_Linux
 
          We are building currently for Linux via ifconfig.
 
