@@ -135,6 +135,39 @@ ifelse_variants = {
 
 # -- extension configuration: ifelse end
 
+# -- extension configuration: collections
+
+from sphinxcontrib.collections.drivers import Driver
+from sphinxcontrib.collections.api import register_driver
+
+class VariantDriver(Driver):
+    def run(self):
+        self.info('Run VariantDriver with tags: {}'.format(self.config['tags']))
+
+    def clean(self):
+        __super__.clean(self)
+
+register_driver('my_driver', VariantDriver)
+
+collections = {
+    'collections_Windows': {
+        'driver': 'VariantDriver',
+        'active': False,
+        'tags': ['tag_Windows'],
+    },
+    'collections_MacOS': {
+        'driver': 'VariantDriver',
+        'active': False,
+        'tags': ['tag_MacOS'],
+    },
+    'collections_Linux': {
+        'driver': 'VariantDriver',
+        'active': False,
+        'tags': ['tag_Linux'],
+    },
+}
+# -- extension configuration: collections end
+
 # -- get edit url for git hoster
 print('edit url to git hoster:')
 import pathlib

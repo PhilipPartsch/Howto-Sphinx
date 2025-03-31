@@ -233,14 +233,74 @@ Sphinx-Ifelse:
          .. need:: Need ifelse Unknown
             :id: N_VARIANT_IFELSE_UNKNOWN
 
+   .. warning::
+
+      You can write headlines / sections in the content of the ifelse directive.
+      But you have to be careful with the correct ordering of sections in all
+      possible output variants.
+
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
    :style: table
 
 
-useblocks Collections: `if_collection` Directive
-================================================
+useblocks Collections: if_collection Directive
+==============================================
 
+1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
+
+   .. code-block:: python
+      :caption: How-to add `sphinxcontrib.collections` extension to the extensions
+
+      extensions = [
+         #...
+         'sphinxcontrib.collections',
+         #...
+      ]
+
+2. Configure :code:`collections` in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: How-to configure collections extension
+      :language: py
+      :lineno-match:
+      :start-after: # -- extension configuration: collections
+      :end-before: # -- extension configuration: collections end
+
+3. Use it in your rst files:
+
+   .. example:: useblocks Collections: if_collection Directive
+
+      .. ifconfig:: collections_Windows
+
+         We are building currently for Windows via ifconfig.
+
+         .. need:: Need ifconfig Windows
+            :id: N_VARIANT_IFCONFIG_WINDOWS
+
+      .. ifconfig:: collections_MacOS
+
+         We are building currently for MacOS via ifconfig.
+
+         .. need:: Need ifconfig MacOS
+            :id: N_VARIANT_IFCONFIG_MACOS
+
+      .. ifconfig:: collections_Linux
+
+         We are building currently for Linux via ifconfig.
+
+         .. need:: Need ifconfig Linux
+            :id: N_VARIANT_IFCONFIG_LINUX
+
+   .. warning::
+
+      You can write headlines / sections in the content of the ifconfig directive.
+      But you have to be careful with the correct ordering of sections in all
+      possible output variants.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "useblocks Collections: if_collection Directive"
+   :style: table
 
 
 References
