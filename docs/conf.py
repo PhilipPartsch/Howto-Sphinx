@@ -64,6 +64,7 @@ extensions = [
     'sphinxcontrib.jquery', # https://github.com/sphinx-contrib/jquery
     'sphinx_preview',
     #'sphinx_immaterial',
+    'sphinx_ifelse'
 ]
 
 templates_path = ['_templates']
@@ -125,6 +126,14 @@ html_static_path = ['_static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- extension configuration: ifelse
+
+ifelse_variants = {
+   'ifelse_OS': 'ifelse_Linux',
+}
+
+# -- extension configuration: ifelse end
 
 # -- get edit url for git hoster
 print('edit url to git hoster:')

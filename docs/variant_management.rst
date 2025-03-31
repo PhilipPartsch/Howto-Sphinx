@@ -45,6 +45,7 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx: only Directive"
+   :style: table
 
 
 Sphinx: ifconfig Directive
@@ -64,7 +65,7 @@ Sphinx: ifconfig Directive
 2. Add your configuration parameter to :code:`conf.py`
 
    .. literalinclude:: conf.py
-      :caption: Example how-to incude source code from a file
+      :caption: How-to add a customer configuration value to sphinx
       :language: py
       :linenos:
       :start-after: # -- sphinx ifconfig
@@ -111,6 +112,7 @@ Sphinx: ifconfig Directive
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx: ifconfig Directive"
+   :style: table
 
 
 Sphinx-Needs: Attribute Variants
@@ -136,7 +138,7 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 2. Configure :code:`needs_variants` and :code:`needs_variant_options` in :code:`conf.py`.
 
    .. literalinclude:: conf.py
-      :caption: Example how-to incude source code from a file
+      :caption: How-to configure needs_variants and needs_variant_options
       :language: py
       :linenos:
       :start-after: # sphinx-needs variants start
@@ -173,11 +175,67 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx-Needs: Attribute Variants"
+   :style: table
 
 
 Sphinx-Ifelse:
 ==============
 
+1. For sure you have to add the `sphinx-ifelse` extension to your extensions:
+
+   .. code-block:: python
+      :caption: How-to add `sphinx-ifelse` extension to the extensions
+
+      extensions = [
+         #...
+         'sphinx_ifelse',
+         #...
+      ]
+
+2. Configure :code:`ifelse_variants` in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: How-to configure ifelse_variants
+      :language: py
+      :lineno-match:
+      :start-after: # -- extension configuration: ifelse
+      :end-before: # -- extension configuration: ifelse end
+
+3. Use it in your rst files:
+
+   .. example:: Sphinx-Ifelse:
+
+      .. if:: ifelse_OS == "ifelse_Windows"
+
+         We are building currently for Windows via ifelse.
+
+         .. need:: Need ifelse Windows
+            :id: N_VARIANT_IFCONFIG_WINDOWS
+
+      .. ifel:: ifelse_OS == "ifelse_MacOS"
+
+         We are building currently for MacOS via ifelse.
+
+         .. need:: Need ifelse MacOS
+            :id: N_VARIANT_IFCONFIG_MACOS
+
+      .. ifel:: ifelse_OS == "ifelse_Linux"
+
+         We are building currently for Linux via ifelse.
+
+         .. need:: Need ifelse Linux
+            :id: N_VARIANT_IFCONFIG_LINUX
+
+      .. else::
+
+         We are building currently for an unknown OS via ifelse.
+
+         .. need:: Need ifelse Unknown
+            :id: N_VARIANT_IFCONFIG_UNKNOWN
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
+   :style: table
 
 
 useblocks Collections: `if_collection` Directive
