@@ -186,9 +186,9 @@ needs_title_optional = True
 # sphinx-needs variants start
 
 needs_variants = {
-    "var_Windows": "'tag_windows' in sphinx_tags",
+    "var_Windows": "'tag_Windows' in tags",
     "var_MacOS": "True", # Manuel set to True
-    "var_Linux": "True", # Your logix to set the variant
+    "var_Linux": "'tag_Linux' in tags", # Your logic to set the variant
 }
 
 needs_variant_options = [

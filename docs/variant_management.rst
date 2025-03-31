@@ -53,9 +53,10 @@ Sphinx: `ifconfig` Directive
    .. literalinclude:: conf.py
       :caption: Example how-to incude source code from a file
       :language: py
-      :linenos:
+      :lineno-match:
       :start-after: # -- sphinx ifconfig
       :end-before: # -- sphinx ifconfig end
+      :prepend: def setup(app):
 
 3. Overwrite the configuration parameter in your sphinx-build
    :code:`sphinx-build [options] --define my_ifconfig='ifconfig_MacOS' <sourcedir> <outputdir>`
