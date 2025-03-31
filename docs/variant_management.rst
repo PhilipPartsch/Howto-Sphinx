@@ -244,7 +244,7 @@ Sphinx-Ifelse:
    :style: table
 
 
-useblocks Collections: if_collection Directive
+useblocks Collections: if-collection Directive
 ==============================================
 
 1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
@@ -269,37 +269,37 @@ useblocks Collections: if_collection Directive
 
 3. Use it in your rst files:
 
-   .. example:: useblocks Collections: if_collection Directive
+   .. example:: useblocks Collections: if-collection Directive
 
-      .. ifconfig:: collection_Windows
+      .. if-collection:: collection_Windows
 
-         We are building currently for Windows via ifconfig.
+         We are building currently for Windows via if-collection.
 
-         .. need:: Need ifconfig Windows
-            :id: N_VARIANT_IFCONFIG_WINDOWS
+         .. need:: Need if-collection Windows
+            :id: N_VARIANT_COLLECTION_WINDOWS
 
-      .. ifconfig:: collection_MacOS
+      .. if-collection:: collection_MacOS
 
-         We are building currently for MacOS via ifconfig.
+         We are building currently for MacOS via if-collection.
 
-         .. need:: Need ifconfig MacOS
-            :id: N_VARIANT_IFCONFIG_MACOS
+         .. need:: Need if-collection MacOS
+            :id: N_VARIANT_COLLECTION_MACOS
 
-      .. ifconfig:: collection_Linux
+      .. if-collection:: collection_Linux
 
-         We are building currently for Linux via ifconfig.
+         We are building currently for Linux via if-collection.
 
-         .. need:: Need ifconfig Linux
-            :id: N_VARIANT_IFCONFIG_LINUX
+         .. need:: Need if-collection Linux
+            :id: N_VARIANT_COLLECTION_LINUX
 
    .. warning::
 
-      You can write headlines / sections in the content of the ifconfig directive.
+      You can write headlines / sections in the content of the if-collection directive.
       But you have to be careful with the correct ordering of sections in all
       possible output variants.
 
 .. needtable::
-   :filter: c.this_doc() and section_name == "useblocks Collections: if_collection Directive"
+   :filter: c.this_doc() and section_name == "useblocks Collections: if-collection Directive"
    :style: table
 
 
