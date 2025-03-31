@@ -210,28 +210,28 @@ Sphinx-Ifelse:
          We are building currently for Windows via ifelse.
 
          .. need:: Need ifelse Windows
-            :id: N_VARIANT_IFCONFIG_WINDOWS
+            :id: N_VARIANT_IFELSE_WINDOWS
 
       .. elif:: ifelse_OS == "ifelse_MacOS"
 
          We are building currently for MacOS via ifelse.
 
          .. need:: Need ifelse MacOS
-            :id: N_VARIANT_IFCONFIG_MACOS
+            :id: N_VARIANT_IFELSE_MACOS
 
       .. elif:: ifelse_OS == "ifelse_Linux"
 
          We are building currently for Linux via ifelse.
 
          .. need:: Need ifelse Linux
-            :id: N_VARIANT_IFCONFIG_LINUX
+            :id: N_VARIANT_IFELSE_LINUX
 
       .. else::
 
          We are building currently for an unknown OS via ifelse.
 
          .. need:: Need ifelse Unknown
-            :id: N_VARIANT_IFCONFIG_UNKNOWN
+            :id: N_VARIANT_IFELSE_UNKNOWN
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
