@@ -176,6 +176,7 @@ collections = {
 # -- extension configuration: Jinja2
 jinja_context = {
     'os': 'QNX',
+    'realtime': True,
 }
 
 
@@ -187,8 +188,7 @@ def jinja2rst(app, docname, source):
     if app.builder.format != 'html':
         return
 
-    print('docname: ' + str(docname))
-    # In this show case, we only want to process content of 'variant_management' with jinja2
+    # In this demo, we only want to process content of 'variant_management' with jinja2
     if docname != 'variant_management':
         # Do nothing additionally
         return

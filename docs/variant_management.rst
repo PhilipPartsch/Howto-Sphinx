@@ -226,8 +226,8 @@ Sphinx-Ifelse:
 
          We are building currently for an unknown OS via ifelse.
 
-         .. need:: Need ifelse Unknown
-            :id: N_VARIANT_IFELSE_UNKNOWN
+         .. need:: Need ifelse OS Unknown
+            :id: N_VARIANT_IFELSE_OS_UNKNOWN
 
    .. warning::
 
@@ -336,19 +336,23 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 {%if os%}
          We are building currently for {{os}} via jinja2 template.
 
-         .. need:: Need ifelse {{os}}
-            :id: N_VARIANT_IFELSE_{{os}}
+         .. need:: Need Jinja2 {{os}}
+            :id: N_VARIANT_JINJA2_{{os}}
+            :status: {%if os == 'QNX'%}set by template{%else%}not set{%endif%}
+            {%if realtime%}:satisfies: N_ALWAYS_JINJA2_REALTIME{%endif%}
 {%else%}
          We are building currently for an unknown OS via jinja2 template.
 
-         .. need:: Need ifelse Unknown
-            :id: N_VARIANT_IFELSE_UNKNOWN
+         .. need:: Need Jinja2 OS Unknown
+            :id: N_VARIANT_JINJA2_OS_UNKNOWN
 {%endif%}
 
-.. needtable::
-   :filter: c.this_doc() and section_name == "Jinja2 teamplates"
-   :style: table
+         .. need:: Need Jinja2 realtime
+            :id: N_ALWAYS_JINJA2_REALTIME
 
+.. needtable::
+   :filter: c.this_doc() and section_name == "Jinja2 templates"
+   :style: table
 
 
 Comparision of the different mechanisms:
