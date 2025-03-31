@@ -19,19 +19,32 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
       We are building currently for `Windows`.
 
+      .. need:: Need Tag Windows
+         :id: N_VARIANT_TAG_WINDOWS
+
    .. only:: tag_MacOS
 
       We are building currently for `MacOS`.
 
+      .. need:: Need Tag MacOS
+         :id: N_VARIANT_TAG_MACOS
+
    .. only:: tag_Linux
 
       We are building currently for `Linux`.
+
+      .. need:: Need Tag Linux
+         :id: N_VARIANT_TAG_LINUX
 
 .. warning::
 
    Sphinx is always rendering the content inside the only directive,
    but is discarding the output if not needed.
    So if you create objects within the only directive, they are available to the datamodel.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Sphinx: `only` Directive"
+   :style: datatables
 
 
 Sphinx: `ifconfig` Directive
@@ -72,21 +85,42 @@ Sphinx: `ifconfig` Directive
 
          We are building currently for `Windows`.
 
+         .. need:: Need ifconfig Windows
+            :id: N_VARIANT_IFCONFIG_WINDOWS
+
       .. ifconfig:: my_ifconfig == "ifconfig_MacOS"
 
          We are building currently for `MacOS`.
+
+         .. need:: Need ifconfig MacOS
+            :id: N_VARIANT_IFCONFIG_MACOS
 
       .. ifconfig:: my_ifconfig == "ifconfig_Linux"
 
          We are building currently for `Linux`.
 
+         .. need:: Need ifconfig Linux
+            :id: N_VARIANT_IFCONFIG_LINUX
 
-useblocks Collections: `if_collection` Directive
-================================================
+.. warning::
+
+   Sphinx is always rendering the content inside the ifconfig directive,
+   but is discarding the output if not needed.
+   So if you create objects within the ifconfig directive, they are available to the datamodel.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Sphinx: `ifconfig` Directive"
+   :style: datatables
 
 
 Sphinx-Needs: Attribute Variants
 ================================
+
+todo:
+https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
+
+https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variants
+https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-options
 
 1. For sure you have to add the `sphinx-needs` extension to your extensions:
 
@@ -139,6 +173,11 @@ Sphinx-Needs: Attribute Variants
 
 Sphinx-Ifelse:
 ==============
+
+
+
+useblocks Collections: `if_collection` Directive
+================================================
 
 
 
