@@ -15,7 +15,7 @@ Documentation: How-to work with `Sphinx-Needs Need`_.
 
        This is our example requirement.
 
-    
+
     .. spec:: Example Specification
        :id: S_EXAMPLE_SPECIFICATION
        :status: new
@@ -31,8 +31,8 @@ it is even possible to skip the title.
 
 .. example:: Minimum Need.
 
-    .. req::
-       :id: R_MINIMUM_REQUIREMENT
+    .. need::
+       :id: R_MINIMUM_NEED
 
 So the bare minimum need only has a `:id:`.
 
