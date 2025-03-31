@@ -171,6 +171,36 @@ collections = {
 }
 # -- extension configuration: collections end
 
+
+# how-to integrate jinja in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
+# -- extension configuration: Jinja2
+jinja_context = {
+    'os': 'QNX',
+}
+
+
+def jinja2rst(app, docname, source):
+    """
+    Render our pages as a jinja template for fancy templating goodness.
+    """
+    # Make sure we're outputting HTML as builder.templates is not availalbe in other builder
+    if app.builder.format != 'html':
+        return
+
+    print('docname: ' + str(docname))
+    # In this show case, we only want to process content of 'variant_management' with jinja2
+    if docname != 'variant_management':
+        # Do nothing additionally
+        return
+
+    src = source[0]
+    rendered = app.builder.templates.render_string(
+        src, jinja_context
+    )
+    source[0] = rendered
+
+# -- extension configuration: Jinja2 end
+
 # -- get edit url for git hoster
 print('edit url to git hoster:')
 import pathlib
@@ -441,6 +471,10 @@ def my_process_codeoption(app: Sphinx, exception: Exception | None) -> None:
             )
 
 def setup(app):
+
+    # -- use jinja2rst in setup
+    app.connect("source-read", jinja2rst)
+    # -- use jinja2rst in setup end
 
     # -- sphinx ifconfig
     app.add_config_value(

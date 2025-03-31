@@ -115,71 +115,8 @@ Sphinx: ifconfig Directive
    :style: table
 
 
-Sphinx-Needs: Attribute Variants
-================================
-
-todo:
-https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
-
-https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variants
-https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-options
-
-1. For sure you have to add the `sphinx-needs` extension to your extensions:
-
-   .. code-block:: python
-      :caption: How-to add `sphinx-needs` extension to the extensions
-
-      extensions = [
-         #...
-         'sphinx_needs',
-         #...
-      ]
-
-2. Configure :code:`needs_variants` and :code:`needs_variant_options` in :code:`conf.py`.
-
-   .. literalinclude:: conf.py
-      :caption: How-to configure needs_variants and needs_variant_options
-      :language: py
-      :linenos:
-      :start-after: # sphinx-needs variants start
-      :end-before: # sphinx-needs variants end
-
-3. Use it in your rst files:
-
-   .. example:: Sphinx-Needs: Attribute Variants
-
-      .. need:: A need with variants
-         :id: N_EXAMPLE_VARIANTS
-         :status: var_MacOS: MacOS, var_Linux: Linux, not set
-         :test_status: var_MacOS: set with variant, not set
-
-      .. need:: A need with variants (with different ordering)
-         :id: N_EXAMPLE_VARIANTS_ORDERING
-         :status: var_Linux: Linux, var_MacOS: MacOS, not set
-         :test_status: [tag_Linux]: set with sphinx-tag, not set
-
-   .. warning::
-
-      If your are using sphinx tags, and these are not always set,
-      you will get a warning:
-
-      .. code-block:: python
-
-         .. need:: A need with variants which creates a warning
-            :id: N_EXAMPLE_VARIANTS_WARNING
-            :status: var_MacOS: MacOS, var_Linux: Linux, not set
-            :test_status: [tag_MacOS]: set with sphinx-tag, not set
-
-      In the example, we will get :code:`WARNING: Error in filter
-      'tag_MacOS': name 'tag_MacOS' is not defined [needs.variant]`.
-
-.. needtable::
-   :filter: c.this_doc() and section_name == "Sphinx-Needs: Attribute Variants"
-   :style: table
-
-
-useblocks Collections: if-collection Directive
-==============================================
+Collections: if-collection Directive
+====================================
 
 1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
 
@@ -233,7 +170,7 @@ useblocks Collections: if-collection Directive
       possible output variants.
 
 .. needtable::
-   :filter: c.this_doc() and section_name == "useblocks Collections: if-collection Directive"
+   :filter: c.this_doc() and section_name == "Collections: if-collection Directive"
    :style: table
 
 
@@ -302,6 +239,136 @@ Sphinx-Ifelse:
    :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
    :style: table
 
+
+Sphinx-Needs: Attribute Variants
+================================
+
+todo:
+https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
+
+https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variants
+https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-options
+
+1. For sure you have to add the `sphinx-needs` extension to your extensions:
+
+   .. code-block:: python
+      :caption: How-to add `sphinx-needs` extension to the extensions
+
+      extensions = [
+         #...
+         'sphinx_needs',
+         #...
+      ]
+
+2. Configure :code:`needs_variants` and :code:`needs_variant_options` in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: How-to configure needs_variants and needs_variant_options
+      :language: py
+      :linenos:
+      :start-after: # sphinx-needs variants start
+      :end-before: # sphinx-needs variants end
+
+3. Use it in your rst files:
+
+   .. example:: Sphinx-Needs: Attribute Variants
+
+      .. need:: A need with variants
+         :id: N_EXAMPLE_VARIANTS
+         :status: var_MacOS: MacOS, var_Linux: Linux, not set
+         :test_status: var_MacOS: set with variant, not set
+
+      .. need:: A need with variants (with different ordering)
+         :id: N_EXAMPLE_VARIANTS_ORDERING
+         :status: var_Linux: Linux, var_MacOS: MacOS, not set
+         :test_status: [tag_Linux]: set with sphinx-tag, not set
+
+   .. warning::
+
+      If your are using sphinx tags, and these are not always set,
+      you will get a warning:
+
+      .. code-block:: python
+
+         .. need:: A need with variants which creates a warning
+            :id: N_EXAMPLE_VARIANTS_WARNING
+            :status: var_MacOS: MacOS, var_Linux: Linux, not set
+            :test_status: [tag_MacOS]: set with sphinx-tag, not set
+
+      In the example, we will get :code:`WARNING: Error in filter
+      'tag_MacOS': name 'tag_MacOS' is not defined [needs.variant]`.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Sphinx-Needs: Attribute Variants"
+   :style: table
+
+
+Jinja2 templates
+================
+
+todo:
+how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
+
+1. Define :code:`jinja_context` and :code:`jinja2rst` with variant information
+   in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: How-to configure jinja_context and jinja2rst
+      :language: py
+      :linenos:
+      :start-after: # -- extension configuration: Jinja2
+      :end-before: # -- extension configuration: Jinja2 end
+
+2. Connect :code:`jinja2rst` in Sphinx to source-read event.
+
+   .. literalinclude:: conf.py
+      :caption: How-to connect jinja2rst to source-read event
+      :language: py
+      :linenos:
+      :start-after: # -- use jinja2rst in setup
+      :end-before: # -- use jinja2rst in setup end
+      :prepend: def setup(app):
+
+3. Use it in your rst files:
+
+   .. example:: Jinja2:
+
+{%if os%}
+         We are building currently for {{os}} via jinja2 template.
+
+         .. need:: Need ifelse {{os}}
+            :id: N_VARIANT_IFELSE_{{os}}
+{%else%}
+         We are building currently for an unknown OS via jinja2 template.
+
+         .. need:: Need ifelse Unknown
+            :id: N_VARIANT_IFELSE_UNKNOWN
+{%endif%}
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Jinja2 teamplates"
+   :style: table
+
+
+
+Comparision of the different mechanisms:
+========================================
+
+.. list-table:: Jinja
+   :header-rows: 1
+
+   *  - Name
+      - Description
+   *  - `ifconfig`
+      - Sphinx directive to set a configuration value
+   *  - `only`
+      - Sphinx directive to set a tag
+   *  - `if-collection`
+      - Sphinx directive to set a collection
+   *  - `ifelse`
+      - Sphinx directive to set a ifelse variant
+   *  - `jinja`
+      - Jinja2 template engine
 
 References
 ==========
