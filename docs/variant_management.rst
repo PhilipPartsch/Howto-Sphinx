@@ -120,7 +120,7 @@ Sphinx-Needs: Attribute Variants
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
          :status: var_Linux: Linux, var_MacOS: MacOS, not set
-         :test_status: ['tag_Linux' in tags]: set with sphinx-tag, not set
+         :test_status: [tag_Linux]: set with sphinx-tag, not set
 
 Sphinx-Ifelse:
 ==============
