@@ -145,9 +145,9 @@ class VariantDriver(Driver):
         self.info('Run VariantDriver with tags: {}'.format(self.config['tags']))
 
     def clean(self):
-        __super__.clean(self)
+        pass
 
-register_driver('my_driver', VariantDriver)
+register_driver('VariantDriver', VariantDriver)
 
 collections = {
     'collections_Windows': {
