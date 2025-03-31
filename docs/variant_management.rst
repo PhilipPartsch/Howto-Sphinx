@@ -3,8 +3,8 @@ Variant Management
 ##################
 
 
-Sphinx: `only` Directive
-========================
+Sphinx: only Directive
+======================
 
 Documentation: `How to use only directive`_.
 
@@ -17,21 +17,21 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
    .. only:: tag_Windows
 
-      We are building currently for `Windows`.
+      We are building currently for Windows via tag.
 
       .. need:: Need Tag Windows
          :id: N_VARIANT_TAG_WINDOWS
 
    .. only:: tag_MacOS
 
-      We are building currently for `MacOS`.
+      We are building currently for MacOS via tag.
 
       .. need:: Need Tag MacOS
          :id: N_VARIANT_TAG_MACOS
 
    .. only:: tag_Linux
 
-      We are building currently for `Linux`.
+      We are building currently for Linux via tag.
 
       .. need:: Need Tag Linux
          :id: N_VARIANT_TAG_LINUX
@@ -43,12 +43,12 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
    So if you create objects within the only directive, they are available to the datamodel.
 
 .. needtable::
-   :filter: c.this_doc() and section_name == "Sphinx: `only` Directive"
+   :filter: c.this_doc() and section_name == "Sphinx: only Directive"
    :style: datatables
 
 
-Sphinx: `ifconfig` Directive
-============================
+Sphinx: ifconfig Directive
+==========================
 
 1. Add the `ifconfig` directive to the extensions:
 
@@ -83,21 +83,21 @@ Sphinx: `ifconfig` Directive
 
       .. ifconfig:: my_ifconfig == "ifconfig_Windows"
 
-         We are building currently for `Windows`.
+         We are building currently for Windows via ifconfig.
 
          .. need:: Need ifconfig Windows
             :id: N_VARIANT_IFCONFIG_WINDOWS
 
       .. ifconfig:: my_ifconfig == "ifconfig_MacOS"
 
-         We are building currently for `MacOS`.
+         We are building currently for MacOS via ifconfig.
 
          .. need:: Need ifconfig MacOS
             :id: N_VARIANT_IFCONFIG_MACOS
 
       .. ifconfig:: my_ifconfig == "ifconfig_Linux"
 
-         We are building currently for `Linux`.
+         We are building currently for Linux via ifconfig.
 
          .. need:: Need ifconfig Linux
             :id: N_VARIANT_IFCONFIG_LINUX
@@ -109,7 +109,7 @@ Sphinx: `ifconfig` Directive
    So if you create objects within the ifconfig directive, they are available to the datamodel.
 
 .. needtable::
-   :filter: c.this_doc() and section_name == "Sphinx: `ifconfig` Directive"
+   :filter: c.this_doc() and section_name == "Sphinx: ifconfig Directive"
    :style: datatables
 
 
@@ -170,6 +170,11 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 
       In the example, we will get :code:`WARNING: Error in filter
       'tag_MacOS': name 'tag_MacOS' is not defined [needs.variant]`.
+
+.. needtable::
+   :filter: c.this_doc() and section_name == "Sphinx-Needs: Attribute Variants"
+   :style: datatables
+
 
 Sphinx-Ifelse:
 ==============
