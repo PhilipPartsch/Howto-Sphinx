@@ -38,13 +38,13 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
 .. warning::
 
-   Sphinx is always rendering the content inside the only directive,
+   Sphinx is always processing the content inside of the only directive,
    but is discarding the output if not needed.
    So if you create objects within the only directive, they are available to the datamodel.
+   See the following needtable for demonstration.
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx: only Directive"
-   :style: datatables
 
 
 Sphinx: ifconfig Directive
@@ -104,13 +104,13 @@ Sphinx: ifconfig Directive
 
 .. warning::
 
-   Sphinx is always rendering the content inside the ifconfig directive,
+   Sphinx is always processing the content inside of the ifconfig directive,
    but is discarding the output if not needed.
    So if you create objects within the ifconfig directive, they are available to the datamodel.
+   See the following needtable for demonstration.
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx: ifconfig Directive"
-   :style: datatables
 
 
 Sphinx-Needs: Attribute Variants
@@ -173,7 +173,6 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Sphinx-Needs: Attribute Variants"
-   :style: datatables
 
 
 Sphinx-Ifelse:
