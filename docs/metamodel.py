@@ -382,7 +382,7 @@ needs_warnings = {
     # 'stakeholder_requirement_without_author': "type == 'stake_req' and not author",
     'author_only_allowed_for_stakeholder_requirement': "type != 'stake_req' and author != ''",
     'evaluation_output_and_evaluated_needed': "type == 'evaluation' and (len(output) == 0 or len(evaluated) == 0)",
-    'invalid_status' : "status is not None and status not in ['new', 'changed', 'accepted', 'implemented', 'verified']",
+    'invalid_status' : "type not in ['req', 'spec', 'need', 'element'] and status is not None and status not in ['new', 'changed', 'accepted', 'implemented', 'verified']",
 }
 
 
