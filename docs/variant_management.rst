@@ -39,7 +39,7 @@ Sphinx: `ifconfig` Directive
 
 1. Add the `ifconfig` directive to the extensions:
 
-   .. code-block:: rst
+   .. code-block:: python
       :caption: How-to add `ifconfig` directive to the extensions
 
       extensions = [
@@ -84,9 +84,42 @@ useblocks Collections: `if_collection` Directive
 ================================================
 
 
-Sphinx-Needs: Atttribute Variants
-=================================
+Sphinx-Needs: Attribute Variants
+================================
 
+1. For sure you have to add the `sphinx-needs` extension to your extensions:
+
+   .. code-block:: python
+      :caption: How-to add `sphinx-needs` extension to the extensions
+
+      extensions = [
+         #...
+         'sphinx_needs',
+         #...
+      ]
+
+2. Configure :code:`needs_variants` and :code:`needs_variant_options` in :code:`conf.py`.
+
+   .. literalinclude:: conf.py
+      :caption: Example how-to incude source code from a file
+      :language: py
+      :linenos:
+      :start-after: # sphinx-needs variants start
+      :end-before: # sphinx-needs variants end
+
+3. Use it in your rst files:
+
+   .. example:: Sphinx-Needs: Attribute Variants
+
+      .. need:: A need with variants
+         :id: N_EXAMPLE_VARIANTS
+         :status: var_MacOS: MacOS, var_Linux: Linux, not set
+         :test-status: ['tag_Linux' in sphinx_tags]: set with sphinx-tag, not set
+
+      .. need:: A need with variants (with different ordering)
+         :title: N_EXAMPLE_VARIANTS_ORDERING
+         :status: var_Linux: Linux, var_MacOS: MacOS, not set
+         :test-status: [tag_Linux]: set with sphinx-tag, not set
 
 Sphinx-Ifelse:
 ==============

@@ -355,7 +355,7 @@ def fetch_elements(app, need, needs, *args, **kwargs):
     else:
         import warnings
         warnings.warn("fetch_elements function called without a filter parameter")
-        
+
     return linked
 
 needs_functions = [check_verified, fetch_elements]
@@ -438,7 +438,7 @@ for nt in needs_types:
 
 def sequence(needs, id):
 
-    # check that id is part of needs and raise excpetion if not. 
+    # check that id is part of needs and raise excpetion if not.
 
     need_id = id
     node_text = needs[id]["title"]

@@ -183,6 +183,21 @@ needs_default_layout = 'clean_with_edit_link'
 
 needs_title_optional = True
 
+# sphinx-needs variants start
+
+needs_variants = {
+    "var_Windows": "'tag_windows' in sphinx_tags",
+    "var_MacOS": True, # Manuel set to True
+    "var_Linux": True, # Your logix to set the variant
+}
+
+needs_variant_options = [
+    "status",
+    "test_status",
+]
+
+# sphinx-needs variants end
+
 # -- custom extensions ---------------------------------------
 
 from docutils import nodes  # noqa: E402
