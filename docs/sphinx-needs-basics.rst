@@ -32,7 +32,7 @@ it is even possible to skip the title.
 .. example:: Minimum Need.
 
     .. need::
-       :id: R_MINIMUM_NEED
+       :id: N_MINIMUM_NEED
 
 So the bare minimum need only has a `:id:`.
 
