@@ -187,8 +187,8 @@ needs_title_optional = True
 
 needs_variants = {
     "var_Windows": "'tag_windows' in sphinx_tags",
-    "var_MacOS": True, # Manuel set to True
-    "var_Linux": True, # Your logix to set the variant
+    "var_MacOS": "True", # Manuel set to True
+    "var_Linux": "True", # Your logix to set the variant
 }
 
 needs_variant_options = [
