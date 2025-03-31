@@ -277,6 +277,7 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
          :id: N_EXAMPLE_VARIANTS
          :status: var_MacOS: MacOS, var_Linux: Linux, not set
          :test_status: var_MacOS: set with variant, not set
+         :satisfies: var_MacOS: N_EXAMPLE_VARIANTS_ORDERING
 
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
@@ -362,17 +363,26 @@ Comparision of the different mechanisms:
    :header-rows: 1
 
    *  - Name
-      - Description
+      - Advantages
+      - Disadvantages
    *  - `ifconfig`
-      - Sphinx directive to set a configuration value
+      - Build-in sphinx directive
+      - Always add the elements to the datamodel
    *  - `only`
-      - Sphinx directive to set a tag
+      - Build-in sphinx directive
+      - Always add the elements to the datamodel
    *  - `if-collection`
-      - Sphinx directive to set a collection
+      - Wonderfull to be combined with content specific to collections
+      -
    *  - `ifelse`
-      - Sphinx directive to set a ifelse variant
-   *  - `jinja`
-      - Jinja2 template engine
+      -
+      -
+   *  - `Sphinx-Needs Attribute Variants`
+      - Build-in sphinx-needs directive
+      - Can change attributes of needs
+   *  - `jinja2`
+      -
+      -
 
 References
 ==========

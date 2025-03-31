@@ -269,6 +269,7 @@ needs_variants = {
 needs_variant_options = [
     "status",
     "test_status",
+    "satisfies",
 ]
 
 # sphinx-needs variants end
