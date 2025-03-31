@@ -53,7 +53,7 @@ Sphinx: `ifconfig` Directive
    .. literalinclude:: conf.py
       :caption: Example how-to incude source code from a file
       :language: py
-      :lineno-match:
+      :linenos:
       :start-after: # -- sphinx ifconfig
       :end-before: # -- sphinx ifconfig end
       :prepend: def setup(app):
@@ -115,7 +115,7 @@ Sphinx-Needs: Attribute Variants
       .. need:: A need with variants
          :id: N_EXAMPLE_VARIANTS
          :status: var_MacOS: MacOS, var_Linux: Linux, not set
-         :test_status: ['tag_Linux' in sphinx_tags]: set with sphinx-tag, not set
+         :test_status: [tag_MacOS]: set with sphinx-tag, not set
 
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
