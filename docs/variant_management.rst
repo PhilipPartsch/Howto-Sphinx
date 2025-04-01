@@ -332,7 +332,12 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 
 3. Use it in your rst files:
 
-   .. rubric:: Example: Jinja2
+   .. try to rebuild output of example directive for same loook and feel.
+
+   .. container::
+      :class: needs-example docutils container
+
+      .. rubric:: Example: Jinja2
 
       .. literalinclude:: conf.py
          :caption: How-to write a jinja2 template
