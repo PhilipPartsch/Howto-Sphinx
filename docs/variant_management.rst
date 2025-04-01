@@ -338,14 +338,27 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 
       .. rubric:: Example: Jinja2
 
-      .. literalinclude:: conf.py
-         :caption: How-to write a jinja2 template
-         :language: py
-         :lineno-match:
-         :start-after: .. jinja2 template start
-         :end-before: .. jinja2 template end
+      .. code-block:: python
+         :caption: Example: Jinja2
 
-      .. jinja2 template start
+         {% raw %}
+         {%if jinja_OS%}
+         We are building currently for {{jinja_OS}} via jinja2 template.
+
+         .. need:: Need Jinja2 {{jinja_OS}}
+            :id: N_VARIANT_JINJA2_{{jinja_OS}}
+            :status: {%if jinja_OS == 'QNX'%}set by template{%else%}not set{%endif%}
+            {%if realtime%}:satisfies: N_ALWAYS_JINJA2_REALTIME{%endif%}
+         {%else%}
+         We are building currently for an unknown OS via jinja2 template.
+
+         .. need:: Need Jinja2 OS Unknown
+            :id: N_VARIANT_JINJA2_OS_UNKNOWN
+         {%endif%}
+
+         .. need:: Need Jinja2 realtime
+            :id: N_ALWAYS_JINJA2_REALTIME
+         {% endraw %}
 
 {%if jinja_OS%}
       We are building currently for {{jinja_OS}} via jinja2 template.
@@ -363,8 +376,6 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 
       .. need:: Need Jinja2 realtime
          :id: N_ALWAYS_JINJA2_REALTIME
-
-      .. jinja2 template end
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Jinja2 templates"
