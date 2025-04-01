@@ -3,12 +3,12 @@ About the Author
 ################
 
 
-.. container::
+.. container:: needs-example docutils container
 
    .. image:: pictures/author.jpg
       :alt: my avatar
       :scale: 50 %
-      :align: center
+      :align: left
 
    .. rubric:: Philip Partsch
 
