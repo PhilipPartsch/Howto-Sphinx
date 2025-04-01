@@ -4,7 +4,6 @@ About the Author
 
 
 .. container::
-   :class: author
 
    .. image:: pictures/author.jpg
       :alt: my avatar
