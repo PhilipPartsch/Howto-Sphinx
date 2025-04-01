@@ -6,7 +6,7 @@ About the Author
 .. container:: needs-example docutils container
 
    .. image:: pictures/author.jpg
-      :alt: Picture of the author
+      :alt: Picture of Philip Partsch (The author)
       :scale: 50 %
 
    .. rubric:: Philip Partsch
