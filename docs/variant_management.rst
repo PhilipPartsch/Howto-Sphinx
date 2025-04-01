@@ -174,8 +174,8 @@ Collections: if-collection Directive
    :style: table
 
 
-Sphinx-Ifelse:
-==============
+Sphinx-Ifelse
+=============
 
 1. For sure you have to add the `sphinx-ifelse` extension to your extensions:
 
@@ -236,7 +236,7 @@ Sphinx-Ifelse:
       possible output variants.
 
 .. needtable::
-   :filter: c.this_doc() and section_name == "Sphinx-Ifelse:"
+   :filter: c.this_doc() and section_name == "Sphinx-Ifelse"
    :style: table
 
 
@@ -356,8 +356,8 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
    :style: table
 
 
-Comparision of the different mechanisms:
-========================================
+Comparision of the different mechanisms
+=======================================
 
 .. note::
 
@@ -377,9 +377,9 @@ Comparision of the different mechanisms:
    :header-rows: 1
    :widths: 10 30 30 10 10
 
-   *  - Name
-      - Advantages
-      - Disadvantages
+   *  - | Name
+      - | Advantages
+      - | Disadvantages
       - | Manage complete
         | Need Variants
       - | Manage Attributes
