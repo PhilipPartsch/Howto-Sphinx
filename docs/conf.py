@@ -175,7 +175,7 @@ collections = {
 # how-to integrate jinja in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
 # -- extension configuration: Jinja2
 jinja_context = {
-    'os': 'QNX',
+    'jinja_OS': 'QNX',
     'realtime': True,
 }
 
@@ -261,9 +261,10 @@ needs_title_optional = True
 # sphinx-needs variants start
 
 needs_variants = {
-    "var_Windows": "True" if 'tag_Windows' in tags else "False", # Manuel set to True
+    "var_Windows": "True" if 'tag_Windows' in tags else "False",
     "var_MacOS": "True", # Manuel set to True
-    "var_Linux": "True" if 'tag_Linux' in tags else "False", # Your logic to set the variant
+    "var_Linux": "True" if 'tag_Linux' in tags else "False",
+    # You can change logic to set the variant
 }
 
 needs_variant_options = [
