@@ -375,6 +375,7 @@ Comparision of the different mechanisms:
 
 .. list-table:: Jinja
    :header-rows: 1
+   :widths: 10 30 30 10 10
 
    *  - Name
       - Advantages
