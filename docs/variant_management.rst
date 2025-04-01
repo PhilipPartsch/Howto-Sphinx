@@ -393,10 +393,19 @@ Comparision of the different mechanisms
 
    The rating is from:
 
-   * `- -` = not supported
-   * `-` = possible, but not recommended
-   * `+` = possible, but drawbacks
-   * `+ +` = possible and recommended
+   .. list-table::
+      :header-rows: 1
+
+      *  -  Symbol
+         -  Description
+      *  -  `- -`
+         -  not supported
+      *  -  `-`
+         -  possible, but not recommended
+      *  -  `+`
+         -  possible, but drawbacks
+      *  -  `+ +`
+         -  possible and recommended
 
 .. list-table:: Jinja
    :header-rows: 1
