@@ -359,39 +359,67 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 Comparision of the different mechanisms:
 ========================================
 
+.. note::
+
+   The table below is a summary of the different mechanisms.
+   It is not complete and does not cover all use cases.
+   Please check the documentation of the different mechanisms for more details.
+
+
+   The rating is from:
+
+   * -- = not supported
+   * - = possible, but not recommended
+   * + = possible, but drawbacks
+   * ++ = possible and recommended
+
 .. list-table:: Jinja
    :header-rows: 1
 
    *  - Name
       - Advantages
       - Disadvantages
-   *  - `ifconfig`
-      -  - Build-in sphinx directive
-      -  - Always add the elements to the datamodel
-         - Does not support else or elif
+      - Manage Need Variants
+      - Manage Need Attributes / Links
    *  - `only`
       -  - Build-in sphinx directive
       -  - Always add the elements to the datamodel
          - Does not support else or elif
+      - +
+      - --
+   *  - `ifconfig`
+      -  - Build-in sphinx directive
+      -  - Always add the elements to the datamodel
+         - Does not support else or elif
+      - +
+      - --
    *  - `if-collection`
       -  - Wonderfull to be combined with content specific to collections
       -  - Has to be installed and configured
          - Does not support else or elif
+      - +
+      - --
    *  - `ifelse`
       -  - Can chnage complete sections / parts of the documentation easly
          - Support else or elif
       -  - Has to be installed and configured
+      - ++
+      - --
    *  - `Sphinx-Needs Attribute Variants`
       -  - Build-in sphinx-needs directive
          - Support else or elif
          - Can change attributes and links of needs elements
       -  - Can only change attributes of needs
          - Attention with combintion of tags
+      - --
+      - ++
    *  - `jinja2`
       -  - Can change everything depending on the context
       -  - Is difficult to debug
          - Neasting of jinja2 templates is difficult, but often requested e.g.
            with use of needuml or needs templates
+      - +
+      - +
 
 References
 ==========
