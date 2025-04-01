@@ -409,7 +409,8 @@ Comparision of the different mechanisms:
       -  - Has to be installed and configured
       - ++
       - --
-   *  - `Sphinx-Needs Attribute Variants`
+   *  - | `Sphinx-Needs`
+        | `Attribute Variants`
       -  - Build-in sphinx-needs directive
          - Support else or elif
          - Can change attributes and links of needs elements
@@ -417,7 +418,8 @@ Comparision of the different mechanisms:
          - Attention with combintion of tags
       - --
       - ++
-   *  - `jinja2`
+   *  - | `jinja2`
+        | `templates`
       -  - Can change everything depending on the context
       -  - Is difficult to debug
          - Neasting of jinja2 templates is difficult, but often requested e.g.
