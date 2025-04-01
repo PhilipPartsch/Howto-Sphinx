@@ -4,7 +4,6 @@ About the Author
 
 
 .. list-table::
-   :widths: 40 40 40
    :class: author
 
    -  .. image:: pictures/author.jpg
