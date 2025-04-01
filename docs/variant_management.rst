@@ -338,8 +338,7 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 
       .. rubric:: Example: Jinja2
 
-      .. code-block:: python
-         :caption: Example: Jinja2
+      .. code-block:: rst
 
          {% raw %}
          {%if jinja_OS%}
