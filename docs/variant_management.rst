@@ -368,10 +368,10 @@ Comparision of the different mechanisms
 
    The rating is from:
 
-   * `--` = not supported
+   * `- -` = not supported
    * `-` = possible, but not recommended
    * `+` = possible, but drawbacks
-   * `++` = possible and recommended
+   * `+ +` = possible and recommended
 
 .. list-table:: Jinja
    :header-rows: 1
@@ -389,28 +389,28 @@ Comparision of the different mechanisms
          - Build-in sphinx directive
       -  - Always add the elements to the datamodel
          - Does not support else or elif
-      - +
-      - --
+      - `+`
+      - `- -`
    *  - `ifconfig`
       -  - Can change complete parts of the documentation
          - Build-in sphinx directive
       -  - Always add the elements to the datamodel
          - Does not support else or elif
-      - +
-      - --
+      - `+`
+      - `- -`
    *  - `if-collection`
       -  - Can change complete parts of the documentation
          - Wonderfull to be combined with content from collections
       -  - Has to be installed and configured
          - Does not support else or elif
-      - +
-      - --
+      - `+`
+      - `- -`
    *  - `ifelse`
       -  - Can change complete parts of the documentation easly
          - Support else or elif
       -  - Has to be installed and configured
-      - ++
-      - --
+      - `+ +`
+      - `- -`
    *  - | `Sphinx-Needs`
         | `Attribute Variants`
       -  - Build-in sphinx-needs directive
@@ -418,8 +418,8 @@ Comparision of the different mechanisms
          - Can change attributes and links of needs elements
       -  - Can only change attributes of needs
          - Attention with combintion of tags
-      - --
-      - ++
+      - `- -`
+      - `+ +`
    *  - | `jinja2`
         | `templates`
       -  - Can change everything depending on the context
@@ -427,8 +427,8 @@ Comparision of the different mechanisms
          - | Neasting of jinja2 templates is difficult,
            | but often requested e.g.
            | with use of needuml or needs-templates
-      - +
-      - +
+      - `+`
+      - `+`
 
 References
 ==========
