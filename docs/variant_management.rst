@@ -368,10 +368,10 @@ Comparision of the different mechanisms:
 
    The rating is from:
 
-   * -- = not supported
-   * - = possible, but not recommended
-   * + = possible, but drawbacks
-   * ++ = possible and recommended
+   * `--` = not supported
+   * `-` = possible, but not recommended
+   * `+` = possible, but drawbacks
+   * `++` = possible and recommended
 
 .. list-table:: Jinja
    :header-rows: 1
@@ -383,25 +383,28 @@ Comparision of the different mechanisms:
       - Manage Need Variants
       - Manage Need Attributes / Links
    *  - `only`
-      -  - Build-in sphinx directive
+      -  - Can change complete parts of the documentation
+         - Build-in sphinx directive
       -  - Always add the elements to the datamodel
          - Does not support else or elif
       - +
       - --
    *  - `ifconfig`
-      -  - Build-in sphinx directive
+      -  - Can change complete parts of the documentation
+         - Build-in sphinx directive
       -  - Always add the elements to the datamodel
          - Does not support else or elif
       - +
       - --
    *  - `if-collection`
-      -  - Wonderfull to be combined with content specific to collections
+      -  - Can change complete parts of the documentation
+         - Wonderfull to be combined with content from collections
       -  - Has to be installed and configured
          - Does not support else or elif
       - +
       - --
    *  - `ifelse`
-      -  - Can chnage complete sections / parts of the documentation easly
+      -  - Can change complete parts of the documentation easly
          - Support else or elif
       -  - Has to be installed and configured
       - ++
