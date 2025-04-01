@@ -334,8 +334,7 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
 
    .. try to rebuild output of example directive for same loook and feel.
 
-   .. container::
-      :class: needs-example docutils container
+   .. container:: needs-example docutils container
 
       .. rubric:: Example: Jinja2
 
