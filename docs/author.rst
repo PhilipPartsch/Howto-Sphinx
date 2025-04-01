@@ -8,7 +8,6 @@ About the Author
    .. image:: pictures/author.jpg
       :alt: my avatar
       :scale: 50 %
-      :align: left
 
    .. rubric:: Philip Partsch
 
