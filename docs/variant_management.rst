@@ -80,8 +80,8 @@ Sphinx: ifconfig Directive
 3. Overwrite the configuration parameter in your sphinx-build
    :code:`sphinx-build [options] --define my_ifconfig='ifconfig_MacOS' <sourcedir> <outputdir>`
 
-   https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
-   https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
+   Hpw-to overwrite configuration parameter: https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
+   How-to use ifconfig: https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
 
 4. Use the `ifconfig` directive in your rst files
 
@@ -249,7 +249,7 @@ Sphinx-Needs: Attribute Variants
 ================================
 
 todo:
-https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
+How-to define Sphinx-Needs variants: https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
 
 https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variants
 https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-options
@@ -313,7 +313,7 @@ Jinja2 templates
 ================
 
 todo:
-how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
+How-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
 
 1. Define :code:`jinja_context` and :code:`jinja2rst` with variant information
    in :code:`conf.py`.
@@ -335,13 +335,47 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
       :end-before: # -- use jinja2rst in setup end
       :prepend: def setup(app):
 
+   .. warning::
+
+      If you run jinja2 on all files, you do have to think about other instances of
+      jinja2 in your rst files. E.g. if you use jinja2 in your rst files, you have to
+      use the :code:`raw` directive to prevent jinja2 from processing the content.
+      In Sphinx-Needs are few directives which are using jinja2,
+      e.g. `needuml` or `needs-templates`.
+
 3. Use it in your rst files:
 
-   .. try to rebuild output of example directive for same loook and feel.
+   .. example:: Example: Jinja2 templates
+
+{%if jinja_OS%}
+      We are building currently for {{jinja_OS}} via jinja2 template.
+
+      .. need:: Need Jinja2 {{jinja_OS}}
+         :id: N_VARIANT_JINJA2_{{jinja_OS}}
+         :status: {%if jinja_OS == 'QNX'%}set by template{%else%}not set{%endif%}
+         {%if realtime%}:satisfies: N_ALWAYS_JINJA2_REALTIME{%endif%}
+{%else%}
+      We are building currently for an unknown OS via jinja2 template.
+
+      .. need:: Need Jinja2 OS Unknown
+         :id: N_VARIANT_JINJA2_OS_UNKNOWN
+{%endif%}
+
+      .. need:: Need Jinja2 realtime
+         :id: N_ALWAYS_JINJA2_REALTIME
+
+
+   After we cannot use the example directive here, following you find
+   a manual copy of the the authored rst file. We do have to encapsulate
+   the jinja2 template in a `raw` tag, otherwise the jinja2
+   template will be processed by jinja2 and the output will be show
+   all written variants.
+
+   .. try to rebuild output of example directive for same look and feel.
 
    .. container:: needs-example docutils container
 
-      .. rubric:: Example: Jinja2
+      .. rubric:: Example: Manual copy of Jinja2 template
 
       .. code-block:: rst
          :linenos:
@@ -364,23 +398,6 @@ how-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integr
          .. need:: Need Jinja2 realtime
             :id: N_ALWAYS_JINJA2_REALTIME
          {% endraw %}
-
-{%if jinja_OS%}
-      We are building currently for {{jinja_OS}} via jinja2 template.
-
-      .. need:: Need Jinja2 {{jinja_OS}}
-         :id: N_VARIANT_JINJA2_{{jinja_OS}}
-         :status: {%if jinja_OS == 'QNX'%}set by template{%else%}not set{%endif%}
-         {%if realtime%}:satisfies: N_ALWAYS_JINJA2_REALTIME{%endif%}
-{%else%}
-      We are building currently for an unknown OS via jinja2 template.
-
-      .. need:: Need Jinja2 OS Unknown
-         :id: N_VARIANT_JINJA2_OS_UNKNOWN
-{%endif%}
-
-      .. need:: Need Jinja2 realtime
-         :id: N_ALWAYS_JINJA2_REALTIME
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Jinja2 templates"
@@ -464,7 +481,7 @@ Comparision of the different mechanisms
         | `templates`
       -  - Can change everything depending on the context
       -  - Is difficult to debug
-         - | Neasting of jinja2 templates is difficult,
+         - | Nesting of jinja2 templates is difficult,
            | but often requested e.g.
            | with use of needuml or needs-templates
       - `+`
