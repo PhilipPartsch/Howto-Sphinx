@@ -3,14 +3,15 @@ About the Author
 ################
 
 
-.. container:: needs-example docutils container
+.. list-table::
+   :header-rows: 0
 
-   .. image:: pictures/author.jpg
-      :alt: Picture of Philip Partsch (The author)
-      :scale: 50 %
+   *  -  .. image:: pictures/author.jpg
+            :alt: Picture of Philip Partsch (The author)
+            :scale: 50 %
 
-   .. rubric:: Philip Partsch
+         .. rubric:: Philip Partsch
 
-   | Senier Expert Processes, Methods and Tools
-   | Lead Systems Requirements Engineer
+         | Senier Expert Processes, Methods and Tools
+         | Lead Systems Requirements Engineer
 
