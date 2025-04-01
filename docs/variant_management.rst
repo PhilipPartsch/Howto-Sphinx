@@ -380,8 +380,10 @@ Comparision of the different mechanisms:
    *  - Name
       - Advantages
       - Disadvantages
-      - Manage Need Variants
-      - Manage Need Attributes / Links
+      - | Manage complete
+        | Need Variants
+      - | Manage Attributes
+        | / Links of Needs
    *  - `only`
       -  - Can change complete parts of the documentation
          - Build-in sphinx directive
@@ -422,8 +424,9 @@ Comparision of the different mechanisms:
         | `templates`
       -  - Can change everything depending on the context
       -  - Is difficult to debug
-         - Neasting of jinja2 templates is difficult, but often requested e.g.
-           with use of needuml or needs templates
+         - | Neasting of jinja2 templates is difficult,
+           | but often requested e.g.
+           | with use of needuml or needs-templates
       - +
       - +
 
