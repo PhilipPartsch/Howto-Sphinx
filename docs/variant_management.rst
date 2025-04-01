@@ -3,6 +3,11 @@ Variant Management
 ##################
 
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+
+
 Sphinx: only Directive
 ======================
 
