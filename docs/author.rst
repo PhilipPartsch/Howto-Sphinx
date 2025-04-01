@@ -3,16 +3,16 @@ About the Author
 ################
 
 
-.. list-table::
+.. container::
    :class: author
 
-   *  -  .. image:: pictures/author.jpg
-            :alt: my avatar
-            :scale: 50 %
-            :align: center
+   .. image:: pictures/author.jpg
+      :alt: my avatar
+      :scale: 50 %
+      :align: center
 
-   *  -  .. rubric:: Philip Partsch
+   .. rubric:: Philip Partsch
 
-         | Senier Expert Processes, Methods and Tools
-         | Lead Systems Requirements Engineer
+   | Senier Expert Processes, Methods and Tools
+   | Lead Systems Requirements Engineer
 
