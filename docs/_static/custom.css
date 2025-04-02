@@ -8,18 +8,8 @@ div.wy-table-responsive {
    width: 100% !important;
 }
 
-.author {
-   font-size: 1.2rem;
-   font-weight: bold;
-   color: rgb(76, 72, 138);
-   background-color: rgb(138, 72, 76) !important;
-}
-
-.author.row-odd {
-   font-size: 1.2rem;
-   font-weight: bold;
-   color: rgb(76, 72, 138);
-   background-color: rgb(138, 72, 76) !important;
+table tr td.white_bg_table {
+   background-color: white !important;
 }
 
 .needs-example {
