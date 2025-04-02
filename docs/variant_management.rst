@@ -56,6 +56,9 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Sphinx: ifconfig Directive
 ==========================
 
+In the Sphinx documentation, you can find a wonderfull documentation `How to use ifconfig`_.
+This can be used with `How to overwrite configuration parameter`_.
+
 1. Add the `ifconfig` directive to the extensions:
 
    .. code-block:: python
@@ -79,9 +82,6 @@ Sphinx: ifconfig Directive
 
 3. Overwrite the configuration parameter in your sphinx-build
    :code:`sphinx-build [options] --define my_ifconfig='ifconfig_MacOS' <sourcedir> <outputdir>`
-
-   Hpw-to overwrite configuration parameter: https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
-   How-to use ifconfig: https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
 
 4. Use the `ifconfig` directive in your rst files
 
@@ -248,11 +248,8 @@ Sphinx-Ifelse
 Sphinx-Needs: Attribute Variants
 ================================
 
-todo:
-How-to define Sphinx-Needs variants: https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
-
-https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variants
-https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-options
+In the Sphinx-Needs documentation, you can find a wonderfull documentation
+`How to define Sphinx-Needs variants`_.
 
 1. For sure you have to add the `sphinx-needs` extension to your extensions:
 
@@ -312,8 +309,8 @@ https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-variant-o
 Jinja2 templates
 ================
 
-todo:
-How-to integrate jinja2 in rst: https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
+This inspired by `How to integrate jinja2 in rst`_.
+
 
 1. Define :code:`jinja_context` and :code:`jinja2rst` with variant information
    in :code:`conf.py`.
@@ -495,3 +492,15 @@ References
 .. _`How to use only directive` : https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-only
 
 .. _`How to use tags` : https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
+
+
+
+
+
+.. _`How to use ifconfig` : https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
+
+.. _`How to overwrite configuration parameter` : https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
+
+.. _`How to define Sphinx-Needs variants` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
+
+.. _`How to integrate jinja2 in rst` : https://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
