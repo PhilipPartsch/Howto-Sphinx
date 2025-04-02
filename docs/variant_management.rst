@@ -401,33 +401,30 @@ This inspired by `How to integrate jinja2 in rst`_.
    :style: table
 
 
-Comparision of the different mechanisms
-=======================================
+Comparision of the different variant mechanisms
+===============================================
 
-.. note::
+The table below is a summary of the different mechanisms.
+It is not complete and does not cover all use cases.
+Please check the documentation of the different mechanisms for more details.
 
-   The table below is a summary of the different mechanisms.
-   It is not complete and does not cover all use cases.
-   Please check the documentation of the different mechanisms for more details.
+The rating for the comparision table:
 
+.. list-table:: Rating
+   :header-rows: 1
 
-   The rating is from:
+   *  -  Symbol
+      -  Description
+   *  -  `- -`
+      -  not supported
+   *  -  `-`
+      -  possible, but not recommended
+   *  -  `+`
+      -  possible, but drawbacks
+   *  -  `+ +`
+      -  possible and recommended
 
-   .. list-table::
-      :header-rows: 1
-
-      *  -  Symbol
-         -  Description
-      *  -  `- -`
-         -  not supported
-      *  -  `-`
-         -  possible, but not recommended
-      *  -  `+`
-         -  possible, but drawbacks
-      *  -  `+ +`
-         -  possible and recommended
-
-.. list-table:: Jinja
+.. list-table:: Comparision Table
    :header-rows: 1
    :widths: 10 30 30 10 10
 
