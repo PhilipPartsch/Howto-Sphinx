@@ -3,7 +3,7 @@ Variant Management
 ##################
 
 
-.. contents:: Table of Contents
+.. contents:: Table of Content
    :local:
    :depth: 2
 
