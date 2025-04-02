@@ -19,13 +19,10 @@ This document intends to define the reStructuredText style-guide.
 References to useful pages
 ==========================
 
-- `Quick Reference`_
+- `reStructuredText Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 - https://sublime-and-sphinx-guide.readthedocs.io
-- https://documatt.com/restructuredtext-reference/index.html
+- `documatt.com/restructuredtext-reference <https://documatt.com/restructuredtext-reference/index.html>`_
 - https://myst-parser.readthedocs.io
-
-
-.. _reSTxt_style_guide_table_of_contents:
 
 
 ********************************
@@ -46,7 +43,7 @@ An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within
    :start-at: .. toctree::
    :end-before: Indices and tables
 
-
+.. _reSTxt_style_guide_table_of_contents:
 
 *****************
 Table of Contents
@@ -185,6 +182,8 @@ Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used.
 *********
 Headlines
 *********
+
+See `reStructuredText Primer - Headlines <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections>`_.
 
 We use the following symbols for the headlines:
 
@@ -766,8 +765,6 @@ References
 .. _`How to create figure`: https://documatt.com/restructuredtext-reference/element/figure.html
 
 .. _`How to write math`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#math
-
-.. _`Quick Reference`: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
 
 .. _`How to include file in document`: https://docutils.sourceforge.io/docs/ref/rst/directives.html#including-an-external-document-fragment
 

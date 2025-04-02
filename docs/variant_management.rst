@@ -7,11 +7,21 @@ Variant Management
    :local:
    :depth: 2
 
+Generic Hints
+=============
+
+.. warning::
+
+   You can write headlines / sections in the content of few variant management
+   directives. But you have to be careful with the correct ordering of sections
+   in all possible output variants.
+   Especially as Sphinx is parsing the level of headline with the occurance of
+   underlining characters, which are not assigned to levels.
 
 Sphinx: only Directive
 ======================
 
-Documentation: `How to use only directive`_.
+In the Sphinx documentation, you can find a wonderfull documentation `How to use only directive`_.
 
 You can use a few mechanism to set tags, see `How to use tags`_.
 
@@ -57,6 +67,7 @@ Sphinx: ifconfig Directive
 ==========================
 
 In the Sphinx documentation, you can find a wonderfull documentation `How to use ifconfig`_.
+
 This can be used with `How to overwrite configuration parameter`_.
 
 1. Add the `ifconfig` directive to the extensions:
@@ -123,7 +134,8 @@ This can be used with `How to overwrite configuration parameter`_.
 Collections: if-collection Directive
 ====================================
 
-1. For sure you have to add the `sphinxcontrib.collections` extension to your extensions:
+1. For sure you have to add the `sphinxcontrib.collections` extension from useblocks
+   to your extensions:
 
    .. code-block:: python
       :caption: How-to add `sphinxcontrib.collections` extension to the extensions
@@ -167,12 +179,6 @@ Collections: if-collection Directive
 
          .. need:: Need if-collection Linux
             :id: N_VARIANT_COLLECTION_LINUX
-
-   .. warning::
-
-      You can write headlines / sections in the content of the if-collection directive.
-      But you have to be careful with the correct ordering of sections in all
-      possible output variants.
 
 .. needtable::
    :filter: c.this_doc() and section_name == "Collections: if-collection Directive"
