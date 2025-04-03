@@ -373,11 +373,10 @@ This inspired by `How to integrate jinja2 in rst`_.
          :id: N_ALWAYS_JINJA2_REALTIME
 
 
-   After we cannot use the example directive here, following you find
+   After we cannot use the example directive here; following you find
    a manual copy of the the authored rst file. We do have to encapsulate
    the jinja2 template in a `raw` tag, otherwise the jinja2
-   template will be processed by jinja2 and the output will be show
-   all written variants.
+   template will be processed and reduced by jinja2 again.
 
    .. try to rebuild output of example directive for same look and feel.
 
