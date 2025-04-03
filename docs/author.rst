@@ -15,4 +15,5 @@ About the Author
 
          | Senier Expert Processes, Methods and Tools
          | Lead Systems Requirements Engineer
+         | Committer to `S-CORE <https://projects.eclipse.org/projects/automotive.score/who>`_
 
