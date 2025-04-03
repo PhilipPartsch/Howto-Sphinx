@@ -134,6 +134,9 @@ This can be used with `How to overwrite configuration parameter`_.
 Collections: if-collection Directive
 ====================================
 
+In the Useblocks Collections extension documentation,
+you can find a wonderfull documentation `How to use if-collection`_.
+
 1. For sure you have to add the `sphinxcontrib.collections` extension from useblocks
    to your extensions:
 
@@ -498,13 +501,11 @@ References
 
 .. _`How to use tags` : https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags
 
-
-
-
-
 .. _`How to use ifconfig` : https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html#module-sphinx.ext.ifconfig
 
 .. _`How to overwrite configuration parameter` : https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-D
+
+.. _`How to use if-collection` : https://sphinx-collections.readthedocs.io/en/latest/directives.html#if-collection
 
 .. _`How to define Sphinx-Needs variants` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#variants-for-options-support
 
