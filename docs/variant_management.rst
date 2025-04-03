@@ -70,7 +70,7 @@ In the Sphinx documentation, you can find a wonderfull documentation `How to use
 
 This can be used with `How to overwrite configuration parameter`_.
 
-1. Add the `ifconfig` directive to the extensions:
+1. Add the `ifconfig` directive to the extensions in :code:`conf.py`.
 
    .. code-block:: python
       :caption: How-to add `ifconfig` directive to the extensions
@@ -138,7 +138,7 @@ In the Useblocks Collections extension documentation,
 you can find a wonderfull documentation `How to use if-collection`_.
 
 1. For sure you have to add the `sphinxcontrib.collections` extension from useblocks
-   to your extensions:
+   to your extensions in :code:`conf.py`.
 
    .. code-block:: python
       :caption: How-to add `sphinxcontrib.collections` extension to the extensions
@@ -193,7 +193,7 @@ Sphinx-Ifelse
 
 Check the pypi package `sphinx-ifelse <https://pypi.org/project/sphinx-ifelse/>`_.
 
-1. For sure you have to add the `sphinx-ifelse` extension to your extensions:
+1. For sure you have to add the `sphinx-ifelse` extension to your extensions in :code:`conf.py`.
 
    .. code-block:: python
       :caption: How-to add `sphinx-ifelse` extension to the extensions
@@ -262,7 +262,7 @@ Sphinx-Needs: Attribute Variants
 In the Sphinx-Needs documentation, you can find a wonderfull documentation
 `How to define Sphinx-Needs variants`_.
 
-1. For sure you have to add the `sphinx-needs` extension to your extensions:
+1. For sure you have to add the `sphinx-needs` extension to your extensions in :code:`conf.py`.
 
    .. code-block:: python
       :caption: How-to add `sphinx-needs` extension to the extensions
@@ -333,7 +333,7 @@ This inspired by `How to integrate jinja2 in rst`_.
       :start-after: # -- extension configuration: Jinja2
       :end-before: # -- extension configuration: Jinja2 end
 
-2. Connect :code:`jinja2rst` in Sphinx to source-read event.
+2. Connect :code:`jinja2rst` in Sphinx to source-read event in :code:`conf.py`.
 
    .. literalinclude:: conf.py
       :caption: How-to connect jinja2rst to source-read event
