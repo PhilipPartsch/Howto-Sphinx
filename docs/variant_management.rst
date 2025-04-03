@@ -188,6 +188,8 @@ Collections: if-collection Directive
 Sphinx-Ifelse
 =============
 
+Check the pypi package `sphinx-ifelse <https://pypi.org/project/sphinx-ifelse/>`_.
+
 1. For sure you have to add the `sphinx-ifelse` extension to your extensions:
 
    .. code-block:: python
