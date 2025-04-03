@@ -17,5 +17,5 @@ About the Author
          | Lead Systems Requirements Engineer
          | Committer to `S-CORE <https://projects.eclipse.org/projects/automotive.score/who>`_
          | Contributer to Sphinx-Needs since Christmas 2021
-         | Consultant for Sphinx-Needs
+         | Consultant for Sphinx-Needs based landscape
 
