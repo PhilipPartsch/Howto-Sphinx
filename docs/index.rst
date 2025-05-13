@@ -1,8 +1,4 @@
-#############
-How-To Sphinx
-#############
-
-
+.. include:: ../README.rst
 
 .. note::
 
