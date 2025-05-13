@@ -11,7 +11,7 @@ E.g. in the automotive industry it is the ISO26262 or ASPICE.
 As the ASPICE specification is public available let's what is requested:
 https://vda-qmc.de/wp-content/uploads/2023/12/Automotive-SPICE-PAM-v40.pdf
 
-Or within is documentation for Version Automotive-SPICE-PAM-v4.1 
+Or within is documentation for Version Automotive-SPICE-PAM-v4.1
 :numref:`{name} <ASPICE-V31-Figure-D4—Bidirectional-traceability-and-consistency>`.
 
 .. toctree::
@@ -26,7 +26,7 @@ Implemented with Sphinx-Needs
 
 With Sphinx-Needs we get one tool to cover all demands of ASPICE
 (often you want to use a planning tool for change request management).
-Everything should be reviewed with `github pull-requests <https://docs.github.com/en/pull-requests>`_ or 
+Everything should be reviewed with `github pull-requests <https://docs.github.com/en/pull-requests>`_ or
 `gitlab merge requests <https://docs.gitlab.com/ee/user/project/merge_requests/>`_ as a single point of review tool.
 You can protect branches with rules, so you can enforce all content is reviewed.
 

@@ -10,7 +10,7 @@ Author: David Goodger
 Link: https://docutils.sourceforge.io
 
 Description: Docutils is an open-source text processing system for processing plaintext documentation into useful formats,
-such as HTML, LaTeX, man-pages, OpenDocument, or XML. 
+such as HTML, LaTeX, man-pages, OpenDocument, or XML.
 It includes `reStructuredText <https://docutils.sourceforge.io/rst.html>`_, the easy to read, easy to use,
 what-you-see-is-what-you-get plaintext markup language.
 
@@ -73,7 +73,7 @@ Definition of a Directive
 *************************
 
 A directive gives the opportunity to structure information together.
-Here we use the ``figure`` directive to explain how it looks like. 
+Here we use the ``figure`` directive to explain how it looks like.
 
 - Directive Type: "figure"
 
@@ -86,7 +86,7 @@ Here we use the ``figure`` directive to explain how it looks like.
         :alt: my avatar
 
         This is the caption of the figure (a simple paragraph).
-  
+
 - Directive Arguments: "pictures/avatar.png"
 
   .. code-block:: rst
@@ -136,7 +136,7 @@ Definition of a Role
 ********************
 
 A role is an inline annotation to get an information or link destination from a script.
-Here we use the ``math`` role to explain how it looks like. 
+Here we use the ``math`` role to explain how it looks like.
 
 .. example:: Docutils Role
 
@@ -149,7 +149,7 @@ Here we use the ``math`` role to explain how it looks like.
      :linenos:
 
      :math:`(a + b)`
-  
+
 - Role Argument: "(a + b)"
 
   .. code-block:: rst

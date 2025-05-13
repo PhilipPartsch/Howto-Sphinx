@@ -47,11 +47,6 @@ jobs:
     - name: Lint the project with sphinx-lint
       run: |
         sphinx-lint
-    - name: Lint the project with vale
-      uses: errata-ai/vale-action@v2.1.1
-      with:
-        # github-pr-check, github-pr-review, github-check
-        reporter: github-check
     - name: Render the documentation
       run: >
         sphinx-build

@@ -34,7 +34,7 @@ You can find the documenation of the option `template` for `needimport` in
 You can find the documenation of the option `template` for `need` in
 `need template <https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template>`_.
 
-You can find the documentation of dynamic functions and the copy function especially in 
+You can find the documentation of dynamic functions and the copy function especially in
 `dynamic functions <https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#copy>`_.
 
 How-to change a imported need with `needextend`
@@ -47,7 +47,7 @@ Documentation: How-to extend needs with
 
    .. needextend:: imp_test_item
       :status: implemented
-      :reject_reason: 
+      :reject_reason:
          | Here I add a multi line reject reason.
          | First line
          | Second line

@@ -404,7 +404,7 @@ The primary life cycle processes category consists of the following groups:
 
 •  the Supply process group;
 
-•  the System engineering process group; 
+•  the System engineering process group;
 
 •  the Software engineering process group.
 
@@ -553,7 +553,7 @@ programs.
    ========= ========================
 
 
-3.2. Measurement framework 
+3.2. Measurement framework
 ---------------------------
 
 The measurement framework provides the necessary requirements and rules for the capability dimension. It defines a
@@ -570,7 +570,7 @@ Automotive SPICE 3.1 uses the measurement framework defined in ISO/IEC 33020:201
 .. note:: *NOTE: Text incorporated from ISO/IEC 33020 within this chapter is written in italic font and marked with a left
    side bar.*
 
-3.2.1. Process capability levels and process attributes 
+3.2.1. Process capability levels and process attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The process capability levels and process attributes are identical to those defined in ISO/IEC 33020 clause 5.2. The
@@ -658,14 +658,14 @@ defined in ISO/IEC 33020 and listed in Table 11.
    +---------------------------+------------------------------------------------------------------------------------+
 
 
-3.2.2. Process attribute rating 
+3.2.2. Process attribute rating
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To support the rating of process attributes, the ISO/IEC 33020 measurement framework provides a defined rating scale
 with an option for refinement, different rating methods and different aggregation methods depending on the class of the
 assessment (e.g. required for organizational maturity assessments).
 
-*Rating scale* 
+*Rating scale*
 ~~~~~~~~~~~~~~~
 
 *Within this process measurement framework, a process attribute is a measureable property of process capability. A
@@ -811,7 +811,7 @@ a) *Each process attribute for each process within the scope of the assessment s
 b) *Process attribute characterisations for all assessed process instances shall be aggregated to provide a process
    attribute achievement rating.*
 
-Rating method R3 
+Rating method R3
 ^^^^^^^^^^^^^^^^^
 
 *Process attribute rating across assessed process instances shall be made without aggregation.*
@@ -919,7 +919,7 @@ attributes and a full achievement of any lower lying process attribute.
    +--------------+-----------------------------------------------------------+--------------------+
 
 
-3.3. Process assessment model 
+3.3. Process assessment model
 ------------------------------
 
 The process assessment model offers indicators in order to identify whether the process outcomes and the process
@@ -950,7 +950,7 @@ capability indicators provides evidence of process capability.
 The evidence obtained should be recorded in a form that clearly relates to an associated indicator, in order that
 support for the assessor’s judgment can be confirmed or verified as required by ISO/IEC 33002.
 
-3.3.1. Process performance indicators 
+3.3.1. Process performance indicators
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Types of process performance indicators are
@@ -971,7 +971,7 @@ content of concrete work products and documents for the implemented processes mu
 organization, respectively. The project and/or organization ensures that the work products are appropriate for the
 intended purpose and needs, and in relation to the development goals.
 
-3.3.2. Process capability indicators 
+3.3.2. Process capability indicators
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Types of process capability indicators are:
@@ -998,7 +998,7 @@ editorial reference to the respective process performance indicators (see Figure
 
    Figure 3 — Relationship between assessment indicators and process capability
 
-3.3.3. Understanding the level of abstraction of a PAM 
+3.3.3. Understanding the level of abstraction of a PAM
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The term "process" can be understood at three levels of abstraction. Note that these levels of abstraction are not meant
@@ -1129,7 +1129,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
 
    **Base practices**
-   
+
    .. stake_req:: ACQ.3.BP1: Negotiate the contract/agreement.
       :id: ACQ_3_BP1
       :status: new
@@ -1213,9 +1213,9 @@ indicators consist of base practices (indicated by a green bar) and output work 
 
       Notify the result of the proposal/tender selection to proposers/tenders.
       After contract award inform all tenderers of the decision.
-   
+
    **Output work products**
-   
+
    .. table::
       :widths: 20 5 75
 
@@ -1301,7 +1301,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       and the supplier and documented in the agreement.
 
    **Base practices**
-   
+
    .. stake_req:: ACQ.4.BP1: Agree on and maintain jointprocesses,
       :id: ACQ4_BP1
       :status: new
@@ -2201,7 +2201,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.1.6. ACQ.14 Request for Proposals 
+4.1.6. ACQ.14 Request for Proposals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Request for Proposals
@@ -2416,7 +2416,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.1.7. ACQ.15 Supplier Qualification 
+4.1.7. ACQ.15 Supplier Qualification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Supplier Qualification
@@ -2578,10 +2578,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.2. Supply process group (SPL) 
+4.2. Supply process group (SPL)
 --------------------------------
 
-4.2.1. SPL.1 Supplier Tendering 
+4.2.1. SPL.1 Supplier Tendering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Supplier Tendering
@@ -2768,7 +2768,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.2.2. SPL.2 Product Release 
+4.2.2. SPL.2 Product Release
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Product Release
@@ -3055,10 +3055,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.3. System engineering process group (SYS) 
+4.3. System engineering process group (SYS)
 --------------------------------------------
 
-4.3.1. SYS.1 Requirements Elicitation 
+4.3.1. SYS.1 Requirements Elicitation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Requirements Elicitation
@@ -3523,7 +3523,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
    :security_level: not set
 
    **Process ID**
-   
+
    **SYS.3**
 
    **Process name**
@@ -4207,10 +4207,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4. Software engineering process group (SWE) 
+4.4. Software engineering process group (SWE)
 ----------------------------------------------
 
-4.4.1. SWE.1 Software Requirements Analysis 
+4.4.1. SWE.1 Software Requirements Analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Software Requirements Analysis
@@ -4474,7 +4474,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4.2. SWE.2 Software Architectural Design 
+4.4.2. SWE.2 Software Architectural Design
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. stake_req:: Software Architectural Design
@@ -4716,10 +4716,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4.3. SWE.3 Software Detailed Design and Unit Construction 
+4.4.3. SWE.3 Software Detailed Design and Unit Construction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Software Detailed Design and Unit Construction 
+.. stake_req:: Software Detailed Design and Unit Construction
    :id: SWE3
    :status: new
    :safety_level: not set
@@ -4918,10 +4918,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4.4. SWE.4 Software Unit Verification 
+4.4.4. SWE.4 Software Unit Verification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Software Unit Verification 
+.. stake_req:: Software Unit Verification
    :id: SWE4
    :status: new
    :safety_level: not set
@@ -5137,10 +5137,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4.5. SWE.5 Software Integration and Integration Test 
+4.4.5. SWE.5 Software Integration and Integration Test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Software Integration and Integration Test 
+.. stake_req:: Software Integration and Integration Test
    :id: SWE5
    :status: new
    :safety_level: not set
@@ -5405,10 +5405,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.4.6. SWE.6 Software Qualification Test 
+4.4.6. SWE.6 Software Qualification Test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Software Qualification Test 
+.. stake_req:: Software Qualification Test
    :id: SWE6
    :status: new
    :safety_level: not set
@@ -5617,14 +5617,14 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5. Supporting process group (SUP) 
+4.5. Supporting process group (SUP)
 ------------------------------------
 
 
-4.5.1. SUP.1 Quality Assurance 
+4.5.1. SUP.1 Quality Assurance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Quality Assurance 
+.. stake_req:: Quality Assurance
    :id: SUP1
    :status: new
    :safety_level: not set
@@ -5837,10 +5837,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5.2. SUP.2 Verification 
+4.5.2. SUP.2 Verification
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Verification 
+.. stake_req:: Verification
    :id: SUP2
    :status: new
    :safety_level: not set
@@ -6002,10 +6002,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5.3. SUP.4 Joint Review 
+4.5.3. SUP.4 Joint Review
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Joint Review 
+.. stake_req:: Joint Review
    :id: SUP4
    :status: new
    :safety_level: not set
@@ -6206,10 +6206,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5.4. SUP.7 Documentation 
+4.5.4. SUP.7 Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Documentation 
+.. stake_req:: Documentation
    :id: SUP7
    :status: new
    :safety_level: not set
@@ -6669,10 +6669,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5.6. SUP.9 Problem Resolution Management 
+4.5.6. SUP.9 Problem Resolution Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Problem Resolution Management 
+.. stake_req:: Problem Resolution Management
    :id: SUP9
    :status: new
    :safety_level: not set
@@ -6889,10 +6889,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.5.7. SUP.10 Change Request Management 
+4.5.7. SUP.10 Change Request Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Change Request Management 
+.. stake_req:: Change Request Management
    :id: SUP10
    :status: new
    :safety_level: not set
@@ -7129,14 +7129,14 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.6. Management process group (MAN) 
+4.6. Management process group (MAN)
 ------------------------------------
 
 
-4.6.1. MAN.3 Project Management 
+4.6.1. MAN.3 Project Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Project Management 
+.. stake_req:: Project Management
    :id: MAN3
    :status: new
    :safety_level: not set
@@ -7389,10 +7389,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.6.2. MAN.5 Risk Management 
+4.6.2. MAN.5 Risk Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Risk Management 
+.. stake_req:: Risk Management
    :id: MAN5
    :status: new
    :safety_level: not set
@@ -7603,10 +7603,10 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.6.3. MAN.6 Measurement 
+4.6.3. MAN.6 Measurement
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Measurement 
+.. stake_req:: Measurement
    :id: MAN6
    :status: new
    :safety_level: not set
@@ -7857,14 +7857,14 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.7. Process improvement process group (PIM) 
+4.7. Process improvement process group (PIM)
 ---------------------------------------------
 
 
-4.7.1. PIM.3 Process Improvement 
+4.7.1. PIM.3 Process Improvement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Process Improvement 
+.. stake_req:: Process Improvement
    :id: PIM3
    :status: new
    :safety_level: not set
@@ -8128,14 +8128,14 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-4.8. Reuse process group (REU) 
+4.8. Reuse process group (REU)
 -------------------------------
 
 
-4.8.1. REU.2 Reuse Program Management 
+4.8.1. REU.2 Reuse Program Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. stake_req:: Reuse Program Management 
+.. stake_req:: Reuse Program Management
    :id: REU2
    :status: new
    :safety_level: not set
@@ -8350,7 +8350,7 @@ indicators consist of base practices (indicated by a green bar) and output work 
       +---------------+---+--------------------------------------------------+
 
 
-5. Process capability levels and process attributes 
+5. Process capability levels and process attributes
 ====================================================
 
 Process capability indicators are the means of achieving the capabilities addressed by the considered process
@@ -8372,19 +8372,19 @@ process which fails to partially achieve any of its outcomes.
    font and marked with a left side bar.*
 
 
-5.1. Process capability Level 0: Incomplete process 
+5.1. Process capability Level 0: Incomplete process
 ----------------------------------------------------
 
 *The process is not implemented, or fails to achieve its process purpose. At this level there is little or no evidence
 of any systematic achievement of the process purpose.*
 
-5.2. Process capability Level 1: Performed process 
+5.2. Process capability Level 1: Performed process
 ---------------------------------------------------
 
 *The implemented process achieves its process purpose. The following process attribute demonstrates the
 achievement of this level*
 
-5.2.1. PA 1.1 Process performance process attribute 
+5.2.1. PA 1.1 Process performance process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The process performance process attribute is a measure of the extent to which the process purpose is achieved.
@@ -8403,7 +8403,7 @@ As a result of full achievement of this attribute:*
 |                            |    [ACHIEVEMENT a]                                                                      |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.3. Process capability Level 2: Managed process 
+5.3. Process capability Level 2: Managed process
 -------------------------------------------------
 
 *The previously described Performed process is now implemented in a managed fashion (planned, monitored and adjusted)
@@ -8412,7 +8412,7 @@ and its work products are appropriately established, controlled and maintained.*
 *The following process attributes, together with the previously defined process attribute, demonstrate the achievement
 of this level:*
 
-5.3.1. PA 2.1 Performance management process attribute 
+5.3.1. PA 2.1 Performance management process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The performance management process attribute is a measure of the extent to which the performance of the process is
@@ -8546,7 +8546,7 @@ h) *Interfaces between the involved parties are managed to ensure both effective
 |                             | **Problem and issues management mechanisms** [ACHIEVEMENT c]                           |
 +-----------------------------+----------------------------------------------------------------------------------------+
 
-5.3.2. PA 2.2 Work product management process attribute 
+5.3.2. PA 2.2 Work product management process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The work product management process attribute is a measure of the extent to which the work products produced by the
@@ -8632,7 +8632,7 @@ purpose through the process outcomes.*
 |                            | **Problem and issue management mechanisms** [ACHIEVEMENT d]                             |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.4. Process capability Level 3: Established process 
+5.4. Process capability Level 3: Established process
 -----------------------------------------------------
 
 *The previously described Managed process is now implemented using a defined process that is capable of achieving its
@@ -8641,7 +8641,7 @@ process outcomes.*
 *The following process attributes, together with the previously defined process attributes, demonstrate the achievement
 of this level:*
 
-5.4.1. PA 3.1 Process definition process attribute 
+5.4.1. PA 3.1 Process definition process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The process definition process attribute is a measure of the extent to which a standard process is maintained to
@@ -8724,7 +8724,7 @@ e) *Suitable methods and measures for monitoring the effectiveness and suitabili
 |                            | **Process monitoring method** [ACHIEVEMENT e]                                           |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.4.2. PA 3.2 Process deployment process attribute 
+5.4.2. PA 3.2 Process deployment process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The process deployment process attribute is a measure of the extent to which the standard process is deployed as a
@@ -8821,7 +8821,7 @@ f) *Appropriate data are collected and analysed as a basis for understanding the
 |                            | **Audit/review system** [ACHIEVEMENT f]                                                 |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.5. Process capability Level 4: Predictable process 
+5.5. Process capability Level 4: Predictable process
 -----------------------------------------------------
 
 *The previously described Established process now operates predictively within defined limits to achieve its process
@@ -8831,7 +8831,7 @@ assignable causes of variation. Corrective action is taken to address assignable
 *The following process attributes, together with the previously defined process attributes, demonstrate the achievement
 of this level:*
 
-5.5.1. PA 4.1 Quantitative analysis process attribute 
+5.5.1. PA 4.1 Quantitative analysis process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The quantitative analysis process attribute is a measure of the extent to which information needs are defined,
@@ -8928,7 +8928,7 @@ g) *Results of measurement are collected, validated and reported in order to mon
 |                            | **Tools for data analysis and measurement** [ACHIEVEMENT a, b, c, d, e, f]              |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.5.2. PA 4.2 Quantitative control process attribute 
+5.5.2. PA 4.2 Quantitative control process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The quantitative control process attribute is a measure of the extent to which objective data are used to manage
@@ -8985,7 +8985,7 @@ e) *Separate distributions are established (as necessary) for analyzing the proc
 |                            | **Process control tools/applications** [ACHIEVEMENT d, e]                               |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.6. Process capability Level 5: Innovating process 
+5.6. Process capability Level 5: Innovating process
 ----------------------------------------------------
 
 *The previously described Predictable process is now continually improved to respond to change aligned with
@@ -8994,7 +8994,7 @@ organizational goals.*
 *The following process attributes, together with the previously defined process attributes, demonstrate the achievement
 of this level:*
 
-5.6.1. PA 5.1 Process innovation process attribute 
+5.6.1. PA 5.1 Process innovation process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The process innovation process attribute is a measure of the extent to which changes to the process are identified from
@@ -9059,7 +9059,7 @@ d) *An implementation strategy is established to achieve the process innovation 
 |                            | **Piloting and trialing mechanism** [ACHIEVEMENT c, d]                                  |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-5.6.2. PA 5.2 Process innovation implementation process attribute 
+5.6.2. PA 5.2 Process innovation implementation process attribute
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *The process innovation process implementation attribute is a measure of the extent to which changes to the definition,
@@ -9131,10 +9131,10 @@ c) *Effectiveness of process change on the basis of actual performance is evalua
 |                            | **Process evaluation system (impact analysis, etc.)** [ACHIEVEMENT a, c]                |
 +----------------------------+-----------------------------------------------------------------------------------------+
 
-Annex A Conformity of the process assessment and reference model 
+Annex A Conformity of the process assessment and reference model
 =================================================================
 
-A.1 Introduction 
+A.1 Introduction
 -----------------
 
 The Automotive SPICE process assessment and process reference model are meeting the requirements for conformance defined
@@ -9147,7 +9147,7 @@ requirements defined in ISO/IEC 33004. *[ISO/IEC 33004, 5.5 and 6.4]*
 Due to copyright reasons each requirement is only referred by its number. The full text of the requirements can be drawn
 from ISO/IEC 33004.
 
-A.2 Conformance to the requirements for process reference models 
+A.2 Conformance to the requirements for process reference models
 -----------------------------------------------------------------
 
 *Clause 5.3, "Requirements for process reference models"*
@@ -9183,10 +9183,10 @@ These requirements are met by the process descriptions in chapter 4 of this docu
 
 *[ISO/IEC 33004, 5.4]*
 
-A.3 Conformance to the requirements for process assessment models 
+A.3 Conformance to the requirements for process assessment models
 ------------------------------------------------------------------
 
-*Clause 6.1, "Introduction"* 
+*Clause 6.1, "Introduction"*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The purpose of this process assessment model is to support assessment of process capability within the automotive domain
@@ -9194,7 +9194,7 @@ using the process measurement framework defined in ISO/IEC 33020.
 
 *[ISO/IEC 33004, 6.1]*
 
-*Clause 6.2, "Process assessment model scope"* 
+*Clause 6.2, "Process assessment model scope"*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The process scope of this process assessment model is defined in the process reference model included in chapter 3.1 of
@@ -9207,7 +9207,7 @@ ISO/IEC 33003.
 
 *[ISO/IEC 33004, 6.2]*
 
-*Clause 6.3, "Requirements for process assessment models"* 
+*Clause 6.3, "Requirements for process assessment models"*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Automotive SPICE process assessment model is related to process capability.
@@ -10099,7 +10099,7 @@ Table B.2 — Work product characteristics
 
    •  Planned risk treatment activities and tasks:
 
-      -  describes the specifics of the risk treatment selected for a risk or 
+      -  describes the specifics of the risk treatment selected for a risk or
          combination of risks found to be unacceptable
       -  describes any difficulties that may be found in implementing the treatment
 
@@ -10123,7 +10123,7 @@ Table B.2 — Work product characteristics
 
    •  Environment/infrastructure:
 
-      - describes any environmental or infrastructure requirements or impacts 
+      - describes any environmental or infrastructure requirements or impacts
         (e.g., safety or security impacts that the treatment may have)
 
    •  Risk treatment plan change procedures and history
@@ -10377,7 +10377,7 @@ Table B.2 — Work product characteristics
    :security_level: not set
    :tags: artifact
 
-   •  Follows established coding standards 
+   •  Follows established coding standards
       (as appropriate to the language and application):
 
       -  commented
@@ -10894,8 +10894,8 @@ Table B.2 — Work product characteristics
    •  Provides forward and backwards mapping of requirements to associated work
       products throughout all phases of the life cycle
 
-   *NOTE: this may be included as a function of another defined work product 
-   (example: A CASE tool for design decomposition may have a 
+   *NOTE: this may be included as a function of another defined work product
+   (example: A CASE tool for design decomposition may have a
    mapping ability as part of its features)*
 
 .. stake_req:: Validation results
@@ -10973,7 +10973,7 @@ Table B.2 — Work product characteristics
    :security_level: not set
    :tags: artifact
 
-   •  Historical records of all changes made to an object 
+   •  Historical records of all changes made to an object
       (document, file, software component, etc.):
 
       - description of change
@@ -11699,7 +11699,7 @@ Table B.2 — Work product characteristics
    •  Defines the attributes associated with an artifact from a process execution:
       -  key elements to be represented in the work product
 
-Annex C Terminology 
+Annex C Terminology
 ====================
 
 Annex C lists the applicable terminology references from ISO/IEC/IEEE 24765 and ISO/IEC/IEEE 29119. It also provides

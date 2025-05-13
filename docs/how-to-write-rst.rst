@@ -155,7 +155,7 @@ Substitution Definition
 
 See `How to substitute content`_.
 It is best practice, to use substitution as less as possible.
-Often a :ref`glossary <reSTxt_style_guide_glossary>` is better be used.
+Often a :ref:`glossary <reSTxt_style_guide_glossary>` is better be used.
 
 .. example:: Substitution
 

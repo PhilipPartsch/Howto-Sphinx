@@ -33,7 +33,7 @@ Model for Cybersecurity Engineering
    +----------------------+------------------------------------------------------+
 
 
-Copyright Notice 
+Copyright Notice
 -----------------
 
 This document is a supplement to the Automotive SPICE Process Assessment Model 3.1. It has been
@@ -156,7 +156,7 @@ Statement of Compliance
 -----------------------
 
 The Automotive SPICE process assessment and process reference models conform with
-ISO/IEC 33004:2015, and can be used as the basis for conducting an assessment of 
+ISO/IEC 33004:2015, and can be used as the basis for conducting an assessment of
 process capability.
 
 ISO/IEC 33020:2015 is used as an ISO/IEC 33003-compliant measurement framework.
@@ -379,7 +379,7 @@ and testing of the software.
    +----------------+--------------------------------------------------------------------------+
 
 
-1.1.2 Supporting Lifecycle Processes category 
+1.1.2 Supporting Lifecycle Processes category
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Supporting Lifecycle Processes (SUP) category consists of processes that may be employed by any
@@ -404,7 +404,7 @@ of the other processes at various points in the lifecycle.
    +----------------+--------------------------------------------------------------------------+
 
 
-1.1.3 Organizational Lifecycle Processes category 
+1.1.3 Organizational Lifecycle Processes category
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Organizational Lifecycle Processes category consists of processes that develop process, product
@@ -455,7 +455,7 @@ organization’s reuse programs.
    +----------------+--------------------------------------------------------------------------+
 
 
-1.2 Measurement framework 
+1.2 Measurement framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The process capability levels, process attributes, rating scale and capability level rating model
@@ -463,7 +463,7 @@ are identical to those defined in ISO/IEC 33020:2015, clause 5.2. The detailed d
 capability levels and corresponding process attributes can be found in Automotive SPICE PAM 3.1.
 
 
-1.3 Understanding the level of abstraction of a PAM 
+1.3 Understanding the level of abstraction of a PAM
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The term "process" can be understood at three levels of abstraction. Note that these levels of
@@ -618,7 +618,7 @@ tooling, etc. is left to the HOW level.
       :output: ACQ2_OUT3, ACQ2_OUT4
 
       *(RFQ).* Identify supplier candidates based on the evaluation. Prepare and issue a request for
-      quotation including a corrective action plan for identified deviations. 
+      quotation including a corrective action plan for identified deviations.
 
    *NOTE 3: The request for quotation may include:*
 
@@ -640,7 +640,7 @@ tooling, etc. is left to the HOW level.
       :output: ACQ2_OUT4
 
       Establish a contract based on the evaluation of the request for quotation
-      results, covering the relevant requirements and the agreed corrective actions. 
+      results, covering the relevant requirements and the agreed corrective actions.
 
    *NOTE 4: Distributed cybersecurity activities may be specified within a cybersecurity
    interface agreement considering all relevant aspects (e.g., contacts, tailoring,
@@ -823,7 +823,7 @@ tooling, etc. is left to the HOW level.
       and project assets with cybersecurity properties, damage scenarios, relevant
       stakeholders, impact categories and related product phases.
       Determine the scope in accordance with its operational environment and
-      organizational risk management policies. 
+      organizational risk management policies.
 
    *NOTE 1: Cybersecurity properties of assets include confidentiality, integrity and availability.*
 
@@ -861,7 +861,7 @@ tooling, etc. is left to the HOW level.
 
       Identify potential risks within the
       project scope initially and during the conduct of the project, continuously
-      looking for risk factors at any occurrence of technical or managerial decisions. 
+      looking for risk factors at any occurrence of technical or managerial decisions.
 
    *NOTE 4: The identification of potential risks shall include the determination
    of threat scenarios that impose a specific risk to initiate a damage scenario
@@ -875,7 +875,7 @@ tooling, etc. is left to the HOW level.
       :output: MAN7_OUT4
 
       Prioritize potential risks with respect to damage and impact on the relevant category and
-      stakeholder. 
+      stakeholder.
 
    *NOTE 5: The potential risks prioritization may be consistent with the scope of risk assessment.*
 
@@ -903,7 +903,7 @@ tooling, etc. is left to the HOW level.
       :output: MAN7_OUT6
 
       For each risk (or set of risks) define the selected treatment option to accept, reduce, avoid or
-      share (transfer) the risks. 
+      share (transfer) the risks.
 
    *NOTE 8: Typically accepted and shared risks define cybersecurity claims.*
 
@@ -915,7 +915,7 @@ tooling, etc. is left to the HOW level.
       :output: MAN7_OUT7
 
       For each risk (or set of risks) determine changes in the status of a
-      risk and evaluate the progress of the treatment activities. 
+      risk and evaluate the progress of the treatment activities.
 
    *NOTE 9: Major risks may need to be communicated to and monitored by higher levels of management.*
 
@@ -1035,7 +1035,7 @@ tooling, etc. is left to the HOW level.
    The purpose of the Cybersecurity Requirements Elicitation
    Process is to derive cybersecurity goals and requirements
    from the outcomes of risk management, and ensure
-   consistency between the risk assessment, cybersecurity goals and 
+   consistency between the risk assessment, cybersecurity goals and
    cybersecurity requirements.
 
    **Process outcomes**
@@ -1094,7 +1094,7 @@ tooling, etc. is left to the HOW level.
 
       Derive cybersecurity goals for those threat scenarios, where the risk treatment decision
       requires risk reduction. Specify functional and non-functional cybersecurity requirements for the
-      cybersecurity goals, including criteria for the achievement of the cybersecurity goals. 
+      cybersecurity goals, including criteria for the achievement of the cybersecurity goals.
 
    *NOTE 1: This includes the refinement of requirements during iterations of this process.*
 
@@ -1128,7 +1128,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC1_OUT4
 
-      Communicate agreed cybersecurity goals and cybersecurity requirements to all affected parties. 
+      Communicate agreed cybersecurity goals and cybersecurity requirements to all affected parties.
 
    **Output work products**
 
@@ -1292,7 +1292,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC2_OUT1
 
-      The architectural design is refined based on cybersecurity goals and cybersecurity requirements. 
+      The architectural design is refined based on cybersecurity goals and cybersecurity requirements.
 
    *NOTE 1: Refinement could be on system and software level architecture.*
 
@@ -1305,7 +1305,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC2_OUT2
 
-      Allocate the cybersecurity requirements to one or more elements of the architectural design. 
+      Allocate the cybersecurity requirements to one or more elements of the architectural design.
 
    *NOTE 3: Cybersecurity requirements could be on system and software level.*
 
@@ -1316,7 +1316,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC2_OUT3
 
-      Select appropriate cybersecurity controls to achieve or support the cybersecurity requirements. 
+      Select appropriate cybersecurity controls to achieve or support the cybersecurity requirements.
 
    *NOTE 4: Typically, cybersecurity controls are technical or other solutions to avoid, detect,
    counteract or mitigate cybersecurity risks.*
@@ -1329,7 +1329,7 @@ tooling, etc. is left to the HOW level.
       :output: SEC2_OUT1
 
       Refine and describe cybersecurity related interfaces between
-      the elements of the architectural design and operating environment. 
+      the elements of the architectural design and operating environment.
 
    .. stake_req:: SEC.2.BP5: Analyze architectural design.
       :id: SEC2_BP5
@@ -1375,7 +1375,7 @@ tooling, etc. is left to the HOW level.
       :output: SEC2_OUT2, SEC2_OUT7
 
       Establish bidirectional traceability between the refined architectural
-      design and the detailed design. 
+      design and the detailed design.
 
    .. stake_req:: SEC.2.BP9: Ensure consistency.
       :id: SEC2_BP9
@@ -1384,7 +1384,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC2_OUT7
 
-      Ensure consistency between the refined architectural design and the detailed design. 
+      Ensure consistency between the refined architectural design and the detailed design.
 
    .. stake_req:: SEC.2.BP10: Communicate agreed results of cybersecurity implementation.
       :id: SEC2_BP10
@@ -1587,7 +1587,7 @@ tooling, etc. is left to the HOW level.
 
       -  degree of independence for verification for performing these activities, and
 
-      -  verification criteria. 
+      -  verification criteria.
 
    *NOTE 1: The risk treatment verification may provide objective evidence
    that the outputs of a particular phase of the system and software
@@ -1627,7 +1627,7 @@ tooling, etc. is left to the HOW level.
       Develop the specification for risk treatment verification (including test cases)
       according to the risk treatment verification strategy. It shall be suitable to provide evidence of
       compliance of the implementation with the cybersecurity requirements and the
-      refined architectural design and detailed design. 
+      refined architectural design and detailed design.
 
    *NOTE 5: Methods of deriving test cases may include*
 
@@ -1652,7 +1652,7 @@ tooling, etc. is left to the HOW level.
       Test the implementation of the design and component integration according to
       the risk treatment verification specification.
 
-      Record the risk treatment verification results and logs. 
+      Record the risk treatment verification results and logs.
 
    .. stake_req:: SEC.3.BP4: Establish bidirectional traceability.
       :id: SEC3_BP4
@@ -1669,7 +1669,7 @@ tooling, etc. is left to the HOW level.
       design, detailed design, software units and the risk treatment verification specification.
 
       Establish bidirectional traceability between the test cases included in the
-      risk treatment verification specification, and verification results. 
+      risk treatment verification specification, and verification results.
 
    *NOTE 6: Bidirectional traceability supports coverage, consistency, and impact analysis.*
 
@@ -1684,7 +1684,7 @@ tooling, etc. is left to the HOW level.
       specification, including test cases comprised in the risk treatment verification specification.
 
       Ensure consistency between the refined architectural and detailed design and
-      the risk treatment verification specification. 
+      the risk treatment verification specification.
 
    *NOTE 7: Consistency is supported by bidirectional traceability and can be
    demonstrated by review records.*
@@ -1696,7 +1696,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC3_OUT6
 
-      Summarize the risk treatment verification results and communicate them to all affected parties. 
+      Summarize the risk treatment verification results and communicate them to all affected parties.
 
    *NOTE 8: Providing all necessary information from the risk treatment
    verification execution in a summary enables other parties to judge the consequences.*
@@ -1855,7 +1855,7 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC4_OUT1
 
-      Develop and implement a validation strategy. 
+      Develop and implement a validation strategy.
 
    *NOTE 1: Risk treatment validation methods and techniques typically include
    cybersecurity-relevant methods to detect unidentified vulnerabilities (e.g., penetration testing).*
@@ -1873,7 +1873,7 @@ tooling, etc. is left to the HOW level.
       Develop the specification for risk treatment
       validation (including test cases) according to the risk treatment validation
       strategy. It shall be suitable to provide evidence of achievement of the
-      associated cybersecurity goals. 
+      associated cybersecurity goals.
 
    *NOTE 3: Methods of deriving test cases may include*
 
@@ -1892,11 +1892,11 @@ tooling, etc. is left to the HOW level.
       :security_level: not set
       :output: SEC4_OUT2, SEC4_OUT3
 
-      
+
 
       Validate the implemented design and the integrated components according to the
       defined risk treatment validation strategy.
-      The risk treatment validation activities are documented, and the results are recorded. 
+      The risk treatment validation activities are documented, and the results are recorded.
 
    *NOTE 4: See SUP.9 for handling of non-conformances and vulnerabilities.*
 
@@ -1910,7 +1910,7 @@ tooling, etc. is left to the HOW level.
       Establish bidirectional
       traceability between the cybersecurity goals and the risk treatment validation
       specification. Establish bidirectional traceability between the risk treatment
-      validation specification and the validation results. 
+      validation specification and the validation results.
 
    *NOTE 5: Bidirectional traceability supports coverage, consistency and impact analysis.*
 
@@ -1993,7 +1993,7 @@ tooling, etc. is left to the HOW level.
 Annex A Process Assessment and Reference Model Conformity
 ---------------------------------------------------------
 
-A.1 Introduction 
+A.1 Introduction
 ~~~~~~~~~~~~~~~~~
 
 The Automotive SPICE process assessment and reference model meet the requirements for conformity
