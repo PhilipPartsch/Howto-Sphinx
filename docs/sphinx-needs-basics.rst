@@ -100,7 +100,7 @@ NeedPart
 
       :np:`(2) Part 2 of need`.
 
-      :np:`(3) Part 3 of need`.
+      :np:`(3)` Part 3 of need.
 
    .. need:: Specifies part 1
       :id: N_LINK_TO_PART1
@@ -112,7 +112,7 @@ NeedPart
       :tags: needpart_example
       :links: [[links_from_content()]]
 
-      We link to :need:`N_NEED_WITH_PARTS.2`.
+      We link to :need:`N_NEED_WITH_PARTS.2` and :need:`N_NEED_WITH_PARTS.3`.
 
    .. needtable::
       :tags: needpart_example
