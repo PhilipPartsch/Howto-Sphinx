@@ -350,7 +350,7 @@ Documentation: How-to use `Sphinx-Needs Dynamic functions`_.
    .. need:: Test Dynamic Functions 2
       :id: N_DF_2
       :status: [[copy("status", "N_DF_1")]]
-      :links: N_DF_2
+      :links: N_DF_1
 
       Copies status of :need:`N_DF_1` to own status.
 
