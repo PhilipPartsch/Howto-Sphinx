@@ -93,7 +93,7 @@ NeedPart
 .. example:: Need with needpart, linking to parts and filter
 
    .. need:: Test need with need parts
-      :id: N_WITH_PARTS
+      :id: N_NEED_WITH_PARTS
       :tags: needpart_example
 
       :np:`(1) Part 1 of need`.
@@ -105,14 +105,14 @@ NeedPart
    .. need:: Specifies part 1
       :id: N_LINK_TO_PART1
       :tags: needpart_example
-      :links: N_WITH_PARTS.1
+      :links: N_NEED_WITH_PARTS.1
 
    .. need:: Specifies part 2
       :id: N_LINK_TO_PART2
       :tags: needpart_example
       :links: [[links_from_content()]]
 
-      We link :need:`to N_WITH_PARTS.2`.
+      We link to :need:`N_NEED_WITH_PARTS.2`.
 
    .. needtable::
       :tags: needpart_example
