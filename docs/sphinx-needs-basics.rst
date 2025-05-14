@@ -375,7 +375,9 @@ You could set the `layout` even via
 `needs_global_options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>`_.
 
 
-.. _ide_vscode
+.. ide_vscode
+
+   Rework to ubcode
 
    Visual Studio Code Extensions
    *****************************
