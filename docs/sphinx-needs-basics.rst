@@ -307,13 +307,6 @@ You can find detailed description in
 :ref:`How-To model Architecture <architecture-examples>`.
 
 
-Variant Management
-******************
-
-You can find detailed description in
-:ref:`How-To use variant management <variant_management>`.
-
-
 Templating
 **********
 
@@ -344,6 +337,29 @@ An example need which uses such template is :need:`C_DIAGRAMS`.
 Dynamic functions
 *****************
 
+Documentation: How-to use `Sphinx-Needs Dynamic functions`_.
+
+.. example:: How-to use dynamic functions.
+
+   .. need:: Test Dynamic Functions 1
+      :id: N_DF_1
+      :status: open
+
+      This need has id :ndf:`copy("id")` and status :ndf:`copy("status")`.
+
+   .. need:: Test Dynamic Functions 2
+      :id: N_DF_2
+      :status: [[copy("status", "N_DF_1")]]
+      :links: N_DF_2
+
+      Copies status of :need:`N_DF_1` to own status.
+
+   .. need:: Test Dynamic Functions 3
+      :id: N_DF_3
+      :links: N_DF_2, [[copy('links', 'N_DF_2')]]
+
+      Set own link to :need:`N_DF_1` and also copies all links from it.
+
 
 Layouts
 *******
@@ -373,6 +389,13 @@ You can set the default layout like we do in `conf.py`
 
 You could set the `layout` even via
 `needs_global_options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>`_.
+
+
+Variant Management
+******************
+
+You can find detailed description in
+:ref:`How-To use variant management <variant_management>`.
 
 
 .. ide_vscode
@@ -428,5 +451,7 @@ References
 .. _`jinja`: https://jinja.palletsprojects.com
 
 .. _`Sphinx-Needs Templates` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template
+
+.. _`Sphinx-Needs Dynamic functions` : https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#dynamic-functions
 
 .. _`Sphinx-Needs Layouts & Styles` : https://sphinx-needs.readthedocs.io/en/latest/layout_styles.html
