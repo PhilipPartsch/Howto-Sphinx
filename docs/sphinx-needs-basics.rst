@@ -339,6 +339,9 @@ Dynamic functions
 
 Documentation: How-to use `Sphinx-Needs Dynamic functions`_.
 
+You can even define your own dynamic functions in `conf.py` and use them in your needs.
+See `Sphinx-Needs develop-own-functions <https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#develop-own-functions>`_.
+
 .. example:: How-to use dynamic functions.
 
    .. need:: Test Dynamic Functions 1
