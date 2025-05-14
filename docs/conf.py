@@ -510,3 +510,15 @@ def setup(app):
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
+
+
+# Fix for Bug https://github.com/useblocks/sphinx-needs/issues/1420
+
+from sphinx_needs.data import NeedsCoreFields
+patched_options = [
+    ('template', 'str'), ('pre_template', 'str'), ('post_template', 'str'),
+    ('type_color', 'str'), ('type_style', 'str'),
+]
+
+for po_name, po_type in patched_options:
+    NeedsCoreFields[po_name]["allow_default"] = po_type
