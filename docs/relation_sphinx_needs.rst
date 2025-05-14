@@ -69,6 +69,31 @@ Advantages: Enhance Sphinx to support object like elements with attributes, link
       {{need().id}}  -> E_SPHINX : extends
 
 
+How-to use Sphinx and Sphinx-Needs
+**********************************
+
+You call ``sphinx-build`` with ``input`` and ``output`` folder.
+All CLI parameters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+
+In the ``input`` folder Sphinx expects a ``index.rst`` file and normally a ``conf.py`` file for the configuration.
+You can change the path to the configuration even with a ``sphinx-build`` parameter ``-c``.
+
+Other useful parameter are:
+
+- ``-v``, --verbose
+- ``-W``, --fail-on-warning
+- ``-E``, --fresh-env #discard previous build results
+- ``-a``, --write-all #If given, always write all output files
+
+
+How it is been used with in this repo, you can see here:
+
+.. literalinclude:: ../.gitlab-ci.yml
+   :language: yaml
+   :emphasize-lines: 43
+   :linenos:
+
+
 Definition of a Directive
 *************************
 
@@ -157,27 +182,3 @@ Here we use the ``math`` role to explain how it looks like.
      :linenos:
 
      :math:`(a + b)`
-
-
-How-to use Sphinx and Sphinx-Needs
-**********************************
-
-You call ``sphinx-build`` with ``input`` and ``output`` folder.
-All CLI parameters can be found here: https://www.sphinx-doc.org/en/master/man/sphinx-build.html
-
-In the ``input`` folder Sphinx expects a ``index.rst`` file and normally a ``conf.py`` file for the configuration.
-You can change the path to the configuration even with a ``sphinx-build`` parameter ``-c``.
-
-Other useful parameter are:
-
-- ``-v``, --verbose
-- ``-W``, --fail-on-warning
-- ``-E``, --fresh-env #discard previous build results
-
-
-How it is been used with in this repo, you can see here:
-
-.. literalinclude:: ../.gitlab-ci.yml
-   :language: yaml
-   :emphasize-lines: 43
-   :linenos:

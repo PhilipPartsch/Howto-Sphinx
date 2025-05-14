@@ -4,8 +4,6 @@
 How-To model Architecture with Sphinx-Needs
 ###########################################
 
-.. contents:: table of contents
-
 
 Structure Model: Deployment-Diagram
 ***********************************
