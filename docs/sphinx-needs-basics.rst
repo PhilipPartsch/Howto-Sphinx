@@ -317,11 +317,38 @@ You can find detailed description in
 Templating
 **********
 
-Todo
+With templates you can template the content for needs.
+It is even possible to add text before and after a need.
+Documentation: the documentation is part of needs docu under How-to use `Sphinx-Needs Templates`_.
+
+We use it here finally in `conf.py`:
+
+.. literalinclude:: /metamodel.py
+   :caption: How-to assign the templates to needs via global options
+   :language: py
+   :lineno-match:
+   :start-at: needs_global_options = {
+   :end-at: }
+
+The templates are defined available in `/needs_templates` e.g. `arch_template.need`
+used in `docname == "architecture-examples"`:
+
+.. literalinclude:: /needs_templates/arch_template.need
+   :caption: How-to assign the templates to needs via global options
+   :language: rst
+   :lineno-match:
+
+An example need which uses such template is :need:`C_DIAGRAMS`.
+
+
+Dynamic functions
+*****************
 
 
 Layouts
 *******
+
+Documentation: with an dedicated chapter under How-to use `Sphinx-Needs Layouts & Styles`_.
 
 You can define your own layouts finally in `conf.py` with `needs_layouts` and
 use them for your needs:
@@ -344,19 +371,19 @@ You can set the default layout like we do in `conf.py`
    :start-at: needs_default_layout =
    :end-at: needs_default_layout =
 
-You could set the `layout`` even via
+You could set the `layout` even via
 `needs_global_options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>`_.
 
 
-.. _ide_vscode:
+.. _ide_vscode
 
-Visual Studio Code Extensions
-*****************************
+   Visual Studio Code Extensions
+   *****************************
 
-VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
-provides support for Sphinx-Needs. See more details in the `Documentation <https://sphinx-needs-vscode.useblocks.com/>`_.
+   VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
+   provides support for Sphinx-Needs. See more details in the `Documentation <https://sphinx-needs-vscode.useblocks.com/>`_.
 
-VsCode extension for `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_.
+   VsCode extension for `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_.
 
 
 References
@@ -397,3 +424,7 @@ References
 .. _`plantuml` : https://plantuml.com
 
 .. _`jinja`: https://jinja.palletsprojects.com
+
+.. _`Sphinx-Needs Templates` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template
+
+.. _`Sphinx-Needs Layouts & Styles` : https://sphinx-needs.readthedocs.io/en/latest/layout_styles.html
