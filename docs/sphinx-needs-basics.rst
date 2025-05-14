@@ -86,10 +86,38 @@ Embedded a Need in a Need
 
       Here is some text after the embedded need. You could even write any other rst text.
 
+
+NeedPart
+========
+
+Todo:
+
+
+External Projects
+*****************
+
+We have add an external project already here:
+
+.. literalinclude:: conf.py
+   :caption: How-to add a external project
+   :language: py
+   :lineno-match:
+   :start-at: needs_external_needs = [
+   :end-at: ]
+
+Needs are imported from the project, marked as `external`, and can be used as created
+in this project. You can find filters, which use the imported needs in all following
+reports.
+
+
 Filter
 ******
 
 Documentation: How-to use `Sphinx-Needs Filters`_.
+
+We use these filters in different exampls within this document in the following
+reports.
+
 
 NeedPie
 *******
@@ -159,6 +187,7 @@ Needflow expects to get `plantuml deployment-diagram`_ elements as representatio
       :debug:
       :scale: 30
 
+
 Structured Sphinx-Needs reports in tables
 *****************************************
 
@@ -206,6 +235,7 @@ You can do this with e.g. a `list-table` to structure the visiual representation
                 :show_filters:
                 :scale: 30
 
+
 NeedUML
 *******
 
@@ -246,9 +276,23 @@ You can find detailed description in
 :ref:`How-To use variant management <variant_management>`.
 
 
+Templating
+**********
+
+Todo
+
+
+Design
+******
+
+Todo
+
+
+
+
 .. _ide_vscode:
 
-Visula Studio Code Extensions
+Visual Studio Code Extensions
 *****************************
 
 VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_

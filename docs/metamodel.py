@@ -412,11 +412,11 @@ needs_string_links = {
 }
 
 needs_external_needs = [
-  {
-    'base_url': 'https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io',
-    'json_url':  'https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io/needs.json',
-    'css_class': 'external_link',
-  },
+    {
+        'base_url': 'https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io',
+        'json_url':  'https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io/needs.json',
+        'css_class': 'external_link',
+    },
 ]
 
 needs_diagram_template = """{%- if is_need and ( type == 'inport' or type == 'outport') -%}
