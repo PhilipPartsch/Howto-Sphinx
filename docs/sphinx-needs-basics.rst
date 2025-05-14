@@ -90,7 +90,36 @@ Embedded a Need in a Need
 NeedPart
 ========
 
-Todo:
+.. example:: Need with needpart, linking to parts and filter
+
+   .. need:: Test need with need parts
+      :id: N_WITH_PARTS
+      :tags: needpart_example
+
+      :np:`(1) Part 1 of need`.
+
+      :np:`(2) Part 2 of need`.
+
+      :np:`(3) Part 3 of need`.
+
+   .. need:: Specifies part 1
+      :id: N_LINK_TO_PART1
+      :tags: needpart_example
+      :links: N_WITH_PARTS.1
+
+   .. need:: Specifies part 2
+      :id: N_LINK_TO_PART2
+      :tags: needpart_example
+      :links: [[links_from_content()]]
+
+      We link :need:`to N_WITH_PARTS.2`.
+
+   .. needtable::
+      :tags: needpart_example
+      :filter: is_need
+      :show_parts:
+      :columns: id;title;outgoing;incoming
+      :style: table
 
 
 External Projects
