@@ -100,7 +100,7 @@ NeedPart
 
       :np:`(2) Part 2 of need`.
 
-      :np:`(3)` Part 3 of need.
+      Part :np:`(3)` of need.
 
    .. need:: Specifies part 1
       :id: N_LINK_TO_PART1
