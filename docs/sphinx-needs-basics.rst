@@ -320,12 +320,30 @@ Templating
 Todo
 
 
-Design
-******
+Layouts
+*******
 
-Todo
+You can define your own layouts finally in `conf.py` with `needs_layouts` and
+use them for your needs:
 
+.. literalinclude:: /metamodel.py
+   :caption: How-to define the layouts
+   :language: py
+   :lineno-match:
+   :start-at: needs_layouts = {
+   :end-at: }
 
+You can set the default layout like we do in `conf.py`
+
+.. literalinclude:: /conf.py
+   :caption: How-to set default layout of a need
+   :language: py
+   :lineno-match:
+   :start-at: needs_default_layout =
+   :end-at: needs_default_layout =
+
+You could set the `layout`` even via
+:ref:`Sphinx-Needs Options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>``
 
 
 .. _ide_vscode:

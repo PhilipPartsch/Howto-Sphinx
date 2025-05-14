@@ -260,23 +260,11 @@ needs_layouts = {
                 'collapsed="icon:arrow-down-circle", visible="icon:arrow-right-circle", initial=False)>>   '
                 '<<link(url="github_edit_url", image_url="icon:edit", image_height="17", image_width="17", is_dynamic=True)>>'
             ],
-            #image_height=17,
             "meta": [
                 '<<meta_all(no_links=True, exclude=["layout", "post_template", "style", "delete", "jinja_content", "github_edit_url"])>>',
                 '<<meta_links_all()>>'
             ],
         },
-    },
-    'stakeholder_requirement': {
-        'grid': 'simple_side_right_partial',
-        'layout': {
-            'head': [
-                '<<meta("type_name")>>: **<<meta("title")>>** <<meta_id()>>  <<collapse_button("meta", '
-                'collapsed="icon:arrow-down-circle", visible="icon:arrow-right-circle", initial=False)>> '
-            ],
-            'meta': ['<<meta_all(no_links=True, exclude=["layout",])>>', '<<meta_links_all()>>'],
-            'side': ['<<image("https://avatars.githubusercontent.com/{{author}}", align="center", is_external=True)>>',],
-        }
     },
 }
 
