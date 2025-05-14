@@ -333,6 +333,8 @@ use them for your needs:
    :start-at: needs_layouts = {
    :end-at: }
 
+It is been used here, to get the edit button on all needs.
+
 You can set the default layout like we do in `conf.py`
 
 .. literalinclude:: /conf.py
@@ -343,7 +345,7 @@ You can set the default layout like we do in `conf.py`
    :end-at: needs_default_layout =
 
 You could set the `layout`` even via
-:ref:`Sphinx-Needs Options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>``
+`needs_global_options <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#global-option-filters>`_.
 
 
 .. _ide_vscode:
