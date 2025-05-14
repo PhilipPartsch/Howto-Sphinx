@@ -452,6 +452,6 @@ References
 
 .. _`Sphinx-Needs Templates` : https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template
 
-.. _`Sphinx-Needs Dynamic functions` : https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#dynamic-functions
+.. _`Sphinx-Needs Dynamic functions` : https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html
 
 .. _`Sphinx-Needs Layouts & Styles` : https://sphinx-needs.readthedocs.io/en/latest/layout_styles.html
