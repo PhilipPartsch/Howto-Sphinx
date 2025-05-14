@@ -101,7 +101,7 @@ needs_external_needs
 
 We have add an external project already here:
 
-.. literalinclude:: conf.py
+.. literalinclude:: /metamodel.py
    :caption: How-to add a external project
    :language: py
    :lineno-match:
