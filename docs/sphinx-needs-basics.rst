@@ -96,6 +96,9 @@ Todo:
 External Projects
 *****************
 
+needs_external_needs
+====================
+
 We have add an external project already here:
 
 .. literalinclude:: conf.py
@@ -108,6 +111,12 @@ We have add an external project already here:
 Needs are imported from the project, marked as `external`, and can be used as created
 in this project. You can find filters, which use the imported needs in all following
 reports.
+
+needimport
+==========
+
+An example of the usage of needimport can be found under
+:ref:`Sphinx-Needs: Import Needs <sphinx_import_needs>`.
 
 
 Filter

@@ -1,8 +1,8 @@
 .. _sphinx_import_needs:
 
-#########################
-Sphinx-Needs Import Needs
-#########################
+##########################
+Sphinx-Needs: Import Needs
+##########################
 
 
 Import a Need with `needimport`
