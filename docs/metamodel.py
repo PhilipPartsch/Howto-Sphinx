@@ -361,16 +361,10 @@ def fetch_elements(app, need, needs, *args, **kwargs):
 needs_functions = [check_verified, fetch_elements]
 
 needs_global_options = {
-    'test_status': [
-        ('[[check_verified()]]', 'type=="sw_req"'),
-    ],
-    'post_template': [
-        ('evaluation_post_template', 'type=="evaluation"'),
-    ],
-    'template': [
-        ('arch_template', 'type=="comp" and docname == "architecture-examples"'),
-    ],
-    'github_edit_url': '[[get_githoster_edit_url_for_need("id")]]',
+    'test_status': {'predicates': [('type=="sw_req"', '[[check_verified()]]')]},
+    'post_template': {'predicates': [('type=="evaluation"', 'evaluation_post_template')]},
+    'template': {'predicates': [('type=="comp" and docname == "architecture-examples"', 'arch_template')]},
+    'github_edit_url': {'default': '[[get_githoster_edit_url_for_need("id")]]'}
 }
 
 needs_render_context = {
