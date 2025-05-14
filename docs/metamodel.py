@@ -97,6 +97,15 @@ needs_services = {}
 needs_extra_links = [
    #Used to indicate a generic description is been specialized
    {
+      "option": "links",
+      "incoming": "links incoming",
+      "outgoing": "links outgoing",
+      "style": "#000000",
+      "style_start": "-",
+      "style_end": "-",
+   },
+   #Used to indicate a generic description is been specialized
+   {
       "option": "derived",
       "incoming": "Detailed in",
       "outgoing": "Derived from",
