@@ -110,7 +110,7 @@ NeedPart
    .. need:: Need links to part 2 and 3
       :id: N_LINK_TO_PART2
       :tags: needpart_example
-      :links: [[links_from_content()]]
+      :links: N_NEED_WITH_PARTS.2, N_NEED_WITH_PARTS.3
 
       We link to :need:`N_NEED_WITH_PARTS.2` and :need:`N_NEED_WITH_PARTS.3`.
 

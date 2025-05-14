@@ -95,7 +95,7 @@ needs_extra_options = [
 needs_services = {}
 
 needs_extra_links = [
-   #Used to indicate a generic description is been specialized
+   # generic links
    {
       "option": "links",
       "incoming": "links incoming",
