@@ -1,3 +1,5 @@
+.. _variant_management:
+
 ##################
 Variant Management
 ##################

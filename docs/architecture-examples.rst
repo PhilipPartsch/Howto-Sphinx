@@ -1,3 +1,5 @@
+.. _architecture-examples:
+
 ###########################################
 How-To model Architecture with Sphinx-Needs
 ###########################################

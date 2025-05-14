@@ -156,7 +156,7 @@ Needflow expects to get `plantuml deployment-diagram`_ elements as representatio
    .. needflow:: Requirement Linkage
       :filter: is_external == True and (type=='stake_req' or type=='sw_req')
       :show_link_names:
-      :show_filters:
+      :debug:
       :scale: 30
 
 Structured Sphinx-Needs reports in tables
@@ -235,20 +235,15 @@ Documentation: How-to use `Sphinx-Needs NeedArch`_.
 The code been expected and generated is for `plantuml`_ and
 you can use `jinja`_ to template your planuml code.
 
-.. Variants
-   ********
+You can find detailed description in
+:ref:`How-To model Architecture <architecture-examples>`.
 
-   Currently out-of-scope
 
-   Only directive
-   ==============
+Variant Management
+******************
 
-   Currently out-of-scope
-
-   Build in Variants
-   =================
-
-   Currently out-of-scope
+You can find detailed description in
+:ref:`How-To use variant management <variant_management>`.
 
 
 .. _ide_vscode:
