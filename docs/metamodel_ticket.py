@@ -8,6 +8,10 @@ def check_need_back_linked(app, need, needs, *args, **kwargs):
     :return: str,int,float or list of elements of type str,int,float
     """
 
+    print('kwargs: ', kwargs)
+    print('need: ', need)
+    print('needs: ', needs)
+
     needs_dict = {}
     for n in needs:
         id = n['id_complete']
