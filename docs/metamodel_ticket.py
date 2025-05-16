@@ -26,9 +26,11 @@ def check_need_linked(app, need, needs, *args, **kwargs):
 
     result: bool = False
 
+    print('kwargs: ', kwargs)
+    print('args: ', args)
+
     if len(kwargs) > 0:
-        print('kwargs: ', kwargs)
-        print('need: ', need)
+        pass
     else:
         for k, v in needs.items():
             for link in needs_config_extra_links:
