@@ -1,6 +1,13 @@
+from sphinx_needs.config import NeedsSphinxConfig
+
+def check_if_need_is_in_link(need, link):
+    need_id = need['id']
+    need_id_complete = need['id_complete']
+
+    return need_id in link or need_id_complete in link
 
 
-def check_need_back_linked(app, need, needs, *args, **kwargs):
+def check_need_linked(app, need, needs, *args, **kwargs):
     """
     :param app: sphinx app
     :param need: current need
@@ -8,25 +15,40 @@ def check_need_back_linked(app, need, needs, *args, **kwargs):
     :return: str,int,float or list of elements of type str,int,float
     """
 
-    print('kwargs: ', kwargs)
-    print('need: ', need)
-    print('needs: ', needs)
+    # todo:
+    # check linked:
+    # - need
+    # - need part
+    # - need variant
 
-    needs_dict = {}
-    for n in needs:
-        id = n['id_complete']
-        needs_dict[id] = n
+    needs_config = NeedsSphinxConfig(app.config)
+    needs_config_extra_links = needs_config.extra_links
+
+    result: bool = False
 
     if len(kwargs) > 0:
         print('kwargs: ', kwargs)
         print('need: ', need)
     else:
-        print('kwargs: ', kwargs)
-        print('need: ', need)
+        for k, v in needs.items():
+            for link in needs_config_extra_links:
+                result = check_if_need_is_in_link(need, v[link])
+                if result:
+                    break
+            if result:
+                break
 
+    return result
+
+def if_set_else_set(app, need, needs, *args, **kwargs):
+    print('kwargs: ', kwargs)
+    print('need: ', need)
+
+    return ''
 
 
 
 needs_functions = [
-    check_need_back_linked,
+    check_need_linked,
+    if_set_else_set,
 ]
