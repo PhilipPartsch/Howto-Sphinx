@@ -41,6 +41,7 @@ Here is an implmentation of the feature.
 
 It is not covering the needs_global_options, but to do so, is straight forward.
 So I focused to set it manually in the following needs.
+
 .. example::
 
    .. need:: need red if linked
