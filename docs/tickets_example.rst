@@ -54,3 +54,7 @@ So I focused to set it manually in the following needs.
       :id: N_LINK_TO_RED_NEED
       :links: N_NEED_RED_IF_LINKED
 
+   .. need:: need not linked
+      :id: N_NEED_NOT_LINKED
+      :tags: [[check_need_linked()]]
+      :status: [[check_need_linked('links', 'satisfies')]]

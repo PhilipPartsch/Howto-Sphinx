@@ -29,8 +29,15 @@ def check_need_linked(app, need, needs, *args, **kwargs):
     print('kwargs: ', kwargs)
     print('args: ', args)
 
-    if len(kwargs) > 0:
-        pass
+    if len(args) > 0:
+        for k, v in needs.items():
+            for link in needs_config_extra_links:
+                if link['option'] in args:
+                    result = check_if_need_is_in_link(need, link = v[link['option']])
+                    if result:
+                        break
+            if result:
+                break
     else:
         for k, v in needs.items():
             for link in needs_config_extra_links:
