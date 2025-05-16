@@ -9,9 +9,9 @@ def check_need_back_linked(app, need, needs, *args, **kwargs):
     """
 
     needs_dict = {}
-    for need in needs:
-        id = need['id_complete']
-        needs_dict[id] = need
+    for n in needs:
+        id = n['id_complete']
+        needs_dict[id] = n
 
     if len(kwargs) > 0:
         print('kwargs: ', kwargs)

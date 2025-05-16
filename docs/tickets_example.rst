@@ -37,9 +37,9 @@ Any ideas or suggestions how to realize this?
 
 **Answer:**
 
-Here is an implmentation of the feature.
+Here is an implementation of the feature.
 
-It is not covering the needs_global_options, but to do so, is straight forward.
+It is not covering the `needs_global_options`, but to do so, is straight forward.
 So I focused to set it manually in the following needs.
 
 .. example::
