@@ -38,6 +38,9 @@ def check_need_linked(app, need, needs, *args, **kwargs):
             if result:
                 break
 
+    del needs_config_extra_links
+    del needs_config
+
     return result
 
 def if_set_else_set(app, need, needs, *args, **kwargs):
