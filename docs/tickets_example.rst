@@ -48,7 +48,7 @@ So I focused to set it manually in the following needs.
       :id: N_NEED_RED_IF_LINKED
       :style: red_bar
       :tags: [[check_need_linked()]]
-      :tags: [[check_need_linked('links')]]
+      :status: [[check_need_linked('links')]]
 
    .. need:: link to need
       :id: N_LINK_TO_RED_NEED
