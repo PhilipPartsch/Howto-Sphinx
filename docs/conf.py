@@ -23,6 +23,7 @@ from sphinx_needs.api import add_dynamic_function
 
 sys.path.append(os.path.abspath('.'))
 import metamodel
+import metamodel_ticket
 
 sys.path.append(os.path.abspath('scripts'))
 
@@ -497,6 +498,11 @@ def setup(app):
 
     for func in metamodel.needs_functions:
         add_dynamic_function(app, func)
+
+    # add dynamic function for metamodel_ticket start
+    for func in metamodel_ticket.needs_functions:
+        add_dynamic_function(app, func)
+    # add dynamic function for metamodel_ticket end
 
     #print('config to call process_codeoption')
     #app.connect("doctree-resolved", process_codeoption)

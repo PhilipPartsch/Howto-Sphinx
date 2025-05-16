@@ -17,6 +17,7 @@
    architecture-examples
    import_needs
    variant_management
+   tickets_example
 
 Indices and tables
 ******************
