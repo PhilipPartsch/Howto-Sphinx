@@ -32,14 +32,11 @@ def check_need_linked(app, need, needs, *args, **kwargs):
     else:
         for k, v in needs.items():
             for link in needs_config_extra_links:
-                result = check_if_need_is_in_link(need, v[link])
+                result = check_if_need_is_in_link(need, link = v[link['option']])
                 if result:
                     break
             if result:
                 break
-
-    del needs_config_extra_links
-    del needs_config
 
     return result
 
