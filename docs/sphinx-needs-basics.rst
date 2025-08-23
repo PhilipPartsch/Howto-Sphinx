@@ -125,10 +125,17 @@ NeedPart
 External Projects
 *****************
 
+To reuse needs from another project, you can use the following possiblities to readin
+needs from another project.
+
 needs_external_needs
 ====================
 
-We have add an external project already here:
+With `needs_external_needs` you can import the `needs.json` from another project.
+The needs are avaialbe in the memory of the current sphinx-nneds build,
+but all links jump to another web-project / web-server.
+
+We have add an external project already referenced within this documentation:
 
 .. literalinclude:: /metamodel.py
    :caption: How-to add a external project
@@ -137,13 +144,14 @@ We have add an external project already here:
    :start-at: needs_external_needs = [
    :end-at: ]
 
-Needs are imported from the project, marked as `external`, and can be used as created
-in this project. You can find filters, which use the imported needs in all following
-reports.
+Needs are read from the other project, marked as `external`, and can be used as they
+would be created within this project. You can find filters, which use the imported
+needs in all following reports.
 
 needimport
 ==========
 
+Yo can even import the needs from another project, but the needs are rendered within your project.
 An example of the usage of needimport can be found under
 :ref:`Sphinx-Needs: Import Needs <sphinx_import_needs>`.
 
