@@ -25,6 +25,15 @@ References to useful pages
 - https://myst-parser.readthedocs.io
 
 
+**************
+Name your file
+**************
+
+We define our filenames only with lowercase alphanumeric characters (a-z, 0-9) and ``-`` (minus) symbol.
+
+We use the ``.rst`` extension to indicate we defining a reStructuredText file.
+
+
 ********************************
 Add a file to your documentation
 ********************************
@@ -62,15 +71,6 @@ With `.. contents::` it is possible to create a "table of contents" for the curr
 This will be printed like:
 
 .. contents:: table of contents
-
-
-*********
-Filenames
-*********
-
-We define our filenames only with lowercase alphanumeric characters (a-z, 0-9) and ``-`` (minus) symbol.
-
-We use the ``.rst`` extension to indicate we defining a reStructuredText file.
 
 
 .. _reSTxt_style_guide_ReguTxt:
