@@ -15,7 +15,6 @@
    how-to-write-rst
    sphinx-needs-basics
    architecture-examples
-   import_needs
    variant_management
    tickets_example
 

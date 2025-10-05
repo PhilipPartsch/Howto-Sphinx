@@ -1,8 +1,8 @@
 .. _architecture-examples:
 
-###########################################
-How-To model Architecture with Sphinx-Needs
-###########################################
+##########################################
+Architecture with Sphinx-Needs for Experts
+##########################################
 
 
 Structure Model: Deployment-Diagram
