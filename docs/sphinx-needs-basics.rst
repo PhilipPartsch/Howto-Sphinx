@@ -404,6 +404,15 @@ See `Sphinx-Needs develop-own-functions <https://sphinx-needs.readthedocs.io/en/
 
 .. example:: How-to use dynamic functions.
 
+   .. need:: Test Dynamic Functions 0
+      :id: N_DF_0
+      :status: open
+      :links: [[links_from_content()]]
+
+      Uses dynamic function ``links_from_content()`` to fetch all links mentioned in the content.
+      e.g. :need:`N_DF_1` and :need:`N_DF_3` are now part of the linked elements.
+
+
    .. need:: Test Dynamic Functions 1
       :id: N_DF_1
       :status: open
