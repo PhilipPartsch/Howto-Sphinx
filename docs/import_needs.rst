@@ -13,7 +13,7 @@ Documentation: How-to import needs with
 
 .. example:: How-to import a Need.
 
-   .. needimport:: example_needs9.json
+   .. needimport:: example_needs.json
       :id_prefix: imp_
       :tags: imported
       :template: extend_template
