@@ -9,4 +9,4 @@ docname
 ifconfig
 linenos
 toctree
-unicode
+[uU]nicode

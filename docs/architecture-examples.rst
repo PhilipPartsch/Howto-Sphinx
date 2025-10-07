@@ -13,11 +13,11 @@ Sphinx-Needs offers a build in representation of elements with `needflow`_,
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`_
 to change representation in needflow.
-You can use `needs-render-context`_ to extend the data available in needarch and needuml.
+You can use `needs-render-context`_ to extend the data available in `needarch`_ and `needuml`_.
 
-Needflow expects to get `plantuml deployment-diagram`_ elements as representation.
+NeedFlow expects to get `plantuml deployment-diagram`_ elements as representation.
 With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`_
-you can get this representation even in needarch and needuml.
+you can get this representation even in `needarch`_ and `needuml`_.
 
 
 Visual representation of UML Ports in Sphinx-Needs
@@ -242,7 +242,7 @@ Configuration
 =============
 
 Here we use monkey patching to get in functions in class `JinjaFunctions`
-from sphinx-needs. Currently used functions:
+from Sphinx-Needs. Currently used functions:
 
 - sequence
 - sequence2
@@ -375,7 +375,7 @@ so we can reference to these.
          With explicit link text:
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
-         With link text from needpart id:
+         With link text from need_part id:
          {{ref(need().id + '.Deployment', option="id")}} Diagram
          {{ref(need().id + '.Sequence', option="id")}} Diagram
          ]
@@ -428,7 +428,7 @@ Template needarch to needs
 **************************
 
 It is possible to use `needarch`_ and `needuml`_ in Sphinx-Needs `template`_.
-You can set the template explicite in the need element itself or over `needs_global_options`_.
+You can set the template explicit in the need element itself or over `needs_global_options`_.
 
 Within this file we currently set generic views on needs elements of type comp.
 This is been done with a `needs_global_options`_ configuration within `metamodel.py`.

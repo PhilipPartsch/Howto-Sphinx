@@ -51,8 +51,8 @@ You can find a Example with all classical ASPICE artifacts in this open source r
 
 - GitLab
    - Repository: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code
-   - Gitlab Pipeline: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/pipelines
-   - Gitlab Pipeline Script: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/blob/main/.gitlab-ci.yml
+   - GitLab Pipeline: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/pipelines
+   - GitLab Pipeline Script: https://gitlab.com/PhilipPartsch/reconf2023-product-as-code/-/blob/main/.gitlab-ci.yml
    - GitLab hosted documentation: https://reconf2023-product-as-code-philippartsch-a4d4571b1b7e4136d3bdb6.gitlab.io
 
 
