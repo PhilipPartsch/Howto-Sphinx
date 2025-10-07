@@ -340,14 +340,13 @@ NeedUML
 Documentation: How-to use `Sphinx-Needs NeedUML`_.
 The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch debug option`_.
 The code been expected and generated is for `plantuml`_.
-You can use `needs-render-context` to extend the data available in needarch and needuml.
+You can use ``needs-render-context`` to extend the data available in needarch and needuml.
 
 .. example:: How-to use a NeedUML.
 
    .. needuml::
-      :debug:
 
-      {{flow("M_MERGE_DICTS")}}
+      {{uml("M_MERGE_DICTS", "class")}}
 
       note right of [M_MERGE_DICTS]
          We use M_MERGE_DICTS to
@@ -364,7 +363,18 @@ The code been expected and generated is for `plantuml`_ and
 you can use `jinja`_ to template your planuml code.
 
 You can find detailed description in
-:ref:`How-To model Architecture <architecture-examples>`.
+:ref:`Architecture Expert Guide <architecture-examples>`.
+
+.. example:: How-to use a NeedUML.
+
+   .. arch_module:: Our own script
+      :id: M_OWN_SCRIPT
+
+      .. needarch::
+
+         {{flow(need().id)}}
+         {{uml("M_MERGE_DICTS", "class")}}
+         {{need().id}} -> {{needs["M_MERGE_DICTS"].implements[0]}}
 
 
 Templating
