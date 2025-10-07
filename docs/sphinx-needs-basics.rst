@@ -345,7 +345,6 @@ You can use ``needs-render-context`` to extend the data available in needarch an
 .. example:: How-to use a NeedUML.
 
    .. needuml::
-      :debug:
 
       {{uml("M_MERGE_DICTS", "class")}}
 
@@ -371,14 +370,13 @@ You can find detailed description in
       :id: M_OWN_SCRIPT
 
       .. needarch::
-         :debug:
 
          'example how to use information from the current need
          {{flow(need().id)}}
          'add diagram information from another source
          {{uml("M_MERGE_DICTS", "class")}}
          'link elements
-         '{{need().id}} -> {{needs["M_MERGE_DICTS"].implements[0]}}
+         {{need().id}} -> {{needs["M_MERGE_DICTS"].implements[0]}}
 
 
 Templating
