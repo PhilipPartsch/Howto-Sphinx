@@ -612,7 +612,7 @@ It is even possible to link directly to an external website:
 
 ..  example:: direct external links
 
-    - https://www.sphinx-needs.com
+    - https://www.Sphinx-Needs.com
     - See the `Sphinx-Needs page <https://www.sphinx-needs.com>`_ for info.
     - This `link <Sphinx-Needs page_>`_ is an alias to the link above.
     - For anonymous links you have to use double underscore ``__``:

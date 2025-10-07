@@ -1,4 +1,4 @@
-Sphinx-Needs|sphinx_needs|www.sphinx-needs.com
+Sphinx-Needs|sphinx_needs
 [uU]seblocks
 ubCode
 ubTrace
