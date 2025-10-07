@@ -31,7 +31,7 @@ Another idea was to use dynamic functions,
 but the incoming links are not available as written in the documentation:
 https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#incoming-links
 
-I have imported system requirements and I would like to see very fast,
+I have imported system requirements and I would like to see fast,
 which requirement is already linked by a color bar.
 Any ideas or suggestions how to realize this?
 
