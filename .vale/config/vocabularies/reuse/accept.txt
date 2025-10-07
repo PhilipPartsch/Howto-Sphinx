@@ -1,6 +1,4 @@
-pypi
-Sphinx-Ifelse
-sphinx-ifelse
+Sphinx-Ifelse|sphinx-ifelse
 ifelse
 elif
 Cybersecurity
