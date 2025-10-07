@@ -125,8 +125,7 @@ NeedPart
 External Projects
 *****************
 
-To reuse needs from another project, you can use the following possibilities to read in
-needs from another project.
+To reuse needs from another project, you can use the following possibilities:
 
 needs_external_needs
 ====================
@@ -151,7 +150,8 @@ needs in all following reports.
 needimport
 ==========
 
-You can even import the needs from another project, but the needs are rendered within your project.
+You can even import the needs with ``needimport``from another project,
+but the needs are rendered within your project.
 
 Documentation: How-to import needs with
 `needimport <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html>`_.
@@ -183,8 +183,8 @@ You can find the documentation of dynamic functions and the copy function especi
 `dynamic functions <https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#copy>`_.
 
 
-How-to change a need with `needextend`
-***********************************************
+How-to change a need with ``needextend``
+****************************************
 
 Documentation: How-to extend needs with
 `needextend <https://sphinx-needs.readthedocs.io/en/latest/directives/needextend.html>`_.
@@ -204,7 +204,7 @@ Challenges
 ==========
 
 The issue with `needextend` is, how to ensure the final output is correct.
-Here it is often necessary to protect attributes for changes for `needextend` via `needs_warnings`.
+Here it is often necessary to protect attributes for changes with `needextend` via `needs_warnings`.
 See `Monitoring modifications <https://sphinx-needs.readthedocs.io/en/latest/directives/needextend.html#monitoring-modifications>`_.
 
 
