@@ -718,7 +718,7 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
 Notes, warnings and tips
 ************************
 
-We use sphinx build possibility to indicate notes and warnings to user of the documentation.
+We use Sphinx build-in possibility to indicate notes and warnings to user of the documentation.
 Please keep in mind, that we only use notes and warnings for really important things.
 For more details please see `How to use admonitions`_.
 
