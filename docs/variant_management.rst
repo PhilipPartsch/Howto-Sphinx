@@ -284,6 +284,10 @@ In the Sphinx-Needs documentation, you can find a wonderfull documentation
       :start-after: # sphinx-needs variants start
       :end-before: # sphinx-needs variants end
 
+   In this example, we do set two variants to True, ``var_MacOS`` and ``var_Linux``.
+   We do want to show how the evaluation of the expression depends ont the ordering of the
+   statements inside the expression.
+
 3. Use it in your rst files:
 
    .. example:: Sphinx-Needs: Attribute Variants
@@ -292,12 +296,16 @@ In the Sphinx-Needs documentation, you can find a wonderfull documentation
          :id: N_EXAMPLE_VARIANTS
          :status: var_MacOS:MacOS, var_Linux:Linux,not set
          :test_status: var_MacOS:set with variant,not set
-         :satisfies: var_MacOS:N_EXAMPLE_VARIANTS_ORDERING
+         :satisfies: var_MacOS:N_EXAMPLE_VARIANTS_ORDERING,N_EXAMPLE_VARIANTS_LINK
 
       .. need:: A need with variants (with different ordering)
          :id: N_EXAMPLE_VARIANTS_ORDERING
          :status: var_Linux:Linux, var_MacOS:MacOS,not set
          :test_status: [tag_Linux]:set with sphinx-tag,not set
+
+      .. need:: A need as an link target
+         :id: N_EXAMPLE_VARIANTS_LINK
+         :status: var_Windows:Windows,not set
 
    .. warning::
 
