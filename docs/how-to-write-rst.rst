@@ -613,10 +613,10 @@ It is even possible to link directly to an external website:
 ..  example:: direct external links
 
     - https://www.Sphinx-Needs.com
-    - See the `Sphinx-Needs page <https://www.sphinx-needs.com>`_ for info.
+    - See the `Sphinx-Needs page <https://www.Sphinx-Needs.com>`_ for info.
     - This `link <Sphinx-Needs page_>`_ is an alias to the link above.
     - For anonymous links you have to use double underscore ``__``:
-      `Sphinx-Needs page <https://sphinx-needs.readthedocs.io>`__
+      `Sphinx-Needs page <https://Sphinx-Needs.readthedocs.io>`__
 
 
 .. _reSTxt_style_guide_download_file:
