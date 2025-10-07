@@ -173,10 +173,10 @@ In the template `extend_template` we access to the reject reason:
    :language: jinja
    :linenos:
 
-You can find the Documentation of the option `template` for `needimport` in
+You can find the documentation of the option `template` for `needimport` in
 `needimport customization <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html#customization>`_.
 
-You can find the Documentation of the option `template` for `need` in
+You can find the documentation of the option `template` for `need` in
 `need template <https://sphinx-needs.readthedocs.io/en/latest/directives/need.html#template>`_.
 
 You can find the documentation of dynamic functions and the copy function especially in
@@ -384,7 +384,7 @@ Templating
 
 With templates you can template the content for needs.
 It is even possible to add text before and after a need.
-Documentation: the documentation is part of needs docu under How-to use `Sphinx-Needs Templates`_.
+The documentation is part of needs doc under How-to use `Sphinx-Needs Templates`_.
 
 We use it here finally in `conf.py`:
 
@@ -488,10 +488,10 @@ Schema Validation
 With Sphinx-Needs 6.0.0 it is possible to define a data schema of all needs.
 It enables strong type definition.
 The schema follows the json schema definition, but extends it to support even modelling of relations.
-See more details in the `Documentation <https://sphinx-needs.readthedocs.io/en/latest/schema/index.html>`_.
+See more details in the `Documentation <https://sphinx-needs.readthedocs.io/en/latest/schema/index.html>`__.
 It is now possible to define for ``needs_extra_options`` a strong type definition which is the basis
 for further ontology infromation, see ``needs_extra_options`` in the
-`Documentation <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options>`_.
+`Documentation <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options>`__.
 
 Schema Validation is for bigger setups and should be agreed from experts in ontology management.
 
@@ -505,7 +505,7 @@ rst / Sphinx-Needs parser in Rust.
 It offers gui tools in the IDE like preview of complete rst files, link preview,
 used / defined linkage of needs elements, and more.
 Important are the rst and Sphinx-Needs linter and beautifier.
-See more details in the `Documentation <https://ubcode.useblocks.com/>`_.
+See more details in the `Documentation <https://ubcode.useblocks.com/>`__.
 
 
 References
