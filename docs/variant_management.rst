@@ -309,7 +309,7 @@ In the Sphinx-Needs documentation, you can find a wonderful documentation
 
    .. warning::
 
-      If your are using sphinx tags, these are not always set,
+      If your are using Sphinx tags, these are not always set,
       you will get a warning:
 
       .. code-block:: python
@@ -457,14 +457,14 @@ The rating for the comparison table:
         | / Links of Needs
    *  - `only`
       -  - Can change complete parts of the documentation
-         - Build-in sphinx directive
+         - Build-in Sphinx directive
       -  - Always add the elements to the data model
          - Does not support else or elif
       - `+`
       - `- -`
    *  - `ifconfig`
       -  - Can change complete parts of the documentation
-         - Build-in sphinx directive
+         - Build-in Sphinx directive
       -  - Always add the elements to the data model
          - Does not support else or elif
       - `+`

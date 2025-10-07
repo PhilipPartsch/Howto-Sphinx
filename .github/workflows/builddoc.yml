@@ -53,6 +53,7 @@ jobs:
       with:
         # github-pr-check, github-pr-review, github-check
         reporter: github-check
+        vale_flags: "--glob=!*/AutomotiveSPICE*"
 
   build:
     runs-on: ubuntu-latest

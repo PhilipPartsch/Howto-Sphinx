@@ -349,7 +349,7 @@ How-to referring to Diagrams within a Need
 ******************************************
 
 It is not directly possible to reference to a needarch (diagram).
-So we introduce here a `needpart <https://sphinx-needs.readthedocs.io/en/stable/roles.html#need-part-np>`_ in the need,
+So we introduce here a `need_part <https://sphinx-needs.readthedocs.io/en/stable/roles.html#need-part-np>`_ in the need,
 so we can reference to these.
 
 .. example:: How-to referring to Diagrams within a Need

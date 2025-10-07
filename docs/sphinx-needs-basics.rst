@@ -275,7 +275,7 @@ NeedFlow
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 The code been expected and generated is for `plantuml`_.
 You can configure the visual representation of needs elements in needflow with `needs-types <Sphinx-Needs Types>`_.
-Needflow expects to get `plantuml deployment-diagram`_ elements as representation.
+NeedFlow expects to get `plantuml deployment-diagram`_ elements as representation.
 
 .. example:: How-to use a NeedFlow.
 
@@ -334,15 +334,15 @@ You can do this with e.g. a `list-table` to structure the visual representation.
                 :scale: 30
 
 
-NeedUML
+NeedUml
 *******
 
-Documentation: How-to use `Sphinx-Needs NeedUML`_.
-The ``debug`` option is often useful here, see `Sphinx-Needs NeedUML & NeedArch debug option`_.
+Documentation: How-to use `Sphinx-Needs NeedUml`_.
+The ``debug`` option is often useful here, see `Sphinx-Needs NeedUml & NeedArch debug option`_.
 The code been expected and generated is for `plantuml`_.
 You can use ``needs-render-context`` to extend the data available in needarch and needuml.
 
-.. example:: How-to use a NeedUML.
+.. example:: How-to use a NeedUml.
 
    .. needuml::
 
@@ -356,7 +356,7 @@ You can use ``needs-render-context`` to extend the data available in needarch an
 NeedArch
 ********
 
-NeedArch is extending the functionality of NeedUML, to access local data of a Need.
+NeedArch is extending the functionality of NeedUml, to access local data of a Need.
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
 The code been expected and generated is for `plantuml`_ and
 you can use `jinja`_ to template your ``plantuml`` code.
@@ -535,13 +535,13 @@ References
 
 .. _`Sphinx-Needs NeedArch` : https://sphinx-needs.readthedocs.io/en/latest/directives/needarch.html
 
-.. _`Sphinx-Needs NeedUML` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
+.. _`Sphinx-Needs NeedUml` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html
 
 .. _`needs-render-context` : https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-render-context
 
 .. _`plantuml deployment-diagram` : http://plantuml.com/deployment-diagram
 
-.. _`Sphinx-Needs NeedUML & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
+.. _`Sphinx-Needs NeedUml & NeedArch debug option` : https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#debug
 
 .. _`plantuml` : https://plantuml.com
 

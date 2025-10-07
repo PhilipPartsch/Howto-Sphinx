@@ -1,6 +1,7 @@
 Goodger
 rst
 Sphinx
+sphinx-build
 Docutils
 anker
 literalinclude
@@ -10,3 +11,4 @@ ifconfig
 linenos
 toctree
 [uU]nicode
+overlined
