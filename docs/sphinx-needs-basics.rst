@@ -365,15 +365,18 @@ you can use `jinja`_ to template your planuml code.
 You can find detailed description in
 :ref:`Architecture Expert Guide <architecture-examples>`.
 
-.. example:: How-to use a NeedUML.
+.. example:: How-to use a NeedArch.
 
    .. arch_module:: Our own script
       :id: M_OWN_SCRIPT
 
-      .. needarch::
+      .. needarch : :
 
+         'example how to use information from the current need
          {{flow(need().id)}}
+         'add diagram information from another source
          {{uml("M_MERGE_DICTS", "class")}}
+         'link elements
          {{need().id}} -> {{needs["M_MERGE_DICTS"].implements[0]}}
 
 
