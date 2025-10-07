@@ -578,6 +578,46 @@ See `How to use numref`_.
    :numref:`Image of Avatar (Fig. '{number}' and Name. '{name}') <my-avatar>`
 
 
+.. _reSTxt_style_guide_references:
+
+References to external sites
+============================
+
+We can use target-notes to mark often used links to external sites.
+The approach is used in this file, too.
+The opportunity is you even get a back link, where in the document this link is been used.
+
+For more details please see `How to reference to external web pages`_.
+
+.. code:: rst
+
+   ... content ...
+   If you want to have an example see `How to link within a rst documentation`_.
+   You can even customize the link `text<How to link within a rst documentation>`_.
+   ... content ...
+
+   **********
+   References
+   **********
+
+   .. target-notes::
+
+   _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
+
+Links to external website
+=========================
+
+It is even possible to link directly to an external website:
+
+..  example:: direct external links
+
+    - https://www.sphinx-needs.com
+    - See the `Sphinx-Needs page <https://www.sphinx-needs.com>`_ for info.
+    - This `link <Sphinx-Needs page_>`_ is an alias to the link above.
+    - For anonymous links you have to use double underscore ``__``:
+      `Sphinx-Needs page <https://sphinx-needs.readthedocs.io>`__
+
+
 .. _reSTxt_style_guide_download_file:
 
 Links to download files
@@ -619,39 +659,6 @@ Example of ``include`` directive.
 .. code:: rst
 
    .. include:: inclusion.rst.inc
-
-
-.. _reSTxt_style_guide_references:
-
-References to external sites
-============================
-
-We can use target-notes to mark often used links to external sites. The approach is used in this file, too.
-The opportunity is you even get a back link, where in the document this link is been used.
-
-For more details please see `How to reference to external web pages`_.
-
-.. code:: rst
-
-   ... content ...
-   If you want to have an example see `How to link within a rst documentation`_.
-   You can even customize the link `text<How to link within a rst documentation>`_.
-   ... content ...
-
-   **********
-   References
-   **********
-
-   .. target-notes::
-
-   _`How to link within a rst documentation`: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks
-
-It is even possible to reference directly to an external webside:
-
-..  example:: direct external links
-
-    - https://www.sphinx-needs.com
-    - `sphinx-needs <https://www.sphinx-needs.com>`_
 
 
 .. _reSTxt_style_guide_glossary:
