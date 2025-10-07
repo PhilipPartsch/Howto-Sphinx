@@ -107,7 +107,7 @@ The standard reST inline markup is quite simple, use:
 
    subscript: H\ :sub:`2`\ O
 
-   superscript: E = mc\ :sup:`2`
+   superscript: E = m * c\ :sup:`2`
 
 Alternatives for are subscript and superscript are often the ``math`` :ref:`role <reSTxt_style_guide_Math>` ( :math:`E = mc^2` )
 or literal Unicode characters (H₂O).
@@ -460,7 +460,7 @@ We use the ``code``, ``code-block`` and ``literalinclude`` directive.
 It is good style to specify the programming language.
 See `How to document code`_.
 
-More sophisticated examples and even a special extension for multilanguage examples can be found under
+More sophisticated examples and even a special extension for multi language examples can be found under
 `How to document multi language code`_.
 
 code-block
@@ -508,7 +508,7 @@ of two files.
       :end-before: Tests
 
 This is often combined with a download link :download:`index.rst`.
-Please pay attention, that ``*.rst`` files are parsed by sphinx,
+Please pay attention, that ``*.rst`` files are parsed by Sphinx,
 so may want to use ``.tmp``for tamplates instead ``.rst``.
 
 Often this is combined with a download link to the file,

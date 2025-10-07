@@ -9,10 +9,10 @@ Author: David Goodger
 
 Link: https://docutils.sourceforge.io
 
-Description: Docutils is an open-source text processing system for processing plaintext
-documentation into useful formats, such as HTML, LaTeX, man-pages, OpenDocument, or XML.
+Description: Docutils is an open-source text processing system for processing plain text
+documentation into useful formats, such as HTML, LaTeX, manual page, OpenDocument, or XML.
 It includes `reStructuredText <https://docutils.sourceforge.io/rst.html>`_, the easy to read,
-easy to use, what-you-see-is-what-you-get plaintext markup language.
+easy to use, what-you-see-is-what-you-get plain text markup language.
 
 Advantages: It is possible to extend rst with own directives.
 
@@ -32,7 +32,7 @@ Sphinx
 
 Link: https://www.sphinx-doc.org
 
-Description: Create intelligent and beautiful documentation ...
+Description: Create intelligent and beautiful documentation …
 
 Advantages: Enhance Docutils to support multi file documentation build with commonly used directives.
 
@@ -86,7 +86,7 @@ Other useful parameter are:
 - ``-a``, --write-all #If given, always write all output files
 
 
-How it is been used with in this repo, you can see here:
+How it is been used with in this repository, you can see here:
 
 .. literalinclude:: ../.gitlab-ci.yml
    :language: yaml

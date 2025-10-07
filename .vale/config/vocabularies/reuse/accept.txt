@@ -1,4 +1,7 @@
 pypi
+Sphinx-Ifelse
+sphinx-ifelse
 ifelse
 elif
 Cybersecurity
+cybersecurity

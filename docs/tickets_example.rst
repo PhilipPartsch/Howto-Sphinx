@@ -4,7 +4,7 @@
 Examples for Tickets
 ####################
 
-Here I collect examples to sphinx-needs tickets.
+Here I collect examples to Sphinx-Needs tickets.
 
 Coloring of needs depending of incoming links
 =============================================

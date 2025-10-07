@@ -7,3 +7,6 @@ literalinclude
 numref
 docname
 ifconfig
+linenos
+toctree
+unicode

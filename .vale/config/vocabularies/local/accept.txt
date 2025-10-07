@@ -2,5 +2,9 @@ Partsch
 Contributer
 gui
 github
+GitHub
 readthedocs
+ReadtheDocs
 gitlab
+GitLab
+project_b

@@ -86,7 +86,7 @@ This can be used with `How to overwrite configuration parameter`_.
 2. Add your configuration parameter to :code:`conf.py`
 
    .. literalinclude:: conf.py
-      :caption: How-to add a customer configuration value to sphinx
+      :caption: How-to add a customer configuration value to Sphinx
       :language: py
       :linenos:
       :start-after: # -- sphinx ifconfig
@@ -249,8 +249,8 @@ Check the pypi package `sphinx-ifelse <https://pypi.org/project/sphinx-ifelse/>`
 
    .. warning::
 
-      You can write headlines / sections in the content of the ifelse directive.
-      But you have to be careful with the correct ordering of sections in all
+      You can write headlines / sections in the content of the ifelse directive,
+      but you have to be careful with the correct ordering of sections in all
       possible output variants.
 
 .. needtable::
@@ -261,13 +261,13 @@ Check the pypi package `sphinx-ifelse <https://pypi.org/project/sphinx-ifelse/>`
 Sphinx-Needs: Attribute Variants
 ================================
 
-In the Sphinx-Needs documentation, you can find a wonderfull documentation
+In the Sphinx-Needs documentation, you can find a wonderful documentation
 `How to define Sphinx-Needs variants`_.
 
-1. For sure you have to add the `sphinx-needs` extension to your extensions in :code:`conf.py`.
+1. For sure you have to add the `sphinx_needs` extension to your extensions in :code:`conf.py`.
 
    .. code-block:: python
-      :caption: How-to add `sphinx-needs` extension to the extensions
+      :caption: How-to add `sphinx_needs` extension to the extensions
 
       extensions = [
          #...
@@ -471,7 +471,7 @@ The rating for the comparison table:
       - `- -`
    *  - `if-collection`
       -  - Can change complete parts of the documentation
-         - Wonderfull to be combined with content from collections
+         - Wonderful to be combined with content from collections
       -  - Has to be installed and configured
          - Does not support else or elif
       - `+`
@@ -484,7 +484,7 @@ The rating for the comparison table:
       - `- -`
    *  - | `Sphinx-Needs`
         | `Attribute Variants`
-      -  - Build-in sphinx-needs directive
+      -  - Build-in Sphinx-Needs directive
          - Support else or elif
          - Can change attributes and links of needs elements
       -  - Can only change attributes of needs

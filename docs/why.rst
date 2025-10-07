@@ -30,7 +30,7 @@ Everything should be reviewed with `github pull-requests <https://docs.github.co
 `gitlab merge requests <https://docs.gitlab.com/ee/user/project/merge_requests/>`_ as a single point of review tool.
 You can protect branches with rules, so you can enforce all content is reviewed.
 
-If you want to use sphinx-needs even as your ticket management tool, here are some hints:
+If you want to use Sphinx-Needs even as your ticket management tool, here are some hints:
 
 - You could use https://docs.github.com/en/actions/examples/using-the-github-cli-on-a-runner
   to create github issues automatically (peter-evans/create-issue-from-file),

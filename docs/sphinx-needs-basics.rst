@@ -125,14 +125,14 @@ NeedPart
 External Projects
 *****************
 
-To reuse needs from another project, you can use the following possibilities to readin
+To reuse needs from another project, you can use the following possibilities to read in
 needs from another project.
 
 needs_external_needs
 ====================
 
 With `needs_external_needs` you can import the `needs.json` from another project.
-The needs are available in the memory of the current sphinx-nneds build,
+The needs are available in the memory of the current Sphinx-Needs build,
 but all links jump to another web-project / web-server.
 
 We have add an external project already referenced within this documentation:
@@ -359,12 +359,12 @@ NeedArch
 NeedArch is extending the functionality of NeedUML, to access local data of a Need.
 Documentation: How-to use `Sphinx-Needs NeedArch`_.
 The code been expected and generated is for `plantuml`_ and
-you can use `jinja`_ to template your planuml code.
+you can use `jinja`_ to template your ``plantuml`` code.
 
 You can find detailed description in
 :ref:`Architecture Expert Guide <architecture-examples>`.
 
-.. example:: How-to use a NeedArch.
+.. example:: How-to use a NeedArch`
 
    .. arch_module:: Our own script
       :id: M_OWN_SCRIPT
@@ -500,7 +500,7 @@ Visual Studio Code Extension - ubCode
 *************************************
 
 Visual Studio Code Extension `ubCode <https://marketplace.visualstudio.com/items?itemName=useblocks.ubcode>`_
-provides support for Sphinx-Needs and rst via a ``toml`` config file and a implements
+provides support for Sphinx-Needs and rst via a ``toml`` configuration file and a implements
 rst / Sphinx-Needs parser in Rust.
 It offers gui tools in the IDE like preview of complete rst files, link preview,
 used / defined linkage of needs elements, and more.
