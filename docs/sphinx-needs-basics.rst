@@ -348,7 +348,6 @@ You can use ``needs-render-context`` to extend the data available in needarch an
       :debug:
 
       {{uml("M_MERGE_DICTS", "class")}}
-      '{{flow("M_MERGE_DICTS")}}
 
       note right of [M_MERGE_DICTS]
          We use M_MERGE_DICTS to merge python dictionaries.
@@ -377,7 +376,7 @@ You can find detailed description in
          'example how to use information from the current need
          {{flow(need().id)}}
          'add diagram information from another source
-         '{{flow("M_MERGE_DICTS")}}
+         {{uml("M_MERGE_DICTS", "class")}}
          'link elements
          '{{need().id}} -> {{needs["M_MERGE_DICTS"].implements[0]}}
 
