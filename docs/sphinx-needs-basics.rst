@@ -496,10 +496,13 @@ for further ontology information, see ``needs_extra_options`` in the
 Schema Validation is for bigger setups and should be agreed from experts in ontology management.
 
 
-Visual Studio Code Extension - ubCode
-*************************************
+Extensions for Visual Studio Code
+*********************************
 
-Visual Studio Code Extension `ubCode <https://marketplace.visualstudio.com/items?itemName=useblocks.ubcode>`_
+ubCode
+======
+
+`ubCode <https://marketplace.visualstudio.com/items?itemName=useblocks.ubcode>`_
 provides support for Sphinx-Needs and rst via a ``toml`` configuration file and a implements
 rst / Sphinx-Needs parser in Rust.
 It offers gui tools in the IDE like preview of complete rst files, link preview,
