@@ -17,13 +17,13 @@ Generic Hints
    You can write headlines / sections in the content of few variant management
    directives. But you have to be careful with the correct ordering of sections
    in all possible output variants.
-   Especially as Sphinx is parsing the level of headline with the occurance of
+   Especially as Sphinx is parsing the level of headline with the occurrence of
    underlining characters, which are not assigned to levels.
 
 Sphinx: only Directive
 ======================
 
-In the Sphinx documentation, you can find a wonderfull documentation `How to use only directive`_.
+In the Sphinx documentation, you can find a wonderful documentation `How to use only directive`_.
 
 You can use a few mechanism to set tags, see `How to use tags`_.
 
@@ -57,7 +57,7 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 
    Sphinx is always processing the content inside of the only directive,
    but is discarding the output if not needed.
-   So if you create objects within the only directive, they are available to the datamodel.
+   So if you create objects within the only directive, they are available to the data model.
    See the following needtable for demonstration.
 
 .. needtable::
@@ -68,7 +68,7 @@ See :download:`.gitlab-ci.yml <../.gitlab-ci.yml>`.
 Sphinx: ifconfig Directive
 ==========================
 
-In the Sphinx documentation, you can find a wonderfull documentation `How to use ifconfig`_.
+In the Sphinx documentation, you can find a documentation `How to use ifconfig`_.
 
 This can be used with `How to overwrite configuration parameter`_.
 
@@ -125,7 +125,7 @@ This can be used with `How to overwrite configuration parameter`_.
 
    Sphinx is always processing the content inside of the ifconfig directive,
    but is discarding the output if not needed.
-   So if you create objects within the ifconfig directive, they are available to the datamodel.
+   So if you create objects within the ifconfig directive, they are available to the data model.
    See the following needtable for demonstration.
 
 .. needtable::
@@ -137,7 +137,7 @@ Collections: if-collection Directive
 ====================================
 
 In the Useblocks Collections extension documentation,
-you can find a wonderfull documentation `How to use if-collection`_.
+you can find a wonderful documentation `How to use if-collection`_.
 
 1. For sure you have to add the `sphinxcontrib.collections` extension from useblocks
    to your extensions in :code:`conf.py`.
@@ -285,7 +285,7 @@ In the Sphinx-Needs documentation, you can find a wonderfull documentation
       :end-before: # sphinx-needs variants end
 
    In this example, we do set two variants to True, ``var_MacOS`` and ``var_Linux``.
-   We do want to show how the evaluation of the expression depends ont the ordering of the
+   We do want to show how the evaluation of the expression depends on the ordering of the
    statements inside the expression.
 
 3. Use it in your rst files:
@@ -384,7 +384,7 @@ This inspired by `How to integrate jinja2 in rst`_.
 
 
    After we cannot use the example directive here; following you find
-   a manual copy of the the authored rst file. We do have to encapsulate
+   a manual copy of the authored rst file. We do have to encapsulate
    the jinja2 template in a `raw` tag, otherwise the jinja2
    template will be processed and reduced by jinja2 again.
 
@@ -421,14 +421,14 @@ This inspired by `How to integrate jinja2 in rst`_.
    :style: table
 
 
-Comparision of the different variant mechanisms
+Comparison of the different variant mechanisms
 ===============================================
 
 The table below is a summary of the different mechanisms.
 It is not complete and does not cover all use cases.
 Please check the documentation of the different mechanisms for more details.
 
-The rating for the comparision table:
+The rating for the comparison table:
 
 .. list-table:: Rating
    :header-rows: 1
@@ -444,7 +444,7 @@ The rating for the comparision table:
    *  -  `+ +`
       -  possible and recommended
 
-.. list-table:: Comparision Table
+.. list-table:: Comparison table
    :header-rows: 1
    :widths: 10 30 30 10 10
 
@@ -458,14 +458,14 @@ The rating for the comparision table:
    *  - `only`
       -  - Can change complete parts of the documentation
          - Build-in sphinx directive
-      -  - Always add the elements to the datamodel
+      -  - Always add the elements to the data model
          - Does not support else or elif
       - `+`
       - `- -`
    *  - `ifconfig`
       -  - Can change complete parts of the documentation
          - Build-in sphinx directive
-      -  - Always add the elements to the datamodel
+      -  - Always add the elements to the data model
          - Does not support else or elif
       - `+`
       - `- -`
@@ -477,7 +477,7 @@ The rating for the comparision table:
       - `+`
       - `- -`
    *  - `ifelse`
-      -  - Can change complete parts of the documentation easly
+      -  - Can change complete parts of the documentation easily
          - Support else or elif
       -  - Has to be installed and configured
       - `+ +`
@@ -488,7 +488,7 @@ The rating for the comparision table:
          - Support else or elif
          - Can change attributes and links of needs elements
       -  - Can only change attributes of needs
-         - Attention with combintion of tags
+         - Attention with combination of tags
       - `- -`
       - `+ +`
    *  - | `jinja2`

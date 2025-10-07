@@ -9,10 +9,10 @@ Author: David Goodger
 
 Link: https://docutils.sourceforge.io
 
-Description: Docutils is an open-source text processing system for processing plaintext documentation into useful formats,
-such as HTML, LaTeX, man-pages, OpenDocument, or XML.
-It includes `reStructuredText <https://docutils.sourceforge.io/rst.html>`_, the easy to read, easy to use,
-what-you-see-is-what-you-get plaintext markup language.
+Description: Docutils is an open-source text processing system for processing plaintext
+documentation into useful formats, such as HTML, LaTeX, man-pages, OpenDocument, or XML.
+It includes `reStructuredText <https://docutils.sourceforge.io/rst.html>`_, the easy to read,
+easy to use, what-you-see-is-what-you-get plaintext markup language.
 
 Advantages: It is possible to extend rst with own directives.
 

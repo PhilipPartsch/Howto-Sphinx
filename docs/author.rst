@@ -13,7 +13,7 @@ About the Author
 
    *  -  .. rubric:: Philip Partsch
 
-         | Senier Expert Processes, Methods and Tools
+         | Senior Expert Processes, Methods and Tools
          | Lead Systems Requirements Engineer
          | Committer to `S-CORE <https://projects.eclipse.org/projects/automotive.score/who>`_
          | Contributer to Sphinx-Needs since Christmas 2021

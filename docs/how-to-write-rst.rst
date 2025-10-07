@@ -44,7 +44,7 @@ For detailed information see `How to create table of contents with toctree`_ or 
 Add your new file to the ``.. toctree::`` of the root ``index.rst`` or another ``rst`` file.
 Interesting options are ``:hidden:`` to hide the toctree and ``:glob:`` to import all files in a folder.
 
-An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within this porject:
+An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within this project:
 
 .. literalinclude:: index.rst
    :language: rst
@@ -512,7 +512,7 @@ Please pay attention, that ``*.rst`` files are parsed by sphinx,
 so may want to use ``.tmp``for tamplates instead ``.rst``.
 
 Often this is combined with a download link to the file,
-see :ref:`reSTxt_style_guide_download_file` how to achive this.
+see :ref:`reSTxt_style_guide_download_file` how to achieve this.
 
 .. _reSTxt_style_guide_links:
 
@@ -708,7 +708,7 @@ Or you could use https://www.sphinx-doc.org/en/master/usage/configuration.html#c
 
    Sphinx is always rendering the content inside the only directive,
    but is discarding the output if not needed.
-   So if you create objects within the only directive, they are available to the datamodel.
+   So if you create objects within the only directive, they are available to the data model.
 
 
 .. _reSTxt_style_guide_notes_and_warnings:

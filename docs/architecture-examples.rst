@@ -8,22 +8,22 @@ Architecture with Sphinx-Needs for Experts
 Structure Model: Deployment-Diagram
 ***********************************
 
-Sphinx-Needs offers a build in represenatation of elements with `needflow`_,
+Sphinx-Needs offers a build in representation of elements with `needflow`_,
 `needarch`_, and `needuml`_.
 
 You can use `needs-flow-configs <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-flow-configs>`_
-to change repesentation in needflow.
+to change representation in needflow.
 You can use `needs-render-context`_ to extend the data available in needarch and needuml.
 
 Needflow expects to get `plantuml deployment-diagram`_ elements as representation.
 With `flow() <https://sphinx-needs.readthedocs.io/en/latest/directives/needuml.html#flow-id>`_
-you can get this repesentation even in needarch and needuml.
+you can get this representation even in needarch and needuml.
 
 
-Visial representation of UML Ports in Sphinx-Needs
+Visual representation of UML Ports in Sphinx-Needs
 ==================================================
 
-Pay attention: We do use ``:input:`` and ``:output:`` in the same datamodel.
+Pay attention: We do use ``:input:`` and ``:output:`` in the same data model.
 This is only because to see the differences in the output of plantuml tooling.
 Especially the ordering of links like ``A -> B`` vs ``B <- A``.
 
@@ -147,7 +147,7 @@ Especially the ordering of links like ``A -> B`` vs ``B <- A``.
          :input: OP_C_C_OUT
 
 
-To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input).
+To show the different representations of ``A -> B`` (output) vs ``B <- A`` (input).
 
 .. example:: Visualize the dependencies - Input
 
@@ -178,7 +178,7 @@ To show the different repesentations of ``A -> B`` (output) vs ``B <- A`` (input
       :debug:
 
 
-Visiual repesentation of many Elements
+Visual representation of many Elements
 ======================================
 
 Following the link to the elements defined.
@@ -348,7 +348,7 @@ Example with sequence3
 How-to referring to Diagrams within a Need
 ******************************************
 
-It is not directly possible to refernce to a needarch (diagram).
+It is not directly possible to reference to a needarch (diagram).
 So we introduce here a `needpart <https://sphinx-needs.readthedocs.io/en/stable/roles.html#need-part-np>`_ in the need,
 so we can reference to these.
 
@@ -372,7 +372,7 @@ so we can reference to these.
          {{need().title}}
          ----
          Here is a bug in safari, it is been rendered correct in firefox.
-         With explicite link text:
+         With explicit link text:
          {{ref(need().id + '.Deployment', text="Deployment Diagram")}}
          {{ref(need().id + '.Sequence', text="Sequence Diagram")}}
          With link text from needpart id:

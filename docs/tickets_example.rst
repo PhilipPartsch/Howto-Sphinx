@@ -4,7 +4,7 @@
 Examples for Tickets
 ####################
 
-Here I collect examples to feedbacks of sphinx-needs tickets.
+Here I collect examples to sphinx-needs tickets.
 
 Coloring of needs depending of incoming links
 =============================================
@@ -28,7 +28,7 @@ I've tried it by using needs_global_options
 With this option all requirements have the red bar, even there is an incoming link.
 
 Another idea was to use dynamic functions,
-but the incmoing links are not available as written in the documentation:
+but the incoming links are not available as written in the documentation:
 https://sphinx-needs.readthedocs.io/en/latest/dynamic_functions.html#incoming-links
 
 I have imported system requirements and I would like to see very fast,

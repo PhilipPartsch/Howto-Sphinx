@@ -49,9 +49,9 @@ Options
 Documentation: How-to configure `Sphinx-Needs Options`_.
 
 The special option ``:id:``, has to be unique within the current project.
-It is often useful, you write self speacking id's which even can be easly reviewed.
+It is often useful, you write self speaking id's which even can be easily reviewed.
 Additionally you can use auto generated ids via IDE extension or scripting see https://github.com/useblocks/sphinx-needs/issues/728.
-A discussion how ID's could be generated accross organisations is currently ongoing in https://github.com/useblocks/sphinx-needs/discussions/1088#discussioncomment-8131189.
+A discussion how ID's could be generated across organisations is currently ongoing in https://github.com/useblocks/sphinx-needs/discussions/1088#discussioncomment-8131189.
 
 
 Links
@@ -125,14 +125,14 @@ NeedPart
 External Projects
 *****************
 
-To reuse needs from another project, you can use the following possiblities to readin
+To reuse needs from another project, you can use the following possibilities to readin
 needs from another project.
 
 needs_external_needs
 ====================
 
 With `needs_external_needs` you can import the `needs.json` from another project.
-The needs are avaialbe in the memory of the current sphinx-nneds build,
+The needs are available in the memory of the current sphinx-nneds build,
 but all links jump to another web-project / web-server.
 
 We have add an external project already referenced within this documentation:
@@ -163,17 +163,17 @@ Documentation: How-to import needs with
       :tags: imported
       :template: extend_template
 
-We do use here a template, to make the `reject_reason` available to the content of the need.
-The `reject_reason` is been set in the `needextend` in the next chapter.
+We do use here a template, to make the ``reject_reason`` available to the content of the need.
+The ``reject_reason`` is been set in the ``needextend`` in the next chapter.
 
-In the template `extend_template` we access to the reject reason:
+In the template ``extend_template`` we access to the reject reason:
 
 .. literalinclude:: needs_templates/extend_template.need
    :caption: file extend_template.need
    :language: jinja
    :linenos:
 
-You can find the documentation of the option `template` for `needimport` in
+You can find the documentation of the option ``template`` for ``needimport`` in
 `needimport customization <https://sphinx-needs.readthedocs.io/en/latest/directives/needimport.html#customization>`_.
 
 You can find the documentation of the option `template` for `need` in
@@ -200,11 +200,11 @@ Here we extend the imported needs from previous chapter with additional informat
          | First line
          | Second line
 
-Challanges
+Challenges
 ==========
 
 The issue with `needextend` is, how to ensure the final output is correct.
-Here it is often necassary to protect attributes for changes for `needextend` via `needs_warnings`.
+Here it is often necessary to protect attributes for changes for `needextend` via `needs_warnings`.
 See `Monitoring modifications <https://sphinx-needs.readthedocs.io/en/latest/directives/needextend.html#monitoring-modifications>`_.
 
 
@@ -213,7 +213,7 @@ Filter
 
 Documentation: How-to use `Sphinx-Needs Filters`_.
 
-We use these filters in different exampls within this document in the following
+We use these filters in different examples within this document in the following
 reports.
 
 
@@ -274,7 +274,7 @@ NeedFlow
 
 Documentation: How-to use `Sphinx-Needs NeedFlow`_.
 The code been expected and generated is for `plantuml`_.
-You can configure the visiual repsentation of needs elements in  needflow with `needs-types <Sphinx-Needs Types>`_.
+You can configure the visual representation of needs elements in needflow with `needs-types <Sphinx-Needs Types>`_.
 Needflow expects to get `plantuml deployment-diagram`_ elements as representation.
 
 .. example:: How-to use a NeedFlow.
@@ -290,7 +290,7 @@ Structured Sphinx-Needs reports in tables
 *****************************************
 
 Often you have the use case to structure reports of Sphinx-Needs in table view.
-You can do this with e.g. a `list-table` to structure the visiual representation.
+You can do this with e.g. a `list-table` to structure the visual representation.
 
 .. example:: Reports structured with tables
 
@@ -490,7 +490,7 @@ It enables strong type definition.
 The schema follows the json schema definition, but extends it to support even modelling of relations.
 See more details in the `Documentation <https://sphinx-needs.readthedocs.io/en/latest/schema/index.html>`__.
 It is now possible to define for ``needs_extra_options`` a strong type definition which is the basis
-for further ontology infromation, see ``needs_extra_options`` in the
+for further ontology information, see ``needs_extra_options`` in the
 `Documentation <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options>`__.
 
 Schema Validation is for bigger setups and should be agreed from experts in ontology management.
@@ -500,7 +500,7 @@ Visual Studio Code Extension - ubCode
 *************************************
 
 Visual Studio Code Extension `ubCode <https://marketplace.visualstudio.com/items?itemName=useblocks.ubcode>`_
-provides support for Sphinx-Needs and rst via a ``toml`` config file and a implments
+provides support for Sphinx-Needs and rst via a ``toml`` config file and a implements
 rst / Sphinx-Needs parser in Rust.
 It offers gui tools in the IDE like preview of complete rst files, link preview,
 used / defined linkage of needs elements, and more.
