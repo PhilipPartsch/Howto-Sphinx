@@ -482,17 +482,30 @@ You can find detailed description in
 :ref:`How-To use variant management <variant_management>`.
 
 
-.. ide_vscode
+Schema Validation
+*****************
 
-   Rework to ubcode
+With Sphinx-Needs 6.0.0 it is possible to define a data schema of all needs.
+It enables strong type definition.
+The schema follows the json schema definition, but extends it to support even modelling of relations.
+See more details in the `Documentation <https://sphinx-needs.readthedocs.io/en/latest/schema/index.html>`_.
+It is now possible to define for ``needs_extra_options`` a strong type definition which is the basis
+for further ontology infromation, see ``needs_extra_options`` in the
+`Documentation <https://sphinx-needs.readthedocs.io/en/latest/configuration.html#needs-extra-options>`_.
 
-   Visual Studio Code Extensions
-   *****************************
+Schema Validation is for bigger setups and should be agreed from experts in ontology management.
 
-   VsCode extension for `Sphinx-Needs-VsCode <https://marketplace.visualstudio.com/items?itemName=useblocks.sphinx-needs-vscode>`_
-   provides support for Sphinx-Needs. See more details in the `Documentation <https://sphinx-needs-vscode.useblocks.com/>`_.
 
-   VsCode extension for `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_.
+Visual Studio Code Extension - ubCode
+*************************************
+
+Visual Studio Code Extension `ubCode <https://marketplace.visualstudio.com/items?itemName=useblocks.ubcode>`_
+provides support for Sphinx-Needs and rst via a ``toml`` config file and a implments
+rst / Sphinx-Needs parser in Rust.
+It offers gui tools in the IDE like preview of complete rst files, link preview,
+used / defined linkage of needs elements, and more.
+Important are the rst and Sphinx-Needs linter and beautifier.
+See more details in the `Documentation <https://ubcode.useblocks.com/>`_.
 
 
 References
