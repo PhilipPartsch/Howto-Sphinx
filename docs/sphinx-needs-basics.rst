@@ -347,8 +347,8 @@ You can use ``needs-render-context`` to extend the data available in needarch an
    .. needuml::
       :debug:
 
-      '{{uml("M_MERGE_DICTS", "class")}}
-      {{flow("M_MERGE_DICTS")}}
+      {{uml("M_MERGE_DICTS", "class")}}
+      '{{flow("M_MERGE_DICTS")}}
 
       note right of [M_MERGE_DICTS]
          We use M_MERGE_DICTS to merge python dictionaries.
