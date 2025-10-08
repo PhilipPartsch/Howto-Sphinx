@@ -1,7 +1,10 @@
 import os
 import sys
-sys.path.append(os.path.abspath('.'))
-sys.path.append(os.path.abspath('scripts')) # for gitlink
+directory_of_this_file = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(directory_of_this_file)
+sys.path.append(directory_of_this_file / 'scripts')
+#sys.path.append(os.path.abspath('.'))
+#sys.path.append(os.path.abspath('scripts')) # for gitlink
 print(sys.path)
 from gitlink import get_githoster_edit_url_for_need
 
