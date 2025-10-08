@@ -1,5 +1,6 @@
 import os
 import sys
+import pathlib
 directory_of_this_file = pathlib.Path(__file__).parent.resolve()
 sys.path.append(directory_of_this_file)
 sys.path.append(directory_of_this_file / 'scripts')
