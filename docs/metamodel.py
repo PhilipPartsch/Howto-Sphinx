@@ -2,6 +2,7 @@ import os
 import sys
 sys.path.append(os.path.abspath('.'))
 sys.path.append(os.path.abspath('scripts')) # for gitlink
+print(sys.path)
 from gitlink import get_githoster_edit_url_for_need
 
 from sphinx_needs.config import NeedsSphinxConfig
