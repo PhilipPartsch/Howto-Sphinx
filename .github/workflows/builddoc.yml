@@ -44,7 +44,6 @@ jobs:
       run: |
         sphinx-lint
     - name: replace directives in rst
-      if: False
       run: |
         python .vale/scripts/replace_directives.py
     - name: Lint the project with vale
