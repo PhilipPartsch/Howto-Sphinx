@@ -150,7 +150,7 @@ needs in all following reports.
 needimport
 ==========
 
-You can even import the needs with ``needimport``from another project,
+You can even import the needs with ``needimport`` from another project,
 but the needs are rendered within your project.
 
 Documentation: How-to import needs with
