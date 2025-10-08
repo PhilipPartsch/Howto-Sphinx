@@ -39,7 +39,7 @@ jobs:
         python -m pip install sphinx-lint
         python -m pip install docutils vale
         # for replace_directives.py:
-        python -m pip install sphinx-needs
+        python -m pip install sphinx-needs = 5.1.0
         python -m pip install GitPython
     - name: Lint the project with sphinx-lint
       run: |
