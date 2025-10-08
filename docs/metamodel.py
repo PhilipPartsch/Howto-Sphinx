@@ -2,8 +2,8 @@ import os
 import sys
 import pathlib
 directory_of_this_file = pathlib.Path(__file__).parent.resolve()
-sys.path.append(directory_of_this_file)
-sys.path.append(directory_of_this_file / 'scripts')
+sys.path.append(str(directory_of_this_file))
+sys.path.append(str(directory_of_this_file / 'scripts'))
 print(sys.path)
 from gitlink import get_githoster_edit_url_for_need
 
