@@ -1,6 +1,6 @@
 import os
 import sys
-directory_of_this_file = os.path.dirname(os.path.abspath(__file__))
+directory_of_this_file = pathlib.Path(__file__).parent.resolve()
 sys.path.append(directory_of_this_file)
 sys.path.append(directory_of_this_file / 'scripts')
 #sys.path.append(os.path.abspath('.'))
