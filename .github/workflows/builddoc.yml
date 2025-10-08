@@ -45,6 +45,7 @@ jobs:
         sphinx-lint
     - name: replace directives in rst
       run: |
+        ls -al /home/runner/work/Howto-Sphinx/Howto-Sphinx/docs/scripts
         python .vale/scripts/replace_directives.py
     - name: Lint the project with vale
       #see https://github.com/errata-ai/vale-action
