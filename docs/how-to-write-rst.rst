@@ -740,21 +740,21 @@ For more details please see `How to use admonitions`_.
 
    .. danger:: danger
 
+   .. error:: error
+
    .. attention:: attention
 
    .. caution:: caution
-
-   .. error:: error
 
    .. warning:: warning
 
    .. important:: important
 
-   .. note:: note
-
    .. tip:: tip
 
    .. hint:: hint
+
+   .. note:: note
 
    .. seealso:: seealso
 
