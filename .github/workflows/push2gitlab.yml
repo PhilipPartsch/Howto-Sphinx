@@ -18,8 +18,7 @@ env:
 jobs:
   Push2Gitlab:
     runs-on: ubuntu-latest
-    #if: github.ref == 'refs/heads/main'
-    if: False
+    if: github.ref == 'refs/heads/main'
     steps:
     - name: Clone repo to github runner
       uses: actions/checkout@v4

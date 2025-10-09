@@ -52,6 +52,63 @@ An example for use of ``.. toctree::`` can be found in the ``ìndex.rst`` within
    :start-at: .. toctree::
    :end-before: Indices and tables
 
+
+.. _reSTxt_style_guide_Headlines:
+
+*********
+Headlines
+*********
+
+See `reStructuredText Primer - Headlines <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections>`_.
+
+We use the following symbols for the headlines:
+
+| Headline level 1. ``#`` with overline
+| Headline level 2. ``*`` with overline
+| Headline level 3. ``=``
+| Headline level 4. ``-``
+| Headline level 5. ``^``
+| Headline level 6. ``"``
+
+Please define only on H1 for a rst document.
+
+As an example:
+
+.. code:: rst
+
+   ##################
+   H1: document title
+   ##################
+
+   Introduction text.
+
+
+   *********
+   Sample H2
+   *********
+
+   Sample content.
+
+
+   **********
+   Another H2
+   **********
+
+   Sample H3
+   =========
+
+   Sample H4
+   ---------
+
+   Sample H5
+   ^^^^^^^^^
+
+   Sample H6
+   """""""""
+
+   And some more content.
+
+
 .. _reSTxt_style_guide_table_of_contents:
 
 *****************
@@ -115,6 +172,7 @@ or literal Unicode characters (H₂O).
 
 For information about inline markup please check `How to use inline-markup`_.
 
+
 .. _reSTxt_style_guide_Whitespaces:
 
 ***********
@@ -176,62 +234,6 @@ Often a :ref:`glossary <reSTxt_style_guide_glossary>` is better be used.
    "unicode": converts Unicode character codes to characters.
 
    "date": inserts the current local date.
-
-
-.. _reSTxt_style_guide_Headlines:
-
-*********
-Headlines
-*********
-
-See `reStructuredText Primer - Headlines <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections>`_.
-
-We use the following symbols for the headlines:
-
-| Headline level 1. ``#`` with overline
-| Headline level 2. ``*`` with overline
-| Headline level 3. ``=``
-| Headline level 4. ``-``
-| Headline level 5. ``^``
-| Headline level 6. ``"``
-
-Please define only on H1 for a rst document.
-
-As an example:
-
-.. code:: rst
-
-   ##################
-   H1: document title
-   ##################
-
-   Introduction text.
-
-
-   *********
-   Sample H2
-   *********
-
-   Sample content.
-
-
-   **********
-   Another H2
-   **********
-
-   Sample H3
-   =========
-
-   Sample H4
-   ---------
-
-   Sample H5
-   ^^^^^^^^^
-
-   Sample H6
-   """""""""
-
-   And some more content.
 
 
 .. _reSTxt_style_guide_Tables:

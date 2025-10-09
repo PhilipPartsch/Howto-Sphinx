@@ -96,16 +96,16 @@ NeedPart
       :id: N_NEED_WITH_PARTS
       :tags: needpart_example
 
-      :np:`(1) Part 1 of need`.
+      :np:`(precondition)` of the need.
 
       :np:`(2) Part 2 of need`.
 
-      Part :np:`(3)` of need.
+      Part :np:`(3)`: Here is your thired part of need.
 
    .. need:: Need links to part 1
       :id: N_LINK_TO_PART1
       :tags: needpart_example
-      :links: N_NEED_WITH_PARTS.1
+      :links: N_NEED_WITH_PARTS.precondition
 
    .. need:: Need links to part 2 and 3
       :id: N_LINK_TO_PART2

@@ -38,13 +38,16 @@ jobs:
         python -m pip install setuptools
         python -m pip install sphinx-lint
         python -m pip install docutils vale
-        # for replace_directives.py:
-        python -m pip install sphinx-needs==5.1.0
-        python -m pip install GitPython
+      # badly currently not working
+      # for replace_directives.py:
+      # python -m pip install sphinx-needs==5.1.0
+      # python -m pip install GitPython
     - name: Lint the project with sphinx-lint
       run: |
         sphinx-lint
     - name: replace directives in rst
+      # badly currently not working
+      if: False
       run: |
         ls -al /home/runner/work/Howto-Sphinx/Howto-Sphinx/docs/scripts
         python .vale/scripts/replace_directives.py
@@ -54,11 +57,10 @@ jobs:
       with:
         # github-pr-check, github-pr-review, github-check
         reporter: github-check
-        vale_flags: "--glob=!*/AutomotiveSPICE*"
+        vale_flags: "--glob=!*/AutomotiveSPICE*" # Exclude file we should not change
 
   build:
     runs-on: ubuntu-latest
-    if: False
     needs: lint_repo
     steps:
     - uses: actions/checkout@v4
