@@ -163,10 +163,6 @@ Definition of a Role
 A role is an inline annotation to get an information or link destination from a script.
 Here we use the ``math`` role to explain how it looks like.
 
-.. example:: Docutils Role
-
-   :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.
-
 - Role Type: "math"
 
   .. code-block:: rst
@@ -182,3 +178,7 @@ Here we use the ``math`` role to explain how it looks like.
      :linenos:
 
      :math:`(a + b)`
+
+.. example:: Docutils Role
+
+   :math:`(a + b)` multiplied with :math:`(a - b)` is equal to :math:`a^2 - b^2`.

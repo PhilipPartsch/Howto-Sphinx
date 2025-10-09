@@ -223,6 +223,14 @@ Often a :ref:`glossary <reSTxt_style_guide_glossary>` is better be used.
    Yes, |reST| is a long word, anyway I **can** blame anyone for wanting to
    abbreviate it. Better use a glossary :).
 
+.. example:: Substitution with image
+
+   |my sub avatar| greats you.
+
+   .. |my sub avatar| image:: pictures/avatar.png
+      :align: top
+      :scale: 10%
+
 .. note::
    You can use
 
@@ -392,25 +400,6 @@ from the parent list items by blank lines:
 Pictures
 ********
 
-Image
-=====
-
-See `How to create image`_.
-
-.. example:: Image directive
-
-   .. image:: pictures/avatar.png
-      :alt: my avatar
-      :align: center
-
-.. example:: Image directive inline
-
-   |my avatar| greats you.
-
-   .. |my avatar| image:: pictures/avatar.png
-      :align: top
-      :scale: 10%
-
 Figure
 ======
 
@@ -426,6 +415,29 @@ See `How to create figure`_.
       First line is the caption of the figure (a simple paragraph).
 
       A legend consists of all elements after the caption.
+
+
+Image
+=====
+
+See `How to create image`_.
+
+.. example:: Image directive
+
+   .. image:: pictures/avatar.png
+      :alt: my avatar
+      :align: center
+
+Inline image
+============
+
+.. example:: Image directive inline
+
+   |my inline avatar| greats you.
+
+   .. |my inline avatar| image:: pictures/avatar.png
+      :align: top
+      :scale: 10%
 
 
 .. _reSTxt_style_guide_Math:
@@ -726,21 +738,25 @@ For more details please see `How to use admonitions`_.
 
 .. example:: note
 
-   .. note::
+   .. danger:: danger
 
-      Note to the user of the documentation.
+   .. attention:: attention
 
-.. example:: warning
+   .. caution:: caution
 
-   .. warning::
+   .. error:: error
 
-      Warning to the user of the documentation.
+   .. warning:: warning
 
-.. example:: tip
+   .. important:: important
 
-   .. tip::
+   .. note:: note
 
-      Tip to the user of the documentation.
+   .. tip:: tip
+
+   .. hint:: hint
+
+   .. seealso:: seealso
 
 
 .. _reSTxt_style_guide_open_point:
