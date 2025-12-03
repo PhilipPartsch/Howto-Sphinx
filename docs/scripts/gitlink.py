@@ -132,7 +132,9 @@ def get_edit_url_from_folder(docu_path, with_docu_part: bool = True, docu_part_d
             commit_url = commit_url + my_docu_part
 
    finally:
-      return commit_url
+      pass
+
+   return commit_url
 
 
 def extent_url_with_file(url: str, docname_including_doctype:str = '', lineno: None | int = None):

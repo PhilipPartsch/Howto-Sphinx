@@ -524,7 +524,7 @@ of two files.
 
 This is often combined with a download link :download:`index.rst`.
 Please pay attention, that ``*.rst`` files are parsed by Sphinx,
-so may want to use ``.tmp``for tamplates instead ``.rst``.
+so may want to use ``.tmp`` for templates instead ``.rst``.
 
 Often this is combined with a download link to the file,
 see :ref:`reSTxt_style_guide_download_file` how to achieve this.
