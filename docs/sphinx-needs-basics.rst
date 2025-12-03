@@ -37,6 +37,48 @@ it is even possible to skip the title.
 So the bare minimum need only has a `:id:`.
 
 
+Rendering of a fully defined need
+=================================
+
+.. example:: Fully defined need Need.
+
+   .. need:: The title of the need gives some basic context
+      :id: N_FULLY_NEED
+      :status: draft
+      :tags: my_tags
+
+      Here we can write our content.
+
+      It is possible to use multiple blocks of text, seperated by empty new lines.
+
+      | We can even detail
+      | where we have textual line breaks within the block.
+
+      We can add pictures:
+
+      .. figure:: pictures/avatar.png
+         :scale: 100 %
+         :alt: My avatar
+
+         First line is the caption of the figure (a simple paragraph).
+
+         A legend consists of all elements after the caption.
+
+      And tables:
+
+      .. table:: Truth table for "not"
+         :widths: auto
+         :align: center
+
+         =====  =====
+         A    not A
+         =====  =====
+         False  True
+         True   False
+         =====  =====
+
+      And many more. See the following examples.
+
 Types
 =====
 
