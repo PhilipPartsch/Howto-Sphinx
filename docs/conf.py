@@ -61,7 +61,7 @@ extensions = [
     'sphinx_needs',
     'sphinxcontrib.plantuml',
     'sphinxcontrib.test_reports',
-    'sphinxcontrib.collections',
+    'sphinx_collections',
     'sphinxcontrib.jquery', # https://github.com/sphinx-contrib/jquery
     'sphinx_preview',
     #'sphinx_immaterial',
@@ -138,8 +138,8 @@ ifelse_variants = {
 
 # -- extension configuration: collections
 
-from sphinxcontrib.collections.drivers import Driver
-from sphinxcontrib.collections.api import register_driver
+from sphinx_collections.drivers import Driver
+from sphinx_collections.api import register_driver
 
 class VariantDriver(Driver):
     def run(self):
