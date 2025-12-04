@@ -71,7 +71,7 @@ Rendering of a fully defined need
          :align: center
 
          =====  =====
-         A    not A
+         A      not A
          =====  =====
          False  True
          True   False
