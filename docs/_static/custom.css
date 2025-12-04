@@ -19,8 +19,9 @@ table tr td.white_bg_table {
    padding-bottom: .5rem;
 }
 
+html.writer-html5 .rst-content table.docutils td>p,
 html.writer-html5 .rst-content table.docutils th>p {
-  line-height:1rem;
-  margin-bottom:24;
-  font-size:.9rem
+   line-height:1rem;
+   margin-bottom:24;
+   font-size:.9rem
 }
