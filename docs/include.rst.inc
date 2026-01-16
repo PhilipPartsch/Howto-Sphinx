@@ -1,5 +1,5 @@
 <your text here>
 
-.. needuml::
+.. needuml : :
 
    {{flow('N__NEED_INCLUDE')}}
