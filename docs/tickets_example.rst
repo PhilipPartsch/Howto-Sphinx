@@ -60,3 +60,25 @@ So I focused to set it manually in the following needs.
       :id: N_NEED_NOT_LINKED
       :tags: [[check_need_linked()]]
       :status: [[check_need_linked('links', 'satisfies')]]
+
+
+
+Extract needs items that includesPlant UML
+==========================================
+
+https://github.com/useblocks/sphinx-needs/issues/1624
+
+
+.. example::
+
+   .. need:: need with include
+      :id: N__NEED_INCLUDE
+
+      <Now follows an include>
+
+      .. include:: include.rst.inc
+
+      <After follows an include>
+
+   . . needextract : :
+      :filter: "N__NEED_INCLUDE" == id
