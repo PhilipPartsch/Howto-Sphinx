@@ -76,7 +76,7 @@ https://github.com/useblocks/sphinx-needs/issues/1624
 
       <Now follows an include.>
 
-      . . include : : include.rst.inc
+      .. include:: include.rst.inc
 
       <After the include.>
 
