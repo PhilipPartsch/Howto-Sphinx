@@ -63,8 +63,8 @@ So I focused to set it manually in the following needs.
 
 
 
-Extract needs items that includesPlant UML
-==========================================
+needextract shall support include directive
+===========================================
 
 https://github.com/useblocks/sphinx-needs/issues/1624
 
@@ -74,11 +74,11 @@ https://github.com/useblocks/sphinx-needs/issues/1624
    .. need:: need with include
       :id: N__NEED_INCLUDE
 
-      <Now follows an include>
+      <Now follows an include.>
 
       .. include:: include.rst.inc
 
-      <After follows an include>
+      <After the include.>
 
    . . needextract : :
       :filter: "N__NEED_INCLUDE" == id
