@@ -9,6 +9,8 @@ Here I collect examples to Sphinx-Needs tickets.
 Coloring of needs depending of incoming links
 =============================================
 
+https://github.com/useblocks/sphinx-needs/issues/1457
+
 **Question:**
 
 I would like to set the style of a need, if an incoming link is available.
